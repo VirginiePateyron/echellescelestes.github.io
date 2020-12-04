@@ -594,8 +594,18 @@
                     <p class="h2-subtitle">Contemplez, jouez, imaginez, expérimentez... </p>
                     <section class="fifth-section-content">
                         <div class="fifth-section-content-element">
-                            <embed src="" type="">
+                            <div class="padlet-embed" style="border:1px solid rgba(0,0,0,0.1);border-radius:2px;box-sizing:border-box;overflow:hidden;position:relative;width:100%;background:#F4F4F4">
+                                <p style="padding:0;margin:0">
+                                    <iframe src="https://padlet.com/embed/zblxmof8j0ulx225" frameborder="0" allow="camera;microphone;geolocation" style="width:100%;height:608px;display:block;padding:0;margin:0"></iframe>
+                                </p>
+                                <div style="padding:8px;text-align:right;margin:0;">
+                                    <a href="https://padlet.com?ref=embed" style="padding:0;margin:0;border:none;display:block;line-height:1;height:16px" target="_blank">
+                                    <img src="https://padlet.net/embeds/made_with_padlet.png" width="86" height="16" style="padding:0;margin:0;background:none;border:none;display:inline;box-shadow:none" alt="Fait avec Padlet"></a>
+                                </div>
+                            </div>
                         </div>
+
+
                     </section>
                 </div>
             </article>
@@ -608,66 +618,102 @@
                     <section class="sixth-section-content">
                         <div class="sixth-section-content-element">
                             <h4>Le volet artistique/médiation</h4>
-                            <img src="" alt="">
-                            <summary>Un projet co-écrit par :
+                            <div class="sixth-section-content-element-desc">
+                                <img src="" alt="">
+                                <details>
+                                    <summary>Un projet co-écrit par :
                                 <span>Cécile Léna</span> (Léna d’Azy) - Scénographe
                                 <span>Camille Monmège-Geneste</span> (le labo des cultures) - Médiatrice culturelle</summary>
+                            </details>
+                                </div>
                         </div>
                     </section>
                     <section class="sixth-section-content">
                         <div class="sixth-section-content-element">
                             <h4>Concepts et techniques numériques</h4>
-                            <img src="" alt="">
-                            <summary><span>Martin Hachet</span> et l’équipe-projet Potioc (Inria Bordeaux - Sud-Ouest, Université de Bordeaux, CNRS)</summary>
+                            <div class="sixth-section-content-element-desc">
+                                <img src="" alt="">
+                                <details>
+                                    <summary><span>Martin Hachet</span> et l’équipe-projet Potioc (Inria Bordeaux - Sud-Ouest, Université de Bordeaux, CNRS)</summary>
+                                </details>
+                            </div>
                         </div>
                     </section>
                     <section class="sixth-section-content">
                         <div class="sixth-section-content-element">
                             <h4>Les données d’astrophysique</h4>
-                            <img src="" alt="">
-                            <summary>Les scénarii d’exploration sont co-conçus et transmis par le LAB (Laboratoire d’Astrophysique de Bordeaux) dirigé par <span> Pascal Bordé</span></summary>
+                            <div class="sixth-section-content-element-desc">
+                                <img src="" alt="">
+                                <details>
+                                    <summary>Les scénarii d’exploration sont co-conçus et transmis par le LAB (Laboratoire d’Astrophysique de Bordeaux) dirigé par <span> Pascal Bordé</span></summary>
+                                </details>
+                            </div>
                         </div>
                     </section>
                     <section class="sixth-section-content">
                         <div class="sixth-section-content-element">
                             <h4>Construction et design</h4>
-                            <img src="" alt="">
-                            <summary>créés par <span>Marc Valladon</span> constructeur et collaborateur de Léna d’Azy</summary>
+                            <div class="sixth-section-content-element-desc">
+                                <img src="" alt="">
+                                <details>
+                                    <summary>créés par <span>Marc Valladon</span> constructeur et collaborateur de Léna d’Azy</summary>
+                                </details>
+                            </div>
                         </div>
                     </section>
                     <section class="sixth-section-content">
                         <div class="sixth-section-content-element">
                             <h4>L’univers sonore</h4>
-                            <img src="" alt="">
-                            <summary><span>Thierry Balasse</span>, compositeur de musique électroacoustique, directeur artistique de la Compagnie Inouïe</summary>
+                            <div class="sixth-section-content-element-desc">
+                                <img src="" alt="">
+                                <details>
+                                    <summary><span>Thierry Balasse</span>, compositeur de musique électroacoustique, directeur artistique de la Compagnie Inouïe</summary>
+                                </details>
+                            </div>
                         </div>
                     </section>
                     <section class="sixth-section-content">
                         <div class="sixth-section-content-element">
                             <h4>Réalisation des films 3D</h4>
-                            <img src="" alt="">
-                            <summary><span>Frédéric Bruneaux</span> </summary>
+                            <div class="sixth-section-content-element-desc">
+                                <img src="" alt="">
+                                <details>
+                                    <summary><span>Frédéric Bruneaux</span> </summary>
+                                </details>
+                            </div>
                         </div>
                     </section>
                     <section class="sixth-section-content">
                         <div class="sixth-section-content-element">
                             <h4>Electronique - Informatique</h4>
-                            <img src="" alt="">
-                            <summary><span> Emerick Hervé</span> collaborateur de Léna d’Azy</summary>
+                            <div class="sixth-section-content-element-desc">
+                                <img src="" alt="">
+                                <details>
+                                    <summary><span> Emerick Hervé</span> collaborateur de Léna d’Azy</summary>
+                                </details>
+                            </div>
                         </div>
                     </section>
                     <section class="sixth-section-content">
                         <div class="sixth-section-content-element">
                             <h4>Stagiaires de l’Université de Bordeaux - Inria</h4>
-                            <img src="" alt="">
-                            <summary><span>Vincent da Silva Pinto</span> (ENSC) et <span> Florian Renaud</span> (ENSC)</summary>
+                            <div class="sixth-section-content-element-desc">
+                                <img src="" alt="">
+                                <details>
+                                    <summary><span>Vincent da Silva Pinto</span> (ENSC) et <span> Florian Renaud</span> (ENSC)</summary>
+                                </details>
+                            </div>
                         </div>
                     </section>
                     <section class="sixth-section-content">
                         <div class="sixth-section-content-element">
                             <h4>Réalisation de la page web dédiée à Échelles Célestes</h4>
-                            <img src="" alt="">
-                            <summary><span>Virginie PATEYRON </span>Web designer et intégratice web</summary>
+                            <div class="sixth-section-content-element-desc">
+                                <img src="" alt="">
+                                <details>
+                                    <summary><span>Virginie PATEYRON </span>Web designer et intégratice web</summary>
+                                </details>
+                            </div>
                         </div>
                     </section>
                 </div>
