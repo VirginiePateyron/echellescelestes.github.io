@@ -87,9 +87,13 @@ body {
             transform-origin: center;
   }
 
-#home {
+.background {
     background: midnightblue;
-   
+}
+
+#home {
+    
+    
 }
 
 #home h1 {
