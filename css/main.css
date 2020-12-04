@@ -32,13 +32,13 @@ body {
             backface-visibility: hidden;
   }
   .scrolltop-wrap #scrolltop-bg {
-    fill: #007bff;
-  }
-  .scrolltop-wrap #scrolltop-arrow {
     fill: white;
   }
+  .scrolltop-wrap #scrolltop-arrow {
+    fill:  #5599A1;
+  }
   .scrolltop-wrap a:hover #scrolltop-bg {
-    fill: #2990ff;
+    fill: #5599A1;
   }
   .scrolltop-wrap a:hover #scrolltop-arrow {
     fill: white;
@@ -91,13 +91,26 @@ body {
     background: midnightblue;
 }
 
-#home {
-    
-    
+#home,
+.first-section,
+.second-section,
+.third-section,
+.four-section,
+.fifth-section,
+.sixth-section,
+.seven-section,
+.eight-section
+ {
+    min-height: 100vh;
 }
 
 #home h1 {
    font-size: 10rem;
+}
+
+#home h1 a:hover,
+.header-nav a:hover {
+  color: #5599A1;
 }
 
 h2,
