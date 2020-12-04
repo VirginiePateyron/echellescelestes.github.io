@@ -562,7 +562,8 @@
                     <h2>Jeu interactif</h2>
                     <p class="h2-subtitle">Poursuivez votre exploration du ciel en choisissant le chemin qui vous correspond le mieux</p>
                     <section class="four-section-content">
-                        <select class="four-section-content-element" multiple>
+                        <label for="game-select">Quel jeu préferez- vous ?</label>
+                        <select class="four-section-content-element" multiple id="game-select" name="jeux">
                             <option value='1'>
                                 <p>Envie de vous confronter à une grande question universelle ?<span>La minute philo, c’est par ici !</span></p>
                             </option>
