@@ -30,7 +30,11 @@
                     </ul>
                 </nav>
             </header>
+            
+             <!-- Afficher la lune ou plusieurs étoiles, au survol, la lune grossit et au clic, le texte apparaît. Les lunes ou étoiles peuvent être déplacés par l'utilisateur -->
+            <img src="" alt="">
         </div>
+       
     
 
     

@@ -1,9 +1,5 @@
 <?php get_header(); ?>
 
-<!-- Afficher la lune ou plusieurs étoiles, au survol, la lune grossit et au clic, le texte apparaît. Les lunes ou étoiles peuvent être déplacés par l'utilisateur -->
-            <img src="" alt="">
-        </div>
-
         <main>
             <article class="first-section" id="first">
                 <div class="container">
@@ -720,7 +716,7 @@
             </article>
 
             <!-- Voir structure du contact form 7 et minimalist portfolio -->
-            <article class="seven-section" id="seven">
+            <article class="seven-section" id="seventh">
                 <div class="container">
                     <h2>Envie d'avoir des nouvelles ?</h2>
                     <p class="h2-subtitle">Prêt à partir sur Mars ou juste nous laisser votre adresse mail pour avoir des nouvelles de l’installation ?</p>
@@ -749,6 +745,15 @@
                 </div>
             </article>
         </main>
+
+        <div class="scrolltop-wrap">
+            <a href="#" role="button" aria-label="Scroll to top">
+            <svg height="48" viewBox="0 0 48 48" width="48" height="48px" xmlns="http://www.w3.org/2000/svg">
+                <path id="scrolltop-bg" d="M0 0h48v48h-48z"></path>
+                <path id="scrolltop-arrow" d="M14.83 30.83l9.17-9.17 9.17 9.17 2.83-2.83-12-12-12 12z"></path>
+            </svg>
+             </a>
+        </div>
 
     </div>
 
