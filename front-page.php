@@ -562,24 +562,23 @@
                     <h2>Jeu interactif</h2>
                     <p class="h2-subtitle">Poursuivez votre exploration du ciel en choisissant le chemin qui vous correspond le mieux</p>
                     <section class="four-section-content">
-                        <ul class="four-section-content-element">
-                            <li>
+                        <select class="four-section-content-element" multiple>
+                            <option value='1'>
                                 <p>Envie de vous confronter à une grande question universelle ?<span>La minute philo, c’est par ici !</span></p>
-                            </li>
-                            <li>
+                            </option>
+                            <option value='2'>
                                 <p>Désireux de lire une citation poétique, scientifique ou mythologique ?<span>La minute lecture, c'est par ici !</span></p>
-                            </li>
-                            <li>
+                            </option>
+                            <option value='3'>
                                 <p>Tenté par l’écoute d’un extrait de « Tours du monde, tours du ciel » ?<span>La minute podcast, c'est par ici !</span></p>
-                            </li>
-                            <li>
-                                <p>« Contente-toi de savoir que tout est mystère
-                                    La création du monde et la tienne
-                                    La destinée du monde et la tienne »
+                            </option>
+                        </select>
+                        <p>« Contente-toi de savoir que tout est mystère
+                            La création du monde et la tienne
+                            La destinée du monde et la tienne »
                                     
-                                    <span>Omar Khayam</span></p>
-                            </li>
-                        </ul>
+                            <span>Omar Khayam</span>
+                        </p>
                     </section>
                 </div>
             </article>
