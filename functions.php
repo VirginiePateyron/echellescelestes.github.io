@@ -37,7 +37,8 @@ function echellescelestes_register_assets() {
         'echellescelestes',
         get_stylesheet_uri(), 
         array(), 
-        '1.0'
+        '1.0',
+        'all'
     );
   	
     // Déclarer un autre fichier CSS
@@ -45,14 +46,48 @@ function echellescelestes_register_assets() {
         'base', 
         get_template_directory_uri() . '/css/base.css',
         array(), 
-        '1.0'
+        '1.0',
+        'all'
+    );
+
+    wp_enqueue_style(
+        'normalize',
+        get_template_directory_uri() . '/css/normalize.css',
+        array('base'),
+        '1.0',
+        'all'
     );
 
     wp_enqueue_style( 
         'main', 
         get_template_directory_uri() . '/css/main.css',
-        array('base'), 
-        '1.0'
+        array('base', 'normalize'), 
+        '1.0',
+        'all'
     );
+
+    // Déclarer les fonts Google
+    wp_enqueue_style(
+        'googlefont',
+        'https://fonts.gstatic.com',
+        array(),
+        'all'
+    );
+
+    wp_enqueue_style(
+        'lato',
+        'https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;0,900;1,100;1,400;1,700;1,900&display=swap',
+        array('base', 'normalize'),
+        'all'
+    );
+
+    wp_enqueue_style(
+        'nunito-sans',
+        'https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,400;0,700;0,900;1,200;1,400;1,700;1,900&display=swap',
+        array('base', 'normalize', 'lato'),
+        'all'
+    );
+
+
 }
 add_action( 'wp_enqueue_scripts', 'echellescelestes_register_assets' );
