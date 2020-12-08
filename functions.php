@@ -23,13 +23,28 @@ add_action( 'after_setup_theme', 'ec_setup');
 
 function echellescelestes_register_assets() {
     
-    // Déclarer le JS
+    // Déclarer la librairie AOS
 	wp_enqueue_script( 
-        '', 
-        get_template_directory_uri() . '', 
-        array( ), 
-        '1.0', 
+        'AOS', 
+        'https://unpkg.com/aos@2.3.1/dist/aos.js',
+        false,
+        null,
         true
+    );
+
+    wp_enqueue_script( 
+        'theme-js', 
+        get_stylesheet_uri() . 'js/theme.js',
+        null,
+        true
+    );
+
+    //Déclarer la feuille de style de la libraire AOS
+    wp_enqueue_style( 
+        'AOS-animate',
+        'https://unpkg.com/aos@2.3.1/dist/aos.css',  
+        false,
+        null
     );
     
     // Déclarer style.css à la racine du thème
@@ -67,12 +82,6 @@ function echellescelestes_register_assets() {
     );
 
     // Déclarer les fonts Google
-    wp_enqueue_style(
-        'googlefont',
-        'https://fonts.gstatic.com',
-        array(),
-        'all'
-    );
 
     wp_enqueue_style(
         'lato',

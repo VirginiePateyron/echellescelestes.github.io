@@ -3,17 +3,17 @@
         <main>
             <article class="first-section" id="first">
                 <div class="container">
-                    <h2>Retour vers le futur</h2>
+                    <h2 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">Retour vers le futur</h2>
                     <p class="h2-subtitle"></p>
                 
                     <div class="first-section-content">
                         <section class="first-section-content-element">
                             <h3>Un planétarium</h3>
-                            <img src="" alt="">
+                            <img src="/img/installation/dessin-instal.jpg" alt="dessin de l'installation d'echelles celestes">
                         </section>
                         <section class="first-section-content-element">
                             <h3>Un cabinet de curiosité</h3>
-                            <img src="" alt="">
+                            <img src="/img/installation/meudon.png" alt="">
                             <img src="" alt="">
                             <img src="" alt="">
                             <img src="" alt="">
@@ -31,14 +31,14 @@
 
             <article class="second-section" id="second">
                 <div class="container">
-                    <h2>Une narration transmédia</h2>
+                    <h2 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">Une narration transmédia</h2>
                     <p class="h2-subtitle"> D'après un livre et un documentaire</p>
 
                     <div class="second-section-content">
                         <section class="second-section-content-element">
-                            <h3>Un livre</h3>
                             <div class="second-section-content-element-col">
-                                <div class="second-section-element-col1">
+                                <div class="second-section-element-col-child">
+                                <h3>Un livre</h3>
                                     <p>Au cœur de ce projet se trouve l’extension narrative de l’ouvrage « Ciel ! Mon étoile », un voyage dans les observatoires, de Cécile Léna, Pierre Léna et Michel Serres.
 
                                     Voilà le carnet d’un voyage pas comme les autres, à la découverte des instruments fascinants qui nous permettent de comprendre l’univers.
@@ -50,15 +50,15 @@
                                     Aujourd’hui, ils nous font voir le passé et, un jour, nous permettront peut-être de remonter le temps pour percer le mystère de nos origines.</p>
                                     <a href="">Découvrez le livre</a>
                                 </div>
-                                <div class="second-section-element-col2">
-                                    <img src="" alt="">
+                                <div class="second-section-element-col-child">
+                                    <img src="" alt="Image du livre Ciel mon étoile de Pierre Léna astrophysicien et Michel Serres philosophe">
                                     <img src="" alt=""></div>
                             </div>
                         </section>
                         <section class="second-section-content-element">
-                            <h3>Un documentaire</h3>
                             <div class="second-section-content-element-col">
-                                <div class="second-section-element-col1">
+                                <div class="second-section-element-col-child">
+                                <h3>Un documentaire</h3>
                                     <p>Quelle est notre place dans l’univers ? Y sommes-nous seuls ? Comment se forment les planètes, les étoiles, les galaxies ? Qu’est-ce qui les tient ensemble ? C’est quoi, une naine blanche, une géante rouge, un trou noir ? 
 
                                     Vingt ans après sa série éponyme en dix épisodes contant l’histoire des observatoires astronomiques et de leurs découvertes, Robert Pansard-Besson nous invite à parcourir de nouveau le ciel et la terre à la découverte des dernières connaissances acquises ces vingt dernières années dans le domaine de l’astrophysique.
@@ -67,8 +67,8 @@
                                     Producteurs : ARTE FRANCE, ARKAB PRODUCTIONS</p>
                                     <a href="">Découvre le documentaire</a>
                                 </div>
-                                <div class="second-section-element-col2">
-                                    <img src="" alt="">
+                                <div class="second-section-element-col-child">
+                                    <img src="" alt="Image du DVD Tours du monde , tours du ciel">
                                     <img src="" alt="">
                                 </div>
                             </div>
@@ -79,7 +79,7 @@
 
             <article class="third-section" id="third">
                 <div class="container">
-                    <h2>La gallerie des portraits</h2>
+                    <h2 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">La gallerie des portraits</h2>
                     <p class="h2-subtitle">Découvrez les grandes figures qui ont modelé l’histoire de l’astronomie : cliquez sur le portrait !</p>
                
                     <section class="third-section-content">
@@ -559,7 +559,7 @@
 <!-- Verifier comment coder cette partie : label + input / output -->
             <article class="four-section" id="fourth">
                 <div class="container">
-                    <h2>Jeu interactif</h2>
+                    <h2 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">Jeu interactif</h2>
                     <p class="h2-subtitle">Poursuivez votre exploration du ciel en choisissant le chemin qui vous correspond le mieux</p>
                     <section class="four-section-content">
                         <label for="game-select">Quel jeu préferez- vous ?</label>
@@ -586,7 +586,7 @@
 
             <article class="fifth-section" id="fifth">
                 <div class="container">
-                    <h2>Les médiations satellites</h2>
+                    <h2 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">Les médiations satellites</h2>
                     <p class="h2-subtitle">Contemplez, jouez, imaginez, expérimentez... </p>
                     <section class="fifth-section-content">
                         <div class="fifth-section-content-element">
@@ -608,7 +608,7 @@
 
             <article class="sixth-section" id="sixth">
                 <div class="container">
-                    <h2>L'équipe aux commandes</h2>
+                    <h2 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">L'équipe aux commandes</h2>
                     <p class="h2-subtitle">Un projet mené en partenariat avec une constellation d’acteurs</p>
                 
                     <section class="sixth-section-content">
@@ -718,7 +718,7 @@
             <!-- Voir structure du contact form 7 et minimalist portfolio -->
             <article class="seven-section" id="seventh">
                 <div class="container">
-                    <h2>Envie d'avoir des nouvelles ?</h2>
+                    <h2 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">Envie d'avoir des nouvelles ?</h2>
                     <p class="h2-subtitle">Prêt à partir sur Mars ou juste nous laisser votre adresse mail pour avoir des nouvelles de l’installation ?</p>
                     
                     <section class="seven-section-content">

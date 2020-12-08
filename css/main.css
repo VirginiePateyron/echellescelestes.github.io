@@ -19,7 +19,50 @@ body {
     margin: auto;
 }
 
-/* Scroll */
+/************************** Navigation *************************/
+
+.header-nav {
+  position: fixed;
+  right: 5%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 20rem;
+}
+
+.header-nav li {
+  position: relative;
+  padding: 2rem;
+}
+
+.header-nav li:nth-of-type(odd) {
+  right: 5rem;
+}
+
+.header-nav li:nth-of-type(even) {
+  left: 5rem;
+}
+
+.header-nav li:nth-child(1) {
+  right: 20rem;
+}
+
+.header-nav li:last-child {
+  left: 10rem;
+  background-color: #5599A1;
+  clip-path: polygon(10% 15%, 15% 15%, 15% 5%, 85% 5%, 85% 15%, 90% 15%, 90% 85%, 85% 85%, 85% 95%, 15% 95%, 15% 85%, 10% 85%);
+  display:block;
+  margin: 5rem auto;
+}
+
+.header-nav li:hover {
+  text-decoration: underline;
+  color: #5599A1;
+}
+
+
+
+/***************************** Scroll ****************************/
 
 .scrolltop-wrap {
     box-sizing: border-box;
@@ -118,18 +161,33 @@ h2,
 h3,
 h4 {
     text-align: center;
+    margin: 5rem auto;
+}
+
+h2 {
+  font-size: 2.8rem;
+  /* clip-path: polygon(10% 15%, 15% 15%, 15% 5%, 85% 5%, 85% 15%, 90% 15%, 90% 85%, 85% 85%, 85% 95%, 15% 95%, 15% 85%, 10% 85%); */
+  background-color: #fff;
+  width: max-content;
+  padding: 2rem 10rem;
+}
+
+h2:hover {
+  width: ;
 }
 
 h3 {
-
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  color: #42B0CB;
 }
 
 h4 {
-
+ font-size: 1.8rem;
 }
 
 h5 {
-
+  font-size: 1.6rem;
 }
 
 article {
@@ -139,7 +197,7 @@ article {
 
 
 
-/*  HEADER */
+/*****************************  HEADER **************************/
 .main-header {
     display: flex;
     justify-content: space-between;
@@ -153,49 +211,126 @@ article {
     color: inherit;
 }
 
-/* FIRST-SECTION */
 
 
-/* SECOND-SECTION */
+
+
+/****************************** FIRST-SECTION **********************/
+
+
+
+
+
+
+
+
+
+
+/***************************** SECOND-SECTION **********************/
 .second-section-content-element-col {
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    justify-content: space-between;
 }
 
-/* Recherche : Inverser le sens de l'élément avec les grid */
+
+
+
+
+
+
+/* A Rechercher : Inverser le sens de l'élément avec les grid */
 .second-section-content-element:nth-child(2) {
     background: red;
+    order: 1;
 }
 
-/* THIRD-SECTION */
+.second-section-content-element-col:nth-child(2) {
+  
+}
+
+
+
+
+
+
+
+/*************************** THIRD-SECTION ***********************/
 .third-section-content-element {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
 }
 
-/* FOUR-SECTION */
+
+
+
+
+
+
+
+
+
+/**************************** FOUR-SECTION **************************/
 .four-section-content-element {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(2,1fr);
 }
 
-/* FIFTH-SECTION */
 
 
-/* SIXTH-SECTION */
+
+
+
+
+
+
+
+/*************************** FIFTH-SECTION *************************/
+
+
+
+
+
+
+
+
+/********************** SIXTH-SECTION **********************/
 .sixth-section-content-element {
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
 
-/* SEVEN-SECTION */
 
 
-/* EIGHT-SECTION */
 
 
-/* FOOTER */
+
+
+
+/********************** SEVEN-SECTION **********************/
+
+
+
+
+
+
+
+
+
+
+/********************** EIGHT-SECTION **********************/
+
+
+
+
+
+
+
+
+
+
+/********************** FOOTER **********************/
 
 
 
