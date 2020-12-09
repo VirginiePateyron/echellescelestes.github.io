@@ -1,5 +1,7 @@
 html {
     scroll-behavior: smooth;
+    background: url("/img/star-sky.jpg") no-repeat center fixed;
+    background-size: cover;
 }
 
 body {
@@ -20,7 +22,7 @@ body {
 }
 
 .background {
-    background: midnightblue;
+    
 }
 
 #home,
@@ -164,6 +166,28 @@ article {
     list-style-type: none;
 }
 
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+  .main-header {
+    flex-direction: column;
+  }
+ }
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+
+ }
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+
+ }
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+
+ }
+
 .main-header * {
     padding-left: 0;
     text-decoration: none;
@@ -177,12 +201,16 @@ article {
   /* position: fixed; */
   width: 25rem;
   text-align: center;
+
+  position: fixed;
+  top: 30%;
+  right: 20%;
 }
 
 #navbar li {
   display: block;
   position: relative;
-  margin: 2rem;
+  margin: 3rem;
 }
 
 #navbar li:nth-of-type(odd) {
@@ -191,6 +219,18 @@ article {
 
 #navbar li:nth-of-type(even) {
   left: 7rem;
+}
+
+#navbar li:nth-child(1) {
+  right: 20rem;
+}
+
+#navbar li:nth-child(4) {
+  left: 20rem;
+}
+
+#navbar li:nth-child(5) {
+  right: 15rem;
 }
 
 #navbar li:last-child {
@@ -222,14 +262,13 @@ article {
   color: #f2f2f2;
   text-align: center;
   text-decoration: none;
-  font-size: 17px;
 }
 
 /* Création d'une classe .sticky qui appelle la fonction du changement de position du menu au scroll */
 .sticky {
   position: fixed;
-  top: 0;
-  right: 0;
+  top: 0 !important;
+  right: 0 !important;
 
   background-color : #0B042C;
   margin: auto;
@@ -243,13 +282,11 @@ article {
 }
 
 .positionOff:nth-of-type(odd) {
-  background-color: red;
   right: 0rem !important;
   top: 0rem !important;
 }
 
 .positionOff:nth-of-type(even) {
-  background-color: green;
   left: 0rem !important;
   top: 0rem !important;
 }
