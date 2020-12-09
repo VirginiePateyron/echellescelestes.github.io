@@ -211,6 +211,13 @@ article {
   width: 5rem;
   transition: all 1s;
   margin: auto;
+	animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  25% {transform: scale(1.4);}
+
+  50% {transform: rotate(180deg);}
 }
 
 .main-header img:hover {
@@ -423,7 +430,7 @@ main img {
 }
 
 .first-section-content-element:last-child {
-  background-color: rgba(255, 255, 255, .6);
+  background-color: rgba(255, 255, 255, .8);
   padding: 2rem;
   width: 80%;
   margin: 5rem auto;
@@ -456,10 +463,23 @@ main img {
 
 
 /***************************** SECOND-SECTION **********************/
+.second-section {
+  width: 80%;
+}
+
+.second-section-content-element {
+  margin: 2rem auto;
+}
+
 .second-section-content-element-col {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     justify-content: space-between;
+}
+
+.second-section-element-col-child {
+  background-color: rgba(255, 255, 255, .7);
+  padding: 5rem;
 }
 
 
@@ -490,6 +510,10 @@ main img {
     grid-template-columns: repeat(5, 1fr);
 }
 
+.third-section-content-element-card-one {
+  background-color: #fff;
+}
+
 
 
 
@@ -500,11 +524,21 @@ main img {
 
 
 /**************************** FOUR-SECTION **************************/
+.four-section-content {
+
+}
+
 .four-section-content-element {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(2,1fr);
 }
+
+.four-section-content-element option {
+  
+}
+
+
 
 
 
