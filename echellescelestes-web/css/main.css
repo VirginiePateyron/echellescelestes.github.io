@@ -1,6 +1,6 @@
 html {
     scroll-behavior: smooth;
-    background: url("/img/star-sky.jpg") no-repeat center fixed;
+    background: url("/echellescelestes-web/img/star-sky.jpg") no-repeat center fixed;
     background-size: cover;
 }
 
@@ -33,17 +33,16 @@ body {
 .fifth-section,
 .sixth-section,
 .seven-section,
-.eight-section
- {
+.eight-section {
     min-height: 100vh;
 }
 
 #home h1 {
-   font-size: 12rem;
-   left: 0;
-   position: fixed;
-   writing-mode: sideways-rl;
- text-orientation: mixed;
+  font-size: 12rem;
+  left: 0;
+  position: fixed;
+  writing-mode: sideways-rl;
+  text-orientation: mixed;
 }
 
 #home h1 a:hover {
@@ -73,7 +72,7 @@ h2:hover {
 h3 {
   font-size: 2.4rem;
   text-transform: uppercase;
-  color: #42B0CB;
+  color: #0858a3;
 }
 
 h4 {
@@ -85,7 +84,7 @@ h5 {
 }
 
 article {
-  margin: 10rem auto;
+  margin: 20rem auto;
 }
 
 /***************************** Scroll ****************************/
@@ -197,12 +196,41 @@ article {
     color: inherit;
 }
 
+.main-header details {
+  display: inline-block;
+  position: relative;
+  top: 75%;
+  left: 30%;
+}
+
+.main-header details summary {
+  display: inline-block;
+}
+
+.main-header img {
+  width: 5rem;
+  transition: all 1s;
+  margin: auto;
+}
+
+.main-header img:hover {
+  transform: scale(1.4);
+}
+
+.main-header details p {
+  background-color: rgba(255, 255, 255, .8);
+  color: #0858a3;
+  padding: 5rem 10rem;
+  width: 80rem;
+  clip-path: polygon(10% 15%, 15% 15%, 15% 5%, 85% 5%, 85% 15%, 90% 15%, 90% 85%, 85% 85%, 85% 95%, 15% 95%, 15% 85%, 10% 85%);
+}
+
 /************************** Navigation *************************/
 
 #navbar {
   /* overflow: hidden; */
   /* position: fixed; */
-  width: 25rem;
+  width: 15rem;
   text-align: center;
 
   position: fixed;
@@ -214,11 +242,10 @@ article {
 #navbar li {
   display: block;
   position: relative;
-  margin: 2rem;
 }
 
 #navbar li a {
-  padding: 1.5rem;
+  padding: 2rem;
 }
 
 #navbar li:nth-of-type(odd) {
@@ -246,7 +273,14 @@ article {
   clip-path: polygon(10% 15%, 15% 15%, 15% 5%, 85% 5%, 85% 15%, 90% 15%, 90% 85%, 85% 85%, 85% 95%, 15% 95%, 15% 85%, 10% 85%);
   display:inline-block;
   margin: 2rem auto;
-  padding: 1.5rem 2.8rem;
+  padding: 0 2rem;
+  transition: all 2s;
+}
+
+#navbar li:last-child a:hover {
+  background-color: #fff;
+  color: #0B042C;
+  transition: all 2s;
 }
 
 #navbar li:not(:last-child) a:hover {
@@ -281,16 +315,18 @@ article {
   top: 0 !important;
   right: 0 !important;
 
-  background-color : #0B042C;
-  margin: auto;
+  background-color : rgba(11, 4, 44, .8);
+  margin: 0 auto;
 
   display: flex;
   justify-content: flex-end;
   transition: all 1.3s;
+
+  font-size: 1.4rem;
 }
 
 .positionOff {
-  width: 20rem;
+  width: 15rem;
 }
 
 .positionOff:nth-of-type(odd) {
@@ -309,6 +345,107 @@ article {
 
 /****************************** FIRST-SECTION **********************/
 
+.first-section h3 {
+  background-color: rgba(255, 255, 255, .6);
+  width: max-content;
+  padding: 2rem;
+  position: relative;
+ /*  animation: title 10s infinite linear;
+  position: relative;
+  animation-name: title;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  width: ; */
+  animation: title 5s 1;
+}
+
+@keyframes title {
+  0% {
+    transform: rotate(0deg);
+    left: 0px;
+  }
+
+  25% {
+    transform: rotate(20deg);
+    left: 0px;
+  }
+
+  40% {
+    transform: rotate(0deg);
+    left: 500px;
+  }
+
+  55% {
+    transform: rotate(0deg);
+    left: 500px;
+  }
+
+  70% {
+    transform: rotate(0deg);
+    left: 500px;
+    background: #0858a3;
+    color: #fff;
+  }
+
+  100% {
+    transform: rotate(-40deg);
+    left: 0px;
+  } /* 
+  0%   {left:0px; top:0px;}
+  50%  {left:200px; top:0px;}
+  100% {left:0px; top:0px;} */
+}
+
+main img {
+  clip-path: polygon(10% 15%, 15% 15%, 15% 5%, 85% 5%, 85% 15%, 90% 15%, 90% 85%, 85% 85%, 85% 95%, 15% 95%, 15% 85%, 10% 85%);
+  object-fit: cover;
+  margin: auto;
+}
+
+.first-section-content-element:first-child img {
+  width: 80rem;
+  padding: 10rem;
+  display: block;
+}
+
+.first-section-content-element-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr) );
+  gap: 5rem;
+}
+
+.first-section-content-element:not(:first-child) img {
+  width: 30rem;
+  padding: 2rem;
+}
+
+.first-section-content-element:last-child {
+  background-color: rgba(255, 255, 255, .6);
+  padding: 2rem;
+  width: 80%;
+  margin: 5rem auto;
+}
+
+.first-section-content-element blockquote {
+  font-style: italic;
+  font-size: 1.8rem;
+}
+
+.first-section-content-element blockquote:before {
+  content: url("/echellescelestes-web/img/installation/quote-icon.svg");
+  position: relative;
+  display: inline-block;
+  width: 5rem;
+  align-self: center;
+}
+
+.first-section-content-element .blockquote-author {
+  text-align: right;
+  font-weight: bold;
+}
 
 
 
