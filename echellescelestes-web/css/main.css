@@ -39,11 +39,14 @@ body {
 }
 
 #home h1 {
-   font-size: 10rem;
+   font-size: 12rem;
+   left: 0;
+   position: fixed;
+   writing-mode: sideways-rl;
+ text-orientation: mixed;
 }
 
-#home h1 a:hover,
-#navbar a:hover {
+#home h1 a:hover {
   color: #5599A1;
 }
 
@@ -203,14 +206,19 @@ article {
   text-align: center;
 
   position: fixed;
-  top: 30%;
+  top: 20%;
   right: 20%;
+  transition: all 1.3s;
 }
 
 #navbar li {
   display: block;
   position: relative;
-  margin: 3rem;
+  margin: 2rem;
+}
+
+#navbar li a {
+  padding: 1.5rem;
 }
 
 #navbar li:nth-of-type(odd) {
@@ -237,23 +245,26 @@ article {
   background-color: #5599A1;
   clip-path: polygon(10% 15%, 15% 15%, 15% 5%, 85% 5%, 85% 15%, 90% 15%, 90% 85%, 85% 85%, 85% 95%, 15% 95%, 15% 85%, 10% 85%);
   display:inline-block;
-  margin: 2srem auto;
+  margin: 2rem auto;
   padding: 1.5rem 2.8rem;
 }
 
-#navbar li:hover {
+#navbar li:not(:last-child) a:hover {
   text-decoration: underline;
-  color: #5599A1;
+  color: #70074d;
+  background-color: #fff;
+  padding: 2rem;
+  clip-path: polygon(10% 15%, 15% 15%, 15% 5%, 85% 5%, 85% 15%, 90% 15%, 90% 85%, 85% 85%, 85% 95%, 15% 95%, 15% 85%, 10% 85%);
+  transition: 0.5s ease;
 }
 
 #navbar li a:active {
-  color: #70074d;
+  
 }
 
 #navbar li a:visited {
   background-color: #fff;
   padding: 2rem;
-  color: #03a8d1;
 }
 
 #navbar a {
@@ -275,6 +286,7 @@ article {
 
   display: flex;
   justify-content: flex-end;
+  transition: all 1.3s;
 }
 
 .positionOff {
