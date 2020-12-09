@@ -19,117 +19,6 @@ body {
     margin: auto;
 }
 
-/************************** Navigation *************************/
-
-.header-nav {
-  position: fixed;
-  right: 5%;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  width: 20rem;
-}
-
-.header-nav li {
-  position: relative;
-  padding: 2rem;
-}
-
-.header-nav li:nth-of-type(odd) {
-  right: 5rem;
-}
-
-.header-nav li:nth-of-type(even) {
-  left: 5rem;
-}
-
-.header-nav li:nth-child(1) {
-  right: 20rem;
-}
-
-.header-nav li:last-child {
-  left: 10rem;
-  background-color: #5599A1;
-  clip-path: polygon(10% 15%, 15% 15%, 15% 5%, 85% 5%, 85% 15%, 90% 15%, 90% 85%, 85% 85%, 85% 95%, 15% 95%, 15% 85%, 10% 85%);
-  display:block;
-  margin: 5rem auto;
-}
-
-.header-nav li:hover {
-  text-decoration: underline;
-  color: #5599A1;
-}
-
-
-
-/***************************** Scroll ****************************/
-
-.scrolltop-wrap {
-    box-sizing: border-box;
-    position: absolute;
-    top: 12rem;
-    right: 2rem;
-    bottom: 0;
-    pointer-events: none;
-    -webkit-backface-visibility: hidden;
-            backface-visibility: hidden;
-  }
-  .scrolltop-wrap #scrolltop-bg {
-    fill: white;
-  }
-  .scrolltop-wrap #scrolltop-arrow {
-    fill:  #5599A1;
-  }
-  .scrolltop-wrap a:hover #scrolltop-bg {
-    fill: #5599A1;
-  }
-  .scrolltop-wrap a:hover #scrolltop-arrow {
-    fill: white;
-  }
-  @supports (-moz-appearance: meterbar) {
-    .scrolltop-wrap {
-      clip: rect(0, 3rem, auto, 0);
-    }
-  }
-  .scrolltop-wrap a {
-    position: fixed;
-    position: -webkit-sticky;
-    position: sticky;
-    top: -5rem;
-    width: 3rem;
-    height: 3rem;
-    margin-bottom: -5rem;
-    -webkit-transform: translateY(100vh);
-            transform: translateY(100vh);
-    -webkit-backface-visibility: hidden;
-            backface-visibility: hidden;
-    display: inline-block;
-    text-decoration: none;
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
-    pointer-events: all;
-    outline: none;
-    overflow: hidden;
-  }
-  .scrolltop-wrap a svg {
-    display: block;
-    border-radius: 50%;
-    width: 100%;
-    height: 100%;
-  }
-  .scrolltop-wrap a svg path {
-    -webkit-transition: all 0.1s;
-    transition: all 0.1s;
-  }
-  .scrolltop-wrap a #scrolltop-arrow {
-    -webkit-transform: scale(0.66);
-            transform: scale(0.66);
-    -webkit-transform-origin: center;
-            transform-origin: center;
-  }
-
 .background {
     background: midnightblue;
 }
@@ -152,7 +41,7 @@ body {
 }
 
 #home h1 a:hover,
-.header-nav a:hover {
+#navbar a:hover {
   color: #5599A1;
 }
 
@@ -194,21 +83,175 @@ article {
   margin: 10rem auto;
 }
 
+/***************************** Scroll ****************************/
+
+.scrolltop-wrap {
+  box-sizing: border-box;
+  position: absolute;
+  top: 12rem;
+  right: 2rem;
+  bottom: 0;
+  pointer-events: none;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+.scrolltop-wrap #scrolltop-bg {
+  fill: white;
+}
+.scrolltop-wrap #scrolltop-arrow {
+  fill:  #5599A1;
+}
+.scrolltop-wrap a:hover #scrolltop-bg {
+  fill: #5599A1;
+}
+.scrolltop-wrap a:hover #scrolltop-arrow {
+  fill: white;
+}
+@supports (-moz-appearance: meterbar) {
+  .scrolltop-wrap {
+    clip: rect(0, 3rem, auto, 0);
+  }
+}
+.scrolltop-wrap a {
+  position: fixed;
+  position: -webkit-sticky;
+  position: sticky;
+  top: -5rem;
+  width: 3rem;
+  height: 3rem;
+  margin-bottom: -5rem;
+  -webkit-transform: translateY(100vh);
+          transform: translateY(100vh);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  pointer-events: all;
+  outline: none;
+  overflow: hidden;
+}
+.scrolltop-wrap a svg {
+  display: block;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+.scrolltop-wrap a svg path {
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+.scrolltop-wrap a #scrolltop-arrow {
+  -webkit-transform: scale(0.66);
+          transform: scale(0.66);
+  -webkit-transform-origin: center;
+          transform-origin: center;
+}
 
 
 
 /*****************************  HEADER **************************/
 .main-header {
     display: flex;
+    padding: 3rem;
     justify-content: space-between;
     color: #fff;
+    height: 100vh;
+    position: relative;
+    list-style-type: none;
 }
 
 .main-header * {
-    list-style-type: none;
     padding-left: 0;
     text-decoration: none;
     color: inherit;
+}
+
+/************************** Navigation *************************/
+
+#navbar {
+  /* overflow: hidden; */
+  /* position: fixed; */
+  width: 25rem;
+  text-align: center;
+}
+
+#navbar li {
+  display: block;
+  position: relative;
+  margin: 2rem;
+}
+
+#navbar li:nth-of-type(odd) {
+  right: 10rem;
+}
+
+#navbar li:nth-of-type(even) {
+  left: 7rem;
+}
+
+#navbar li:last-child {
+  background-color: #5599A1;
+  clip-path: polygon(10% 15%, 15% 15%, 15% 5%, 85% 5%, 85% 15%, 90% 15%, 90% 85%, 85% 85%, 85% 95%, 15% 95%, 15% 85%, 10% 85%);
+  display:inline-block;
+  margin: 2srem auto;
+  padding: 1.5rem 2.8rem;
+}
+
+#navbar li:hover {
+  text-decoration: underline;
+  color: #5599A1;
+}
+
+#navbar li a:active {
+  color: #70074d;
+}
+
+#navbar li a:visited {
+  background-color: #fff;
+  padding: 2rem;
+  color: #03a8d1;
+}
+
+#navbar a {
+  display: block;
+
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Création d'une classe .sticky qui appelle la fonction du changement de position du menu au scroll */
+.sticky {
+  position: fixed;
+  top: 0;
+  right: 0;
+
+  background-color : #0B042C;
+  margin: auto;
+
+  display: flex;
+  justify-content: flex-end;
+}
+
+.positionOff {
+  width: 20rem;
+}
+
+.positionOff:nth-of-type(odd) {
+  background-color: red;
+  right: 0rem !important;
+  top: 0rem !important;
+}
+
+.positionOff:nth-of-type(even) {
+  background-color: green;
+  left: 0rem !important;
+  top: 0rem !important;
 }
 
 
