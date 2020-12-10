@@ -507,12 +507,59 @@ main img {
 /*************************** THIRD-SECTION ***********************/
 .third-section-content-element {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    /* grid-template-columns: repeat(5, 1fr); */
+    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr) );
 }
 
 .third-section-content-element-card-one {
-  background-color: #fff;
+  max-width: 40rem;
+  margin: 2rem;
 }
+
+.third-section-content-element-card-one-img {
+  border: 5px solid #fff;
+  border-style: inset;
+  border-width: 1rem;
+  background-color: rgba(11, 4, 44, .6);
+}
+
+.third-section-content-element-card-one img {
+  width: 40rem;
+  height: 30rem;
+  object-fit: cover;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.third-section-content-element-card-one h4 {
+  background-color: #fff;
+  width: ;
+  height: auto;
+  padding: 2rem;
+  position: relative;
+  
+  clip-path: polygon(10% 15%, 15% 15%, 15% 5%, 85% 5%, 85% 15%, 90% 15%, 90% 85%, 85% 85%, 85% 95%, 15% 95%, 15% 85%, 10% 85%);
+}
+
+.third-section-content-element-card-one h4:before,
+.third-section-content-element-card-one h4:after {
+  content: "";
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  background-image: url("/echellescelestes-web/img/moon-dark.svg");
+  margin: .5rem;
+}
+
+.third-section-content-element-card-one h4:before {
+  left: 3rem;
+}
+
+.third-section-content-element-card-one h4:after {
+  right: 3rem;
+}
+
 
 
 
