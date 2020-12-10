@@ -206,7 +206,8 @@ article {
   display: inline-block;
   position: relative;
   top: 75%;
-  left: 30%;
+  left: 20%;
+  cursor: zoom-in;
 }
 
 .main-header details summary {
@@ -785,8 +786,36 @@ main img {
 
 /********************** FOOTER **********************/
 
+footer {
+  background-color: rgba(11, 4, 44, .6);
+  min-height: 30vh;
+  position: relative;
+  bottom: 0;
+}
 
+.footer-content {
+  
+}
 
+.footer-content-element {
+  display: grid;
+  grid-template-columns:  repeat(2, 1fr);
+  justify-items: center;
+}
+
+.footer-content-element-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50rem;
+  color: #fff;
+}
+
+.footer-content-element-item img {
+  width: 10rem;
+  height: auto;
+  margin: 0 2rem;
+}
 
 
 
