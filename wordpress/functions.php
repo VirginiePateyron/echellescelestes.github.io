@@ -34,7 +34,14 @@ function echellescelestes_register_assets() {
 
     wp_enqueue_script( 
         'theme-js', 
-        get_stylesheet_uri() . 'js/theme.js',
+        get_stylesheet_uri() . '/js/theme.js',
+        null,
+        true
+    );
+
+    wp_enqueue_script( 
+        'script-js', 
+        get_stylesheet_uri() . '/js/script.js',
         null,
         true
     );

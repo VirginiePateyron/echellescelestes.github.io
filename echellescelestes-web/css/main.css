@@ -69,6 +69,12 @@ h2:hover {
   width: ;
 }
 
+.h2-subtitle {
+  background-color: rgba(220, 204, 181, .8);
+  padding: 1rem;
+  width: max-content;
+}
+
 h3 {
   font-size: 2.4rem;
   text-transform: uppercase;
@@ -516,20 +522,25 @@ main img {
 }
 
 .third-section-content-element-card-one {
-  max-width: 40rem;
   margin: 2rem;
+  max-width: 30rem;
 }
 
 .third-section-content-element-card-one-img {
-  border: 5px solid #fff;
+  border: 5px solid #DCCCB5;
   border-style: inset;
   border-width: 1rem;
   background-color: rgba(11, 4, 44, .6);
+
+  width: max-content;
+  height: max-content;
+
+  margin: auto;
 }
 
 .third-section-content-element-card-one img {
-  width: 40rem;
-  height: 30rem;
+  width: 15rem;
+  height: 20rem;
   object-fit: cover;
   text-align: center;
   display: table-cell;
@@ -537,11 +548,12 @@ main img {
 }
 
 .third-section-content-element-card-one h4 {
-  background-color: #fff;
+  background-color: #DCCCB5;
   width: ;
   height: auto;
   padding: 2rem;
   position: relative;
+  margin: auto;
   
   clip-path: polygon(10% 15%, 15% 15%, 15% 5%, 85% 5%, 85% 15%, 90% 15%, 90% 85%, 85% 85%, 85% 95%, 15% 95%, 15% 85%, 10% 85%);
 }
@@ -576,7 +588,7 @@ main img {
   text-align:center;
   }
   .third-section-content-element-card .third-section-content-element-card-hover {
-  background-color: rgba(11, 4, 44, .8);
+  background-color: rgba(11, 4, 44, .9);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -659,9 +671,35 @@ main img {
 
 
 /********************** SIXTH-SECTION **********************/
-.sixth-section-content-element {
+.sixth-section-content  {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+.sixth-section-content-element details {
     display: grid;
     grid-template-columns: repeat(2,1fr);
+}
+
+.sixth-section-content-element-desc h4 {
+  background-color: #DCCCB5;
+  width: 40rem;
+  height: auto;
+  padding: 3rem;
+  position: relative;
+  margin: auto;
+  
+  clip-path: polygon(10% 15%, 15% 15%, 15% 5%, 85% 5%, 85% 15%, 90% 15%, 90% 85%, 85% 85%, 85% 95%, 15% 95%, 15% 85%, 10% 85%);
+}
+
+.sixth-section-content-element-desc img {
+  width: 40rem;
+  height: 30rem;
+  object-fit: contain;
+  margin: auto;
+  padding: 0;
+  background-position-y: top;
+  background-color: rgba(11, 4, 44, .5);
 }
 
 
@@ -673,9 +711,42 @@ main img {
 
 /********************** SEVEN-SECTION **********************/
 
+/* Classe CSS de masquage accessible pour que les outils d'assistance des personnes en situation de handicap puissent lire le texte caché. Un "display : none" n'est PAS accessible et empêche l'utilisateur en situation de handicap d'avoir accès aux informations */
 
+.seven-section {
+  margin: auto;
+  min-height: 50vh;
+}
 
+.seven-section-content {
+  background-color: #0B042C;
+  color: #fff;
 
+  display: grid;
+  grid-template-columns: 1fr;
+
+  max-width: 80rem;
+  padding: 5rem;
+  margin: auto;
+}
+
+.seven-section-content label + input {
+  width: 40rem;
+  margin: 2rem auto;
+}
+
+.sr-only,
+.error {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap; /* added line */
+  border: 0;
+}
 
 
 
@@ -683,8 +754,27 @@ main img {
 
 
 /********************** EIGHT-SECTION **********************/
+.eight-section {
+  min-height: 50vh;
+}
 
 
+.eight-section-content-element {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr) );
+  margin: auto;
+  gap: 5rem;
+}
+
+.eight-section-content-element img {
+  clip-path: inherit;
+  background-color: rgba(255, 255, 255, .3);
+  padding: 4vmin;
+  width: 40rem;
+  height: 20rem;
+  object-fit: contain;
+  clip-path: polygon(10% 15%, 15% 15%, 15% 5%, 85% 5%, 85% 15%, 90% 15%, 90% 85%, 85% 85%, 85% 95%, 15% 95%, 15% 85%, 10% 85%);
+}
 
 
 

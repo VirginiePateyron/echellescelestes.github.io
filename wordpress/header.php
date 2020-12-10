@@ -18,15 +18,20 @@
             
             <h1><a href="#" class="logo">Echelles Célestes</a></h1>
 
-            <nav class="header-nav">
+            <details>
+                <p>« Un observatoire astronomique est un lieu où on reçoit de l’information. Cette information est généralement donnée par de la lumière »</p>
+                <summary><img src="/echellescelestes-web/img/moon-light.svg" alt="icone de lune au format svg dessinée"></summary>
+            </details>
+
+            <nav id="navbar">
                 <ul>
-                    <li><a href="#first">Installation</a></li>
-                    <li><a href="#second">Inspirations</a></li>
-                    <li><a href="#third">Portraits</a></li>
-                    <li><a href="#fourth">Jeu</a></li>
-                    <li><a href="#fifth">Ressources</a></li>
-                    <li><a href="#sixth">L'équipe</a></li>
-                    <li><a href="#seventh">Contact</a></li>
+                    <li class="menu-item"><a href="#first" href="javascript:void(0)">Installation</a></li>
+                    <li class="menu-item"><a href="#second" href="javascript:void(0)">Inspirations</a></li>
+                    <li class="menu-item"><a href="#third" href="javascript:void(0)">Portraits</a></li>
+                    <li class="menu-item"><a href="#fourth" href="javascript:void(0)">Jeu</a></li>
+                    <li class="menu-item"><a href="#fifth" href="javascript:void(0)">Ressources</a></li>
+                    <li class="menu-item"><a href="#sixth" href="javascript:void(0)">L'équipe</a></li>
+                    <li class="menu-item"><a href="#seventh" href="javascript:void(0)">Contact</a></li>
                 </ul>
             </nav>
         </header>

@@ -1,29 +1,31 @@
-<?php get_header(); ?>
+<?php get_header();?>
 
         <main>
             <article class="first-section" id="first">
                 <div class="container">
-                    <h2 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">Retour vers le futur</h2>
+                    <h2>Retour vers le futur</h2>
                     <p class="h2-subtitle"></p>
                 
                     <div class="first-section-content">
-                        <section class="first-section-content-element">
+                        <section class="first-section-content-element" data-aos="fade-down" data-aos-easing="ease-in-out" data-aos-duration="2000">
                             <h3>Un planétarium</h3>
-                            <img src="/img/installation/dessin-instal.jpg" alt="dessin de l'installation d'echelles celestes">
+                            <img src="<?php echo get_template_directory_uri() . "/img/installation/dessin-instal.jpg" ;?>" alt="dessin de l'installation d'echelles celestes">
                         </section>
                         <section class="first-section-content-element">
                             <h3>Un cabinet de curiosité</h3>
-                            <img src="/img/installation/meudon.png" alt="">
-                            <img src="" alt="">
-                            <img src="" alt="">
-                            <img src="" alt="">
-                            <img src="" alt="">
+                            <div class="first-section-content-element-items" data-aos="fade-down" data-aos-easing="ease-in-out" data-aos-duration="2000">
+                                <img data-aos="fade-down" data-aos-easing="ease-in-out" data-aos-duration="1000" src="//img/installation/meudon.png" alt="">
+                                <img  data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000" src="//img/installation/Brooke3.jpg" alt="">
+                                <img data-aos="fade-down" data-aos-easing="linear" data-aos-duration="3000" src="//img/installation/Lune.jpg" alt="">
+                                <img data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000" src="//img/installation/lagoon-nebula.png" alt="">
+                                <img data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000" src="//img/installation/thors-elmet.jpg" alt="">
+                            </div>
                         </section>
                         <section class="first-section-content-element">
                             <blockquote cite="">Mon travail artistique consiste à mettre les spectateurs face à des mondes miniatures, des mondes réels à l’état de modèle réduit. 
                                 
                             Avec ce projet, Échelles Célestes, je me confronte, entre autres, à la question de la représentation de l’univers et de ses objets célestes et j’invite le spectateur à éprouver ces changements d’échelles et à vivre physiquement cette mise en abîme, à la fois géante et microscopique. </blockquote>
-                            <p>Cécile Léna</p>
+                            <p class="blockquote-author">Cécile Léna</p>
                         </section>
                     </div>
                 </div>
@@ -79,476 +81,581 @@
 
             <article class="third-section" id="third">
                 <div class="container">
-                    <h2 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">La gallerie des portraits</h2>
+                    <h2 data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">La gallerie des portraits</h2>
                     <p class="h2-subtitle">Découvrez les grandes figures qui ont modelé l’histoire de l’astronomie : cliquez sur le portrait !</p>
                
                     <section class="third-section-content">
                         <ul class="third-section-content-element">
                             <li>
                                 <div class="third-section-content-element-card">
-                                    <div class="third-section-content-element-card-one">
-                                        <img src="" alt="">
-                                        <h4>Claude Ptolémée</h4>
-                                    </div>
-                                    <div class="third-section-content-element-card-hover">
-                                        <p>« Je fus tantôt décris comme un génie et tantôt comme un simple copieur. »</p>
-                                    </div>
-                                    <div class="third-section-content-element-card-clic">
-                                        <div class="third-section-content-element-card-clic-quote">
-                                            <img src="" alt="">
-                                            <h5>Anecdote</h5>
-                                            <p>Si certains le considéraient comme un génie, d’autres l’accusait de ne faire que transmettre des théories existantes. </p>
-                                        </div>
-                                        <div class="third-section-content-element-card-clic-bio">
-                                            <h5>Biographie</h5>
-                                            <p>Biographie : 
+                                    <details>
+                                        <summary>
+                                            <div class="third-section-content-element-card-one" data-aos="fade-up"
+                                            data-aos-easing="linear" data-aos-duration="1500">
+                                                <div class="third-section-content-element-card-one-img"><img src="//img/gallery-portrait/ptolemee_small.jpeg" alt="Portrait dessiné de Claude Ptolémée"></div>
+                                                <h4>Claude Ptolémée</h4>
+                                            </div>
+                                        
+                                            <div class="third-section-content-element-card-hover">
+                                                <p class="title text">« Je fus tantôt décris comme un génie et tantôt comme un simple copieur. »</p>
+                                            </div>
+                                        </summary>
+                                        <div class="third-section-content-element-card-clic">
+                                            <div class="third-section-content-element-card-clic-quote">
+                                                <img src="//img/gallery-portrait/ptolemee_small.jpeg" alt="">
+                                                <h5>Anecdote</h5>
+                                                <p>Si certains le considéraient comme un génie, d’autres l’accusait de ne faire que transmettre des théories existantes. </p>
+                                            </div>
+                                            <div class="third-section-content-element-card-clic-bio">
+                                                <h5>Biographie</h5>
+                                                <p>Biographie : 
 
-                                            Claude Ptolémée est né en 90 après JC. 
-                                                
-                                            C’est un astronome et astrologue grec à l’origine de nombreuses découvertes. 
-                                                
-                                            Son œuvre la plus connue est « Almageste » : un ouvrage d’astronomie de 13 volumes qui rassemble presque 9 siècles d’observations astronomiques. 
-                                                
-                                            On y trouve des informations sur la position des astres, un catalogue de plus de mille étoiles regroupées en constellations, les dates des éclipses et même des prévisions de phénomènes. 
-                                                
-                                            Ptolémée reprend le modèle géocentrique d’Hipparque qui place une Terre fixe et ronde au milieu d’un univers en mouvement.  Il meurt en 168 après JC. </p>
+                                                Claude Ptolémée est né en 90 après JC. 
+                                                    
+                                                C’est un astronome et astrologue grec à l’origine de nombreuses découvertes. 
+                                                    
+                                                Son œuvre la plus connue est « Almageste » : un ouvrage d’astronomie de 13 volumes qui rassemble presque 9 siècles d’observations astronomiques. 
+                                                    
+                                                On y trouve des informations sur la position des astres, un catalogue de plus de mille étoiles regroupées en constellations, les dates des éclipses et même des prévisions de phénomènes. 
+                                                    
+                                                Ptolémée reprend le modèle géocentrique d’Hipparque qui place une Terre fixe et ronde au milieu d’un univers en mouvement.  Il meurt en 168 après JC. </p>
+                                            </div>
+                                            <button></button>
                                         </div>
-                                        <button></button>
-                                    </div>
+                                    </details>
                                 </div>
                             </li>
                             <li>
                                 <div class="third-section-content-element-card">
-                                    <div class="third-section-content-element-card-one">    
-                                        <img src="" alt="">
-                                        <h4>Nicolas Copernic</h4>
-                                    </div>
-                                    <div class="third-section-content-element-card-hover">
-                                        <p></p>
-                                    </div>
-                                    <div class="third-section-content-element-card-clic">
-                                        <div class="third-section-content-element-card-clic-quote">
-                                            <img src="" alt="">
-                                            <p></p>
+                                    <details>
+                                        <summary>
+                                            <div class="third-section-content-element-card-one" data-aos="fade-up"
+                                            data-aos-easing="linear" data-aos-duration="2000">    
+                                            <div class="third-section-content-element-card-one-img"><img src="//img/gallery-portrait/copernic_small.jpeg" alt="Portrait dessiné de Nicolas Copernic"></div>
+                                                <h4>Nicolas Copernic</h4>
+                                            </div>
+                                        
+                                            <div class="third-section-content-element-card-hover">
+                                                <p class="title text">blah blah</p>
+                                            </div>
+                                        </summary>
+                                        <div class="third-section-content-element-card-clic">
+                                            <div class="third-section-content-element-card-clic-quote">
+                                                <img src="" alt="">
+                                                <p></p>
+                                            </div>
+                                            <div class="third-section-content-element-card-clic-bio">
+                                                <h5>Biographie</h5>
+                                                <p></p>
+                                            </div>
+                                            <button></button>
                                         </div>
-                                        <div class="third-section-content-element-card-clic-bio">
-                                            <h5>Biographie</h5>
-                                            <p></p>
-                                        </div>
-                                        <button></button>
-                                    </div>
+                                    </details>
                                 </div>
                             </li>
                             <li>
                                 <div class="third-section-content-element-card">
-                                    <div class="third-section-content-element-card-one">    
-                                        <img src="" alt="">
-                                        <h4>Tycho Brahé</h4>
-                                    </div>
-                                    <div class="third-section-content-element-card-hover">
-                                        <p></p>
-                                    </div>
-                                    <div class="third-section-content-element-card-clic">
-                                        <div class="third-section-content-element-card-clic-quote">
-                                            <img src="" alt="">
-                                            <p></p>
+                                    <details>
+                                        <summary>
+                                            <div class="third-section-content-element-card-one" data-aos="fade-up"
+                                            data-aos-easing="linear" data-aos-duration="1500">    
+                                            <div class="third-section-content-element-card-one-img"><img src="//img/gallery-portrait/brahe_small.jpeg" alt="Portrait dessiné de Tycho Brahé"></div>
+                                                <h4>Tycho Brahé</h4>
+                                            </div>
+                                            
+                                            <div class="third-section-content-element-card-hover">
+                                                <p class="title text"></p>
+                                            </div>
+                                        </summary>
+                                        <div class="third-section-content-element-card-clic">
+                                            <div class="third-section-content-element-card-clic-quote">
+                                                <img src="//img/gallery-portrait/brahe_small.jpeg" alt="Portrait dessiné de Tycho Brahé">
+                                                <p></p>
+                                            </div>
+                                            <div class="third-section-content-element-card-clic-bio">
+                                                <h5>Biographie</h5>
+                                                <p></p>
+                                            </div>
+                                            <button></button>
                                         </div>
-                                        <div class="third-section-content-element-card-clic-bio">
-                                            <h5>Biographie</h5>
-                                            <p></p>
-                                        </div>
-                                        <button></button>
-                                    </div>
+                                    </details>
                                 </div>
                             </li>
                             <li>
                                 <div class="third-section-content-element-card">
-                                    <div class="third-section-content-element-card-one">    
-                                        <img src="" alt="">
-                                        <h4>Galileo Galilei</h4>
-                                    </div>
-                                    <div class="third-section-content-element-card-hover">
-                                        <p></p>
-                                    </div>
-                                    <div class="third-section-content-element-card-clic">
-                                        <div class="third-section-content-element-card-clic-quote">
-                                            <img src="" alt="">
-                                            <p></p>
+                                    <details>
+                                        <summary>
+                                            <div class="third-section-content-element-card-one" data-aos="fade-up"
+                                            data-aos-duration="2000">    
+                                            <div class="third-section-content-element-card-one-img"><img src="//img/gallery-portrait/galilee_small.jpeg" alt="Portrait dessiné de Galilée"></div>
+                                                <h4>Galileo Galilei</h4>
+                                            </div>
+                                            
+                                            <div class="third-section-content-element-card-hover">
+                                                <p class="title text"></p>
+                                            </div>
+                                        </summary>
+                                        <div class="third-section-content-element-card-clic">
+                                            <div class="third-section-content-element-card-clic-quote">
+                                                <img src="//img/gallery-portrait/galilee_small.jpeg" alt="Portrait dessiné de Galilée">
+                                                <p></p>
+                                            </div>
+                                            <div class="third-section-content-element-card-clic-bio">
+                                                <h5>Biographie</h5>
+                                                <p></p>
+                                            </div>
+                                            <button></button>
                                         </div>
-                                        <div class="third-section-content-element-card-clic-bio">
-                                            <h5>Biographie</h5>
-                                            <p></p>
-                                        </div>
-                                        <button></button>
-                                    </div>
+                                    </details>
                                 </div>
                             </li>
                             <li>
                                 <div class="third-section-content-element-card">
-
-                                    <div class="third-section-content-element-card-one">    
-                                        <img src="" alt="">
-                                        <h4>Johannes Kepler</h4>
-                                    </div>
-                                    <div class="third-section-content-element-card-hover">
-                                        <p></p>
-                                    </div>
-                                    <div class="third-section-content-element-card-clic">
-                                        <div class="third-section-content-element-card-clic-quote">
-                                            <img src="" alt="">
-                                            <p></p>
+                                    <details>
+                                        <summary>
+                                            <div class="third-section-content-element-card-one" data-aos="fade-up"
+                                            data-aos-duration="1500">    
+                                            <div class="third-section-content-element-card-one-img"><img src="//img/gallery-portrait/kepler_small.jpeg" alt="Portrait dessiné de Johannes Kepler"></div>
+                                                <h4>Johannes Kepler</h4>
+                                            </div>
+                                            
+                                            <div class="third-section-content-element-card-hover">
+                                                <p class="title text"></p>
+                                            </div>
+                                        </summary>
+                                        <div class="third-section-content-element-card-clic">
+                                            <div class="third-section-content-element-card-clic-quote">
+                                                <img src="//img/gallery-portrait/kepler_small.jpeg" alt="Portrait dessiné de Johannes Kepler">
+                                                <p></p>
+                                            </div>
+                                            <div class="third-section-content-element-card-clic-bio">
+                                                <h5>Biographie</h5>
+                                                <p></p>
+                                            </div>
+                                            <button></button>
                                         </div>
-                                        <div class="third-section-content-element-card-clic-bio">
-                                            <h5>Biographie</h5>
-                                            <p></p>
-                                        </div>
-                                        <button></button>
-                                    </div>
+                                    </details>
                                 </div>
                             </li>
                             <li>
                                 <div class="third-section-content-element-card">
-
-                                    <div class="third-section-content-element-card-one">    
-                                        <img src="" alt="">
-                                        <h4>Blaise Pascal</h4>
-                                    </div>
-                                    <div class="third-section-content-element-card-hover">
-                                        <p></p>
-                                    </div>
-                                    <div class="third-section-content-element-card-clic">
-                                        <div class="third-section-content-element-card-clic-quote">
-                                            <img src="" alt="">
-                                            <p></p>
+                                    <details>
+                                        <summary>
+                                            <div class="third-section-content-element-card-one" data-aos="fade-up"
+                                            data-aos-duration="1500">    
+                                            <div class="third-section-content-element-card-one-img"><img src="//img/gallery-portrait/pascal_small.jpeg" alt="Portrait dessiné de Blaise Pascal"></div>
+                                                <h4>Blaise Pascal</h4>
+                                            </div>
+                                            
+                                            <div class="third-section-content-element-card-hover">
+                                                <p class="title text"></p>
+                                            </div>
+                                        </summary>
+                                        <div class="third-section-content-element-card-clic">
+                                            <div class="third-section-content-element-card-clic-quote">
+                                                <img src="//img/gallery-portrait/pascal_small.jpeg" alt="">
+                                                <p></p>
+                                            </div>
+                                            <div class="third-section-content-element-card-clic-bio">
+                                                <h5>Biographie</h5>
+                                                <p></p>
+                                            </div>
+                                            <button></button>
                                         </div>
-                                        <div class="third-section-content-element-card-clic-bio">
-                                            <h5>Biographie</h5>
-                                            <p></p>
-                                        </div>
-                                        <button></button>
-                                    </div>
+                                    </details>
                                 </div>
                             </li>
                             <li>
                                 <div class="third-section-content-element-card">
-
-                                    <div class="third-section-content-element-card-one">    
-                                        <img src="" alt="">
-                                        <h4>Isaac Newton</h4>
-                                    </div>
-                                    <div class="third-section-content-element-card-hover">
-                                        <p></p>
-                                    </div>
-                                    <div class="third-section-content-element-card-clic">
-                                        <div class="third-section-content-element-card-clic-quote">
-                                            <img src="" alt="">
-                                            <p></p>
+                                    <details>
+                                        <summary>
+                                            <div class="third-section-content-element-card-one" data-aos="fade-up"
+                                            data-aos-duration="3000">    
+                                            <div class="third-section-content-element-card-one-img"><img src="//img/gallery-portrait/newton.jpeg" alt=""></div>
+                                                <h4>Isaac Newton</h4>
+                                            </div>
+                                            
+                                            <div class="third-section-content-element-card-hover">
+                                                <p class="title text"></p>
+                                            </div>
+                                        </summary>
+                                        <div class="third-section-content-element-card-clic">
+                                            <div class="third-section-content-element-card-clic-quote">
+                                                <img src="//img/gallery-portrait/newton.jpeg" alt="">
+                                                <p></p>
+                                            </div>
+                                            <div class="third-section-content-element-card-clic-bio">
+                                                <h5>Biographie</h5>
+                                                <p></p>
+                                            </div>
+                                            <button></button>
                                         </div>
-                                        <div class="third-section-content-element-card-clic-bio">
-                                            <h5>Biographie</h5>
-                                            <p></p>
-                                        </div>
-                                        <button></button>
-                                    </div>
+                                    </details>
                                 </div>
                             </li>
                             <li>
                                 <div class="third-section-content-element-card">
-
-                                    <div class="third-section-content-element-card-one">    
-                                        <img src="" alt="">
-                                        <h4>Ole Romer</h4>
-                                    </div>
-                                    <div class="third-section-content-element-card-hover">
-                                        <p></p>
-                                    </div>
-                                    <div class="third-section-content-element-card-clic">
-                                        <div class="third-section-content-element-card-clic-quote">
-                                            <img src="" alt="">
-                                            <p></p>
+                                    <details>
+                                        <summary>
+                                            <div class="third-section-content-element-card-one" data-aos="fade-up"
+                                            data-aos-duration="2000">    
+                                            <div class="third-section-content-element-card-one-img"><img src="//img/gallery-portrait/romer_small.jpeg" alt=""></div>
+                                                <h4>Ole Romer</h4>
+                                            </div>
+                                            
+                                            <div class="third-section-content-element-card-hover">
+                                                <p class="title text"></p>
+                                            </div>
+                                        </summary>
+                                        <div class="third-section-content-element-card-clic">
+                                            <div class="third-section-content-element-card-clic-quote">
+                                                <img src="//img/gallery-portrait/romer_small.jpeg" alt="">
+                                                <p></p>
+                                            </div>
+                                            <div class="third-section-content-element-card-clic-bio">
+                                                <h5>Biographie</h5>
+                                                <p></p>
+                                            </div>
+                                            <button></button>
                                         </div>
-                                        <div class="third-section-content-element-card-clic-bio">
-                                            <h5>Biographie</h5>
-                                            <p></p>
-                                        </div>
-                                        <button></button>
-                                    </div>
+                                    </details>
                                 </div>
                             </li>
                             <li>
                                 <div class="third-section-content-element-card">
-
-                                    <div class="third-section-content-element-card-one">    
-                                        <img src="" alt="">
-                                        <h4>William Herscher</h4>
-                                    </div>
-                                    <div class="third-section-content-element-card-hover">
-                                        <p></p>
-                                    </div>
-                                    <div class="third-section-content-element-card-clic">
-                                        <div class="third-section-content-element-card-clic-quote">
-                                            <img src="" alt="">
-                                            <p></p>
+                                    <details>
+                                        <summary>
+                                            <div class="third-section-content-element-card-one" data-aos="fade-up"
+                                            data-aos-duration="1500">    
+                                            <div class="third-section-content-element-card-one-img"><img src="//img/gallery-portrait/herscher_small.jpeg" alt=""></div>
+                                                <h4>William Herscher</h4>
+                                            </div>
+                                            
+                                            <div class="third-section-content-element-card-hover">
+                                                <p class="title text"></p>
+                                            </div>
+                                        </summary>
+                                        <div class="third-section-content-element-card-clic">
+                                            <div class="third-section-content-element-card-clic-quote">
+                                                <img src="//img/gallery-portrait/herscher_small.jpeg" alt="">
+                                                <p></p>
+                                            </div>
+                                            <div class="third-section-content-element-card-clic-bio">
+                                                <h5>Biographie</h5>
+                                                <p></p>
+                                            </div>
+                                            <button></button>
                                         </div>
-                                        <div class="third-section-content-element-card-clic-bio">
-                                            <h5>Biographie</h5>
-                                            <p></p>
-                                        </div>
-                                        <button></button>
-                                    </div>
+                                    </details>
                                 </div>
                             </li>
                             <li>
                                 <div class="third-section-content-element-card">
-
-                                    <div class="third-section-content-element-card-one">    
-                                        <img src="" alt="">
-                                        <h4>Jules Vernes</h4>
-                                    </div>
-                                    <div class="third-section-content-element-card-hover">
-                                        <p></p>
-                                    </div>
-                                    <div class="third-section-content-element-card-clic">
-                                        <div class="third-section-content-element-card-clic-quote">
-                                            <img src="" alt="">
-                                            <p></p>
+                                    <details>
+                                        <summary>
+                                            <div class="third-section-content-element-card-one" data-aos="fade-up"
+                                            data-aos-duration="1000">    
+                                            <div class="third-section-content-element-card-one-img"><img src="//img/gallery-portrait/verne.jpeg" alt=""></div>
+                                                <h4>Jules Vernes</h4>
+                                            </div>
+                                            
+                                            <div class="third-section-content-element-card-hover">
+                                                <p class="title text"></p>
+                                            </div>
+                                        </summary>
+                                        <div class="third-section-content-element-card-clic">
+                                            <div class="third-section-content-element-card-clic-quote">
+                                                <img src="//img/gallery-portrait/verne.jpeg" alt="">
+                                                <p></p>
+                                            </div>
+                                            <div class="third-section-content-element-card-clic-bio">
+                                                <h5>Biographie</h5>
+                                                <p></p>
+                                            </div>
+                                            <button></button>
                                         </div>
-                                        <div class="third-section-content-element-card-clic-bio">
-                                            <h5>Biographie</h5>
-                                            <p></p>
-                                        </div>
-                                        <button></button>
-                                    </div>
+                                    </details>
                                 </div>
                             </li>
                             <li>
                                 <div class="third-section-content-element-card">
-
-                                    <div class="third-section-content-element-card-one">    
-                                        <img src="" alt="">
-                                        <h4>Percival Lowell</h4>
-                                    </div>
-                                    <div class="third-section-content-element-card-hover">
-                                        <p></p>
-                                    </div>
-                                    <div class="third-section-content-element-card-clic">
-                                        <div class="third-section-content-element-card-clic-quote">
-                                            <img src="" alt="">
-                                            <p></p>
+                                    <details>
+                                        <summary>
+                                            <div class="third-section-content-element-card-one" data-aos="fade-up"
+                                            data-aos-duration="4000">    
+                                            <div class="third-section-content-element-card-one-img"><img src="//img/gallery-portrait/lowell_small.jpeg" alt=""></div>
+                                                <h4>Percival Lowell</h4>
+                                            </div>
+                                            
+                                            <div class="third-section-content-element-card-hover">
+                                                <p class="title text"></p>
+                                            </div>
+                                        </summary>
+                                        <div class="third-section-content-element-card-clic">
+                                            <div class="third-section-content-element-card-clic-quote">
+                                                <img src="//img/gallery-portrait/lowell_small.jpeg" alt="">
+                                                <p></p>
+                                            </div>
+                                            <div class="third-section-content-element-card-clic-bio">
+                                                <h5>Biographie</h5>
+                                                <p></p>
+                                            </div>
+                                            <button></button>
                                         </div>
-                                        <div class="third-section-content-element-card-clic-bio">
-                                            <h5>Biographie</h5>
-                                            <p></p>
-                                        </div>
-                                        <button></button>
-                                    </div>
+                                    </details>
                                 </div>
                             </li>
                             <li>
                                 <div class="third-section-content-element-card">
-
-                                    <div class="third-section-content-element-card-one">    
-                                        <img src="" alt="">
-                                        <h4>Edwin Hubble</h4>
-                                    </div>
-                                    <div class="third-section-content-element-card-hover">
-                                        <p></p>
-                                    </div>
-                                    <div class="third-section-content-element-card-clic">
-                                        <div class="third-section-content-element-card-clic-quote">
-                                            <img src="" alt="">
-                                            <p></p>
-                                        </div>
-                                        <div class="third-section-content-element-card-clic-bio">
-                                            <h5>Biographie</h5>
-                                            <p></p>
-                                        </div>
-                                        <button></button>
-                                    </div>
+                                    <details>
+                                        <summary>
+                                            <div class="third-section-content-element-card-one" data-aos="fade-up"
+                                            data-aos-duration="2000">    
+                                            <div class="third-section-content-element-card-one-img"><img src="//img/gallery-portrait/hubble_small.jpeg" alt=""></div>
+                                                <h4>Edwin Hubble</h4>
+                                            </div>
+                                            
+                                                <div class="third-section-content-element-card-hover">
+                                                    <p class="title text"></p>
+                                            </div>
+                                        </summary>
+                                            <div class="third-section-content-element-card-clic">
+                                                <div class="third-section-content-element-card-clic-quote">
+                                                    <img src="//img/gallery-portrait/hubble_small.jpeg" alt="">
+                                                    <p></p>
+                                                </div>
+                                                <div class="third-section-content-element-card-clic-bio">
+                                                    <h5>Biographie</h5>
+                                                    <p></p>
+                                                </div>
+                                                <button></button>
+                                            </div>
+                                    </details>
                                 </div>
                             </li>
                             <li>
                                 <div class="third-section-content-element-card">
-
-                                    <div class="third-section-content-element-card-one">    
-                                        <img src="" alt="">
-                                        <h4>Pierre Auger</h4>
-                                    </div>
-                                    <div class="third-section-content-element-card-hover">
-                                        <p></p>
-                                    </div>
-                                    <div class="third-section-content-element-card-clic">
-                                        <div class="third-section-content-element-card-clic-quote">
-                                            <img src="" alt="">
-                                            <p></p>
-                                        </div>
-                                        <div class="third-section-content-element-card-clic-bio">
-                                            <h5>Biographie</h5>
-                                            <p></p>
-                                        </div>
-                                        <button></button>
-                                    </div>
+                                    <details>
+                                        <summary>
+                                            <div class="third-section-content-element-card-one" data-aos="fade-up"
+                                            data-aos-duration="1500">    
+                                            <div class="third-section-content-element-card-one-img"><img src="//img/gallery-portrait/auger_small.jpeg" alt=""></div>
+                                                <h4>Pierre Auger</h4>
+                                            </div>
+                                            
+                                                <div class="third-section-content-element-card-hover">
+                                                    <p class="title text"></p>
+                                            </div>
+                                        </summary>
+                                            <div class="third-section-content-element-card-clic">
+                                                <div class="third-section-content-element-card-clic-quote">
+                                                    <img src="//img/gallery-portrait/auger_small.jpeg" alt="">
+                                                    <p></p>
+                                                </div>
+                                                <div class="third-section-content-element-card-clic-bio">
+                                                    <h5>Biographie</h5>
+                                                    <p></p>
+                                                </div>
+                                                <button></button>
+                                            </div>
+                                    </details>
                                 </div>
                             </li>
                             <li>
                                 <div class="third-section-content-element-card">
-
-                                    <div class="third-section-content-element-card-one">    
-                                        <img src="" alt="">
-                                        <h4>Bernard Lovell</h4>
-                                    </div>
-                                    <div class="third-section-content-element-card-hover">
-                                        <p></p>
-                                    </div>
-                                    <div class="third-section-content-element-card-clic">
-                                        <div class="third-section-content-element-card-clic-quote">
-                                            <img src="" alt="">
-                                            <p></p>
-                                        </div>
-                                        <div class="third-section-content-element-card-clic-bio">
-                                            <h5>Biographie</h5>
-                                            <p></p>
-                                        </div>
-                                        <button></button>
-                                    </div>
+                                    <details>
+                                        <summary>
+                                            <div class="third-section-content-element-card-one" data-aos="fade-up"
+                                            data-aos-duration="2500">    
+                                            <div class="third-section-content-element-card-one-img"><img src="//img/gallery-portrait/lovell_small.jpeg" alt=""></div>
+                                                <h4>Bernard Lovell</h4>
+                                            </div>
+                                            
+                                                <div class="third-section-content-element-card-hover">
+                                                    <p class="title text"></p>
+                                            </div>
+                                        </summary>
+                                            <div class="third-section-content-element-card-clic">
+                                                <div class="third-section-content-element-card-clic-quote">
+                                                    <img src="//img/gallery-portrait/lovell_small.jpeg" alt="">
+                                                    <p></p>
+                                                </div>
+                                                <div class="third-section-content-element-card-clic-bio">
+                                                    <h5>Biographie</h5>
+                                                    <p></p>
+                                                </div>
+                                                <button></button>
+                                            </div>
+                                    </details>
                                 </div>
                             </li>
                             <li>
                                 <div class="third-section-content-element-card">
-
-                                    <div class="third-section-content-element-card-one">    
-                                        <img src="" alt="">
-                                        <h4>Alexei Leonov</h4>
-                                    </div>
-                                    <div class="third-section-content-element-card-hover">
-                                        <p></p>
-                                    </div>
-                                    <div class="third-section-content-element-card-clic">
-                                        <div class="third-section-content-element-card-clic-quote">
-                                            <img src="" alt="">
-                                            <p></p>
+                                    <details>
+                                        <summary>
+                                            <div class="third-section-content-element-card-one" data-aos="fade-up"
+                                            data-aos-duration="4000">    
+                                            <div class="third-section-content-element-card-one-img"><img src="//img/gallery-portrait/leonov_small.png" alt=""></div>
+                                                <h4>Alexei Leonov</h4>
+                                            </div>
+                                            
+                                            <div class="third-section-content-element-card-hover">
+                                                <p class="title text"></p>
+                                            </div>
+                                        </summary>
+                                        <div class="third-section-content-element-card-clic">
+                                            <div class="third-section-content-element-card-clic-quote">
+                                                <img src="//img/gallery-portrait/leonov_small.png" alt="">
+                                                <p></p>
+                                            </div>
+                                            <div class="third-section-content-element-card-clic-bio">
+                                                <h5>Biographie</h5>
+                                                <p></p>
+                                            </div>
+                                            <button></button>
                                         </div>
-                                        <div class="third-section-content-element-card-clic-bio">
-                                            <h5>Biographie</h5>
-                                            <p></p>
-                                        </div>
-                                        <button></button>
-                                    </div>
+                                    </details>
                                 </div>
                             </li>
                             <li>
                                 <div class="third-section-content-element-card">
-
-                                    <div class="third-section-content-element-card-one">    
-                                        <img src="" alt="">
-                                        <h4>Ham</h4>
-                                    </div>
-                                    <div class="third-section-content-element-card-hover">
-                                        <p></p>
-                                    </div>
-                                    <div class="third-section-content-element-card-clic">
-                                        <div class="third-section-content-element-card-clic-quote">
-                                            <img src="" alt="">
-                                            <p></p>
+                                    <details>
+                                        <summary>
+                                            <div class="third-section-content-element-card-one" data-aos="fade-up"
+                                            data-aos-duration="2500">    
+                                            <div class="third-section-content-element-card-one-img"><img src="//img/gallery-portrait/ham_small.jpeg" alt=""></div>
+                                                <h4>Ham</h4>
+                                            </div>
+                                            
+                                            <div class="third-section-content-element-card-hover">
+                                                <p class="title text"></p>
+                                            </div>
+                                        </summary>
+                                        <div class="third-section-content-element-card-clic">
+                                            <div class="third-section-content-element-card-clic-quote">
+                                                <img src="//img/gallery-portrait/ham_small.jpeg" alt="">
+                                                <p></p>
+                                            </div>
+                                            <div class="third-section-content-element-card-clic-bio">
+                                                <h5>Biographie</h5>
+                                                <p></p>
+                                            </div>
+                                            <button></button>
                                         </div>
-                                        <div class="third-section-content-element-card-clic-bio">
-                                            <h5>Biographie</h5>
-                                            <p></p>
-                                        </div>
-                                        <button></button>
-                                    </div>
+                                    </details>
                                 </div>
                             </li>
                             <li>
                                 <div class="third-section-content-element-card">
-
-                                    <div class="third-section-content-element-card-one">    
-                                        <img src="" alt="">
-                                        <h4>Georges Clooney</h4>
-                                    </div>
-                                    <div class="third-section-content-element-card-hover">
-                                        <p></p>
-                                    </div>
-                                    <div class="third-section-content-element-card-clic">
-                                        <div class="third-section-content-element-card-clic-quote">
-                                            <img src="" alt="">
-                                            <p></p>
+                                    <details>
+                                        <summary>
+                                            <div class="third-section-content-element-card-one" data-aos="fade-up"
+                                            data-aos-duration="1500">    
+                                            <div class="third-section-content-element-card-one-img"><img src="//img/gallery-portrait/clooney_small.jpeg" alt=""></div>
+                                                <h4>Georges Clooney</h4>
+                                            </div>
+                                            
+                                            <div class="third-section-content-element-card-hover">
+                                                <p class="title text"></p>
+                                            </div>
+                                        </summary>
+                                        <div class="third-section-content-element-card-clic">
+                                            <div class="third-section-content-element-card-clic-quote">
+                                                <img src="//img/gallery-portrait/clooney_small.jpeg" alt="">
+                                                <p></p>
+                                            </div>
+                                            <div class="third-section-content-element-card-clic-bio">
+                                                <h5>Biographie</h5>
+                                                <p></p>
+                                            </div>
+                                            <button></button>
                                         </div>
-                                        <div class="third-section-content-element-card-clic-bio">
-                                            <h5>Biographie</h5>
-                                            <p></p>
-                                        </div>
-                                        <button></button>
-                                    </div>
+                                    </details>
                                 </div>
                             </li>
                             <li>
                                 <div class="third-section-content-element-card">
-
-                                    <div class="third-section-content-element-card-one">    
-                                        <img src="" alt="">
-                                        <h4>Katy Perry</h4>
-                                    </div>
-                                    <div class="third-section-content-element-card-hover">
-                                        <p></p>
-                                    </div>
-                                    <div class="third-section-content-element-card-clic">
-                                        <div class="third-section-content-element-card-clic-quote">
-                                            <img src="" alt="">
-                                            <p></p>
+                                    <details>
+                                        <summary>
+                                            <div class="third-section-content-element-card-one" data-aos="fade-up"
+                                            data-aos-duration="1000">    
+                                            <div class="third-section-content-element-card-one-img"><img src="//img/gallery-portrait/perry_small.jpeg" alt=""></div>
+                                                <h4>Katy Perry</h4>
+                                            </div>
+                                            
+                                            <div class="third-section-content-element-card-hover">
+                                                <p class="title text"></p>
+                                            </div>
+                                        </summary>
+                                        <div class="third-section-content-element-card-clic">
+                                            <div class="third-section-content-element-card-clic-quote">
+                                                <img src="//img/gallery-portrait/perry_small.jpeg" alt="">
+                                                <p></p>
+                                            </div>
+                                            <div class="third-section-content-element-card-clic-bio">
+                                                <h5>Biographie</h5>
+                                                <p></p>
+                                            </div>
+                                            <button></button>
                                         </div>
-                                        <div class="third-section-content-element-card-clic-bio">
-                                            <h5>Biographie</h5>
-                                            <p></p>
+                                    </details>
+                                </div>
+                                
+                            </li>
+                            <li>
+                                <div class="third-section-content-element-card">
+                                    <details>
+                                        <summary>
+                                            <div class="third-section-content-element-card-one" data-aos="fade-up"
+                                            data-aos-duration="1500">    
+                                            <div class="third-section-content-element-card-one-img"><img src="//img/gallery-portrait/thorgall_small.png" alt=""></div>
+                                                <h4>Thorgal</h4>
+                                            </div>
+                                            
+                                            <div class="third-section-content-element-card-hover">
+                                                <p class="title text"></p>
+                                            </div>
+                                        </summary>
+                                        <div class="third-section-content-element-card-clic">
+                                            <div class="third-section-content-element-card-clic-quote">
+                                                <img src="//img/gallery-portrait/thorgall_small.png" alt="">
+                                                <p></p>
+                                            </div>
+                                            <div class="third-section-content-element-card-clic-bio">
+                                                <h5>Biographie</h5>
+                                                <p></p>
+                                            </div>
+                                            <button></button>
                                         </div>
-                                        <button></button>
-                                    </div>
+                                    </details>
                                 </div>
                             </li>
                             <li>
                                 <div class="third-section-content-element-card">
-
-                                    <div class="third-section-content-element-card-one">    
-                                        <img src="" alt="">
-                                        <h4>Thorgal</h4>
-                                    </div>
-                                    <div class="third-section-content-element-card-hover">
-                                        <p></p>
-                                    </div>
-                                    <div class="third-section-content-element-card-clic">
-                                        <div class="third-section-content-element-card-clic-quote">
-                                            <img src="" alt="">
-                                            <p></p>
+                                    <details>
+                                        <summary>
+                                            <div class="third-section-content-element-card-one" data-aos="fade-up"
+                                            data-aos-duration="1500">    
+                                            <div class="third-section-content-element-card-one-img"><img src="//img/gallery-portrait/terechkova_small.jpeg" alt=""></div>
+                                                <h4>Valentina Terechkova</h4>
+                                            </div>
+                                            
+                                            <div class="third-section-content-element-card-hover">
+                                                <p class="title text"></p>
+                                            </div>
+                                        </summary>
+                                        <div class="third-section-content-element-card-clic">
+                                            <div class="third-section-content-element-card-clic-quote">
+                                                <img src="//img/gallery-portrait/terechkova_small.jpeg" alt="">
+                                                <p></p>
+                                            </div>
+                                            <div class="third-section-content-element-card-clic-bio">
+                                                <h5>Biographie</h5>
+                                                <p></p>
+                                            </div>
+                                            <button></button>
                                         </div>
-                                        <div class="third-section-content-element-card-clic-bio">
-                                            <h5>Biographie</h5>
-                                            <p></p>
-                                        </div>
-                                        <button></button>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="third-section-content-element-card">
-
-                                    <div class="third-section-content-element-card-one">    
-                                        <img src="" alt="">
-                                        <h4>Valentina Terechkova</h4>
-                                    </div>
-                                    <div class="third-section-content-element-card-hover">
-                                        <p></p>
-                                    </div>
-                                    <div class="third-section-content-element-card-clic">
-                                        <div class="third-section-content-element-card-clic-quote">
-                                            <img src="" alt="">
-                                            <p></p>
-                                        </div>
-                                        <div class="third-section-content-element-card-clic-bio">
-                                            <h5>Biographie</h5>
-                                            <p></p>
-                                        </div>
-                                        <button></button>
-                                    </div>
+                                    </details>
                                 </div>
                             </li>
                         </ul>
@@ -613,103 +720,122 @@
                 
                     <section class="sixth-section-content">
                         <div class="sixth-section-content-element">
-                            <h4>Le volet artistique/médiation</h4>
+                            <details><summary>
+                                <h4>Le volet artistique/médiation</h4>
                             <div class="sixth-section-content-element-desc">
-                                <img src="" alt="">
-                                <details>
-                                    <summary>Un projet co-écrit par :
+                                <img src="//img/equipe/cecile-camille.jpeg" alt=""></summary>
+                                
+                                    Un projet co-écrit par :
                                 <span>Cécile Léna</span> (Léna d’Azy) - Scénographe
-                                <span>Camille Monmège-Geneste</span> (le labo des cultures) - Médiatrice culturelle</summary>
-                            </details>
+                                <span>Camille Monmège-Geneste</span> (le labo des cultures) - Médiatrice culturelle
+                           
                                 </div>
+                            </details>
                         </div>
                     </section>
                     <section class="sixth-section-content">
                         <div class="sixth-section-content-element">
+                            <details><summary>
                             <h4>Concepts et techniques numériques</h4>
                             <div class="sixth-section-content-element-desc">
-                                <img src="" alt="">
-                                <details>
-                                    <summary><span>Martin Hachet</span> et l’équipe-projet Potioc (Inria Bordeaux - Sud-Ouest, Université de Bordeaux, CNRS)</summary>
-                                </details>
+                                
+                                <img src="//img/equipe/martin-hachet.jpeg" alt=""></summary>
+                                
+                                    <span>Martin Hachet</span> et l’équipe-projet Potioc (Inria Bordeaux - Sud-Ouest, Université de Bordeaux, CNRS)
+                               
                             </div>
+                        </details>
                         </div>
                     </section>
                     <section class="sixth-section-content">
                         <div class="sixth-section-content-element">
+                            <details>
+                                <summary>
                             <h4>Les données d’astrophysique</h4>
                             <div class="sixth-section-content-element-desc">
-                                <img src="" alt="">
-                                <details>
-                                    <summary>Les scénarii d’exploration sont co-conçus et transmis par le LAB (Laboratoire d’Astrophysique de Bordeaux) dirigé par <span> Pascal Bordé</span></summary>
-                                </details>
+                               <img src="//img/equipe/pascal-borde.jpeg" alt=""></summary>
+                                Les scénarii d’exploration sont co-conçus et transmis par le LAB (Laboratoire d’Astrophysique de Bordeaux) dirigé par <span> Pascal Bordé</span>
+                               
                             </div>
+                        </details>
                         </div>
                     </section>
                     <section class="sixth-section-content">
                         <div class="sixth-section-content-element">
+                            <details>
+                                <summary>
                             <h4>Construction et design</h4>
                             <div class="sixth-section-content-element-desc">
-                                <img src="" alt="">
-                                <details>
-                                    <summary>créés par <span>Marc Valladon</span> constructeur et collaborateur de Léna d’Azy</summary>
-                                </details>
+                                <img src="//img/equipe/marc-valladon.jpeg" alt=""></summary>
+                                Créés par <span>Marc Valladon</span> constructeur et collaborateur de Léna d’Azy
+                               
                             </div>
+                        </details>
                         </div>
                     </section>
                     <section class="sixth-section-content">
                         <div class="sixth-section-content-element">
+                            <details>
+                                <summary>
                             <h4>L’univers sonore</h4>
                             <div class="sixth-section-content-element-desc">
-                                <img src="" alt="">
-                                <details>
-                                    <summary><span>Thierry Balasse</span>, compositeur de musique électroacoustique, directeur artistique de la Compagnie Inouïe</summary>
-                                </details>
+                                <img src="" alt=""></summary>
+                                <span>Thierry Balasse</span>, compositeur de musique électroacoustique, directeur artistique de la Compagnie Inouïe
+                               
                             </div>
+                             </details>
                         </div>
                     </section>
                     <section class="sixth-section-content">
                         <div class="sixth-section-content-element">
+                            <details>
+                                <summary>
                             <h4>Réalisation des films 3D</h4>
                             <div class="sixth-section-content-element-desc">
-                                <img src="" alt="">
-                                <details>
-                                    <summary><span>Frédéric Bruneaux</span> </summary>
-                                </details>
+                                <img src="//img/equipe/frederic-bruneaux.jpeg" alt=""></summary>
+                                <span>Frédéric Bruneaux</span> 
+                                
                             </div>
+                        </details>
                         </div>
                     </section>
                     <section class="sixth-section-content">
                         <div class="sixth-section-content-element">
+                            <details>
+                                <summary>
                             <h4>Electronique - Informatique</h4>
                             <div class="sixth-section-content-element-desc">
-                                <img src="" alt="">
-                                <details>
-                                    <summary><span> Emerick Hervé</span> collaborateur de Léna d’Azy</summary>
-                                </details>
+                              <img src="//img/equipe/emerick-herve.jpeg" alt=""></summary>
+                                <span> Emerick Hervé</span> collaborateur de Léna d’Azy
+                              
                             </div>
+                        </details>
                         </div>
                     </section>
                     <section class="sixth-section-content">
                         <div class="sixth-section-content-element">
+                            <details>
+                                <summary>
                             <h4>Stagiaires de l’Université de Bordeaux - Inria</h4>
                             <div class="sixth-section-content-element-desc">
-                                <img src="" alt="">
-                                <details>
-                                    <summary><span>Vincent da Silva Pinto</span> (ENSC) et <span> Florian Renaud</span> (ENSC)</summary>
-                                </details>
+                                <img src="//img/equipe/" alt=""></summary>
+                                <span>Vincent da Silva Pinto</span> (ENSC) et <span> Florian Renaud</span> (ENSC)
+                                
                             </div>
+                        </details>
                         </div>
                     </section>
                     <section class="sixth-section-content">
                         <div class="sixth-section-content-element">
+                            <details>
+                                <summary>
                             <h4>Réalisation de la page web dédiée à Échelles Célestes</h4>
                             <div class="sixth-section-content-element-desc">
-                                <img src="" alt="">
-                                <details>
-                                    <summary><span>Virginie PATEYRON </span>Web designer et intégratice web</summary>
-                                </details>
+                                <img src="//img/equipe/virginie.jpg" alt=""></summary>
+                                <span>Virginie PATEYRON </span>Web designer et intégratice web
+                               
                             </div>
+                        </details>
                         </div>
                     </section>
                 </div>
@@ -735,11 +861,11 @@
                
                     <section class="seven-section-content">
                         <div class="seven-section-content-element">
-                            <img src="" alt="">
-                            <img src="" alt="">
-                            <img src="" alt="">
-                            <img src="" alt="">
-                            <img src="" alt="">
+                            <img src="//img/partenaires/PREFETE_region_Nouvelle_Aquitaine_Couleurs.jpg" alt="">
+                            <img src="//img/partenaires/region-na/logo NA horizontal/logo_na_horiz_QUADRI_2019.png" alt="">
+                            <img src="//img/partenaires/facts_logo.png" alt="">
+                            <img src="//img/partenaires/inria/svg/inr_logo_rouge.svg" alt="">
+                            <img src="//img/partenaires/vignette-lab.png" alt="">
                         </div>
                     </section>
                 </div>
@@ -755,6 +881,6 @@
              </a>
         </div>
 
-<?php get_footer(); ?>
+<?php get_footer();?>
 
 
