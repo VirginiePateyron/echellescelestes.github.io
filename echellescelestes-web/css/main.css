@@ -40,9 +40,10 @@ body {
 #home h1 {
   font-size: 12rem;
   left: 0;
+  top: 0;
   position: fixed;
-  writing-mode: sideways-rl;
-  text-orientation: mixed;
+  padding: 1rem;
+  transition: 0.5s;
 }
 
 #home h1 a:hover {
@@ -200,13 +201,14 @@ article {
     padding-left: 0;
     text-decoration: none;
     color: inherit;
+    position: relative;
 }
 
 .main-header details {
   display: inline-block;
   position: relative;
   top: 75%;
-  left: 20%;
+  left: 10%;
   cursor: zoom-in;
 }
 
@@ -214,11 +216,12 @@ article {
   display: inline-block;
 }
 
-.main-header img {
+.main-header details .img-hero {
   width: 5rem;
   transition: all 1s;
   margin: auto;
-	animation: mymove 5s infinite;
+  
+  animation: mymove 5s infinite;
 }
 
 @keyframes mymove {
@@ -227,7 +230,7 @@ article {
   50% {transform: rotate(180deg);}
 }
 
-.main-header img:hover {
+.main-header details .img-hero:hover {
   transform: scale(1.4);
 }
 
@@ -239,6 +242,26 @@ article {
   clip-path: polygon(10% 15%, 15% 15%, 15% 5%, 85% 5%, 85% 15%, 90% 15%, 90% 85%, 85% 85%, 85% 95%, 15% 95%, 15% 85%, 10% 85%);
 }
 
+.img-deco {
+ /*  position: fixed; */
+  z-index: -1;
+  /* background-color: red; */
+  overflow: hidden;
+  position: relative;
+  top: 75%;
+  /* right: 40%; */
+  transform: translateX(-125%);
+}
+
+.img-deco img {
+  object-fit: cover;
+  width: 50rem;
+}
+
+
+
+
+
 /************************** Navigation *************************/
 
 #navbar {
@@ -246,6 +269,7 @@ article {
   /* position: fixed; */
   width: 15rem;
   text-align: center;
+  z-index: 1000;
 
   position: fixed;
   top: 20%;
@@ -258,7 +282,7 @@ article {
   position: relative;
 
   background-color:rgba(11, 4, 44, .5);
-  padding: 1rem;
+  padding: .5rem;
   clip-path: polygon(10% 15%, 15% 15%, 15% 5%, 85% 5%, 85% 15%, 90% 15%, 90% 85%, 85% 85%, 85% 95%, 15% 95%, 15% 85%, 10% 85%);
 }
 
@@ -268,10 +292,12 @@ article {
 
 #navbar li:nth-of-type(odd) {
   right: 10rem;
+  transition: all 1s;
 }
 
 #navbar li:nth-of-type(even) {
   left: 7rem;
+  transition: all 3s;
 }
 
 #navbar li:nth-child(1) {
@@ -305,7 +331,7 @@ article {
   text-decoration: underline;
   color: #70074d;
   background-color: #fff;
-  padding: 2rem;
+  padding: .5rem;
   clip-path: polygon(10% 15%, 15% 15%, 15% 5%, 85% 5%, 85% 15%, 90% 15%, 90% 85%, 85% 85%, 85% 95%, 15% 95%, 15% 85%, 10% 85%);
   transition: 0.5s ease;
 }
@@ -336,8 +362,8 @@ article {
   background-color : rgba(11, 4, 44, .8);
   margin: 0 auto;
 
-  display: flex;
-  justify-content: flex-end;
+  /* display: flex;
+  justify-content: flex-end; */
   transition: all 1.3s;
 
   font-size: 1.4rem;
@@ -362,6 +388,11 @@ article {
 
 
 /****************************** FIRST-SECTION **********************/
+.first-section {
+  position: relative;
+  /* background-color: #fff; */
+}
+
 
 .first-section h3 {
   background-color: rgba(255, 255, 255, .6);
@@ -423,6 +454,10 @@ main img {
   margin: auto;
 }
 
+main {
+  position: relative;
+}
+
 .first-section-content-element:first-child img {
   width: 80rem;
   padding: 10rem;
@@ -432,7 +467,8 @@ main img {
 .first-section-content-element-items {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr) );
-  gap: 5rem;
+  max-width: 100rem;
+  margin: auto;
 }
 
 .first-section-content-element:not(:first-child) img {
@@ -476,21 +512,75 @@ main img {
 /***************************** SECOND-SECTION **********************/
 .second-section {
   width: 80%;
+  position: relative;
+  
 }
 
 .second-section-content-element {
   margin: 2rem auto;
+  max-width: max-content;
+}
+
+.second-section-content-element:nth-child(1) {
+  position: relative;
+  right: 20rem;
+}
+
+.second-section-content-element:nth-child(2) {
+  position: relative;
+  left: 20rem;
 }
 
 .second-section-content-element-col {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  background-color: rgba(255, 255, 255, .7);
+  padding: 4rem;
+  position: relative;
+  align-items: center;
+}
+
+.second-section-content-element:nth-child(even) {
+  flex-direction: row-reverse;
 }
 
 .second-section-element-col-child {
-  background-color: rgba(255, 255, 255, .7);
-  padding: 5rem;
+  /* background-color: rgba(255, 255, 255, .7);
+  padding: 3rem;
+  position: relative; */
+}
+
+.second-section-element-col-child img {
+  clip-path: inherit;
+  width: 20rem;
+ 
+}
+
+.second-section-content-element-col a {
+  background-color: #0B042C;
+  color: #fff;
+  padding: 2rem 5rem;
+  margin: 2rem auto;
+  width: max-content;
+
+  display: block;
+  text-align: center;
+  clip-path: polygon(10% 15%, 15% 15%, 15% 5%, 85% 5%, 85% 15%, 90% 15%, 90% 85%, 85% 85%, 85% 95%, 15% 95%, 15% 85%, 10% 85%);
+  /* transition: transform 1s; */
+  transition: all .4s ease-in-out;
+  background-size: 300% 100%;
+}
+
+.second-section-content-element-col-child-btn {
+  filter: drop-shadow(-1rem 6rem 3rem rgba(50, 50, 0, 0.8));
+}
+
+.second-section-content-element-col a:hover {
+  /* transform: scale(1.1); */
+  background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+  transition: all .4s ease-in-out;
+  background-position: 100% 0;
+  box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
 }
 
 
@@ -501,7 +591,6 @@ main img {
 
 /* A Rechercher : Inverser le sens de l'élément avec les grid */
 .second-section-content-element:nth-child(2) {
-    background: red;
     order: 1;
 }
 
@@ -520,10 +609,12 @@ main img {
     display: grid;
     /* grid-template-columns: repeat(5, 1fr); */
     grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr) );
+    width: 80%;
+    margin: auto !important;
 }
 
 .third-section-content-element-card-one {
-  margin: 2rem;
+  margin: 2rem auto;
   max-width: 30rem;
 }
 
@@ -550,7 +641,7 @@ main img {
 
 .third-section-content-element-card-one h4 {
   background-color: #DCCCB5;
-  width: ;
+  min-width: 15rem;
   height: auto;
   padding: 2rem;
   position: relative;
@@ -575,6 +666,36 @@ main img {
 
 .third-section-content-element-card-one h4:after {
   right: 3rem;
+}
+
+/* Fenêtre modale */
+/* Pour les brontobrowsers */
+dialog {
+  display: block;
+  border: 0;
+}
+/* enlève le scroll de la page quand la modale est ouverte */
+.no-scroll {
+  overflow: hidden;
+}
+/* l’overlay couvre tout */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 666;
+}
+/* modale */
+.modal {
+  position: fixed;
+  left: 25%;
+  right: auto;
+  top: 15%;
+  width: 50%;
+  background: #fff;
+  z-index: 667;
 }
 
 
@@ -626,6 +747,11 @@ main img {
   -webkit-transform: translateY(0px);
   }
 
+  .third-section-content-element-card-clic {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+
 
 
 
@@ -664,6 +790,40 @@ main img {
 
 /*************************** FIFTH-SECTION *************************/
 
+.fifth-section:before {
+  content: "/echellescelestes-web/img/corot-satellite.jpg";
+  position: absolute;
+  background: url("");
+}
+
+.fifth-section-content {
+  max-width: 80%;
+  margin: auto;
+  overflow-x: scroll;
+}
+
+.padlet-embed {
+  border:1px solid rgba(0,0,0,0.1);
+  border-radius:2px;
+  box-sizing:border-box;
+  overflow:hidden;
+  position:relative;
+  width:100%;
+  background: rgb(172, 172, 212);
+}
+
+.padlet-embed p {
+  padding:0;margin:0
+}
+
+.padlet-embed iframe {
+  width:100%;
+  height:608px;
+  display:block;
+  padding:0;
+  margin:0"
+}
+
 
 
 
@@ -694,7 +854,7 @@ main img {
 }
 
 .sixth-section-content-element-desc img {
-  width: 40rem;
+  width: 30rem;
   height: 30rem;
   object-fit: contain;
   margin: auto;
@@ -765,6 +925,7 @@ main img {
   grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr) );
   margin: auto;
   gap: 5rem;
+  width: 80%;
 }
 
 .eight-section-content-element img {
@@ -788,13 +949,12 @@ main img {
 
 footer {
   background-color: rgba(11, 4, 44, .6);
-  min-height: 30vh;
-  position: relative;
-  bottom: 0;
+  min-height: max-content;
 }
 
 .footer-content {
-  
+  margin: inherit;
+  padding: 3rem;
 }
 
 .footer-content-element {
