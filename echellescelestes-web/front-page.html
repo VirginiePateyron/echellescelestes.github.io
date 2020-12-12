@@ -711,34 +711,38 @@
             </div>
         </article>
 
-<!-- Verifier comment coder cette partie : label + input / output -->
+        <!-- Verifier comment coder cette partie : label + input / output -->
         <article class="four-section" id="fourth">
             <div class="container">
                 <h2 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">Jeu interactif</h2>
                 <p class="h2-subtitle">Poursuivez votre exploration du ciel en choisissant le chemin qui vous correspond le
                     mieux</p>
                 <section class="four-section-content">
-                    <label for="game-select">Quel jeu préferez- vous ?</label>
-                    <select class="four-section-content-element" multiple id="game-select" name="jeux">
-                        <option value='1'>
-                            <p>Envie de vous confronter à une grande question universelle ?<span>La minute philo, c’est par ici
-                                    !</span></p>
-                        </option>
-                        <option value='2'>
-                            <p>Désireux de lire une citation poétique, scientifique ou mythologique ?<span>La minute lecture,
-                                    c'est par ici !</span></p>
-                        </option>
-                        <option value='3'>
-                            <p>Tenté par l’écoute d’un extrait de « Tours du monde, tours du ciel » ?<span>La minute podcast,
-                                    c'est par ici !</span></p>
-                        </option>
-                    </select>
-                    <p>« Contente-toi de savoir que tout est mystère
-                        La création du monde et la tienne
-                        La destinée du monde et la tienne »
-
-                        <span>Omar Khayam</span>
-                    </p>
+                    <div class="four-section-content-element" id="container">
+                        <div class="four-section-content-element-card">
+                            <p class="front face">Envie de vous confronter à une grande question universelle ?
+                            <span> La minute philo, c’est par ici !</span>
+                            </p>
+                            <p class="back face">« Contente-toi de savoir que tout est mystère
+                            La création du monde et la tienne
+                            La destinée du monde et la tienne »
+            
+                            <span>Omar Khayam</span>
+                            </p>
+                        </div>
+                        <div class="four-section-content-element-card">
+                            <p class="front face">Désireux de lire une citation poétique, scientifique ou mythologique ?
+                            <span>La minute lecture, c'est par ici !</span>
+                            </p>
+                            <p class="back face"></p>
+                        </div>
+                        <div class="four-section-content-element-card">
+                            <p class="front face">Tenté par l’écoute d’un extrait de « Tours du monde, tours du ciel » ?
+                            <span>La minute podcast, c'est par ici !</span>
+                            </p>
+                            <p class="back face"></p>
+                        </div>
+                    </div>
                 </section>
             </div>
         </article>

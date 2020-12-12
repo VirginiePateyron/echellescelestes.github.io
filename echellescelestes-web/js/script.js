@@ -25,4 +25,20 @@ function myFunction() {
   }
 }
 
+document.addEventListener('DOMContentLoaded', function () {
+  [].forEach.call(document.querySelectorAll(".four-section-content-element-card"), function(card, i, cards){
+    card.addEventListener("click", function(e){
+      e.currentTarget.classList.toggle("flipped");
+    });
+  });
+});
+
+// $(".card").click(function(e) {
+//   $(this)
+//     .addClass("flipped")
+//     .siblings()
+//     .removeClass("flipped");
+// });
+
+
 

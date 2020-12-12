@@ -773,8 +773,70 @@ dialog {
     grid-template-rows: repeat(2,1fr);
 }
 
-.four-section-content-element option {
-  
+.four-section-content-element-card {
+  width: 21vw;
+  height: 30.47vw;
+  perspective: 100vw;
+  perspective-origin: 50% 50%;
+  transform-style: preserve-3d;
+  position: relative;
+}
+/* .card:nth-child(1) .front {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/7b/Jack_of_clubs2.svg");
+}
+.card:nth-child(2) .front {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/f6/Queen_of_hearts2.svg");
+}
+.card:nth-child(3) .front {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/22/King_of_spades2.svg");
+} */
+.four-section-content-element-card .face {
+  backface-visibility: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.35s cubic-bezier(0.13, 1.03, 0.39, 0.98), box-shadow 0.35s cubic-bezier(0.13, 1.03, 0.39, 0.98), border-width 0.35s cubic-bezier(0.13, 1.03, 0.39, 0.98);
+  box-shadow: 0px 1.2vw 4vw -1vw rgba(0, 0, 0, 0.6);
+  background-position: 0 0;
+  background-size: 21vw;
+  background-repeat: no-repeat;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 1.1vw;
+}
+.four-section-content-element-card .front {
+  /* background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/22/King_of_spades2.svg"); */
+  transform: rotateX(0deg);
+  background-color: #fff;
+}
+.four-section-content-element-card .back {
+  /* background-image: url("https://upload.wikimedia.org/wikipedia/commons/d/d4/Card_back_01.svg"); */
+  transform: rotateX(180deg);
+  background-color: #0B042C;
+  color: #fff;
+}
+.four-section-content-element-card:hover .front, .four-section-content-element-card.hover .front {
+  transform: rotateX(20deg);
+  box-shadow: 0px 10vw 9vw -6vw rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+  border-top: 1px solid rgba(0, 0, 0, 0.8);
+}
+.four-section-content-element-card:hover .back, .four-section-content-element-card.hover .back {
+  transform: rotateX(200deg);
+  box-shadow: 0px -2vw 4vw -2vw rgba(35, 2, 2, 0.68), inset 0px -8vw 12vw -5vw rgba(0, 0, 0, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.8);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+}
+.four-section-content-element-card.flipped .front {
+  transform: rotateX(180deg);
+}
+.four-section-content-element-card.flipped .back {
+  transform: rotateX(360deg);
+}
+.four-section-content-element-card.flipped:hover .front, .four-section-content-element-card.flipped.hover .front {
+  transform: rotateX(200deg);
+}
+.four-section-content-element-card.flipped:hover .back, .four-section-content-element-card.flipped.hover .back {
+  transform: rotateX(340deg);
 }
 
 
