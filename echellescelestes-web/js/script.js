@@ -2,10 +2,10 @@
 
 window.onscroll = function() {myFunction()};
 
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
+const navbar = document.getElementById("navbar");
+const sticky = navbar.offsetTop;
 
-var menuItem = document.getElementsByClassName("menu-item");
+const menuItem = document.getElementsByClassName("menu-item");
 
 function myFunction() {
   if (window.pageYOffset >= sticky) {
@@ -25,6 +25,7 @@ function myFunction() {
   }
 }
 
+/* Créer une fonction qui retourne la carte au clic */
 document.addEventListener('DOMContentLoaded', function () {
   [].forEach.call(document.querySelectorAll(".four-section-content-element-card"), function(card, i, cards){
     card.addEventListener("click", function(e){
@@ -33,12 +34,17 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
+
+/* Créer une fonction qui étend la carte au hover */
+
+
+
+
+
+
 // $(".card").click(function(e) {
 //   $(this)
 //     .addClass("flipped")
 //     .siblings()
 //     .removeClass("flipped");
 // });
-
-
-
