@@ -1,6 +1,6 @@
 html {
   scroll-behavior: smooth;
-  background: url("/echellescelestes-web/img/casey-horner-space.jpg") no-repeat center fixed;
+  background: url("../img/casey-horner-space.jpg") no-repeat center fixed;
   background-size: cover;
 }
 
