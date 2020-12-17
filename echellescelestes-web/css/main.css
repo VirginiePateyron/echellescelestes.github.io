@@ -1,7 +1,8 @@
 html {
   scroll-behavior: smooth;
-  background: url("../img/casey-horner-space.jpg") no-repeat center fixed;
+  background: url("../img/casey-horner-space.jpg") no-repeat center fixed; /* background ciel étoilé sans arbres */
   background-size: cover;
+  background-attachment: fixed;
 }
 
 body {
