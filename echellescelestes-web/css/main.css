@@ -123,6 +123,14 @@ width: 40%;
   text-decoration: underline;
 }
 
+.h2-subtitle:after {
+  content: '';
+  display: block;
+  margin: 2rem auto;
+  border: 1px solid #fff;
+  width: fit-content
+}
+
 h3 {
 font-size: 2.4rem;
 text-transform: uppercase;
@@ -132,7 +140,7 @@ color: #0858a3;
 .h3-subtitle {
   /* background-color: #0B042C; */
   color: #fff;
-  margin: -5rem auto;
+  /* margin: -5rem auto; */
 }
 
 h4 {
@@ -346,7 +354,6 @@ position: relative;
 
   margin: 3rem auto;
   /* background-color:rgba(11, 4, 44, .5); */
-  
 }
 
 .menu-item:not(:last-child):before {
@@ -477,8 +484,6 @@ animation: rotate-moon 5s linear infinite;
   }
 }
 
-
-
 .menu-item a:focus {
     background-color: #0B042C;
     color: #fff;
@@ -490,10 +495,17 @@ padding: 2rem;
 }
 
 .menu-item a {
-  animation: flow 30s ease-in-out infinite;
-  background: linear-gradient(-60deg, #0B042C, #1bd2df, #0858a3, #13035c);
-  background-size: 300%;
-  background-clip: text;
+  background-image: linear-gradient(to right, rgba(255,255,255,0) 50%,  #0B042C 50%);
+  background-position: -0% 0;
+  background-size: 200% auto;
+  text-decoration: none;
+  transition: background-position 0.5s ease-out;
+}
+
+.menu-item a:hover {
+  background-position: -99.99% 0;
+  color: #fff;
+  padding: 1rem;
 }
 
 
@@ -521,12 +533,12 @@ width: 15rem;
 padding: 1rem 0 !important;
 clip-path: none;
 background-color: inherit;
-
-background-color : rgba(11, 4, 44, .8);
+/* background-color : rgba(11, 4, 44, .8); */
 }
 
 .positionOff:not(:last-child) {
   padding: inherit !important;
+  margin: 1rem auto
 }
 
 .positionOff:not(:last-child):before {
@@ -609,7 +621,32 @@ background-color: #000;
 .first-section-content-element:first-child {
   display: flex;
   flex-direction: row-reverse;
-  align-items: center;
+  /* align-items: center; */
+}
+
+.first-section-content-element-text {
+  position: relative;
+  width: 80%;
+}
+
+.first-section-content-element-text:before {
+  content: '';
+  border-left: 3px solid #fff;
+  height: 20rem;
+  position: absolute;
+  margin: 0 -2rem;
+
+  animation: line 10s linear infinite;
+}
+
+.first-section-content-element-text img {
+  align-content: center;
+}
+
+@keyframes line {
+  0% {top: 0rem;}
+  50% {top: 75%;}
+  100% {top: 0rem;}
 }
 
 .first-section .h2-subtitle {
@@ -619,7 +656,7 @@ background-color: #000;
 .first-section h3 {
 /* background-color: rgba(255, 255, 255, .6); */
 width: max-content;
-padding: 2rem;
+/* padding: 2rem; */
 
 /*  animation: title 10s infinite linear;
 position: relative;
@@ -681,7 +718,7 @@ display: block;
 
 .first-section-content-element-items {
 display: grid;
-grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr) );
+grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr) );
 margin: 10rem auto;
 }
 
@@ -755,6 +792,7 @@ flex-direction: row;
 
 position: relative;
 align-items: center;
+margin: 10rem auto;
 }
 
 .second-section-content-element-col-reverse:first-child {
@@ -809,7 +847,7 @@ flex-direction: row-reverse;
 
 .second-section-content-element-col-child {
 position: relative;
-margin: 0 5rem;
+margin: 0 2rem;
 }
 
 .second-section-content-element-col-child img {
@@ -818,6 +856,17 @@ width: 30rem;
 /* position: absolute;
 top: 0; */
 padding: 2rem;
+
+position: relative;
+animation: gravity 3s linear alternate infinite;
+display: block;
+transform: translateY(40px);
+}
+
+@keyframes gravity {
+  to{
+    transform:translateY(50px);
+  } 
 }
 
 .second-section-content-element-col a {
@@ -1099,6 +1148,7 @@ position: relative;
 
 justify-self: center;
 }
+
 /* .card:nth-child(1) .front {
 background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/7b/Jack_of_clubs2.svg");
 }
@@ -1151,6 +1201,8 @@ transform: rotateX(200deg);
 box-shadow: 0px -2vw 4vw -2vw rgba(35, 2, 2, 0.68), inset 0px -8vw 12vw -5vw rgba(0, 0, 0, 0.3);
 border-top: 1px solid rgba(255, 255, 255, 0.8);
 border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+
+justify-content: center;
 }
 .four-section-content-element-card.flipped .front {
 transform: rotateX(180deg);
@@ -1185,7 +1237,6 @@ background: url("");
 }
 
 .fifth-section-content {
-max-width: 80%;
 margin: auto;
 overflow-x: scroll;
 }
@@ -1222,19 +1273,15 @@ margin:0"
 /********************** SIXTH-SECTION **********************/
 .sixth-section-content  {
 display: grid;
-grid-template-columns: repeat(2,1fr);
+grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr) );
+flex-wrap: wrap;
 }
 
-.sixth-section-content-element details {
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-}
-
-.sixth-section-content-element-desc h4 {
+.sixth-section-content-element h4 {
 background-color: #DCCCB5;
-width: 40rem;
+width: 30rem;
 height: auto;
-padding: 3rem;
+padding: 2rem;
 position: relative;
 margin: auto;
 
@@ -1242,13 +1289,35 @@ clip-path: polygon(10% 15%, 15% 15%, 15% 5%, 85% 5%, 85% 15%, 90% 15%, 90% 85%, 
 }
 
 .sixth-section-content-element-desc img {
-width: 30rem;
-height: 30rem;
-object-fit: contain;
 margin: auto;
 padding: 0;
 background-position-y: top;
 background-color: rgba(11, 4, 44, .5);
+
+clip-path: none;
+
+width: 15rem;
+height: 20rem;
+
+object-fit: cover;
+text-align: center;
+display: table-cell;
+vertical-align: middle;
+
+clip-path: inherit;
+
+background-image: url("/echellescelestes-web/img/frame.png");
+background-repeat: no-repeat;
+background-size: contain;
+padding: 1rem;
+
+display: flex;
+align-items: center;
+}
+
+.sixth-section-content-element .button {
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 
@@ -1309,20 +1378,35 @@ min-height: 50vh;
 
 
 .eight-section-content-element {
-display: grid;
-grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr) );
+display: flex;
+justify-content: center;
+/* grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr) ); */
+
 margin: auto;
-gap: 1rem;
 }
 
 .eight-section-content-element img {
 clip-path: inherit;
 /* background-color: rgba(255, 255, 255, .3); */
 padding: 4vmin;
-width: 20rem;
+width: 20%;
 height: auto;
 object-fit: contain;
+position: relative;
 /* clip-path: polygon(10% 15%, 15% 15%, 15% 5%, 85% 5%, 85% 15%, 90% 15%, 90% 85%, 85% 85%, 85% 95%, 15% 95%, 15% 85%, 10% 85%); */
+animation: float 5s linear infinite;
+}
+
+.eight-section-content-element img:nth-child(odd) {
+  animation: float 10s linear infinite;
+}
+
+@keyframes float {
+  0% {top: 0rem;}
+  25% {top: 3rem;}
+  50% {top: 3rem;}
+  75% {top:0rem}
+  100% {top: 0rem;}
 }
 
 
