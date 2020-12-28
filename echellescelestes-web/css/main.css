@@ -1,8 +1,6 @@
 html {
   scroll-behavior: smooth;
-  background: url("../img/casey-horner-space.jpg") no-repeat center fixed; /* background ciel étoilé sans arbres */
-  background-size: cover;
-  background-attachment: fixed;
+  
 }
 
 body {
@@ -15,10 +13,19 @@ body {
   text-overflow: ellipsis;
   color: #0B042C;
   position: relative;
+
+  max-width:100vw;
+  overflow-x: hidden;
+
+  background: url("../img/eberhard-grossgasteiger-space.jpg") no-repeat top fixed;
+  background-position: top;
+  object-fit: cover;
+  background-origin: top;
+  transition: background 1.5s;
 }
 
 .container {
-  width: 80%;
+  width: 70%;
   margin: auto;
 }
   
@@ -47,10 +54,11 @@ main img {
 }
 
 #home h1 {
-font-size: 12rem;
+/* font-size: 12rem; */
 left: 0;
 top: 0;
 position: fixed;
+z-index: 1;
 padding: 1rem;
 transition: 0.5s;
 
@@ -61,8 +69,8 @@ writing-mode: sideways-lr;
 color: #5599A1;
 }
 
-/* h2,
-.h2-subtitle, */
+h2,
+.h2-subtitle,
 h3,
 h4 {
   text-align: center;
@@ -70,26 +78,44 @@ h4 {
 }
 
 h2 {
-font-size: 2.4rem;
-clip-path: polygon(0% 15%, 0 0, 15% 0%, 95% 0%, 95% 15%, 98% 15%, 98% 85%, 95% 85%, 95% 100%, 15% 100%, 0 100%, 0% 85%);
-background-color: #fff;
+font-size: 3.2rem;
+font-weight: lighter;
+/* clip-path: polygon(0% 15%, 0 0, 15% 0%, 95% 0%, 95% 15%, 98% 15%, 98% 85%, 95% 85%, 95% 100%, 15% 100%, 0 100%, 0% 85%);
+background-color: #fff; */
 width: max-content;
 padding: 2rem 5rem;
+margin: 2rem auto;
+color: #fff;
 
-text-align: left;
-margin: 2rem;
+position: relative;
+overflow-x: hidden;
+animation: moving 50s infinite linear;
 }
 
-h2:hover {
-width: ;
-}
+/* @keyframes moving {
+  0%   {
+    left:-10vw;
+  }
+  25%  {
+    left: 100vw;
+  }
+  50%  {
+    left: 100vw;
+  }
+  75%  {
+    left:-10vw;
+  }
+  100% {
+    left:-10vw;
+  }
+} */
 
 .h2-subtitle {
-background-color: rgba(220, 204, 181, .8);
+/* background-color: rgba(220, 204, 181, .8); */
 padding: 1rem;
 
-margin: 2rem;
-width: 30%;
+margin: 2rem auto;
+width: 40%;
 }
 
 .h2-subtitle span {
@@ -104,12 +130,9 @@ color: #0858a3;
 }
 
 .h3-subtitle {
-  background-color: #0B042C;
+  /* background-color: #0B042C; */
   color: #fff;
-  width: 50%;
-  text-align: center;
   margin: -5rem auto;
-  padding: 2rem;
 }
 
 h4 {
@@ -121,7 +144,8 @@ font-size: 1.6rem;
 }
 
 article {
-margin: 50rem auto;
+padding-top: 20rem;
+padding-bottom: 20rem;
 }
 
 /***************************** Scroll ****************************/
@@ -273,11 +297,11 @@ clip-path: polygon(10% 15%, 15% 15%, 15% 5%, 85% 5%, 85% 15%, 90% 15%, 90% 85%, 
 }
 
 .img-deco {
-/*  position: fixed; */
+ /* position: fixed; */
 z-index: -1;
 /* background-color: red; */
 overflow: hidden;
-position: relative;
+/* position: relative; */
 top: 75%;
 /* right: 40%; */
 transform: translateX(-125%);
@@ -298,7 +322,7 @@ width: 50rem;
 /* overflow: hidden; */
 /* position: fixed; */
 width: 20rem;
-height: 100vh;
+height: 80vh;
 
 text-align: center;
 z-index: 1000;
@@ -321,7 +345,7 @@ position: relative;
 /* border-radius: 50%; */
 
   margin: 3rem auto;
-  background-color:rgba(11, 4, 44, .5);
+  /* background-color:rgba(11, 4, 44, .5); */
   
 }
 
@@ -331,8 +355,48 @@ width: 2rem;
 height: 2rem;
 position: absolute;
 top: 0rem;
-left: 1rem;
+left: 2rem;
 align-items: center;
+}
+
+.menu-item:not(:last-child):nth-child(odd):before {
+  animation: animation-moon 2s linear infinite alternate; 
+}
+
+.menu-item:not(:last-child):nth-child(even):before {
+  animation: animation-moon 3s linear infinite alternate; 
+}
+
+.menu-item:not(:last-child):nth-child(1):before {
+  animation: animation-moon 3.5s linear infinite alternate; 
+}
+
+.menu-item:not(:last-child):nth-child(2):before {
+  animation: animation-moon 1s linear infinite alternate; 
+}
+
+.menu-item:not(:last-child):nth-child(3):before {
+  animation: animation-moon 2s linear infinite alternate; 
+}
+
+.menu-item:not(:last-child):nth-child(5):before {
+  animation: animation-moon 1.5s linear infinite alternate; 
+}
+
+.menu-item:not(:last-child):nth-child(6):before {
+  animation: animation-moon 2.5s linear infinite alternate; 
+}
+
+@keyframes animation-moon {
+  0% {
+    transform: translatey(0px);  
+  }
+  50% {
+    transform: translatey(10px);  
+  }
+  100% {
+    transform: translatey(15px);  
+  }
 }
 
 .menu-item:nth-of-type(odd) {
@@ -381,24 +445,39 @@ color: #0B042C;
 transition: all 2s;
 }
 
-.menu-item:not(:last-child):hover {
+/* .menu-item:not(:last-child):hover {
 text-decoration: underline;
 color: #70074d;
 background-color: #fff;
 padding: 1rem 2rem;
-/* clip-path: polygon(10% 15%, 15% 15%, 15% 5%, 85% 5%, 85% 15%, 90% 15%, 90% 85%, 85% 85%, 85% 95%, 15% 95%, 15% 85%, 10% 85%); */
+clip-path: polygon(10% 15%, 15% 15%, 15% 5%, 85% 5%, 85% 15%, 90% 15%, 90% 85%, 85% 85%, 85% 95%, 15% 95%, 15% 85%, 10% 85%);
 transition: 0.5s ease;
-}
+} */
 
 .menu-item:not(:last-child):hover:before {
 content: url(/echellescelestes-web/img/moon-dark.svg);
 width: 2rem;
 height: 2rem;
 position: absolute;
-top: 1rem;
-left: 1rem;
+top: 0rem;
+left: 2rem;
 align-items: center;
+
+filter: drop-shadow(0 6px 4px #1bd2df);;
+transform-origin: 10vmin 1vmin;
+animation: rotate-moon 5s linear infinite;
+}
+
+@keyframes rotate-moon {
+  /* from {
+    transform: rotateZ(-90deg)
+  } */
+  to {
+    transform: rotate(1turn)
   }
+}
+
+
 
 .menu-item a:focus {
     background-color: #0B042C;
@@ -408,6 +487,13 @@ align-items: center;
 .menu-item a:visited {
 background-color: #fff;
 padding: 2rem;
+}
+
+.menu-item a {
+  animation: flow 30s ease-in-out infinite;
+  background: linear-gradient(-60deg, #0B042C, #1bd2df, #0858a3, #13035c);
+  background-size: 300%;
+  background-clip: text;
 }
 
 
@@ -451,6 +537,8 @@ position: absolute;
 top: 0.5rem;
 left: -1rem;
 align-items: center;
+
+animation: none;
 }
 
 .positionOff:not(:last-child):hover:before {
@@ -462,6 +550,14 @@ align-items: center;
   top: 0.3rem;
   left: 1rem;
   align-items: center;
+    }
+
+    .positionOff:not(:last-child):nth-child(even):before {
+      animation: none; 
+    }
+
+    .positionOff:not(:last-child):nth-child(odd):before {
+      animation: none; 
     }
 
 .positionOff:nth-child(1) {
@@ -507,10 +603,21 @@ top: 0rem !important;
 .first-section {
 position: relative;
 /* background-color: #fff; */
+background-color: #000;
+}
+
+.first-section-content-element:first-child {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.first-section .h2-subtitle {
+  color: #fff;
 }
 
 .first-section h3 {
-background-color: rgba(255, 255, 255, .6);
+/* background-color: rgba(255, 255, 255, .6); */
 width: max-content;
 padding: 2rem;
 
@@ -568,22 +675,24 @@ width: ; */
 width: 65%;
 padding: 10rem;
 display: block;
+
+
 }
 
 .first-section-content-element-items {
 display: grid;
-grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr) );
-max-width: 100rem;
+grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr) );
 margin: 10rem auto;
 }
 
 .first-section-content-element:not(:first-child) img {
-width: 30rem;
-padding: 2rem;
+width: 15rem;
+padding: 1rem;
 }
 
 .first-section-content-element:last-child {
-background-color: rgba(255, 255, 255, .8);
+background-color: rgba(255, 255, 255, .2);
+color: #fff;
 padding: 2rem;
 width: 80%;
 margin: 5rem auto;
@@ -623,7 +732,7 @@ position: relative;
 }
 
 .second-section-content-element {
-margin: 20rem auto;
+/* margin: 30rem auto; */
 max-width: max-content;
 }
 
@@ -687,10 +796,11 @@ align-items: center;
   }
 
 .second-section-content-element-col-child-text {
-background-color: rgba(255, 255, 255, .7);
+background-color: rgba(11, 4, 44, .2);
+color: #fff;
 padding: 2rem;
 
-width: 35%;
+width: 50%;
 }
 
 /* .second-section-content-element:nth-child(:last-child) {
@@ -699,6 +809,7 @@ flex-direction: row-reverse;
 
 .second-section-content-element-col-child {
 position: relative;
+margin: 0 5rem;
 }
 
 .second-section-content-element-col-child img {
@@ -715,6 +826,8 @@ color: #fff;
 padding: 2rem 5rem;
 margin: 2rem auto;
 width: max-content;
+
+display: block;
 
 /* display: block; */
 text-align: center;
@@ -853,6 +966,13 @@ right: 1.8rem;
 dialog {
 display: block;
 border: 0;
+
+background-color: #0B042C !important;
+color: #fff;
+}
+
+.simple-modal, .simple-animated-modal, .simple-animatedtransform-modal {
+  background-color: #0B042C;
 }
 
 .simple-animated-modal__wrapper {
@@ -878,8 +998,11 @@ left: 25%;
 right: auto;
 top: 15%;
 width: 50%;
-background: #fff;
 z-index: 667;
+}
+
+.simple-modal-overlay, .simple-animated-modal-overlay, .simple-animatedtransform-modal-overlay {
+  background: #0B042C !important;
 }
 
 
@@ -936,6 +1059,15 @@ transform: translateY(0px);
   grid-template-columns: repeat(2,1fr);
 }
 
+.third-section-content-element-card-clic-quote {
+  width: 75%;
+}
+
+.third-section-content-element-card-clic-quote p {
+  background-color: rgba(255, 255, 255, .2);
+  padding: 2rem;
+}
+
 
 
 
@@ -958,12 +1090,14 @@ transform: translateY(0px);
 }
 
 .four-section-content-element-card {
-width: 21vw;
-height: 30.47vw;
+width: 20vw;
+height: 20vw;
 perspective: 100vw;
 perspective-origin: 50% 50%;
 transform-style: preserve-3d;
 position: relative;
+
+justify-self: center;
 }
 /* .card:nth-child(1) .front {
 background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/7b/Jack_of_clubs2.svg");
@@ -986,11 +1120,19 @@ background-size: 21vw;
 background-repeat: no-repeat;
 border: 1px solid rgba(0, 0, 0, 0.3);
 border-radius: 1.1vw;
+
+padding: 2rem;
+align-items: center;
 }
 .four-section-content-element-card .front {
 /* background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/22/King_of_spades2.svg"); */
 transform: rotateX(0deg);
 background-color: #fff;
+
+display: flex;
+flex-direction: column;
+text-align: center;
+justify-content: center;
 }
 .four-section-content-element-card .back {
 /* background-image: url("https://upload.wikimedia.org/wikipedia/commons/d/d4/Card_back_01.svg"); */
@@ -1170,18 +1312,17 @@ min-height: 50vh;
 display: grid;
 grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr) );
 margin: auto;
-gap: 5rem;
-width: 80%;
+gap: 1rem;
 }
 
 .eight-section-content-element img {
 clip-path: inherit;
-background-color: rgba(255, 255, 255, .3);
+/* background-color: rgba(255, 255, 255, .3); */
 padding: 4vmin;
-width: 40rem;
-height: 20rem;
+width: 20rem;
+height: auto;
 object-fit: contain;
-clip-path: polygon(10% 15%, 15% 15%, 15% 5%, 85% 5%, 85% 15%, 90% 15%, 90% 85%, 85% 85%, 85% 95%, 15% 95%, 15% 85%, 10% 85%);
+/* clip-path: polygon(10% 15%, 15% 15%, 15% 5%, 85% 5%, 85% 15%, 90% 15%, 90% 85%, 85% 85%, 85% 95%, 15% 95%, 15% 85%, 10% 85%); */
 }
 
 
