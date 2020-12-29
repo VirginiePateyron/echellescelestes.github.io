@@ -162,31 +162,22 @@ bottom: 0;
 pointer-events: none;
 -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
+animation: animation-moon 2s linear alternate infinite;
+filter: drop-shadow(0 .2rem .1rem #fff);
 }
-.scrolltop-wrap #scrolltop-bg {
-fill: white;
-}
-.scrolltop-wrap #scrolltop-arrow {
-fill:  #5599A1;
-}
-.scrolltop-wrap a:hover #scrolltop-bg {
-fill: #5599A1;
-}
-.scrolltop-wrap a:hover #scrolltop-arrow {
-fill: white;
-}
-@supports (-moz-appearance: meterbar) {
+
+/* @supports (-moz-appearance: meterbar) {
 .scrolltop-wrap {
   clip: rect(0, 3rem, auto, 0);
-}
-}
+} 
+} */
 .scrolltop-wrap a {
 position: fixed;
 position: -webkit-sticky;
 position: sticky;
-top: -5rem;
-width: 3rem;
-height: 3rem;
+top: -32%;
+width: 10rem;
+height: auto;
 margin-bottom: -5rem;
 -webkit-transform: translateY(100vh);
         transform: translateY(100vh);
@@ -202,13 +193,13 @@ pointer-events: all;
 outline: none;
 overflow: hidden;
 }
-.scrolltop-wrap a svg {
+.scrolltop-wrap a img {
 display: block;
 border-radius: 50%;
 width: 100%;
 height: 100%;
 }
-.scrolltop-wrap a svg path {
+.scrolltop-wrap a img {
 -webkit-transition: all 0.1s;
 transition: all 0.1s;
 }
@@ -1301,8 +1292,8 @@ text-align:center;
 .third-section-content-element-card .third-section-content-element-card-hover {
 background-color: rgba(11, 4, 44, .9);
 position: absolute;
-top: 50%;
-left: 50%;
+top: 0%;
+left: 0%;
 color: #fff;
 -webkit-transition: all 300ms ease-out;
 -moz-transition: all 300ms ease-out;
@@ -1310,7 +1301,7 @@ color: #fff;
 -ms-transition: all 300ms ease-out;
 transition: all 300ms ease-out;
 opacity: 0;
-width: auto;
+width: 100%;
 height: auto;
 }
 .third-section-content-element-card:hover .third-section-content-element-card-hover { opacity: 0.8; }
@@ -1382,15 +1373,6 @@ position: relative;
 justify-self: center;
 }
 
-/* .card:nth-child(1) .front {
-background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/7b/Jack_of_clubs2.svg");
-}
-.card:nth-child(2) .front {
-background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/f6/Queen_of_hearts2.svg");
-}
-.card:nth-child(3) .front {
-background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/22/King_of_spades2.svg");
-} */
 .four-section-content-element-card .face {
 backface-visibility: hidden;
 position: absolute;
