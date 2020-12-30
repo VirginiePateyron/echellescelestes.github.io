@@ -17,7 +17,7 @@ function myFunction() {
     }
   } else {
     navbar.classList.remove("sticky")
-    document.getElementById("header").style.fontSize = "10rem"; // revenir aux propriétés définies sur le titre h1 dans le CSS en revenant en haut du site
+    document.getElementById("header").style.fontSize = "8rem"; // revenir aux propriétés définies sur le titre h1 dans le CSS en revenant en haut du site
     document.getElementById("header").style.fontWeight = "initial"; // revenir aux propriétés définies sur le titre h1 dans le CSS en revenant en haut du site
     for(let i = 0; i < menuItem.length; i++){
       menuItem[i].classList.remove("positionOff")
@@ -35,16 +35,6 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
-/* Créer une fonction qui étend la carte au hover */
 
+/* Créer des tailles aléatoires sur les cartes des portraits */
 
-
-
-
-
-// $(".card").click(function(e) {
-//   $(this)
-//     .addClass("flipped")
-//     .siblings()
-//     .removeClass("flipped");
-// });
