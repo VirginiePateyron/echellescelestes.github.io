@@ -1,3 +1,5 @@
+/* Cette feuille de style est le reset de la feuille main.css. Toutes les propriétés gérées ici permettent de rendre le site accessible sur tous les navigateurs (y compris IE ^^) */
+
 
 html {
     font-size: .625em; /* fallback IE8+ */
