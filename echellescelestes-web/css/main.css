@@ -96,11 +96,13 @@ position: relative;
   /* top: 50%;
   transform: translateY(-50%); */
   margin: 0 auto;
-  width: 500px;
+  width: max-content;
 }
 
 .shape1,
 .shape2 {
+  height: 60px;
+  width: max-content;
   stroke-dasharray: 1120;
   stroke-width: 5px;
   fill: transparent;
@@ -254,6 +256,36 @@ transition: all 0.1s;
 -webkit-transform-origin: center;
         transform-origin: center;
 }
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+  
+  }
+  
+  /* Small devices (landscape phones, less than 768px) */
+  @media (max-width: 767.98px) { 
+    .scrolltop-wrap a {
+      
+      top: -20%;
+      width: 5rem;
+      height: auto;
+      
+      }
+
+      h2 {
+        font-size: 2rem;
+      }
+  }
+  
+  /* Medium devices (tablets, less than 992px) */
+  @media (max-width: 991.98px) { 
+  
+  }
+  
+  /* Large devices (desktops, less than 1200px) */
+  @media (max-width: 1199.98px) { 
+  
+  }
 
 
 
@@ -419,6 +451,8 @@ width: 50rem;
 
 
 /************************** Navigation *************************/
+/* ********************************************************** */
+
 
 #navbar {
 /* overflow: hidden; */
@@ -614,57 +648,6 @@ padding: 2rem;
   padding: 1rem;
 }
 
-/* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) { 
-  
-}
-
-/* Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) { 
-  .menu-item:last-child {
-    margin: 5rem auto;
-  }
-
-  .menu-item:nth-child(5) {
-    right: 5rem;
-  }
-
-  .menu-item:nth-child(1) {
-    right: 10rem;
-  }
-}
-
-/* Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) { 
-  #navbar {
-    right: 30%;
-  }
-
-  .menu-item:last-child {
-    margin: 5rem auto;
-  }
-
-  .main-header details {
-    left: 20%;
-  }
-
-  .menu-item:nth-child(5) {
-    right: 5rem;
-  }
-
-  .menu-item:nth-child(1) {
-    right: 10rem;
-  }
-}
-
-/* Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) { 
-  .menu-item:last-child {
-    margin: 2rem auto;
-  }
-
-}
-
 
 /* Création d'une classe .sticky qui appelle la fonction du changement de position du menu au scroll */
 .sticky {
@@ -762,6 +745,87 @@ top: 0rem !important;
 .positionOff:last-child {
 left: 0rem !important;
 top: 0rem !important;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+  
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+  h1 {
+    font-size: 2rem;
+  }
+  
+  .menu-item:last-child {
+    margin: 5rem auto;
+  }
+
+  .menu-item:nth-of-type(even) {
+    left: -5rem;
+  }
+
+  .menu-item:last-child {
+    margin: 2rem auto;
+  }
+
+  .menu-item:nth-child(4) {
+    left: -5rem;
+  }
+
+  .menu-item:nth-child(5) {
+    right: 5rem;
+  }
+
+  .menu-item:nth-child(1) {
+    right: 10rem;
+  }
+
+  #navbar {
+    width: 20rem;
+    right: 0;
+    top: 0;
+
+    height: 0;
+  }
+
+ 
+
+  
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+  #navbar {
+    right: 30%;
+  }
+
+  .menu-item:last-child {
+    margin: 5rem auto;
+  }
+
+  .main-header details {
+    left: 20%;
+  }
+
+  .menu-item:nth-child(5) {
+    right: 5rem;
+  }
+
+  .menu-item:nth-child(1) {
+    right: 10rem;
+  }
+
+  
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+  .menu-item:last-child {
+    margin: 2rem auto;
+  }
+
 }
 
 
