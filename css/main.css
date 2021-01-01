@@ -23,8 +23,6 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
-  
 }
 
 .container {
@@ -49,7 +47,7 @@ main img {
   min-height: 100vh;
 }
 
-#home h1 {
+h1 {
 /* font-size: 12rem; */
 left: 0;
 top: 0;
@@ -61,7 +59,7 @@ transition: 0.5s;
 writing-mode: sideways-lr;
 }
 
-#home h1 a:hover {
+h1 a:hover {
 color: #5599A1;
 }
 
@@ -375,19 +373,43 @@ clip-path: polygon(10% 15%, 15% 15%, 15% 5%, 85% 5%, 85% 15%, 90% 15%, 90% 85%, 
 }
 
 .img-deco {
- /* position: fixed; */
+/*  position: fixed; */
 z-index: -1;
 /* background-color: red; */
-overflow: hidden;
-/* position: relative; */
-top: 75%;
-/* right: 40%; */
-transform: translateX(-125%);
+
+/* height: 100vh; */
+/* transform: translateX(-125%); */
+
+position:fixed;
+bottom: -15rem;
+transform: translateX(100%);
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+  
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+  .img-deco {
+    display: none;
+  }
+  
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+  .img-deco {
+    transform: translateX(50%);
+  }
+  
 }
 
 .img-deco img {
 object-fit: cover;
 width: 50rem;
+text-align: center;
 }
 
 .gradient {
@@ -788,6 +810,10 @@ top: 0rem !important;
     top: 0;
 
     height: 0;
+  }
+
+  .sticky {
+    left: 0;
   }
 
  

@@ -4,7 +4,7 @@
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
     
-    <title>Echelles Celestes</title>
+    <title><?php bloginfo('name'); ?></title>
     <link rel="stylesheet" href="<?php echo THEME_DIR_CSS; ?>/base.css">
     <link rel="stylesheet" href="<?php echo THEME_DIR_CSS; ?>/main.css">
     <link rel="stylesheet" href="<?php echo THEME_DIR_CSS; ?>/styles.css">
@@ -19,6 +19,7 @@
     
     <?php wp_body_open(); ?>
 
+<div id="home">
     <header class="main-header">
 
         <h1 id="header"><a href="#" class="logo">Echelles Célestes</a></h1>

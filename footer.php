@@ -4,7 +4,7 @@
             <h2></h2>
             <div class="footer-content-element">
                 <section class="footer-content-element-item">
-                    <img src="<?php echo THEME_DIR_IMG; ?>/img/lenadazy.png" alt="">
+                    <img src="<?php echo THEME_DIR_IMG; ?>/lenadazy.png" alt="">
                     <ul>
                         <li>Siège social : 159 rue Fernand Audeguil 33000 Bordeaux
                         </li>

@@ -105,7 +105,7 @@ dialog {
 .simple-modal-close:before,
 .simple-animated-modal-close:before,
 .simple-animatedtransform-modal-close:before {
-  content: url("/echellescelestes-web/img/btn-modale.png");
+  content: url("../img/btn-modale.png");
   background-repeat: no-repeat;
   object-fit: cover;
 }
