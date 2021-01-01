@@ -36,6 +36,10 @@
         </article>
     </div>
 </footer>
+<!-- Vous pouvez ajouter votre script Google Analytics ici -->
+</body>
+
+<?php wp_footer(); ?>
 
 <script src="<?php echo THEME_DIR_JS; ?>/script.js"></script>
 <script src="<?php echo THEME_DIR_JS; ?>/theme.js"></script>
@@ -46,7 +50,4 @@
 <script src="<?php echo THEME_DIR_JS; ?>/van11y-accessible-modal-window-aria.js"></script>
 
 
-<?php wp_footer(); ?>
-<!-- Vous pouvez ajouter votre script Google Analytics ici -->
-</body>
 </html>

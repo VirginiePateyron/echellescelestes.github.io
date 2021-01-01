@@ -4,7 +4,6 @@
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
     
-    <title><?php bloginfo('name'); ?></title>
     <link rel="stylesheet" href="<?php echo THEME_DIR_CSS; ?>/base.css">
     <link rel="stylesheet" href="<?php echo THEME_DIR_CSS; ?>/main.css">
     <link rel="stylesheet" href="<?php echo THEME_DIR_CSS; ?>/header.css">
@@ -21,6 +20,8 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> 
+
+    <title><?php bloginfo('name'); ?></title>
 
     <?php wp_head(); ?>
 </head>
