@@ -73,72 +73,142 @@ h4 {
 }
 
 h2 {
-font-size: 3.2rem;
-font-weight: lighter;
-/* clip-path: polygon(0% 15%, 0 0, 15% 0%, 95% 0%, 95% 15%, 98% 15%, 98% 85%, 95% 85%, 95% 100%, 15% 100%, 0 100%, 0% 85%);
-background-color: #fff; */
-width: max-content;
-/* padding: 2rem 5rem; */
-margin: 2rem auto;
-color: #fff;
+  font-size: 3.2rem;
+  font-weight: lighter;
 
-overflow-x: hidden;
-animation: moving 50s infinite linear;
+  padding: 2rem 5rem;
+  margin: 2rem auto;
+  color: #fff;
+  max-width: max-content;
+  height: auto;
+  overflow-x: hidden;
 
-top: -80px;
-position: relative;
-}
-
-.svg-wrapper {
   position: relative;
-  /* top: 50%;
-  transform: translateY(-50%); */
-  margin: 0 auto;
-  width: max-content;
+
 }
 
-.shape1,
-.shape2 {
-  height: 60px;
-  width: max-content;
-  stroke-dasharray: 1120;
-  stroke-width: 5px;
-  fill: transparent;
-  stroke:#1b87df;
-  border-bottom: 5px solid black;
-  transition-timing-function: linear;
-  transition: stroke-dashoffset 4s, stroke-dasharray 4s;
+button {
+  background: none;
+  border: 0;
+  box-sizing: border-box;
+  margin: 1em;
+  padding: 1em 2em;
+  box-shadow: inset 0 0 0 2px #32b3e6;
+  color: #32b3e6;
+  font-size: inherit;
+  font-weight: 700;
+  position: relative;
+  vertical-align: middle;
 }
-.shape1 {
-  stroke-dashoffset: 1120;
-}
-.shape2 {
-  stroke-dashoffset: -1120;
-}
-
-.svg-wrapper:hover .shape1,
-.svg-wrapper:hover .shape2 {
-  stroke-dashoffset: 0;
-  stroke-dasharray: 1120;
+button::before, button::after {
+  box-sizing: inherit;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
-/* @keyframes moving {
-  0%   {
-    left:-10vw;
-  }
-  25%  {
-    left: 100vw;
-  }
-  50%  {
-    left: 100vw;
-  }
-  75%  {
-    left:-10vw;
-  }
-  100% {
-    left:-10vw;
-  }
-} */
+.draw {
+  transition: color 0.25s;
+}
+.draw::before, .draw::after {
+  border: 2px solid transparent;
+  width: 0;
+  height: 0;
+}
+.draw::before {
+  top: 0;
+  left: 0;
+}
+.draw::after {
+  bottom: 0;
+  right: 0;
+}
+.draw:hover {
+  color: #60daaa;
+}
+.draw:hover::before, .draw:hover::after {
+  width: 100%;
+  height: 100%;
+}
+.draw:hover::before {
+  border-top-color: #60daaa;
+  border-right-color: #60daaa;
+  transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;
+}
+.draw:hover::after {
+  border-bottom-color: #60daaa;
+  border-left-color: #60daaa;
+  transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;
+}
+
+.meet:hover {
+  color: #21c594;
+}
+.meet::after {
+  top: 0;
+  left: 0;
+}
+.meet:hover::before {
+  border-top-color: #21c594;
+  border-right-color: #21c594;
+}
+.meet:hover::after {
+  border-bottom-color: #21c594;
+  border-left-color: #21c594;
+  transition: height 0.25s ease-out, width 0.25s ease-out 0.25s;
+}
+
+.gradient {
+  background: linear-gradient(to left, hsl(275.29, 54.26%, 36.86%) 0%, hsl(271.04, 48.69%, 39.16%) 6%, hsl(259.4, 39.21%, 44.39%) 12%, hsl(241.96, 32.43%, 50.71%) 16%, hsl(225.27, 41.65%, 52.36%) 21%, hsl(214.87, 52.51%, 53.16%) 25%, hsl(208.21, 63.34%, 53.45%) 29%, hsl(203.76, 73.19%, 53.1%) 34%, hsl(200.69, 81.16%, 51.99%) 39%, hsl(198.53, 86.55%, 50.02%) 44%,
+  hsl(197, 100%, 47.06%) 50%, 
+  hsl(200.62, 85.22%, 54.34%) 54%, hsl(206.51, 76.97%, 60.29%) 59%, hsl(217.16, 63.43%, 65.02%) 64%, hsl(240.81, 44.76%, 68.43%) 69%, hsl(275.54, 39.26%, 62.44%) 73%, hsl(304.87, 39.82%, 57.1%) 78%, rgb(119, 80, 208) 83%, rgb(133, 55, 222) 88%, rgb(117, 29, 232) 95%, rgb(90, 0, 235) 100%);
+    background-size: 600% 600%;
+    -webkit-animation: Gradient 18s ease infinite;
+    -moz-animation: Gradient 18s ease infinite;
+    animation: Gradient 18s ease infinite;
+      -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-weight: 400;
+}
+
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
 
 .h2-subtitle {
 /* background-color: rgba(220, 204, 181, .8); */
@@ -187,60 +257,10 @@ padding-top: 10rem;
 padding-bottom: 10rem;
 }
 
-.gradient {
-  background: linear-gradient(to left, hsl(275.29, 54.26%, 36.86%) 0%, hsl(271.04, 48.69%, 39.16%) 6%, hsl(259.4, 39.21%, 44.39%) 12%, hsl(241.96, 32.43%, 50.71%) 16%, hsl(225.27, 41.65%, 52.36%) 21%, hsl(214.87, 52.51%, 53.16%) 25%, hsl(208.21, 63.34%, 53.45%) 29%, hsl(203.76, 73.19%, 53.1%) 34%, hsl(200.69, 81.16%, 51.99%) 39%, hsl(198.53, 86.55%, 50.02%) 44%,
-  hsl(197, 100%, 47.06%) 50%, 
-  hsl(200.62, 85.22%, 54.34%) 54%, hsl(206.51, 76.97%, 60.29%) 59%, hsl(217.16, 63.43%, 65.02%) 64%, hsl(240.81, 44.76%, 68.43%) 69%, hsl(275.54, 39.26%, 62.44%) 73%, hsl(304.87, 39.82%, 57.1%) 78%, rgb(119, 80, 208) 83%, rgb(133, 55, 222) 88%, rgb(117, 29, 232) 95%, rgb(90, 0, 235) 100%);
-    background-size: 600% 600%;
-    -webkit-animation: Gradient 18s ease infinite;
-    -moz-animation: Gradient 18s ease infinite;
-    animation: Gradient 18s ease infinite;
-      -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-
-    font-weight: 400;
-}
-
 .gradient-text {
   background: -webkit-linear-gradient(-70deg,#32b3e6,#21c594);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-@-webkit-keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
-}
-
-@-moz-keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
-}
-
-@keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
 }
 
 /***************************** Scroll ****************************/

@@ -41,26 +41,27 @@
                     alt="icone de lune au format svg dessinée"></summary>
         </details>
 
-        <!-- <nav id="navbar">
-            <ul>
-                <li class="menu-item"><a href="#first" href="javascript:void(0)">l'installation</a></li>
-                <li class="menu-item"><a href="#second" href="javascript:void(0)">inspirations</a></li>
-                <li class="menu-item"><a href="#third" href="javascript:void(0)">galerie de portraits</a></li>
-                <li class="menu-item"><a href="#fourth" href="javascript:void(0)">jouez du hasard</a></li>
-                <li class="menu-item"><a href="#fifth" href="javascript:void(0)">ressources</a></li>
-                <li class="menu-item"><a href="#sixth" href="javascript:void(0)">l'équipe</a></li>
-                <li class="menu-item"><a href="#seventh" href="javascript:void(0)">contact</a></li>
-            </ul>
-        </nav> -->
         <div class="menu">
             <nav class="menu__nav" id= "navbar">
               <ul class="menu__list r-list">
-                <li class="menu__group menu-item"><a href="#second" href="javascript:void(0)" class="menu__link r-link">inspirations</a></li>
-                          <li class="menu-item menu__group "><a href="#third" href="javascript:void(0)" class="menu__link r-link">galerie de portraits</a></li>
-                          <li class="menu-item menu__group "><a href="#fourth" href="javascript:void(0)" class="menu__link r-link">jouez du hasard</a></li>
-                          <li class="menu-item menu__group "><a href="#fifth" href="javascript:void(0)" class="menu__link r-link">ressources</a></li>
-                          <li class="menu-item menu__group "><a href="#sixth" href="javascript:void(0)" class="menu__link r-link">l'équipe</a></li>
-                          <li class="menu-item menu__group "><a href="#seventh" href="javascript:void(0)" class="menu__link r-link">contact</a></li>
+                <li class="menu__group menu-item">
+                    <a href="#second" href="javascript:void(0)" class="menu__link r-link">inspirations</a>
+                </li>
+                <li class="menu-item menu__group ">
+                    <a href="#third" href="javascript:void(0)" class="menu__link r-link">galerie de portraits</a>
+                </li>
+                <li class="menu-item menu__group ">
+                    <a href="#fourth" href="javascript:void(0)" class="menu__link r-link">jouez du hasard</a>
+                </li>
+                <li class="menu-item menu__group ">
+                    <a href="#fifth" href="javascript:void(0)" class="menu__link r-link">ressources</a>
+                </li>
+                <li class="menu-item menu__group ">
+                    <a href="#sixth" href="javascript:void(0)" class="menu__link r-link">l'équipe</a>
+                </li>
+                <li class="menu-item menu__group ">
+                    <a href="#seventh" href="javascript:void(0)" class="menu__link r-link">contact</a>
+                </li>
               </ul>
             </nav>
           </div>
