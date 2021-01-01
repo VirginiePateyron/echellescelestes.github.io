@@ -485,7 +485,7 @@ position: relative;
 }
 
 .menu-item:not(:last-child):before {
-content: url(/echellescelestes-web/img/moon-light.svg);
+content: url('../img/moon-light.svg');
 width: 2rem;
 height: 2rem;
 position: absolute;
@@ -590,7 +590,7 @@ transition: 0.5s ease;
 } */
 
 .menu-item:not(:last-child):hover:before {
-content: url(/echellescelestes-web/img/moon-light.svg);
+content: url('../img/moon-light.svg');
 width: 2rem;
 height: 2rem;
 position: absolute;
@@ -682,7 +682,7 @@ background-color: inherit;
 }
 
 .positionOff:not(:last-child):before {
-content: url(/echellescelestes-web/img/moon-light.svg);
+content: url('../img/moon-light.svg');
 width: 2rem;
 height: 2rem;
 position: absolute;
@@ -694,7 +694,7 @@ animation: none;
 }
 
 .positionOff:not(:last-child):hover:before {
-  content: url(/echellescelestes-web/img/moon-dark.svg);
+  content: url('../img/moon-dark.svg');
  
   width: 2rem;
   height: 2rem;
@@ -1048,7 +1048,7 @@ font-size: 1.8rem;
 }
 
 .first-section-content-element blockquote:before {
-content: url("/echellescelestes-web/img/installation/quote-icon.svg");
+content: url("../img/installation/quote-icon.svg");
 position: relative;
 display: inline-block;
 width: 5rem;
@@ -1420,7 +1420,7 @@ border-style: inset;
 border-width: 1rem; */
 
 background-color: rgba(11, 4, 44, .6);
-/* background-image: url("/echellescelestes-web/img/frame.png");
+/* background-image: url("img/frame.png");
 background-repeat: no-repeat;
 background-size: contain;
 padding: 2rem; */
@@ -1441,7 +1441,7 @@ vertical-align: middle;
 
 clip-path: inherit;
 
-background-image: url("/echellescelestes-web/img/frame.png");
+background-image: url("../img/frame.png");
 background-repeat: no-repeat;
 background-size: contain;
 padding: 1rem;
@@ -1468,7 +1468,7 @@ content: "";
 position: absolute;
 width: 2rem;
 height: 2rem;
-background-image: url("/echellescelestes-web/img/moon-dark.svg");
+background-image: url("../img/moon-dark.svg");
 margin: .5rem;
 }
 
@@ -1780,7 +1780,7 @@ transform: rotateX(340deg);
 /*************************** FIFTH-SECTION *************************/
 
 /* .fifth-section:before {
-content: "/echellescelestes-web/img/corot-satellite.jpg";
+content: "img/corot-satellite.jpg";
 position: absolute;
 background: url("");
 } */
@@ -1887,7 +1887,7 @@ vertical-align: middle;
 
 clip-path: inherit;
 
-background-image: url("/echellescelestes-web/img/frame.png");
+background-image: url("../img/frame.png");
 background-repeat: no-repeat;
 background-size: contain;
 padding: 1rem;

@@ -21,7 +21,7 @@ if ( !function_exists('ec_setup')) {
 }
 add_action( 'after_setup_theme', 'ec_setup');
 
-function echellescelestes_register_assets() {
+/* function echellescelestes_register_assets() {
     
     // Déclarer la librairie AOS
 	wp_enqueue_script( 
@@ -33,15 +33,22 @@ function echellescelestes_register_assets() {
     );
 
     wp_enqueue_script( 
-        'theme-js', 
-        get_stylesheet_uri() . '/js/theme.js',
-        null,
+        'script-js', 
+        get_template_directory_uri() . '/js/script.js',
+        '1.0', 
         true
     );
 
     wp_enqueue_script( 
-        'script-js', 
-        get_stylesheet_uri() . '/js/script.js',
+        'theme-js', 
+        get_template_directory_uri() . '/js/theme.js',
+        '1.0', 
+        true
+    );
+
+    wp_enqueue_script(
+        'vanilly-js',
+        get_template_directory_uri() . '/js/van11y-accessible-modal-window-aria.js',
         null,
         true
     );
@@ -104,6 +111,13 @@ function echellescelestes_register_assets() {
         'all'
     );
 
+    wp_enqueue_style(
+        'nunito-sans',
+        'https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap',
+        array('base', 'normalize', 'lato'),
+        'all'
+    ); 
+
 
 }
-add_action( 'wp_enqueue_scripts', 'echellescelestes_register_assets' );
+add_action( 'wp_enqueue_scripts', 'echellescelestes_register_assets' ); */
