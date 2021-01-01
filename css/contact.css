@@ -1,0 +1,38 @@
+/********************** SEVEN-SECTION **********************/
+
+/* Classe CSS de masquage accessible pour que les outils d'assistance des personnes en situation de handicap puissent lire le texte caché. Un "display : none" n'est PAS accessible et empêche l'utilisateur en situation de handicap d'avoir accès aux informations */
+
+.seven-section {
+    margin: auto;
+    min-height: 50vh;
+    }
+    
+    .seven-section-content {
+    background-color: #0B042C;
+    color: #fff;
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    
+    max-width: 80rem;
+    padding: 5rem;
+    margin: auto;
+    }
+    
+    .seven-section-content label + input {
+    width: 40rem;
+    margin: 2rem auto;
+    }
+    
+    .sr-only,
+    .error {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap; /* added line */
+    border: 0;
+    }

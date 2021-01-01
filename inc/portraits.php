@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+
 
 <article class="third-section change-color" id="third"> <!-- background avec galaxie -->
             <div class="svg-wrapper">
@@ -547,5 +547,3 @@
                 <!--  </section> -->
             </div>
         </article>
-
-<?php get_footer(); ?>

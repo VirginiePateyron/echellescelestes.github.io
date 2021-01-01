@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+
 
 <article class="fifth-section change-color" id="fifth">
             <div class="svg-wrapper">
@@ -24,5 +24,3 @@
                 </section>
             </div>
         </article>
-
-<?php get_footer(); ?>

@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+
 
 <article class="eight-section change-color" >
             <div class="svg-wrapper">
@@ -27,4 +27,3 @@
 
 </main>
 
-<?php get_footer(); ?>

@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+
 
 <article class="four-section change-color" id="fourth"><!-- background tableau d'école -->
             <div class="svg-wrapper">
@@ -51,4 +51,3 @@
             </div>
         </article>
 
-<?php get_footer(); ?>

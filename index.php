@@ -1,12 +1,12 @@
-<?php get_header(); ?>
-
-    <?php require_once('inc/installation.php'); ?>
-    <?php require_once('inc/inspirations.php'); ?>
-    <?php require_once('inc/portraits.php'); ?>
-    <?php require_once('inc/jouez.php'); ?>
-    <?php require_once('inc/ressources.php'); ?>
-    <?php require_once('inc/equipe.php'); ?>
-    <?php require_once('inc/partenaires.php'); ?>
+<?php get_header();
+    require_once('inc/installation.php'); //presentation de l'installation : planetarium et cloches
+    require_once('inc/inspirations.php'); // presentation du livre et du documentaire
+    require_once('inc/portraits.php'); // galerie des portraits
+    require_once('inc/jouez.php'); //jeu interactif
+    require_once('inc/ressources.php'); //ressources du padlet
+    require_once('inc/equipe.php'); //presentation de l'equipe du projet
+    require_once('inc/partenaires.php'); //presentation des partenaires du projet
+?> 
         
 
         <div class="scrolltop-wrap">

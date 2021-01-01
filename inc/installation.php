@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+
 
 <main>
         <article class="first-section change-color" id="first">
@@ -65,5 +65,3 @@
             </div>
 
         </article>
-
-<?php get_footer(); ?>
