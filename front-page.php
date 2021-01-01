@@ -5,6 +5,7 @@
     require_once('inc/jouez.php'); //jeu interactif
     require_once('inc/ressources.php'); //ressources du padlet
     require_once('inc/equipe.php'); //presentation de l'equipe du projet
+    require_once('inc/contact.php'); // section contact
     require_once('inc/partenaires.php'); //presentation des partenaires du projet
 ?> 
         

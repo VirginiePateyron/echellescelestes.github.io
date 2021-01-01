@@ -1,5 +1,3 @@
-
-
 <article class="seven-section change-color" id="seventh">
          
                   
