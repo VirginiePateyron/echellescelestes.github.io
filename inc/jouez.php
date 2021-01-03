@@ -14,25 +14,22 @@
         <section class="four-section-content">
             <div class="four-section-content-element" id="container">
                 <div class="four-section-content-element-card">
-                    <p class="front face"><span class="gradient-text front-title"> La minute philo : </span>envie de vous confronter à une grande question universelle ?
-                    </p>
-                    <p class="back face">D’après vous, qu’est-ce que le ciel nous a toujours raconté ? 
-                    </p>
+                <p class="front face"><span class="gradient-text front-title"> La minute philo </span><button onclick="getPhrase()">envie de vous confronter à une grande question universelle ?</button></p>
+                    <p class="back face" id="phrase"> </p>
                 </div>
                 <div class="four-section-content-element-card">
-                    <p class="front face"><span class="gradient-text front-title">La minute lecture : </span>désireux de lire une citation poétique, scientifique ou mythologique ?
-                    
+                    <p class="front face"><span class="gradient-text front-title">La minute lecture : </span><button onclick="getReading()">désireux de lire une citation poétique, scientifique ou mythologique ?</button>
                     </p>
-                    <p class="back face">« Contente-toi de savoir que tout est mystère
+                    <p class="back face" id="reading">« Contente-toi de savoir que tout est mystère
                         La création du monde et la tienne
                         La destinée du monde et la tienne »
                         <span class="gradient-text">Omar Khayam</span>
                     </p>
                 </div>
                 <div class="four-section-content-element-card">
-                    <p class="front face"><span class="gradient-text front-title">La minute podcast : </span>tenté par l’écoute d’un extrait de « Tours du monde, tours du ciel » ?
+                    <p class="front face"><span class="gradient-text front-title">La minute podcast : </span><button onclick="getPodcast()">tenté par l’écoute d’un extrait de « Tours du monde, tours du ciel » ?</button>
                     </p>
-                    <p class="back face">
+                    <p class="back face" id="podcast">
                         <audio
                             controls
                             src="media/A -MS intro gen sur l'observation - carte a son.wav">

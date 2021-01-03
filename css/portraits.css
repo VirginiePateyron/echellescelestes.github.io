@@ -122,8 +122,8 @@
   .third-section-content-element-card-one h4:after {
   content: "";
   position: absolute;
-  width: 2rem;
-  height: 2rem;
+  width: 1.5rem;
+  height: 1.5rem;
   background-image: url("../img/moon-dark.svg");
   margin: .5rem;
   }
@@ -178,6 +178,10 @@
   
   .simple-modal-overlay, .simple-animated-modal-overlay, .simple-animatedtransform-modal-overlay {
     background: #0B042C !important;
+  }
+
+  .somplie-animated-modal button {
+    box-shadow: none;
   }
   
   

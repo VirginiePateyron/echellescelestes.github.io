@@ -29,9 +29,6 @@ function myFunction() {
     }
   }
 
-
-
-
 /* Créer une fonction qui retourne la carte au clic */
 document.addEventListener('DOMContentLoaded', function () {
   [].forEach.call(document.querySelectorAll(".four-section-content-element-card"), function(card, i, cards){
@@ -41,6 +38,40 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
+/* Créer un bouton qui affiche un résultat aléatoirement au clic */
+
+function getPhrase() {
+  var listePhrases = new Array(
+    "Ma première phrase",
+    "Ma seconde phrase",
+    "Ma troisième phrase"
+  );
+
+  document.getElementById("phrase").innerHTML =
+    listePhrases[Math.floor(Math.random() * listePhrases.length)];
+}
+
+function getReading() {
+  var listePhrases = new Array(
+    "Ma première lecture",
+    "Ma seconde lecture",
+    "Ma troisième lecture"
+  );
+
+  document.getElementById("reading").innerHTML =
+    listePhrases[Math.floor(Math.random() * listePhrases.length)];
+}
+
+function getPodcast() {
+  var listePhrases = new Array(
+    "Mon premier podcast",
+    "Mon deuxième podcast",
+    "Mon troisième podcast"
+  );
+
+  document.getElementById("podcast").innerHTML =
+    listePhrases[Math.floor(Math.random() * listePhrases.length)];
+}
 
 
 /* Créer un menu responsive */
