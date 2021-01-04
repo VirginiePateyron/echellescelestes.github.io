@@ -1,4 +1,4 @@
 # echellescelestes
 
 
-Intégration WordPress du site Echelles Celestes
+Branche de dev de l'intégration WordPress du site Echelles Celestes
