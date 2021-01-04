@@ -1,4 +1,10 @@
 /********************** SIXTH-SECTION **********************/
+.sixth-section-team-img {
+  position: absolute;
+  z-index: -1;
+  width: 50%;
+}
+
 .sixth-section-content  {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr) );

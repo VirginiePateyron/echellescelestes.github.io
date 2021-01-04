@@ -7,8 +7,9 @@
         <button class="draw meet">galerie des portraits</button>
     </h2> 
     
-        
     <p class="h2-subtitle">Déambulez dans cette galerie et découvrez les grandes figures qui ont écrit une partie de l’histoire de l’astronomie en cliquant, à votre guise, sur les portraits.</p>
+
+    <img class="third-section-gallery-img" src="<?php echo THEME_DIR_IMG; ?>/astro/corot-satellite-sf.png" alt="dessin d'un satellite à la structure de couleur jaune">
 
     <div class="container">
 

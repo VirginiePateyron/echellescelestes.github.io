@@ -1,4 +1,40 @@
 /*************************** THIRD-SECTION ***********************/
+.third-section-gallery-img {
+  position: absolute;
+  width: 10%;
+
+  transition: all 1s;
+  margin: auto;
+  z-index: -1;
+  
+  animation: satelliteMove 30s infinite alternate;
+}
+
+/* @keyframes satelliteMove {
+  0% {top: 0px;left: 0px;}
+  50% {width: 30%;}
+  100% {top: 100%; right: 0px;}
+} */
+
+@keyframes satelliteMove {
+  0% {
+    transform: translateY(-50px) translateX(0) rotate(30deg);
+  }
+  25% { 
+    transform: translateY(50px) translateX(250px) rotate(20deg);
+  }
+  50% {
+    transform: translateY(100px) translateX(500px);
+  }
+  75% {
+    transform: translateY(50px) translateX(850px) rotate(-20deg);
+  }
+  100% {
+    transform: translateY(-170px) translateX(1200px) rotate(-40deg);
+  }
+}
+
+
 .third-section-content-element {
     /* display: grid; */
     /* grid-template-columns: repeat(5, 1fr); */
