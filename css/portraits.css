@@ -107,16 +107,6 @@
   }
   
   .third-section-content-element-card-one-img {
-  /* border: 5px solid #DCCCB5;
-  border-style: inset;
-  border-width: 1rem; */
-  
-  background-color: rgba(11, 4, 44, .6);
-  /* background-image: url("img/frame.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  padding: 2rem; */
-  
   margin: auto;
   width: max-content;
   height: max-content;
@@ -276,9 +266,14 @@
   
   .third-section-content-element-card-clic-quote {
     width: 75%;
+    font-size: 1.4rem;
   }
   
   .third-section-content-element-card-clic-quote p {
     background-color: rgba(255, 255, 255, .2);
     padding: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1.6rem;
   }

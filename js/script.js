@@ -42,9 +42,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
 function getPhrase() {
   var listePhrases = new Array(
-    "Ma première phrase",
-    "Ma seconde phrase",
-    "Ma troisième phrase"
+    "D’après vous, qu’est-ce que le ciel nous a toujours raconté ?",
+    "D’où venons-nous ?",
+    "L’univers est-il fini ou infini ?",
+    "Qu’est-ce que le rien ? C’est quoi le vide ?",
+    "Et toi, quelle place as-tu dans l’univers ?",
+    "L’espace fait-il partie du jour ou de la nuit ?",
+    "Diriez-vous que connaître l’heure, c’est mesurer le temps ?",
+    "A votre avis, observons-nous toujours le même objet ?"
   );
 
   document.getElementById("phrase").innerHTML =
@@ -53,7 +58,7 @@ function getPhrase() {
 
 function getReading() {
   var listePhrases = new Array(
-    "Ma première lecture",
+    "Contente-toi de savoir que tout est mystère, La création du monde et la tienne, La destinée du monde et la tienne, Omar Khayam",
     "Ma seconde lecture",
     "Ma troisième lecture"
   );
