@@ -75,6 +75,8 @@
   
   padding: 2rem;
   align-items: center;
+
+  
   }
   .four-section-content-element-card .front {
   /* background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/22/King_of_spades2.svg"); */
@@ -92,6 +94,9 @@
   transform: rotateX(180deg);
   background-color: #0B042C;
   color: #fff;
+
+  overflow-y: auto;
+  margin-bottom: 2rem;
   }
   .four-section-content-element-card:hover .front, .four-section-content-element-card.hover .front {
   transform: rotateX(20deg);
@@ -127,6 +132,28 @@
     margin: 0 auto;
     display: flex;
     justify-content: center;
+  }
+
+  .four-section-content-element-card button {
+    background: none;
+    border: 0;
+    box-sizing: border-box;
+    margin: 1em;
+    /* box-shadow: inset 0 0 0 2px #32b3e6; */
+    color: #32b3e6;
+    font-size: inherit;
+    font-weight: 700;
+    position: relative;
+    vertical-align: middle;
+  
+    margin-bottom: 5rem;
+  }
+  .four-section-content-element-card button::before, button::after {
+    box-sizing: inherit;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
   }
   
   /* Extra small devices (portrait phones, less than 576px) */
