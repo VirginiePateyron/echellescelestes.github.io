@@ -1,8 +1,6 @@
 
 
 <article class="sixth-section change-color" id="sixth">
-
-    <img class="sixth-section-team-img" src="<?php echo THEME_DIR_IMG; ?>/astro/planets-game.svg" alt="dessin au trait de planètes qui jouent au billard dans l'espace">
       
     <!-- <h2 class="gradient">l'équipe</h2> -->
     <h2 class="buttons gradient">

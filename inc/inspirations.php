@@ -48,9 +48,8 @@
                     </div>
                     
                 </div>
-                <iframe src="<?php echo THEME_DIR_IMG; ?>/astro/lowell_observ-sf.svg" width="400" height="400">
-                    <img src="<?php echo THEME_DIR_IMG; ?>/astro/lowell_observ-sf.png" alt="Un extraterrestre avec une table de musique DJ" />
-                </iframe>
+                
+                    <img class="img-deco-bg" src="<?php echo THEME_DIR_IMG; ?>/astro/lowell_obs.jpg" alt="l'astronome Lowell observe l'espace avec une lunette astronomique" />
             </section>
         </div>
     </div>

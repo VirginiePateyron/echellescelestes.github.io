@@ -62,9 +62,9 @@
                     </p>
                 </div>
             </div>
-            <iframe src="<?php echo THEME_DIR_IMG; ?>/astro/extra-music.svg">
+           <!--  <iframe src="<?php echo THEME_DIR_IMG; ?>/astro/extra-music.svg">
                 <img src="<?php echo THEME_DIR_IMG; ?>/astro/extra-music.png" alt="Un extraterrestre avec une table de musique DJ" />
-            </iframe>
+            </iframe> -->
             
         </section>
     </div>

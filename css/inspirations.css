@@ -12,10 +12,14 @@
     max-width: max-content;
     }
     
-    .second-section-content-element iframe {
+    .second-section-content-element .img-deco-bg {
       position: absolute;
-      top: 55%;
+      top: 50%;
+      left: 10%;
       border: none;
+
+      width: 30rem;
+      height: auto;
     }
     
     .second-section-content-element:nth-child(1) {
