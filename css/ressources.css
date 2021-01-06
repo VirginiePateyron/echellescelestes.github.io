@@ -27,6 +27,17 @@ background: url("");
     position:relative;
     width:100%;
     background: rgb(172, 172, 212);
+
+     
+  object-fit: cover;
+  text-align: center;
+  vertical-align: middle;
+      clip-path: inherit;
+  
+  background-image: url("../img/wood.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1rem;
     }
     
     .fifth-section-content .padlet-embed p {

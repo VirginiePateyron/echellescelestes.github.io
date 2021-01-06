@@ -4,7 +4,6 @@
     position: relative;
     background: #000;
     color: #fff;
-    
     }
     
     .second-section-content-element {
@@ -15,7 +14,7 @@
     .second-section-content-element .img-deco-bg {
       position: absolute;
       top: 50%;
-      left: 10%;
+      left: 0%;
       border: none;
 
       width: 30rem;

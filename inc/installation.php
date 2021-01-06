@@ -20,6 +20,7 @@
                     <p class="h3-subtitle">Un observatoire aux étoiles où le public est invité à incarner le rôle de l’astronome.
                     </p>
                 </div>
+                
                 <div class="first-section-content-element-img">
                 <img src="<?php echo THEME_DIR_IMG; ?>/installation/dessin-instal.jpg"
                     alt="dessin de l'installation d'echelles celestes">
@@ -28,6 +29,7 @@
                     <span></span>
                     <span></span>
                 </div>
+               
             </section>
             <section class="first-section-content-element">
                 <h3>un cabinet de curiosité</h3>

@@ -81,11 +81,12 @@ function getPodcast() {
   var audio = new Audio(),
   i = 0;
   var listePodcast = new Array(
-    "/A -MS intro gen sur l'observation - carte a son.wav",
-    "/C-MS le ciel est un dictionnaire -carte a son.wav",
-    "/E - MS le centre du monde- philo.wav",
-    "/H- MS le TEMPS - carte a son.wav",
-    "/K - Audouze - poussiere d'etoile - carte a son.wav"
+    "/media/centre-philo",
+    "/media/dico-ciel",
+    "/media/etoile",
+    "/media/intro-gen",
+    "/media/questions.wav",
+    "/media/temps.wav"
   );
 
     audio.addEventListener('ended', function () {

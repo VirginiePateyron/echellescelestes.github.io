@@ -15,11 +15,12 @@
     <link rel="stylesheet" href="<?php echo THEME_DIR_CSS; ?>/equipe.css"> <!-- sixth-section -->
     <link rel="stylesheet" href="<?php echo THEME_DIR_CSS; ?>/contact.css"> <!-- seven-section -->
     <link rel="stylesheet" href="<?php echo THEME_DIR_CSS; ?>/partenaires.css"> <!-- eight-section -->
-
+    
     <link rel="stylesheet" href="<?php echo THEME_DIR_CSS; ?>/styles.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> 
+
 
     <title><?php bloginfo('name'); ?></title>
 

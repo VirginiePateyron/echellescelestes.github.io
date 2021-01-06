@@ -89,22 +89,39 @@
   text-align: center;
   justify-content: center;
 
-  background-position: center;
+  position: relative;
+
+  /* background-position: center;
     object-fit: contain;
-    width: 100%;
+    width: 100%; */
 
   }
 
-  .four-section-content-element-card:nth-child(1) .front {
-    background-image: url('../img/astro/astronom-light.png'); 
+  .four-section-content-element-card:nth-child(1) .front:before {
+    content: url('../img/astro/astronom-light.png'); 
+    position:absolute;
+    top:0;
+    right:20%;
+    opacity:.2;
+    z-index:-1;
   }
 
-  .four-section-content-element-card:nth-child(2) .front {
-    background-image: url('../img/astro/planets-game.png');
+  .four-section-content-element-card:nth-child(2) .front:before {
+    content: url('../img/astro/planets-game.png');
+    position:absolute;
+    top:0;
+    left:0;
+    opacity:.2;
+    z-index:-1;
   }
 
-  .four-section-content-element-card:nth-child(3) .front {
-    background-image: url('../img/astro/extra-music.png');
+  .four-section-content-element-card:nth-child(3) .front:before {
+    content: url('../img/astro/extra-music.png');
+    position:absolute;
+    top:0;
+    right:20%;
+    opacity:.2;
+    z-index:-1;
   }
 
 

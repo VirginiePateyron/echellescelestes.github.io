@@ -6,9 +6,8 @@
                 <section class="footer-content-element-item">
                     <img src="<?php echo THEME_DIR_IMG; ?>/lenadazy.png" alt="">
                     <ul>
-                        <li>Siège social : 159 rue Fernand Audeguil 33000 Bordeaux
-                        </li>
-                        <li>Correspondance : 31 rue Bossuet 33800 Bordeaux
+                    <li>Léna d'Azy</li>
+                        <li><a href="cecilelena@lenadazy.fr" target="_blank">Contactez Léna d'Azy par mail</a>
                         </li>
                         <li><a href="www.lenadazy.fr" target="_blank">www.lenadazy.fr</a>
                         </li>
@@ -25,9 +24,9 @@
                     </ul>
                 </section>
                 <section class="footer-content-element-item socialmedia">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-facebook-square"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></i></a>
                 </section>
             </div>
         </article>

@@ -18,11 +18,11 @@
                     <p class="back face" id="phrase"> </p>
                 </div>
                 <div class="four-section-content-element-card">
-                    <button class="front face" onclick="getReading()"><span class="gradient-text front-title">La minute lecture : </span>désireux de lire une citation poétique, scientifique ou mythologique ?</button>
+                    <button class="front face" onclick="getReading()"><span class="gradient-text front-title">La minute lecture </span>désireux de lire une citation poétique, scientifique ou mythologique ?</button>
                     <p class="back face" id="reading"> </p>
                 </div>
                 <div class="four-section-content-element-card">
-                    <button class="front face" onclick="getPodcast()"><span class="gradient-text front-title">La minute podcast : </span>tenté par l’écoute d’un extrait de « Tours du monde, tours du ciel » ?</button>
+                    <button class="front face" onclick="getPodcast()"><span class="gradient-text front-title">La minute podcast </span>tenté par l’écoute d’un extrait de « Tours du monde, tours du ciel » ?</button>
                     <p class="back face" id="podcast">
                         <audio controls
                             src="">

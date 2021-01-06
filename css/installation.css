@@ -6,7 +6,8 @@
     }
     
     .first-section-content-element:first-child {
-      display: flex;
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
       flex-direction: row-reverse;
       align-items: center;
       position: relative;
@@ -14,11 +15,34 @@
       margin: 10rem 0;
       height: 40rem;
     }
+
+    /* Extra small devices (portrait phones, less than 576px) */
+    @media (max-width: 575.98px) { 
+      
+    }
+    
+    /* Small devices (landscape phones, less than 768px) */
+    @media (max-width: 767.98px) { 
+      
+    }
+    
+    /* Medium devices (tablets, less than 992px) */
+    @media (max-width: 991.98px) { 
+      
+    }
+
+    /* Large devices (desktops, less than 1200px) */
+    @media (max-width: 1199.98px) { 
+      .first-section-content-element:first-child {
+        grid-template-columns: 1fr;
+      }
+    
+    }
     
     .first-section-content-element-text {
       position: absolute;
       width: 50%;
-      right: 5%;
+      left: 0%;
     }
     
     .first-section-content-element h3 {
@@ -83,7 +107,7 @@
       border: 2px solid #2a3cad;
       padding: 3rem;
     
-      left: 0;
+      right: 0;
       }
     
       .first-section-content-element-img img {
@@ -214,17 +238,18 @@
     }
     
     .first-section-content-element blockquote:before {
-    content: url("../img/installation/quote-icon.svg");
+    content: url("../img/installation/quote-icon-l.svg");
     position: relative;
     display: inline-block;
     width: 5rem;
     align-self: center;
-    color: #fff;
+    fill: #fff;
     }
     
     .first-section-content-element .blockquote-author {
     text-align: right;
     font-weight: bold;
+    margin: 2rem 0;
     }
 
     .first-section .title {
