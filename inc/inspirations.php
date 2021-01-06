@@ -33,8 +33,8 @@
                 <div class="second-section-content-element-col second-section-content-element-col-reverse">
                     <div class="second-section-content-element-col-child second-section-content-element-col-child-text">
                         <h3>la narration transmédia d’un documentaire</h3>
-                        <p>Quelle est notre place dans l’univers ? Y sommes-nous seuls ? Comment se forment les planètes, les étoiles, les galaxies ? Qu’est-ce qui les tient ensemble ? C’est quoi, une naine blanche, une géante rouge, un trou noir ? <br><br>
-                            Une série en dix épisodes dans laquelle Robert Pansard-Besson conte l’histoire des observatoires astronomiques et de leurs découvertes et nous invite à parcourir le ciel et la terre.
+                        <p>Quelle est notre place dans l’univers &nbsp;? Y sommes-nous seuls &nbsp;? Comment se forment les planètes, les étoiles, les galaxies &nbsp;? Qu’est-ce qui les tient ensemble &nbsp;? C’est quoi, une naine blanche, une géante rouge, un trou noir &nbsp;? <br><br>
+                            Une série en dix épisodes dans laquelle Robert Pansard-Besson conte l’histoire des observatoires astronomiques et de leurs découvertes et nous invite à parcourir le ciel et la terre.<br><br>
                             Réalisateur : Robert Pansard-Besson
                             </p>
                     </div>

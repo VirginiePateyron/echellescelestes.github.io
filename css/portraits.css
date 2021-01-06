@@ -206,8 +206,10 @@
     background: #0B042C !important;
   }
 
-  .somplie-animated-modal button {
+  .simple-animated-modal button {
     box-shadow: none;
+
+    background-color: #0B042C;
   }
   
   
@@ -262,6 +264,8 @@
   .third-section-content-element-card-clic {
     display: grid;
     grid-template-columns: repeat(2,1fr);
+
+    margin: 5rem auto;
   }
   
   .third-section-content-element-card-clic-quote {

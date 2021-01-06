@@ -21,9 +21,9 @@
                     <img src="<?php echo THEME_DIR_IMG; ?>/equipe/cecile-camille.jpeg" alt="">
                 </div>
                 <div class="hidden" id="modale-cc">
-                    <p>Un projet co-écrit par :
-                    <span>Cécile Léna</span> (Léna d’Azy) - Scénographe
-                    <span>Camille Monmège-Geneste</span> (le labo des cultures) - Médiatrice culturelle</p>
+                    <p>Un projet co-écrit par
+                    <span>Cécile Léna</span> [Léna d’Azy] - Scénographe & 
+                    <span>Camille Monmège-Geneste</span> [le labo des cultures] - Médiatrice culturelle</p>
                     <img src="<?php echo THEME_DIR_IMG; ?>/equipe/cecile-camille.jpeg" alt="">
                 </div>
             
@@ -134,12 +134,12 @@
                 <div class="sixth-section-content-element-desc js-modal button" data-modal-prefix-class="simple-animated"
                 data-modal-content-id="modale-vp">
                     <h4>Réalisation de la page web dédiée à Échelles Célestes</h4>
-                    <img src="<?php echo THEME_DIR_IMG; ?>/equipe/virginie.jpg" alt="">
+                    <img src="<?php echo THEME_DIR_IMG; ?>/equipe/virginie.jpeg" alt="Photo de Virginie, web designer intégratrice web">
                 </div>
                 <div class="hidden" id="modale-vp">
                     
-                    <p><span>Virginie PATEYRON </span>Web designer et intégratice web</p>
-                    <img src="<?php echo THEME_DIR_IMG; ?>/equipe/virginie.jpg" alt="">
+                    <p><span>Virginie PATEYRON </span><a href="virginiepateyron.tech" target="_blank">Web designer et intégratrice web</a></p>
+                    <img src="<?php echo THEME_DIR_IMG; ?>/equipe/virginie.jpeg" alt="Photo de Virginie, web designer intégratrice web">
                 </div>
             </section>
         </section>

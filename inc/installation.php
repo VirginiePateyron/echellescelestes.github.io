@@ -8,7 +8,7 @@
         </h2>
         
         <p class="h2-subtitle">L’installation Echelles Célestes est un dispositif de <span class="gradient-text">réalité virtuelle à visée d’éducation artistique, culturelle et scientifique</span>, qui s’articule autour d’un planétarium et d’un cabinet de curiosité.<br><br>
-        Cette expérience immersive poétique a été conçue à partir d’une narration transmédia de <span>Ciel ! Mon étoile</span> et de <span>Tours du monde, Tours du ciel</span>.</p>
+        Cette expérience immersive poétique a été conçue à partir d’une narration transmédia de <span class="title">" Ciel ! Mon étoile "</span> et de <span class="title">" Tours du monde, Tours du ciel "</span>.</p>
 
         <div class="container">
 
@@ -55,7 +55,7 @@
                     ces changements d’échelles et à vivre physiquement cette mise en abîme, à la fois géante et
                     microscopique. </blockquote>
                 <p class="blockquote-author">Cécile Léna</p>
-                <blockquote> travers cette expérience artistique et désacralise l’œuvre d’art : on peut ici la toucher, manipuler et la découvrir à travers nos 5 sens. La voûte, le cabinet de curiosité et les modules satellites entrelacent médiation et contenu artistique pour une expérience globale</blockquote>
+                <blockquote> « Echelles Célestes, à la frontière de la création et de la médiation, vulgarise l’astrophysique à travers cette expérience artistique et désacralise l’œuvre d’art : on peut ici la toucher, manipuler et la découvrir à travers nos 5 sens. La voûte, le cabinet de curiosité et les modules satellites entrelacent médiation et contenu artistique pour une expérience globale ». </blockquote>
                 <p class="blockquote-author">Camille Monmège-Geneste</p>
             </section>
         </div>

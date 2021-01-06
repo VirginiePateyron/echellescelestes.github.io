@@ -59,6 +59,8 @@
                     </div>
                 </div>
             </li>
+
+            
             <li class="third-section-content-element-card">
                 <div class="third-section-content-element-card-one js-modal button"
                     data-aos="fade-up" data-aos-easing="linear" data-aos-duration="2000" data-modal-prefix-class="simple-animated"
@@ -87,6 +89,61 @@
                         </div>
                     </div>
                 </div>
+            </li>
+            <li class="third-section-content-element-card">
+                <div class="third-section-content-element-card-one js-modal button" data-aos="fade-up" data-aos-duration="1000" data-modal-prefix-class="simple-animated" data-modal-content-id="modal17" data-modal-title="Katy Perry"
+                    data-modal-close-text="Close it" data-modal-close-title="Close it, really">
+                    <div class="third-section-content-element-card-one-img">
+                        <img
+                            src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/perry_small.jpeg" alt=""></div>
+                        <h4>Katy Perry</h4>
+                    </div>
+
+                    <div class="third-section-content-element-card-hover">
+                        <p class="title text">Qu’est-ce que tu fais pour les vacances ? Moi, je pars dans l’espace.</p>
+                    </div>
+                    <div class="hidden" id="modal17">
+                        <div class="third-section-content-element-card-clic">
+                            <div class="third-section-content-element-card-clic-quote">
+                                <img src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/perry_small.jpeg" alt="">
+                                <h5>Anecdote</h5>
+                                <p>Le tourisme spatial se développe et sera peut-être bientôt à notre portée… à condition d’avoir un gros porte-monnaie.</p>
+                            </div>
+                            <div class="third-section-content-element-card-clic-bio">
+                                <h5>La petite histoire</h5>
+                                <p>Katy Perry fait partie des stars (avec Justin Bieber, Leonardo Di Caprio et Stephen Hawking par exemple) qui devaient se rendre à la frontière de l’espace pour la somme de 250 000 dollars. La navette SpaceShipTwo s’est écrasée lors d’un vol test mettant fin à leur escapade dans l’espace. Un inconnu avait même déboursé un million de dollars pour faire le voyage aux côtés de Leonardo Di Caprio. Cependant, le projet n’a pas été abandonné et <span class="gradient-text"> on compte actuellement presque 8 000 personnes en liste d’attente pour un vol dans l’espace</span> avec l’entreprise Virgin Galactic. </p>
+                            </div>
+                            <button></button>
+                        </div>
+                    </div>
+            </li>
+
+            <li class="third-section-content-element-card">
+                <div class="third-section-content-element-card-one js-modal button" data-aos="fade-up" data-aos-duration="1500" data-modal-prefix-class="simple-animated" data-modal-content-id="modal16" data-modal-title="Georges Clooney"
+                    data-modal-close-text="Close it" data-modal-close-title="Close it, really">
+                    <div class="third-section-content-element-card-one-img">
+                        <img
+                            src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/clooney_small.jpeg" alt=""></div>
+                        <h4>Georges Clooney</h4>
+                    </div>
+
+                    <div class="third-section-content-element-card-hover">
+                        <p class="title text">J’ai été astronaute dans un film à grand succès.</p>
+                    </div>
+                    <div class="hidden" id="modal16">
+                        <div class="third-section-content-element-card-clic">
+                            <div class="third-section-content-element-card-clic-quote">
+                                <img src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/clooney_small.jpeg" alt="">
+                                <h5>Anecdote</h5>
+                                <p>Le film été salué par l’ensemble de la critique et a été applaudi pour son réalisme par la NASA. Seul bémol : Edwin Eugene Aldrin Junior (NASA) a noté le manque de nuages.</p>
+                            </div>
+                            <div class="third-section-content-element-card-clic-bio">
+                                <h5>La petite histoire</h5>
+                                <p>Georges Clooney a été l’un des deux acteurs principaux, aux côtés de Sandra Bullock, du film Gravity réalisé en 2013 par Alfonso Cuarón. Les deux protagonistes incarnent des astronautes, seuls survivants d’une mission spatiale, qui tentent de regagner la Terre. <span class="gradient-text">Le film évoque un phénomène réel baptisé le « syndrome de Kessler ». Il nomme l’ensemble des débris et des déchets gravitant en apesanteur dans l’espace à la suite des missions spatiales.</span> Ils peuvent être dangereux pour les astronautes et les vaisseaux. On dit même qu’ils pourraient l’être pour les Hommes sur Terre. Le réalisateur a travaillé pendant de longs mois avec la NASA, pour récolter de nombreuses informations et documentations précieuses pour rendre le film le plus réaliste possible. Gravity a été réalisé en studio grâce à l’animation virtuelle : tous les gestes et mouvements ont dû être repensés avec l’apesanteur. </p>
+                            </div>
+                            <button></button>
+                        </div>
+                    </div>
             </li>
             <li class="third-section-content-element-card">
                 <div class="third-section-content-element-card-one js-modal button" data-aos="fade-up"
@@ -180,6 +237,33 @@
                         </div>
                     </div>
                 </li>
+
+                <li class="third-section-content-element-card">
+                <div class="third-section-content-element-card-one js-modal button" data-aos="fade-up" data-aos-duration="2500" data-modal-prefix-class="simple-animated" data-modal-content-id="modal15" data-modal-title="Ham, le chimpanzé"
+                    data-modal-close-text="Close it" data-modal-close-title="Close it, really">
+                    <div class="third-section-content-element-card-one-img"><img
+                            src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/ham_small.jpeg" alt=""></div>
+                        <h4>Ham, le chimpanzé</h4>
+                    </div>
+
+                    <div class="third-section-content-element-card-hover">
+                        <p class="title text">C’est grâce à moi que la NASA compris que l’Homme pouvait voyager dans l’espace. </p>
+                    </div>
+                    <div class="hidden" id="modal15">
+                        <div class="third-section-content-element-card-clic">
+                            <div class="third-section-content-element-card-clic-quote">
+                                <img src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/ham_small.jpeg" alt="">
+                                <h5>Anecdote</h5>
+                                <p>Ham est un chimpanzé à l’histoire vraiment pas banale : il a été sélectionné parmi tous ses concurrents pour « sa fougue et sa bonne humeur ».</p>
+                            </div>
+                            <div class="third-section-content-element-card-clic-bio">
+                                <h5>Biographie</h5>
+                                <p>La NASA a décidé de l’envoyer dans l’espace en 1961. Il n’était pas le premier. On le choisit pour ses capacités particulièrement développées et son aptitude à exprimer ses émotions.<span class="gradient-text"> Pendant un an et demi, il fit de nombreux tests pour se préparer au voyage. Une fois prêt, il fut lancé dans l’espace pour la mission Mercury-Redstone 2 organisée par les américains.</span> En orbite, on lui a fait refaire les mêmes tests que sur Terre, qu’il réussit ! Cela confirma l’hypothèse de la NASA : les humains pourront voyager dans l’espace. Le petit chimpanzé rentrera vivant sur Terre. Quelques mois plus tard, c’est le célèbre russe Yougi Gagarine qui fera cette expédition.</p>
+                            </div>
+                            <button></button>
+                        </div>
+                    </div>
+            </li>
             <li class="third-section-content-element-card">
                 <div class="third-section-content-element-card-one js-modal button" data-aos="fade-up"
                     data-aos-duration="1500" data-modal-prefix-class="simple-animated"
@@ -329,6 +413,32 @@
                     </div>
             </li>
             <li class="third-section-content-element-card">
+                <div class="third-section-content-element-card-one js-modal button" data-aos="fade-up" data-aos-duration="1500" data-modal-prefix-class="simple-animated" data-modal-content-id="modal19" data-modal-title="Valentina Terechkova"
+                    data-modal-close-text="Close it" data-modal-close-title="Close it, really">
+                    <div class="third-section-content-element-card-one-img"><img
+                            src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/terechkova_small.jpeg" alt=""></div>
+                    <h4>Valentina Terechkova</h4>
+                </div>
+
+                <div class="third-section-content-element-card-hover">
+                    <p class="title text">Je suis la première femme à avoir voyagé dans l’espace. </p>
+                </div>
+                <div class="hidden" id="modal19">
+                    <div class="third-section-content-element-card-clic">
+                        <div class="third-section-content-element-card-clic-quote">
+                            <img src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/terechkova_small.jpeg" alt="">
+                            <h5>Anecdote</h5>
+                            <p>En 1963, Valentina Terechkova a été la première femme envoyée dans l’espace. Un voyage préparé dans le plus grand des secrets grâce à son nom de code « la mouette ». Même sa mère pensait qu’elle était partie faire un simple saut en parachute… et elle était en réalité partie s’envoler à plus de 7000 mètres d’altitude.</p>
+                        </div>
+                        <div class="third-section-content-element-card-clic-bio">
+                            <h5>Biographie</h5>
+                            <p>Valentina Terechkova est née en 1937 en Russie. Sa passion pour l’envol a débuté grâce au parachutisme. Elle décolle la première fois à 22 ans. Deux ans plus tard, c’est un moment historique : Yougi Gagarine, un de ses compatriotes, est le premier homme à aller dans l’espace.<span class="gradient-text"> Valentina sait qu’elle veut participer et s’inscrit au nouveau programme spatial de l’Union Soviétique où elle sera choisie entre 400 participantes.</span> Inspirée par un moment historique, elle en fondera un autre : ce sera la première femme à s’être envolée dans l’espace.</p>
+                        </div>
+                        <button></button>
+                    </div>
+                </div>
+            </li>
+            <li class="third-section-content-element-card">
                 <div class="third-section-content-element-card-one js-modal button" data-aos="fade-up"
                     data-aos-duration="4000" data-modal-prefix-class="simple-animated"
                     data-modal-content-id="modal10" data-modal-title="Percival Lowell"
@@ -351,6 +461,33 @@
                             <div class="third-section-content-element-card-clic-bio">
                                 <h5>Biographie</h5>
                                 <p>Percival Lowell nait en 1855 à Boston et meurt en 1916. En 1876, il obtient un diplôme de mathématiques puis fait fortune dans le textile avec son grand-père. A 28 ans, il part à la découverte du monde et décrit ses voyages dans différents livres. <span class="gradient-text">C’est en lisant les livres de Camille Flammarion que Percival Lowell se passionnera pour Mars.</span> En 1894, il utilise sa fortune pour s’acheter un grand terrain en Arizona, dans les montagnes et y faire construire son observatoire. Il développera ses différentes théories dans des ouvrages. Percival Lowell passera la fin de son existence à chercher une neuvième planète : Pluton, qui ne sera découverte qu’en 1930 par Clyde Tombaugh. </p>
+                            </div>
+                            <button></button>
+                        </div>
+                    </div>
+            </li>
+            <li class="third-section-content-element-card">
+                <div class="third-section-content-element-card-one js-modal button" data-aos="fade-up" data-aos-duration="1500" data-modal-prefix-class="simple-animated" data-modal-content-id="modal18" data-modal-title="Thorgal"
+                    data-modal-close-text="Close it" data-modal-close-title="Close it, really">
+                    <div class="third-section-content-element-card-one-img">
+                        <img
+                            src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/thorgall_small.png" alt=""></div>
+                        <h4>Thorgal</h4>
+                    </div>
+
+                    <div class="third-section-content-element-card-hover">
+                        <p class="title text">Je suis né dans l’espace, descendant du « peuple des étoiles ». </p>
+                    </div>
+                    <div class="hidden" id="modal18">
+                        <div class="third-section-content-element-card-clic">
+                            <div class="third-section-content-element-card-clic-quote">
+                                <img src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/thorgall_small.png" alt="">
+                                <h5>Anecdote</h5>
+                                <p>Thorgal est une bande-dessinée belge qui a traversé les générations avec 38 tomes publiés. </p>
+                            </div>
+                            <div class="third-section-content-element-card-clic-bio">
+                                <h5>La petite histoire</h5>
+                                <p>La petite histoire : Thorgal a été retrouvé dans une capsule spatiale lorsqu’il était bébé. Adopté par un chef viking, les différents albums suivent les aventures de ce personnage qui deviendra un guerrier de renom, particulièrement habile au tir à l’arc mais qui, à la différence de son peuple d’adoption, ne supporte pas la violence. Pour vivre à l’écart, il décide de quitter les vikings avec sa fidèle alliée et amoureuse, Aaricia, mais la cruauté des hommes le rattrape toujours… </p>
                             </div>
                             <button></button>
                         </div>
@@ -460,144 +597,12 @@
                         </div>
                     </div>
             </li>
-        </ul>
-        <h2 class="subtitle buttons gradient">
-            <button class="draw meet">Les petits plus, pour un train d’humour <br>ou autre au cœur de la galerie des portraits</button>
-        </h2> 
-        <ul class="third-section-content-element js-modal">
-            <li class="third-section-content-element-card">
-                <div class="third-section-content-element-card-one js-modal button" data-aos="fade-up" data-aos-duration="2500" data-modal-prefix-class="simple-animated" data-modal-content-id="modal15" data-modal-title="Ham, le chimpanzé"
-                    data-modal-close-text="Close it" data-modal-close-title="Close it, really">
-                    <div class="third-section-content-element-card-one-img"><img
-                            src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/ham_small.jpeg" alt=""></div>
-                        <h4>Ham, le chimpanzé</h4>
-                    </div>
-
-                    <div class="third-section-content-element-card-hover">
-                        <p class="title text">C’est grâce à moi que la NASA compris que l’Homme pouvait voyager dans l’espace. </p>
-                    </div>
-                    <div class="hidden" id="modal15">
-                        <div class="third-section-content-element-card-clic">
-                            <div class="third-section-content-element-card-clic-quote">
-                                <img src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/ham_small.jpeg" alt="">
-                                <h5>Anecdote</h5>
-                                <p>Ham est un chimpanzé à l’histoire vraiment pas banale : il a été sélectionné parmi tous ses concurrents pour « sa fougue et sa bonne humeur ».</p>
-                            </div>
-                            <div class="third-section-content-element-card-clic-bio">
-                                <h5>Biographie</h5>
-                                <p>La NASA a décidé de l’envoyer dans l’espace en 1961. Il n’était pas le premier. On le choisit pour ses capacités particulièrement développées et son aptitude à exprimer ses émotions.<span class="gradient-text"> Pendant un an et demi, il fit de nombreux tests pour se préparer au voyage. Une fois prêt, il fut lancé dans l’espace pour la mission Mercury-Redstone 2 organisée par les américains.</span> En orbite, on lui a fait refaire les mêmes tests que sur Terre, qu’il réussit ! Cela confirma l’hypothèse de la NASA : les humains pourront voyager dans l’espace. Le petit chimpanzé rentrera vivant sur Terre. Quelques mois plus tard, c’est le célèbre russe Yougi Gagarine qui fera cette expédition.</p>
-                            </div>
-                            <button></button>
-                        </div>
-                    </div>
-            </li>
-            <li class="third-section-content-element-card">
-                <div class="third-section-content-element-card-one js-modal button" data-aos="fade-up" data-aos-duration="1500" data-modal-prefix-class="simple-animated" data-modal-content-id="modal16" data-modal-title="Georges Clooney"
-                    data-modal-close-text="Close it" data-modal-close-title="Close it, really">
-                    <div class="third-section-content-element-card-one-img">
-                        <img
-                            src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/clooney_small.jpeg" alt=""></div>
-                        <h4>Georges Clooney</h4>
-                    </div>
-
-                    <div class="third-section-content-element-card-hover">
-                        <p class="title text">J’ai été astronaute dans un film à grand succès.</p>
-                    </div>
-                    <div class="hidden" id="modal16">
-                        <div class="third-section-content-element-card-clic">
-                            <div class="third-section-content-element-card-clic-quote">
-                                <img src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/clooney_small.jpeg" alt="">
-                                <h5>Anecdote</h5>
-                                <p>Le film été salué par l’ensemble de la critique et a été applaudi pour son réalisme par la NASA. Seul bémol : Edwin Eugene Aldrin Junior (NASA) a noté le manque de nuages.</p>
-                            </div>
-                            <div class="third-section-content-element-card-clic-bio">
-                                <h5>La petite histoire</h5>
-                                <p>Georges Clooney a été l’un des deux acteurs principaux, aux côtés de Sandra Bullock, du film Gravity réalisé en 2013 par Alfonso Cuarón. Les deux protagonistes incarnent des astronautes, seuls survivants d’une mission spatiale, qui tentent de regagner la Terre. <span class="gradient-text">Le film évoque un phénomène réel baptisé le « syndrome de Kessler ». Il nomme l’ensemble des débris et des déchets gravitant en apesanteur dans l’espace à la suite des missions spatiales.</span> Ils peuvent être dangereux pour les astronautes et les vaisseaux. On dit même qu’ils pourraient l’être pour les Hommes sur Terre. Le réalisateur a travaillé pendant de longs mois avec la NASA, pour récolter de nombreuses informations et documentations précieuses pour rendre le film le plus réaliste possible. Gravity a été réalisé en studio grâce à l’animation virtuelle : tous les gestes et mouvements ont dû être repensés avec l’apesanteur. </p>
-                            </div>
-                            <button></button>
-                        </div>
-                    </div>
-            </li>
-            <li class="third-section-content-element-card">
-                <div class="third-section-content-element-card-one js-modal button" data-aos="fade-up" data-aos-duration="1000" data-modal-prefix-class="simple-animated" data-modal-content-id="modal17" data-modal-title="Katy Perry"
-                    data-modal-close-text="Close it" data-modal-close-title="Close it, really">
-                    <div class="third-section-content-element-card-one-img">
-                        <img
-                            src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/perry_small.jpeg" alt=""></div>
-                        <h4>Katy Perry</h4>
-                    </div>
-
-                    <div class="third-section-content-element-card-hover">
-                        <p class="title text">Qu’est-ce que tu fais pour les vacances ? Moi, je pars dans l’espace.</p>
-                    </div>
-                    <div class="hidden" id="modal17">
-                        <div class="third-section-content-element-card-clic">
-                            <div class="third-section-content-element-card-clic-quote">
-                                <img src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/perry_small.jpeg" alt="">
-                                <h5>Anecdote</h5>
-                                <p>Le tourisme spatial se développe et sera peut-être bientôt à notre portée… à condition d’avoir un gros porte-monnaie.</p>
-                            </div>
-                            <div class="third-section-content-element-card-clic-bio">
-                                <h5>La petite histoire</h5>
-                                <p>Katy Perry fait partie des stars (avec Justin Bieber, Leonardo Di Caprio et Stephen Hawking par exemple) qui devaient se rendre à la frontière de l’espace pour la somme de 250 000 dollars. La navette SpaceShipTwo s’est écrasée lors d’un vol test mettant fin à leur escapade dans l’espace. Un inconnu avait même déboursé un million de dollars pour faire le voyage aux côtés de Leonardo Di Caprio. Cependant, le projet n’a pas été abandonné et <span class="gradient-text"> on compte actuellement presque 8 000 personnes en liste d’attente pour un vol dans l’espace</span> avec l’entreprise Virgin Galactic. </p>
-                            </div>
-                            <button></button>
-                        </div>
-                    </div>
-            </li>
-            <li class="third-section-content-element-card">
-                <div class="third-section-content-element-card-one js-modal button" data-aos="fade-up" data-aos-duration="1500" data-modal-prefix-class="simple-animated" data-modal-content-id="modal18" data-modal-title="Thorgal"
-                    data-modal-close-text="Close it" data-modal-close-title="Close it, really">
-                    <div class="third-section-content-element-card-one-img">
-                        <img
-                            src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/thorgall_small.png" alt=""></div>
-                        <h4>Thorgal</h4>
-                    </div>
-
-                    <div class="third-section-content-element-card-hover">
-                        <p class="title text">Je suis né dans l’espace, descendant du « peuple des étoiles ». </p>
-                    </div>
-                    <div class="hidden" id="modal18">
-                        <div class="third-section-content-element-card-clic">
-                            <div class="third-section-content-element-card-clic-quote">
-                                <img src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/thorgall_small.png" alt="">
-                                <h5>Anecdote</h5>
-                                <p>Thorgal est une bande-dessinée belge qui a traversé les générations avec 38 tomes publiés. </p>
-                            </div>
-                            <div class="third-section-content-element-card-clic-bio">
-                                <h5>La petite histoire</h5>
-                                <p>La petite histoire : Thorgal a été retrouvé dans une capsule spatiale lorsqu’il était bébé. Adopté par un chef viking, les différents albums suivent les aventures de ce personnage qui deviendra un guerrier de renom, particulièrement habile au tir à l’arc mais qui, à la différence de son peuple d’adoption, ne supporte pas la violence. Pour vivre à l’écart, il décide de quitter les vikings avec sa fidèle alliée et amoureuse, Aaricia, mais la cruauté des hommes le rattrape toujours… </p>
-                            </div>
-                            <button></button>
-                        </div>
-                    </div>
-            </li>
-            <li class="third-section-content-element-card">
-                <div class="third-section-content-element-card-one js-modal button" data-aos="fade-up" data-aos-duration="1500" data-modal-prefix-class="simple-animated" data-modal-content-id="modal19" data-modal-title="Valentina Terechkova"
-                    data-modal-close-text="Close it" data-modal-close-title="Close it, really">
-                    <div class="third-section-content-element-card-one-img"><img
-                            src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/terechkova_small.jpeg" alt=""></div>
-                    <h4>Valentina Terechkova</h4>
-                </div>
-
-                <div class="third-section-content-element-card-hover">
-                    <p class="title text">Je suis la première femme à avoir voyagé dans l’espace. </p>
-                </div>
-                <div class="hidden" id="modal19">
-                    <div class="third-section-content-element-card-clic">
-                        <div class="third-section-content-element-card-clic-quote">
-                            <img src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/terechkova_small.jpeg" alt="">
-                            <h5>Anecdote</h5>
-                            <p>En 1963, Valentina Terechkova a été la première femme envoyée dans l’espace. Un voyage préparé dans le plus grand des secrets grâce à son nom de code « la mouette ». Même sa mère pensait qu’elle était partie faire un simple saut en parachute… et elle était en réalité partie s’envoler à plus de 7000 mètres d’altitude.</p>
-                        </div>
-                        <div class="third-section-content-element-card-clic-bio">
-                            <h5>Biographie</h5>
-                            <p>Valentina Terechkova est née en 1937 en Russie. Sa passion pour l’envol a débuté grâce au parachutisme. Elle décolle la première fois à 22 ans. Deux ans plus tard, c’est un moment historique : Yougi Gagarine, un de ses compatriotes, est le premier homme à aller dans l’espace.<span class="gradient-text"> Valentina sait qu’elle veut participer et s’inscrit au nouveau programme spatial de l’Union Soviétique où elle sera choisie entre 400 participantes.</span> Inspirée par un moment historique, elle en fondera un autre : ce sera la première femme à s’être envolée dans l’espace.</p>
-                        </div>
-                        <button></button>
-                    </div>
-                </div>
-            </li>
+     
+            <!-- ham -->
+            <!-- clooney -->
+            <!-- perry -->
+            <!-- thorgal -->
+            <!-- valentina -->
         </ul>
         <!--  </section> -->
     </div>

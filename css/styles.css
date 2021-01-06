@@ -46,7 +46,7 @@ dialog {
   bottom: 0;
   right: 0;
   left: 0;
-  background: #fff;
+  background: #0B042C;
   opacity: .8;
   z-index: 666;
   cursor: pointer;
@@ -85,7 +85,7 @@ dialog {
   max-height: 90%;
   */
   border: 2px solid #000; 
-  background: #fff;
+  background: #0B042C;
   z-index: 667;
   padding: 2em;
   right: auto;

@@ -8,12 +8,6 @@
     position: relative;
     list-style-type: none;
   
-    /* background: url("../img/star-sky.jpg") no-repeat center center fixed;
-  
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; */
   }
   
   /* Extra small devices (portrait phones, less than 576px) */
@@ -154,14 +148,14 @@
   position: relative;
   }
   
-  .menu-item:not(:last-child) {
+  .menu-item {
   /* border-radius: 50%; */
   
     margin: 3rem auto;
     /* background-color:rgba(11, 4, 44, .5); */
   }
   
-  .menu-item:not(:last-child):before {
+  .menu-item:before {
   content: url('../img/moon-light.svg');
   width: 2rem;
   height: 2rem;
@@ -171,31 +165,31 @@
   align-items: center;
   }
   
-  .menu-item:not(:last-child):nth-child(odd):before {
+  .menu-item:nth-child(odd):before {
     animation: animation-moon 2s ease-in-out infinite alternate; 
   }
   
-  .menu-item:not(:last-child):nth-child(even):before {
+  .menu-item:nth-child(even):before {
     animation: animation-moon 3s linear infinite alternate; 
   }
   
-  .menu-item:not(:last-child):nth-child(1):before {
+  .menu-item:nth-child(1):before {
     animation: animation-moon 4.5s linear infinite alternate; 
   }
   
-  .menu-item:not(:last-child):nth-child(2):before {
+  .menu-item:nth-child(2):before {
     animation: animation-moon 1.5s linear infinite alternate; 
   }
   
-  .menu-item:not(:last-child):nth-child(3):before {
+  .menu-item:nth-child(3):before {
     animation: animation-moon 2s linear infinite alternate; 
   }
   
-  .menu-item:not(:last-child):nth-child(5):before {
+  .menu-item:nth-child(5):before {
     animation: animation-moon 2.5s linear infinite alternate; 
   }
   
-  .menu-item:not(:last-child):nth-child(6):before {
+  .menu-item:nth-child(6):before {
     animation: animation-moon 3.5s linear infinite alternate; 
   }
   
@@ -230,6 +224,10 @@
   .menu-item:nth-child(3) {
     right: 15rem;
     }
+
+    .menu-item:nth-child(3):before {
+      left: 1rem;
+      }
   
   .menu-item:nth-child(4) {
   left: 20rem;
@@ -241,7 +239,7 @@
   bottom: -5rem;
   }
   
-  .menu-item:last-child {
+  /*.menu-item:last-child {
   background-color: #5599A1;
   clip-path: polygon(10% 15%, 15% 15%, 15% 5%, 85% 5%, 85% 15%, 90% 15%, 90% 85%, 85% 85%, 85% 95%, 15% 95%, 15% 85%, 10% 85%);
   display:inline-block;
@@ -249,15 +247,15 @@
   padding: 1rem 3rem;
   transition: all 2s;
   bottom: -5rem;
-  }
+  }*/
   
-  .menu-item:last-child:hover {
+  /* .menu-item:last-child:hover {
   background-color: #fff;
   color: #0B042C;
   transition: all 2s;
-  }
+  } */
   
-  /* .menu-item:not(:last-child):hover {
+  /* .menu-item:hover {
   text-decoration: underline;
   color: #70074d;
   background-color: #fff;
@@ -266,7 +264,7 @@
   transition: 0.5s ease;
   } */
   
-  .menu-item:not(:last-child):hover:before {
+  .menu-item:hover:before {
   content: url('../img/moon-light.svg');
   width: 2rem;
   height: 2rem;
@@ -347,18 +345,16 @@
   .positionOff {
   width: 15rem;
   
-  padding: 1rem 0 !important;
+  padding: .2rem 0 !important;
   clip-path: none;
   background-color: inherit;
+  margin: 0;
   /* background-color : rgba(11, 4, 44, .8); */
   }
   
-  .positionOff:not(:last-child) {
-    padding: inherit !important;
-    margin: 1rem auto
-  }
   
-  .positionOff:not(:last-child):before {
+  
+  .positionOff:before {
   content: url('../img/moon-light.svg');
   width: 2rem;
   height: 2rem;
@@ -370,7 +366,7 @@
   animation: none;
   }
   
-  .positionOff:not(:last-child):hover:before {
+  .positionOff:hover:before {
     content: url('../img/moon-dark.svg');
    
     width: 2rem;
@@ -381,11 +377,11 @@
     align-items: center;
       }
   
-      .positionOff:not(:last-child):nth-child(even):before {
+      .positionOff:nth-child(even):before {
         animation: none; 
       }
   
-      .positionOff:not(:last-child):nth-child(odd):before {
+      .positionOff:nth-child(odd):before {
         animation: none; 
       }
   
@@ -398,11 +394,20 @@
   left: 0rem !important;
   top: 0rem !important;
   }
+
+  .positionOff:nth-child(2):before {
+    left: -1rem !important;
+    
+    }
   
   .positionOff:nth-child(3) {
   left: 3rem !important;
   top: 0rem !important;
   }
+
+  .positionOff:nth-child(3):before {
+    left: -1rem;
+    }
   
   .positionOff:nth-child(4) {
   left: 2rem !important;

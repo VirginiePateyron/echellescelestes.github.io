@@ -201,7 +201,7 @@
     }
     
     .first-section-content-element:last-child {
-    background-color: rgba(255, 255, 255, .2);
+    /* background-color: rgba(255, 255, 255, .2); */
     color: #fff;
     padding: 2rem;
     width: 80%;
@@ -219,11 +219,16 @@
     display: inline-block;
     width: 5rem;
     align-self: center;
+    color: #fff;
     }
     
     .first-section-content-element .blockquote-author {
     text-align: right;
     font-weight: bold;
+    }
+
+    .first-section .title {
+      font-weight: bolder;
     }
     
     
