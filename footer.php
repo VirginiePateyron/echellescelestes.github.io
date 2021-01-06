@@ -10,9 +10,6 @@
                         </li>
                         <li>Correspondance : 31 rue Bossuet 33800 Bordeaux
                         </li>
-                        <li>n° siret : 484 438 098 00044
-                            code APE : 9001Z / n° licence : 2-1041074
-                        </li>
                         <li><a href="www.lenadazy.fr" target="_blank">www.lenadazy.fr</a>
                         </li>
                     </ul>
@@ -20,7 +17,7 @@
                 <section class="footer-content-element-item">
                     <img src="<?php echo THEME_DIR_IMG; ?>/logolabogrand.jpg" alt="">
                     <ul>
-                        <li>et le labo des cultures</li>
+                        <li>le labo des cultures</li>
                         <li><a href="contact@lelabodescultures.com" target="_blank">Contactez le labo des cultures par mail</a>
                         </li>
                         <li><a href="www.lelabodescultures.com" target="_blank">www.lelabodescultures.com</a>
