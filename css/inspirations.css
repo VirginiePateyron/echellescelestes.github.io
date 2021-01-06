@@ -79,7 +79,7 @@
     margin: 0 2rem;
     }
     
-    .second-section-content-element-col-child img:first-child {
+    .second-section-content-element-col-child img {
     clip-path: inherit;
     width: 30rem;
     /* position: absolute;
@@ -87,30 +87,54 @@
     /* padding: 2rem; */
     
     position: relative;
-    animation: gravity 10s linear alternate infinite;
+    animation: gravity 10s linear alternate-reverse infinite;
     display: block;
     /* transform: translateY(40px); */
     }
-    
+
     @keyframes gravity {
-     /*  to{
-        transform:translateY(50px);
-      }  */
-      0% {
-        box-shadow: 0 5px 30px 5px rgba(27, 136, 238, 0.6);
-        transform: translatey(0px);
-        rotate: 5deg;
-      }
-      50% {
-        box-shadow: 0 25px 40px 5px rgba(27, 224, 238, 0.6);
-        transform: translatey(-20px);
-      }
-      100% {
-        box-shadow: 0 5px 30px 5px rgba(27, 83, 238, 0.6);
-        transform: translatey(0px);
-        rotate: -5deg;
-      }
-    }
+      /*  to{
+         transform:translateY(50px);
+       }  */
+       0% {
+         box-shadow: 0 5px 30px 5px rgba(27, 136, 238, 0.6);
+         transform: translatey(0px);
+         rotate: 5deg;
+       }
+       50% {
+         box-shadow: 0 25px 40px 5px rgba(27, 224, 238, 0.6);
+         transform: translatey(-20px);
+       }
+       100% {
+         box-shadow: 0 5px 30px 5px rgba(27, 83, 238, 0.6);
+         transform: translatey(0px);
+         rotate: -5deg;
+       }
+     }
+
+     .documentary {
+      animation: reverseGravity 15s linear alternate-reverse infinite !important;
+     }
+
+     @keyframes reverseGravity {
+      /*  to{
+         transform:translateY(50px);
+       }  */
+       0% {
+         box-shadow: 0 5px 30px 5px rgba(27, 136, 238, 0.6);
+         transform: translatey(0px);
+         rotate: -5deg;
+       }
+       50% {
+         box-shadow: 0 25px 40px 5px rgba(27, 224, 238, 0.6);
+         transform: translatey(-20px);
+       }
+       100% {
+         box-shadow: 0 5px 30px 5px rgba(27, 83, 238, 0.6);
+         transform: translatey(0px);
+         rotate: 5deg;
+       }
+     }
     
     .second-section-content-element-col a {
     background-color: #0B042C;

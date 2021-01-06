@@ -40,7 +40,7 @@
                     </div>
                     <div class="second-section-content-element-col-child second-section-content-element-col-child-img" data-aos="fade-right" data-aos-offset="300"
                     data-aos-easing="ease-in-sine" data-aos-duration="2000">
-                        <img src="<?php echo THEME_DIR_IMG; ?>/reportage.jpg"
+                        <img class="documentary" src="<?php echo THEME_DIR_IMG; ?>/reportage.jpg"
                             alt="Image du DVD Tours du monde , tours du ciel">
                         <div class="second-section-content-element-col-child-btn">
                             <a href="https://www.lalibrairie.com/livres/tours-du-monde-tours-du-ciel-2_0-576712_9782759804979.html?ctx=8dede6a1667b1196b8d08bbbc36680c1" target="_blank">Découvrez le documentaire</a>
