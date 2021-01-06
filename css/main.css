@@ -280,7 +280,7 @@ pointer-events: none;
 -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
 animation: animation-moon 2s linear alternate infinite;
-filter: drop-shadow(0 .2rem .1rem #fff);
+/* filter: drop-shadow(0 .2rem .1rem #fff); */
 }
 
 /* @supports (-moz-appearance: meterbar) {

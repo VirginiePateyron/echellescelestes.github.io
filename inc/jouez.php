@@ -24,41 +24,12 @@
                 <div class="four-section-content-element-card">
                     <button class="front face" onclick="getPodcast()"><span class="gradient-text front-title">La minute podcast </span>tenté par l’écoute d’un extrait de « Tours du monde, tours du ciel » ?</button>
                     <p class="back face" id="podcast">
-                        <audio controls
-                            src="">
-                                Your browser does not support the
-                                <code>audio</code> element.
-                        </audio>
-                        <!-- <audio controls
-                            src="<?php echo THEME_DIR_MEDIA;?>/A -MS intro gen sur l'observation - carte a son.wav">
-                                Your browser does not support the
-                                <code>audio</code> element.
-                        </audio>
-                        <audio controls
-                            src="media/C-MS le ciel est un dictionnaire -carte a son.wav">
-                                Your browser does not support the
-                                <code>audio</code> element.
-                        </audio>
-                        <audio controls
-                            src="media/E - MS le centre du monde- philo.wav">
-                                Your browser does not support the
-                                <code>audio</code> element.
-                        </audio>
-                        <audio controls
-                            src="media/H- MS le TEMPS - carte a son.wav">
-                                Your browser does not support the
-                                <code>audio</code> element.
-                        </audio>
-                        <audio controls
-                            src="media/K - Audouze - poussiere d'etoile - carte a son.wav">
-                                Your browser does not support the
-                                <code>audio</code> element.
-                        </audio>
-                        <audio controls
-                            src="media/RPB les questions - site.wav">
-                                Your browser does not support the
-                                <code>audio</code> element.
-                        </audio> -->
+                        <audio controls src="<?php echo THEME_DIR_MEDIA; ?>/centre-philo.wav"> Your browser does not support the <code>audio</code> element.</audio> 
+                        <audio controls src="<?php echo THEME_DIR_MEDIA; ?>/dico-ciel.wav"> Your browser does not support the <code>audio</code> element.</audio>
+                        <audio controls src="<?php echo THEME_DIR_MEDIA; ?>/etoile.wav"> Your browser does not support the <code>audio</code> element.</audio> 
+                        <audio controls src="<?php echo THEME_DIR_MEDIA; ?>/intro-gen.wav"> Your browser does not support the <code>audio</code> element.</audio>
+                        <audio controls src="<?php echo THEME_DIR_MEDIA; ?>/questions.wav"> Your browser does not support the <code>audio</code> element.</audio>   
+                        <audio controls autoplay src="<?php echo THEME_DIR_MEDIA; ?>/temps.wav"> Your browser does not support the <code>audio</code> element.</audio>    
                     </p>
                 </div>
             </div>

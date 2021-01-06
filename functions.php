@@ -21,103 +21,18 @@ if ( !function_exists('ec_setup')) {
 }
 add_action( 'after_setup_theme', 'ec_setup');
 
-/* function echellescelestes_register_assets() {
-    
-    // Déclarer la librairie AOS
-	wp_enqueue_script( 
-        'AOS', 
-        'https://unpkg.com/aos@2.3.1/dist/aos.js',
-        false,
-        null,
-        true
-    );
 
-    wp_enqueue_script( 
-        'script-js', 
-        get_template_directory_uri() . '/js/script.js',
-        '1.0', 
-        true
-    );
+/* Lancer l'audio alétoirement */
 
-    wp_enqueue_script( 
-        'theme-js', 
-        get_template_directory_uri() . '/js/theme.js',
-        '1.0', 
-        true
-    );
+function gkp_html5_audio($atts, $content = null) {
+    extract(shortcode_atts(array(
+	"src"      => '',
+	"autoplay" => '',
+	"preload"  => 'true',
+	"loop"     => '',
+	"controls" => ''
+	), $atts));
 
-    wp_enqueue_script(
-        'vanilly-js',
-        get_template_directory_uri() . '/js/van11y-accessible-modal-window-aria.js',
-        null,
-        true
-    );
-
-    //Déclarer la feuille de style de la libraire AOS
-    wp_enqueue_style( 
-        'AOS-animate',
-        'https://unpkg.com/aos@2.3.1/dist/aos.css',  
-        false,
-        null
-    );
-    
-    // Déclarer style.css à la racine du thème
-    wp_enqueue_style( 
-        'echellescelestes',
-        get_stylesheet_uri(), 
-        array(), 
-        '1.0',
-        'all'
-    );
-  	
-    // Déclarer un autre fichier CSS
-    wp_enqueue_style( 
-        'base', 
-        get_template_directory_uri() . '/css/base.css',
-        array(), 
-        '1.0',
-        'all'
-    );
-
-    wp_enqueue_style(
-        'normalize',
-        get_template_directory_uri() . '/css/normalize.css',
-        array('base'),
-        '1.0',
-        'all'
-    );
-
-    wp_enqueue_style( 
-        'main', 
-        get_template_directory_uri() . '/css/main.css',
-        array('base', 'normalize'), 
-        '1.0',
-        'all'
-    );
-
-    // Déclarer les fonts Google
-
-    wp_enqueue_style(
-        'lato',
-        'https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;0,900;1,100;1,400;1,700;1,900&display=swap',
-        array('base', 'normalize'),
-        'all'
-    );
-
-    wp_enqueue_style(
-        'nunito-sans',
-        'https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,400;0,700;0,900;1,200;1,400;1,700;1,900&display=swap',
-        array('base', 'normalize', 'lato'),
-        'all'
-    );
-
-    wp_enqueue_style(
-        'nunito-sans',
-        'https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap',
-        array('base', 'normalize', 'lato'),
-        'all'
-    ); 
-
-
+    return '<audio src="' . esc_attr( $src ) . '" autoplay="' . esc_attr( $autoplay ) . '" preload="' . esc_attr( $preload ) . '" loop="' . esc_attr( $loop ) . '" controls="' . esc_attr( $controls ) . '" autobuffer ></audio>';
 }
-add_action( 'wp_enqueue_scripts', 'echellescelestes_register_assets' ); */
+add_shortcode('audio5', 'gkp_html5_audio');
