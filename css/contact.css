@@ -10,26 +10,27 @@
     .seven-section-content {
     background-color: #0B042C;
     color: #fff;
+    border: 2px solid #32b3e6;
     
-    max-width: 80rem;
+    max-width: 100rem;
     padding: 5rem;
     margin: auto;
     }
 
-    .seven-section-content {
-        margin: auto;
+    .seven-section-content p {
+        margin: 2rem auto;
     }
 
     .seven-section-content form input {
         background-color: transparent;
         border-bottom: #32b3e6 1px solid !important;
         border: none;
-        margin: 1rem;
     }
 
-    .seven-section-content form input:nth-child(4) {
+    .seven-section-content form input[type=submit] {
         border: 1px solid #fff !important;
         color: #fff;
+        text-transform: uppercase;
     }
 
     
