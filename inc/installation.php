@@ -13,15 +13,15 @@
         <div class="container">
 
         <div class="first-section-content">
-            <section class="first-section-content-element" data-aos="fade-down" data-aos-easing="ease-in-out"
-                data-aos-duration="2000">
+            <section class="first-section-content-element" >
                 <div class="first-section-content-element-text">
                     <h3>un planétarium</h3>
                     <p class="h3-subtitle">Un observatoire aux étoiles où le public est invité à incarner le rôle de l’astronome.
                     </p>
                 </div>
                 
-                <div class="first-section-content-element-img">
+                <div class="first-section-content-element-img" data-aos="fade-down" data-aos-easing="linear"
+                data-aos-duration="2000">
                 <img src="<?php echo THEME_DIR_IMG; ?>/installation/dessin-instal.jpg"
                     alt="dessin de l'installation d'echelles celestes">
                     <span></span>
@@ -32,19 +32,21 @@
                
             </section>
             <section class="first-section-content-element">
-                <h3>un cabinet de curiosité</h3>
-                <p class="h3-subtitle">Une mise en scène de cloches de verre autour desquels le public déambule et découvre une diversité d’observatoires. </p>
+                <div class="first-section-content-element-text">
+                    <h3>un cabinet de curiosité</h3>
+                    <p class="h3-subtitle">Une mise en scène de cloches de verre autour desquels le public déambule et découvre une diversité d’observatoires. </p>
+                </div>
                 <div class="first-section-content-element-items" data-aos="fade-down"
-                    data-aos-easing="ease-in-out" data-aos-duration="2000">
-                    <img data-aos="fade-down" data-aos-easing="ease-in-out" data-aos-duration="1000"
+                    data-aos-easing="linear" data-aos-duration="1500">
+                    <img data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000"
                         src="<?php echo THEME_DIR_IMG; ?>/installation/meudon.png" alt="">
-                    <img data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000"
-                        src="<?php echo THEME_DIR_IMG; ?>/installation/Brooke3.jpg" alt="">
                     <img data-aos="fade-down" data-aos-easing="linear" data-aos-duration="3000"
+                        src="<?php echo THEME_DIR_IMG; ?>/installation/Brooke3.jpg" alt="">
+                    <img data-aos="fade-down" data-aos-easing="linear" data-aos-duration="4000"
                         src="<?php echo THEME_DIR_IMG; ?>/installation/Lune.jpg" alt="">
-                    <img data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000"
+                    <img data-aos="fade-down" data-aos-easing="linear" data-aos-duration="3000"
                         src="<?php echo THEME_DIR_IMG; ?>/installation/lagoon-nebula.png" alt="">
-                    <img data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000"
+                    <img data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000"
                         src="<?php echo THEME_DIR_IMG; ?>/installation/thors-elmet.jpg" alt="">
                 </div>
             </section>

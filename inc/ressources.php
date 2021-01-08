@@ -8,7 +8,7 @@
     </h2> 
         
         
-    <p class="h2-subtitle">Nous vous livrons ici des ressources satellites à l’installation : fiches pédagogiques, frise chronologique, mappemonde, jeux interstellaires, références, … <span class="gradient">Contemplez, jouez, imaginez, expérimentez !</span> 
+    <p class="h2-subtitle">Nous vous livrons ici des ressources satellites à l’installation : fiches pédagogiques, frise chronologique, mappemonde, jeux interstellaires, références, … <br><span class="gradient">Contemplez, jouez, imaginez, expérimentez !</span> 
     </p>
 
     <div class="container">

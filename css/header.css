@@ -137,7 +137,7 @@
   position: fixed;
   top: 20%;
   
-  right: 20%;
+  right: 15%;
   transition: all 1.3s;
   
   font-size: 1.4rem;
@@ -273,7 +273,7 @@
   left: 2rem;
   align-items: center;
   
-  filter: drop-shadow(0 2rem 1rem #19d1df);
+  filter: drop-shadow(0 2rem 1rem #04dbeb);
   transform-origin: 10vmin 1vmin;
   animation: rotate-moon 5s linear infinite;
   }

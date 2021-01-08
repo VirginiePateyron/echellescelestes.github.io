@@ -1,7 +1,7 @@
 
 
 <article class="second-section change-color" id="second">
-            
+     <img class="img-deco-bg" src="<?php echo THEME_DIR_IMG; ?>/astro/lowell_obs.jpg" alt="l'astronome Lowell observe l'espace avec une lunette astronomique" />
     <!-- <h2 class="gradient">inspirations</h2> -->
     <h2 class="buttons gradient">
         <button class="draw meet">inspirations</button>
@@ -23,7 +23,7 @@
                         <img src="<?php echo THEME_DIR_IMG; ?>/cielmonetoile.jpg"
                             alt="Image du livre Ciel mon étoile de Pierre Léna astrophysicien et Michel Serres philosophe">
                         <div class="second-section-content-element-col-child-btn">
-                            <a href="https://www.lalibrairie.com/livres/ciel---mon-etoile--un-voyage-dans-les-observatoires_0-547806_9782356390271.html" target="_blank">Découvrez le livre</a>
+                            <a href="https://www.lalibrairie.com/livres/ciel---mon-etoile--un-voyage-dans-les-observatoires_0-547806_9782356390271.html" target="_blank">Acquérir le livre</a>
                         </div>
                         <img src="" alt="">
                     </div>
@@ -43,13 +43,10 @@
                         <img class="documentary" src="<?php echo THEME_DIR_IMG; ?>/reportage.jpg"
                             alt="Image du DVD Tours du monde , tours du ciel">
                         <div class="second-section-content-element-col-child-btn">
-                            <a href="https://www.lalibrairie.com/livres/tours-du-monde-tours-du-ciel-2_0-576712_9782759804979.html?ctx=8dede6a1667b1196b8d08bbbc36680c1" target="_blank">Découvrez le documentaire</a>
+                            <a href="https://www.lalibrairie.com/livres/tours-du-monde-tours-du-ciel-2_0-576712_9782759804979.html?ctx=8dede6a1667b1196b8d08bbbc36680c1" target="_blank">Acquérir le documentaire</a>
                         </div>
                     </div>
-                    
                 </div>
-                
-                    <img class="img-deco-bg" src="<?php echo THEME_DIR_IMG; ?>/astro/lowell_obs.jpg" alt="l'astronome Lowell observe l'espace avec une lunette astronomique" />
             </section>
         </div>
     </div>

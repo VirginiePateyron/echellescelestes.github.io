@@ -11,7 +11,7 @@
         
 
         <div class="scrolltop-wrap">
-            <a href="#" role="button" aria-label="Scroll to top">
+            <a href="#home" role="button" aria-label="Scroll to top">
                 
 
                 <img src="<?php echo THEME_DIR_IMG; ?>/astro/scrollTop.png" alt="dessin au trait d'une étoile suspendue par un ballon gonflable">

@@ -4,21 +4,23 @@
     position: relative;
     background: #000;
     color: #fff;
+    position: relative;
+    }
+
+    .second-section .img-deco-bg {
+      position: absolute;
+      top: -20%;
+      left: 0%;
+      border: none;
+
+      width: 50rem !important;
+      height: auto;
+      clip-path: none;
     }
     
     .second-section-content-element {
     /* margin: 30rem auto; */
     max-width: max-content;
-    }
-    
-    .second-section-content-element .img-deco-bg {
-      position: absolute;
-      top: 50%;
-      left: 0%;
-      border: none;
-
-      width: 30rem;
-      height: auto;
     }
     
     .second-section-content-element:nth-child(1) {
@@ -40,7 +42,7 @@
     
     position: relative;
     align-items: start;
-    margin: 10rem auto;
+    margin: 20rem auto;
     z-index: 1000;
     }
     
@@ -135,24 +137,22 @@
        }
      }
     
-    .second-section-content-element-col a {
+    .second-section-content-element-col-child-btn a {
     background-color: #0B042C;
     color: #fff;
-    padding: 2rem 5rem;
+    padding: 1.5rem 3rem;
     margin: 2rem auto;
     width: max-content;
     
     display: block;
     
-    /* display: block; */
     text-align: center;
-    clip-path: polygon(10% 15%, 15% 15%, 15% 5%, 85% 5%, 85% 15%, 90% 15%, 90% 85%, 85% 85%, 85% 95%, 15% 95%, 15% 85%, 10% 85%);
+    clip-path: polygon(10% 15%, 12% 15%, 12% 5%, 88% 5%, 88% 15%, 90% 15%, 90% 85%, 88% 85%, 88% 95%, 12% 95%, 12% 85%, 10% 85%);
     /* transition: transform 1s; */
     transition: all .4s ease-in-out;
     background-size: 300% 100%;
     
-    /* position: absolute;
-    bottom: 0; */
+    font-size: 1.4rem;
     }
     
     .second-section-content-element-col-child-btn {

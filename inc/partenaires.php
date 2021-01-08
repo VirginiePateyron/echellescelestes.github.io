@@ -8,7 +8,7 @@
         </h2> 
         
                 
-        <p class="h2-subtitle"></p>
+        <!-- <p class="h2-subtitle"></p> -->
         <div class="container">
 
             <section class="eight-section-content">

@@ -4,10 +4,14 @@
     /* background-color: #fff; */
     background-color: #000;
     }
+
+    .first-section-content-element {
+      margin: 20rem auto;
+    }
     
     .first-section-content-element:first-child {
-      display: grid;
-      grid-template-columns: repeat(2,1fr);
+      /* display: grid;
+      grid-template-columns: repeat(2,1fr); */
       flex-direction: row-reverse;
       align-items: center;
       position: relative;
@@ -40,30 +44,13 @@
     }
     
     .first-section-content-element-text {
-      position: absolute;
-      width: 50%;
+      /* position: absolute; */
+    
       left: 0%;
+      margin: 2rem auto;
     }
     
-    .first-section-content-element h3 {
-      margin: 2rem 0;
-    }
-    
-    .first-section-content-element-text:before {
-      content: '';
-      border-left: 3px solid #fff;
-      height: 20rem;
-      position: absolute;
-      margin: 0 -2rem;
-    
-      animation: line 20s linear infinite;
-    }
-    
-    @keyframes line {
-      0% {top: 0%;}
-      50% {top: 75%;}
-      100% {top: 0%;}
-    }
+   
     
     .main-header details {
       content: '';
@@ -71,6 +58,10 @@
       position: absolute;
     
       animation: bodyLine 30s ease-in-out infinite;
+    }
+
+    .first-section-content-element h3 {
+      margin: 2rem 0;
     }
     
     @keyframes bodyLine {
@@ -81,18 +72,6 @@
     .first-section-content-element-text img {
       align-content: center;
     }
-    
-    /* .first-section-content-element-img:before {
-      filter: blur(9px);
-      content: "";
-      position: absolute;
-      z-index: -1;
-     
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-    } */
     
     .first-section-content-element-img {
       content: '';
@@ -107,7 +86,8 @@
       border: 2px solid #2a3cad;
       padding: 3rem;
     
-      right: 0;
+      transform: translateX(-50%);
+      left: 50%;
       }
     
       .first-section-content-element-img img {
@@ -230,6 +210,9 @@
     padding: 2rem;
     width: 80%;
     margin: 5rem auto;
+
+    z-index: 1;
+    position: relative;
     }
     
     .first-section-content-element blockquote {
@@ -281,6 +264,8 @@
       .first-section-content-element-img,
       .first-section-content-element-text {
         position: relative;
+
+        margin: 2rem auto;
       }
     
       .first-section-content-element-text::before {
