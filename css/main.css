@@ -263,10 +263,6 @@ text-transform: uppercase;
       100% {top: 0%;}
     }
 
-.h2-subtitle span {
-  font-weight: bold;
-}
-
 .h2-subtitle:after {
   content: '';
   display: block;

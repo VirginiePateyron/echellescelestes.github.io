@@ -12,9 +12,11 @@
     color: #fff;
     border: 2px solid #32b3e6;
     
-    max-width: 100rem;
     padding: 5rem;
-    margin: auto;
+    margin: 5rem auto;
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     }
 
     .seven-section-content p {
@@ -31,6 +33,11 @@
         border: 1px solid #fff !important;
         color: #fff;
         text-transform: uppercase;
+    }
+
+    .seven-section-content img {
+        clip-path: none;
+        width: 50rem;
     }
 
     

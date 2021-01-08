@@ -14,6 +14,8 @@
             <!-- Disposer l'image du ticket en :before -->
 
             <?php echo do_shortcode( '[contact-form-7 id="354" title="Contact"]' ); ?>
+            <img src="<?php echo THEME_DIR_IMG; ?>/obs_contact.png" alt="">
+
         </section>
     </div>
 </article>

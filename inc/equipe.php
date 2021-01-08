@@ -131,7 +131,7 @@
             <section class="sixth-section-content-element">
                 <div class="sixth-section-content-element-desc js-modal button" data-modal-prefix-class="simple-animated"
                 data-modal-content-id="modale-vp">
-                    <h4>Réalisation de la page web dédiée à Échelles Célestes</h4>
+                    <h4>Réalisation de la page web</h4>
                     <img src="<?php echo THEME_DIR_IMG; ?>/equipe/virginie.jpeg" alt="Photo de Virginie, web designer intégratrice web">
                 </div>
                 <div class="hidden" id="modale-vp">

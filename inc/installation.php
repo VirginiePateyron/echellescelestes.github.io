@@ -8,7 +8,7 @@
         </h2>
         
         <p class="h2-subtitle">L’installation Echelles Célestes est un dispositif de <span class="gradient-text">réalité virtuelle à visée d’éducation artistique, culturelle et scientifique</span>, qui s’articule autour d’un planétarium et d’un cabinet de curiosité.<br><br>
-        Cette expérience immersive poétique a été conçue à partir d’une narration transmédia de <span class="title">" Ciel ! Mon étoile "</span> et de <span class="title">" Tours du monde, Tours du ciel "</span>.</p>
+        Cette expérience immersive poétique a été conçue à partir d’une narration transmédia de <span class="title">" Ciel &nbsp;! Mon étoile "</span> et de <span class="title">" Tours du monde, Tours du ciel&nbsp;"</span>&nbsp;.</p>
 
         <div class="container">
 
