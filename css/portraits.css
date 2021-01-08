@@ -48,6 +48,8 @@
   
   .third-section-content-element-card {
     margin: 5rem auto;
+
+    transform: scale(1.1);
   }
   
   .third-section-content-element-card:nth-child(odd) {

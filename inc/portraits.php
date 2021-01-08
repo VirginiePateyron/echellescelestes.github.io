@@ -59,7 +59,33 @@
                     </div>
                 </div>
             </li>
+            <li class="third-section-content-element-card">
+                <div class="third-section-content-element-card-one js-modal button" data-aos="fade-up" data-aos-duration="1000" data-modal-prefix-class="simple-animated" data-modal-content-id="modal17" data-modal-title="Katy Perry"
+                    data-modal-close-text="Close it" data-modal-close-title="Close it, really">
+                    <div class="third-section-content-element-card-one-img">
+                        <img
+                            src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/perry_small.jpeg" alt=""></div>
+                        <h4>Katy Perry</h4>
+                    </div>
 
+                    <div class="third-section-content-element-card-hover">
+                        <p class="title text">Qu’est-ce que tu fais pour les vacances ? Moi, je pars dans l’espace.</p>
+                    </div>
+                    <div class="hidden" id="modal17">
+                        <div class="third-section-content-element-card-clic">
+                            <div class="third-section-content-element-card-clic-quote">
+                                <img src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/perry_small.jpeg" alt="">
+                                <h5>Anecdote</h5>
+                                <p>Le tourisme spatial se développe et sera peut-être bientôt à notre portée… à condition d’avoir un gros porte-monnaie.</p>
+                            </div>
+                            <div class="third-section-content-element-card-clic-bio">
+                                <h5>La petite histoire</h5>
+                                <p>Katy Perry fait partie des stars (avec Justin Bieber, Leonardo Di Caprio et Stephen Hawking par exemple) qui devaient se rendre à la frontière de l’espace pour la somme de 250 000 dollars. La navette SpaceShipTwo s’est écrasée lors d’un vol test mettant fin à leur escapade dans l’espace. Un inconnu avait même déboursé un million de dollars pour faire le voyage aux côtés de Leonardo Di Caprio. Cependant, le projet n’a pas été abandonné et <span class="gradient-text"> on compte actuellement presque 8 000 personnes en liste d’attente pour un vol dans l’espace</span> avec l’entreprise Virgin Galactic. </p>
+                            </div>
+                            <button></button>
+                        </div>
+                    </div>
+            </li>
             
             <li class="third-section-content-element-card">
                 <div class="third-section-content-element-card-one js-modal button"
@@ -90,33 +116,7 @@
                     </div>
                 </div>
             </li>
-            <li class="third-section-content-element-card">
-                <div class="third-section-content-element-card-one js-modal button" data-aos="fade-up" data-aos-duration="1000" data-modal-prefix-class="simple-animated" data-modal-content-id="modal17" data-modal-title="Katy Perry"
-                    data-modal-close-text="Close it" data-modal-close-title="Close it, really">
-                    <div class="third-section-content-element-card-one-img">
-                        <img
-                            src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/perry_small.jpeg" alt=""></div>
-                        <h4>Katy Perry</h4>
-                    </div>
-
-                    <div class="third-section-content-element-card-hover">
-                        <p class="title text">Qu’est-ce que tu fais pour les vacances ? Moi, je pars dans l’espace.</p>
-                    </div>
-                    <div class="hidden" id="modal17">
-                        <div class="third-section-content-element-card-clic">
-                            <div class="third-section-content-element-card-clic-quote">
-                                <img src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/perry_small.jpeg" alt="">
-                                <h5>Anecdote</h5>
-                                <p>Le tourisme spatial se développe et sera peut-être bientôt à notre portée… à condition d’avoir un gros porte-monnaie.</p>
-                            </div>
-                            <div class="third-section-content-element-card-clic-bio">
-                                <h5>La petite histoire</h5>
-                                <p>Katy Perry fait partie des stars (avec Justin Bieber, Leonardo Di Caprio et Stephen Hawking par exemple) qui devaient se rendre à la frontière de l’espace pour la somme de 250 000 dollars. La navette SpaceShipTwo s’est écrasée lors d’un vol test mettant fin à leur escapade dans l’espace. Un inconnu avait même déboursé un million de dollars pour faire le voyage aux côtés de Leonardo Di Caprio. Cependant, le projet n’a pas été abandonné et <span class="gradient-text"> on compte actuellement presque 8 000 personnes en liste d’attente pour un vol dans l’espace</span> avec l’entreprise Virgin Galactic. </p>
-                            </div>
-                            <button></button>
-                        </div>
-                    </div>
-            </li>
+            
 
             <li class="third-section-content-element-card">
                 <div class="third-section-content-element-card-one js-modal button" data-aos="fade-up" data-aos-duration="1500" data-modal-prefix-class="simple-animated" data-modal-content-id="modal16" data-modal-title="Georges Clooney"

@@ -93,7 +93,7 @@
                 <div class="sixth-section-content-element-desc js-modal button" data-modal-prefix-class="simple-animated"
                 data-modal-content-id="modale-fb">
                     <h4>Réalisation des films 3D</h4>
-                    <img src="<?php echo THEME_DIR_IMG; ?>/equipe/frederic-bruneaux.jpeg" alt="">
+                    <img src="<?php echo THEME_DIR_IMG; ?>/img-default.png" alt="">
                 </div>
                 <div class="hidden" id="modale-fb">
                     
