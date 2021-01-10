@@ -13,8 +13,7 @@
 
         <div class="sixth-section-content">
             <section class="sixth-section-content-element js-modal">
-                <div class="sixth-section-content-element-desc js-modal button" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000" data-modal-prefix-class="simple-animated"
-                data-modal-content-id="modale-cc">
+                <div class="sixth-section-content-element-desc js-modal button" >
                     <h4>Le volet artistique/médiation</h4>
                     <img src="<?php echo THEME_DIR_IMG; ?>/equipe/cecile-camille.jpeg" alt="">
                 </div>
@@ -24,13 +23,6 @@
                     <span>Camille Monmège-Geneste</span> [le labo des cultures] - Médiatrice culturelle</p>
                     <img src="<?php echo THEME_DIR_IMG; ?>/equipe/cecile-camille.jpeg" alt="">
                 </div>
-            
-                <!-- <div class="third-section-content-element-card-one js-modal button" data-aos="fade-up"
-                    data-aos-easing="linear" data-aos-duration="1500">
-                </div>
-
-                <div class="hidden" id="modal">
-                </div> -->
             </section>
 
 

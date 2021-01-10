@@ -12,8 +12,15 @@
 
         <section class="seven-section-content">
             <!-- Disposer l'image du ticket en :before -->
+            <?php
+            if (get_field('seven_section_contactform')):
+                echo get_field('seven_section_contactform');
+            else:
+                echo do_shortcode('[contact-form-7 id="354" title="Contact"]');
+            endif; 
+        ?>
 
-            <?php echo do_shortcode( '[contact-form-7 id="354" title="Contact"]' ); ?>
+            
             <img src="<?php echo THEME_DIR_IMG; ?>/obs_contact.png" alt="">
 
         </section>
