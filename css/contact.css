@@ -12,10 +12,11 @@
     color: #fff;
     border: 2px solid #32b3e6;
 
-    margin: 5rem auto;
+    margin: 10rem auto;
 
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    overflow: hidden;
     }
 
     .seven-section-content p {
@@ -41,6 +42,10 @@
 
     .seven-section-content img {
         clip-path: none;
+
+        position: relative;
+        bottom: -5rem;
+
     }
 
     

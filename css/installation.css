@@ -77,8 +77,8 @@
       content: '';
       /* background: url('img/installation/dessin-instal.jpg'); */
       position: absolute;
-      width: 40rem;
-      height: 40rem;
+      width: 45rem;
+      height: 45rem;
       background: #111845a6;
       box-sizing: border-box;
       overflow: hidden;
@@ -86,7 +86,7 @@
       border: 2px solid #2a3cad;
       padding: 3rem;
     
-      transform: translateX(-50%);
+      transform: translateX(-50%) !important;
       left: 50%;
       }
     

@@ -3,6 +3,8 @@
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+    <meta name="description" content="<?php ?>">
     
     <link rel="stylesheet" href="<?php echo THEME_DIR_CSS; ?>/base.css">
     <link rel="stylesheet" href="<?php echo THEME_DIR_CSS; ?>/main.css">
@@ -33,10 +35,13 @@
 <div id="home">
     <header class="main-header">
 
-        <h1 id="header"><a href="#" class="logo">Echelles Célestes</a></h1>
+        
+        <h1 id="header"><?php $mainTitle = the_field('header_main_title');
+        if(!empty($mainTitle)) : ?><a href="#" class="logo"><?php echo $mainTitle; ?></a> <?php endif; ?></h1>
+       
 
         <details>
-            <p>« un planétarium c’est <span class="gradient">une salle de spectacle</span>, c’est le monde à l’envers »</p>
+            <p><?php the_field('header_moon_text');?></p>
             <summary><img class="img-hero" src="<?php echo THEME_DIR_IMG; ?>/moon-light.svg"
                     alt="icone de lune au format svg dessinée"></summary>
         </details>
