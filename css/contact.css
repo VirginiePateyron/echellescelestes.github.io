@@ -8,11 +8,10 @@
     }
     
     .seven-section-content {
-    background-color: #0B042C;
+    background-color: #000;
     color: #fff;
     border: 2px solid #32b3e6;
-    
-    padding: 5rem;
+
     margin: 5rem auto;
 
     display: grid;
@@ -29,15 +28,19 @@
         border: none;
     }
 
+    .seven-section-content form {
+        padding: 5rem;
+    }
+
     .seven-section-content form input[type=submit] {
         border: 1px solid #fff !important;
         color: #fff;
         text-transform: uppercase;
+
     }
 
     .seven-section-content img {
         clip-path: none;
-        width: 50rem;
     }
 
     
