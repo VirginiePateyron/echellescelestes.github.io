@@ -4,7 +4,7 @@
       
     <!-- <h2 class="gradient">l'équipe</h2> -->
     <h2 class="buttons gradient">
-        <button class="draw meet">l'équipe</button>
+        l'équipe
     </h2>    
         
         <p class="h2-subtitle">Ce projet imbriquant médiation, art et numérique a nécessité la collaboration d’acteurs diversifiés aux compétences complémentaires. </p>

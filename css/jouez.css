@@ -6,18 +6,36 @@
   .four-section-content-element {
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    margin: 2rem;
   }
   
   
   .four-section-content-element-card {
   width: 20vw;
-  height: 25vw;
+  height: 30vw;
   perspective: 100vw;
   perspective-origin: 50% 50%;
   transform-style: preserve-3d;
   position: relative;
+  font-size:2rem;
   
   justify-self: center;
+
+  padding: 5rem;
+  margin: 2rem;
+  }
+
+  .four-section-content-element-card:hover {
+    animation: shake 1s cubic-bezier(.36,.07,.19,.97) both;
+  }
+
+  @keyframes shake {
+    0% { transform: rotate(0); }
+    20% { transform: rotate(1deg); }
+    80% { transform: rotate(-1deg); }
+
+    100% { transform: rotate(0); }
   }
   
   .four-section-content-element-card .face {
@@ -33,7 +51,7 @@
   border: 1px solid rgba(0, 0, 0, 0.3);
   /* border-radius: 1.1vw; */
   
-  padding: 2rem;
+  padding: 5rem;
   align-items: center;
 
   
@@ -41,13 +59,15 @@
   .four-section-content-element-card .front {
   /* background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/22/King_of_spades2.svg"); */
   transform: rotateX(0deg);
-  background-color: #fff;
-  color: #0B042C;
-  
-  display: grid;
+  background-color: #000;
+  color: #fff;
+  border: 2px solid #fff;
+    display: grid;
   grid-template-rows: repeat(4,1fr);
   text-align: center;
   justify-content: start;
+
+  overflow: hidden;
 
   /* background-position: center;
     object-fit: contain;
@@ -55,27 +75,34 @@
 
   }
 
+  .four-section-content-element-card .front:before {
+    object-fit: contain;
+    top: 50%;
+    right: 0;
+    display: block;
+  }
+
   .four-section-content-element-card:nth-child(1) .front:before {
-    content: url('../img/astro/astronom-light.png'); 
+    content: url('../img/astro/astronom-light.jpg'); 
     position:absolute;
-    top:50%;
-    right:0%;
+    /* top:50%;
+    right:0%; */
     z-index:-1;
   }
 
   .four-section-content-element-card:nth-child(2) .front:before {
-    content: url('../img/astro/planets-game.png');
+    content: url('../img/astro/planets-game.jpg');
     position:absolute;
-    top:50%;
-    left:0;
+   /*  top:50%;
+    left:0; */
     z-index:-1;
   }
 
   .four-section-content-element-card:nth-child(3) .front:before {
-    content: url('../img/astro/extra-music.png');
+    content: url('../img/astro/extra-music.jpg');
     position:absolute;
-    top:50%;
-    right:20%;
+   /*  top:50%;
+    right:20%; */
     z-index:-1;
   }
 
@@ -85,6 +112,7 @@
   transform: rotateX(180deg);
   background-color: #0B042C;
   color: #fff;
+  font-weight: 600;
 
   overflow-y: auto;
   margin-bottom: 2rem;
@@ -148,6 +176,11 @@
     position: absolute;
     width: 100%;
     height: 100%;
+  }
+
+  #podcast {
+    display: flex;
+    flex-direction: column;
   }
 
   .four-section-content-element-card audio {

@@ -4,7 +4,7 @@
             
         <!-- <h2 class="gradient">Un projet soutenu par :</h2> -->
         <h2 class="buttons gradient">
-            <button class="draw meet">Un projet soutenu par :</button>
+            Un projet soutenu par :
         </h2> 
         
                 

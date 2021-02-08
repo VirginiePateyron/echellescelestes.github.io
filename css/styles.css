@@ -77,8 +77,9 @@ dialog {
 .simple-animated-modal,
 .simple-animatedtransform-modal {
   position: fixed;
-  left: 15%;
-  width: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50%;
   top: 5vh;
   max-height: 90vh;
   /*
@@ -142,8 +143,8 @@ dialog {
   100% {
     opacity: 1;
 	  max-height: 100%;
-	  width: 70%;
-	  left: 15%;
+	  width: 50%;
+	  left: 50%;
   }
 }
 @keyframes apparition {
@@ -156,8 +157,8 @@ dialog {
   100% {
     opacity: 1;
 	  max-height: 100%;
-	  width: 70%;
-	  left: 15%;
+	  width: 50%;
+	  left: 50%;
   }
 }
 
@@ -174,8 +175,8 @@ dialog {
 	-webkit-transform: scale(1);
 	        transform: scale(1);
 	  max-height: 100%;
-	  width: 70%;
-	  left: 15%;
+	  width: 50%;
+	  left: 50%;
   }
 }
 @keyframes pop {
@@ -191,8 +192,8 @@ dialog {
 	-webkit-transform: scale(1);
 	        transform: scale(1);
 	  max-height: 100%;
-	  width: 70%;
-	  left: 15%;
+	  width: 50%;
+	  left: 50%;
   }
 }
 
@@ -251,6 +252,11 @@ dialog {
 .simple-left-modal-title {
   color: #fff;
   font-size: 1.5em;
+}
+
+#modal-title {
+  position: absolute;
+  top: 20%;
 }
 
 /* it can be easily adapted in media-queries for tablets/mobile */

@@ -4,7 +4,7 @@
          
     <!-- <h2 class="gradient">jouez du hasard</h2> -->
     <h2 class="buttons gradient">
-        <button class="draw meet">jouez du hasard</button>
+        jouez du hasard
     </h2>  
         
         
@@ -13,23 +13,32 @@
     <div class="container">
         <section class="four-section-content">
             <div class="four-section-content-element" id="container">
-                <div class="four-section-content-element-card">
-                <button class="front face" onclick="getPhrase()"><span class="gradient-text front-title"> La minute philo </span>envie de vous confronter à une grande question universelle ?</button>
+                <div class="four-section-content-element-card" onclick="getPhrase()">
+                    <button class="front face" >
+                        <span class="gradient-text front-title"> La minute philo </span>
+                        envie de vous confronter à une grande question universelle ?
+                    </button>
                     <p class="back face" id="phrase"> </p>
                 </div>
-                <div class="four-section-content-element-card">
-                    <button class="front face" onclick="getReading()"><span class="gradient-text front-title">La minute lecture </span>désireux de lire une citation poétique, scientifique ou mythologique ?</button>
+                <div class="four-section-content-element-card" onclick="getReading()">
+                    <button class="front face" >
+                        <span class="gradient-text front-title">La minute lecture </span>
+                        désireux de lire une citation poétique, scientifique ou mythologique ?
+                    </button>
                     <p class="back face" id="reading"> </p>
                 </div>
-                <div class="four-section-content-element-card">
-                    <button class="front face" onclick="getPodcast()"><span class="gradient-text front-title">La minute podcast </span>tenté par l’écoute d’un extrait de « Tours du monde, tours du ciel » ?</button>
+                <div class="four-section-content-element-card" onclick="getPodcast()">
+                    <button class="front face" >
+                        <span class="gradient-text front-title">La minute podcast </span>
+                        tenté par l’écoute d’un extrait de « Tours du monde, tours du ciel » ?
+                    </button>
                     <p class="back face" id="podcast">
                         <audio controls src="<?php echo THEME_DIR_MEDIA; ?>/centre-philo.wav"> Your browser does not support the <code>audio</code> element.</audio> 
                         <audio controls src="<?php echo THEME_DIR_MEDIA; ?>/dico-ciel.wav"> Your browser does not support the <code>audio</code> element.</audio>
                         <audio controls src="<?php echo THEME_DIR_MEDIA; ?>/etoile.wav"> Your browser does not support the <code>audio</code> element.</audio> 
                         <audio controls src="<?php echo THEME_DIR_MEDIA; ?>/intro-gen.wav"> Your browser does not support the <code>audio</code> element.</audio>
                         <audio controls src="<?php echo THEME_DIR_MEDIA; ?>/questions.wav"> Your browser does not support the <code>audio</code> element.</audio>   
-                        <audio controls autoplay src="<?php echo THEME_DIR_MEDIA; ?>/temps.wav"> Your browser does not support the <code>audio</code> element.</audio>    
+                        <audio controls src="<?php echo THEME_DIR_MEDIA; ?>/temps.wav"> Your browser does not support the <code>audio</code> element.</audio>    
                     </p>
                 </div>
             </div>

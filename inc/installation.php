@@ -3,7 +3,7 @@
 <main>
     <article class="first-section change-color" id="first">
         <h2 class="buttons gradient">
-            <button class="draw meet"><?php the_field('first_section_title') ?></button>
+            <?php the_field('first_section_title') ?>
         </h2>
         
         <p class="h2-subtitle"><?php the_field('first_section_text'); ?>

@@ -179,7 +179,8 @@
   }
   
   .simple-animated-modal__wrapper {
-    padding: 5rem 1rem;
+    padding: 5rem;
+  
   }
   /* enlève le scroll de la page quand la modale est ouverte */
   .no-scroll {
@@ -212,6 +213,10 @@
     box-shadow: none;
 
     background-color: #0B042C;
+
+    position: absolute;
+    right: 0;
+    top: 10%;
   }
   
   

@@ -4,7 +4,7 @@
           
    <!--  <h2 class="gradient">ressources</h2> -->
     <h2 class="buttons gradient">
-        <button class="draw meet">ressources</button>
+        ressources
     </h2> 
         
         

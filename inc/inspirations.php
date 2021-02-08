@@ -4,7 +4,7 @@
      <img class="img-deco-bg" src="<?php echo THEME_DIR_IMG; ?>/astro/lowell_obs.jpg" alt="l'astronome Lowell observe l'espace avec une lunette astronomique" />
     <!-- <h2 class="gradient">inspirations</h2> -->
     <h2 class="buttons gradient">
-        <button class="draw meet"><?php the_field('second_section_title'); ?></button>
+        <?php the_field('second_section_title'); ?>
     </h2>
 
     <p class="h2-subtitle"> <?php the_field('second_section_text'); ?></p>

@@ -4,7 +4,7 @@
            
     <!-- <h2 class="gradient">galerie des portraits</h2> -->
     <h2 class="buttons gradient">
-        <button class="draw meet">galerie des portraits</button>
+        galerie des portraits
     </h2> 
     
     <p class="h2-subtitle">Déambulez dans cette galerie et découvrez les grandes figures qui ont écrit une partie de l’histoire de l’astronomie en cliquant, à votre guise, sur les portraits.</p>
@@ -29,8 +29,8 @@
                 </div>
 
                 <div class="third-section-content-element-card-hover">
-                    <p class="title text">« Je fus tantôt décris comme un génie et tantôt comme un simple
-                        copieur. »</p>
+                    <p class="title text">Je fus tantôt décris comme un génie et tantôt comme un simple
+                        copieur.</p>
                 </div>
 
                 <div class="hidden" id="modal">

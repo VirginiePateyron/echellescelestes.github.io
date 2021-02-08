@@ -2,7 +2,7 @@
 .first-section {
     position: relative;
     /* background-color: #fff; */
-    background-color: #000;
+    background-color: rgb(15, 15, 26);
     }
 
     .first-section-content-element {
@@ -16,7 +16,7 @@
       align-items: center;
       position: relative;
     
-      margin: 10rem 0;
+      margin: 8rem auto;
       height: 40rem;
     }
 
@@ -46,8 +46,8 @@
     .first-section-content-element-text {
       /* position: absolute; */
     
-      left: 0%;
-      margin: 2rem auto;
+      text-align: center;
+      margin: 4rem auto;
     }
     
    
@@ -61,7 +61,7 @@
     }
 
     .first-section-content-element h3 {
-      margin: 2rem 0;
+      margin: 2rem auto;
     }
     
     @keyframes bodyLine {

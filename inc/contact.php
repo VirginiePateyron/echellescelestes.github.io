@@ -2,7 +2,7 @@
          
                   
     <h2 class="buttons gradient">
-        <button class="draw meet">contact</button>
+        contact
     </h2>
             
                 
