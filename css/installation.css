@@ -2,11 +2,26 @@
 .first-section {
     position: relative;
     /* background-color: #fff; */
-    background-color: rgb(15, 15, 26);
+    background-color: #000;
+    }
+
+    
+    .first-section-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
     }
 
     .first-section-content-element {
-      margin: 20rem auto;
+    /*   margin: 10rem auto; */
+    }
+
+    .first-section-content-element:first-child .first-section-content-element-text {
+      text-align: end;
+    }
+
+    .first-section-content-element:first-child .first-section-content-element-text h3 {
+      text-align: end;
     }
     
     .first-section-content-element:first-child {
@@ -16,8 +31,8 @@
       align-items: center;
       position: relative;
     
-      margin: 8rem auto;
-      height: 40rem;
+     /*  margin: 8rem auto; */
+      height: 70rem;
     }
 
     /* Extra small devices (portrait phones, less than 576px) */
@@ -45,8 +60,7 @@
     
     .first-section-content-element-text {
       /* position: absolute; */
-    
-      text-align: center;
+  
       margin: 4rem auto;
     }
     
@@ -61,7 +75,8 @@
     }
 
     .first-section-content-element h3 {
-      margin: 2rem auto;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
     }
     
     @keyframes bodyLine {
@@ -186,12 +201,6 @@
     
     .first-section .h2-subtitle {
       color: #fff;
-    }
-    
-    .first-section h3 {
-    /* background-color: rgba(255, 255, 255, .6); */
-    width: max-content;
-    /* padding: 2rem; */
     }
     
     .first-section-content-element-items {

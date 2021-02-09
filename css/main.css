@@ -36,6 +36,7 @@ body {
   
 main {
   position: relative;
+  scroll-behavior: smooth;
   }
 
 main img {
@@ -79,7 +80,7 @@ color: #5599A1;
 h2,
 h4 {
   text-align: center;
-  margin: 3rem auto;
+  margin: 4rem auto;
 
   font-weight: 400;
 }
@@ -90,16 +91,14 @@ h2 {
 
   padding: 2rem 5rem;
   margin: 4rem auto;
-  color: #fff;
+ 
   max-width: max-content;
   height: auto;
   overflow-x: hidden;
 
   position: relative;
-
+  background-color: rgb(15, 15, 26);
 }
-
-
 
 .gradient {
   background: linear-gradient(to left, rgb(43, 84, 145) 0%, rgb(51, 120, 148) 6%, rgb(69, 140, 158) 12%, rgb(89, 108, 170) 16%, hsl(225.27, 41.65%, 52.36%) 21%, hsl(214.87, 52.51%, 53.16%) 25%, hsl(208.21, 63.34%, 53.45%) 29%, hsl(203.76, 73.19%, 53.1%) 34%, hsl(200.69, 81.16%, 51.99%) 39%, hsl(198.53, 86.55%, 50.02%) 44%,
@@ -114,6 +113,7 @@ h2 {
 
     font-weight: 400;
 }
+
 
 
 @-webkit-keyframes Gradient {
@@ -222,7 +222,7 @@ color: #0858a3;
 }
 
 h4 {
-font-size: 1.4rem;
+font-size: 1.8rem;
 }
 
 h5 {
@@ -255,6 +255,8 @@ pointer-events: none;
         backface-visibility: hidden;
 animation: animation-moon 2s linear alternate infinite;
 /* filter: drop-shadow(0 .2rem .1rem #fff); */
+
+scroll-behavior: smooth;
 }
 
 /* @supports (-moz-appearance: meterbar) {

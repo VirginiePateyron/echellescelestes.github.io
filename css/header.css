@@ -8,6 +8,7 @@
     position: relative;
     list-style-type: none;
   
+    scroll-behavior: smooth;
   }
   
   /* Extra small devices (portrait phones, less than 576px) */
@@ -70,8 +71,8 @@
   }
   
   .main-header details p {
-  background-color: rgba(255, 255, 255, .8);
-  color: #0858a3;
+  background-color: #000;
+  color: #fff;
   padding: 5rem 10rem;
   width: 80rem;
   clip-path: polygon(10% 15%, 15% 15%, 15% 5%, 85% 5%, 85% 15%, 90% 15%, 90% 85%, 85% 85%, 85% 95%, 15% 95%, 15% 85%, 10% 85%);
@@ -141,6 +142,8 @@
   transition: all 1.3s;
   
   font-size: 1.4rem;
+
+  scroll-behavior: smooth;
   }
   
   .menu-item {

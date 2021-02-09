@@ -50,7 +50,7 @@
             <nav class="menu__nav" id= "navbar">
               <ul class="menu__list r-list">
               <li class="menu__group menu-item">
-                    <a href="#second" href="javascript:void(0)" class="menu__link r-link">installation</a>
+                    <a href="#first" href="javascript:void(0)" class="menu__link r-link">installation</a>
                 </li>
                 <li class="menu__group menu-item">
                     <a href="#second" href="javascript:void(0)" class="menu__link r-link">inspirations</a>

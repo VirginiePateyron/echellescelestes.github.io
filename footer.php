@@ -37,6 +37,7 @@
 
 <?php wp_footer(); ?>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="<?php echo THEME_DIR_JS; ?>/script.js"></script>
 <script src="<?php echo THEME_DIR_JS; ?>/theme.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

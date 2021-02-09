@@ -20,6 +20,7 @@
                     <div class="second-section-content-element-col-child second-section-content-element-col-child-text">
                         <h3><?php the_sub_field('second_section_first_area_title'); ?></h3>
                         <p><?php the_sub_field('second_section_first_area_text'); ?></p>
+                        <p class="second-section-content-element-col-child-item"><?php the_sub_field('second_section_first_area_text_author'); ?></p>
                     </div>
                     <div class="second-section-content-element-col-child second-section-content-element-col-child-img" data-aos="fade-left" data-aos-offset="300"
                     data-aos-easing="ease-in-sine" data-aos-duration="2000">
@@ -42,6 +43,7 @@
                     <div class="second-section-content-element-col-child second-section-content-element-col-child-text">
                         <h3><?php the_sub_field('second_section_second_area_title'); ?></h3>
                         <p><?php the_sub_field('second_section_second_area_text'); ?></p>
+                        <p class="second-section-content-element-col-child-item"><?php the_sub_field('second_section_second_area_text_author'); ?></p>
                     </div>
                     <div class="second-section-content-element-col-child second-section-content-element-col-child-img" data-aos="fade-right" data-aos-offset="300"
                     data-aos-easing="ease-in-sine" data-aos-duration="2000">
