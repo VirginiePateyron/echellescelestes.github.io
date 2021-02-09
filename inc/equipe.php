@@ -12,8 +12,8 @@
     <div class="container">
 
         <div class="sixth-section-content">
-            <section class="sixth-section-content-element js-modal">
-                <div class="sixth-section-content-element-desc js-modal button" >
+            <section class="sixth-section-content-element ">
+                <div class="sixth-section-content-element-desc  button" >
                     <h4>Le volet artistique/médiation</h4>
                     <img src="<?php echo THEME_DIR_IMG; ?>/equipe/cecile-camille.jpeg" alt="">
                 </div>
@@ -26,8 +26,8 @@
             </section>
 
 
-            <section class="sixth-section-content-element js-modal">
-                <div class="sixth-section-content-element-desc js-modal button" data-modal-prefix-class="simple-animated"
+            <section class="sixth-section-content-element ">
+                <div class="sixth-section-content-element-desc  button" data-modal-prefix-class="simple-animated"
                 data-modal-content-id="modale-h">
                     <h4>Concepts et techniques numériques</h4>
                     <img src="<?php echo THEME_DIR_IMG; ?>/equipe/martin-hachet.jpeg" alt="">
@@ -40,8 +40,8 @@
                 </div>
             </section>
 
-            <section class="sixth-section-content-element js-modal">
-                <div class="sixth-section-content-element-desc js-modal button" data-modal-prefix-class="simple-animated"
+            <section class="sixth-section-content-element ">
+                <div class="sixth-section-content-element-desc  button" data-modal-prefix-class="simple-animated"
                 data-modal-content-id="modale-pb">   
                     <h4>Les données d’astrophysique</h4> 
                     <img src="<?php echo THEME_DIR_IMG; ?>/equipe/pascal-borde.jpeg" alt="">
@@ -54,8 +54,8 @@
                 </div>
             </section>
 
-            <section class="sixth-section-content-element js-modal">
-                <div class="sixth-section-content-element-desc js-modal button" data-modal-prefix-class="simple-animated"
+            <section class="sixth-section-content-element ">
+                <div class="sixth-section-content-element-desc  button" data-modal-prefix-class="simple-animated"
                 data-modal-content-id="modale-mv">
                     <h4>Construction et design</h4>
                     <img src="<?php echo THEME_DIR_IMG; ?>/equipe/marc-valladon.jpeg" alt="">
@@ -68,7 +68,7 @@
             </section>
 
             <section class="sixth-section-content-element">
-                <div class="sixth-section-content-element-desc js-modal button" data-modal-prefix-class="simple-animated"
+                <div class="sixth-section-content-element-desc  button" data-modal-prefix-class="simple-animated"
                 data-modal-content-id="modale-tb">
                     <h4>L’univers sonore</h4>
                     <img src="<?php echo THEME_DIR_IMG; ?>/img-default.png" alt="">
@@ -82,7 +82,7 @@
             </section>
 
             <section class="sixth-section-content-element">
-                <div class="sixth-section-content-element-desc js-modal button" data-modal-prefix-class="simple-animated"
+                <div class="sixth-section-content-element-desc  button" data-modal-prefix-class="simple-animated"
                 data-modal-content-id="modale-fb">
                     <h4>Réalisation des films 3D</h4>
                     <img src="<?php echo THEME_DIR_IMG; ?>/img-default.png" alt="">
@@ -95,7 +95,7 @@
             </section>
 
             <section class="sixth-section-content-element">
-                <div class="sixth-section-content-element-desc js-modal button" data-modal-prefix-class="simple-animated"
+                <div class="sixth-section-content-element-desc  button" data-modal-prefix-class="simple-animated"
                 data-modal-content-id="modale-eh">
                     <h4>Electronique - Informatique</h4>
                     <img src="<?php echo THEME_DIR_IMG; ?>/equipe/emerick-herve.jpeg" alt="">
@@ -108,7 +108,7 @@
             </section>
 
             <section class="sixth-section-content-element">
-                <div class="sixth-section-content-element-desc js-modal button" data-modal-prefix-class="simple-animated"
+                <div class="sixth-section-content-element-desc  button" data-modal-prefix-class="simple-animated"
                 data-modal-content-id="modale-vsp">
                     <h4>Stagiaires de l’Université de Bordeaux - Inria</h4>
                     <img src="<?php echo THEME_DIR_IMG; ?>/img-default.png" alt="">
@@ -121,7 +121,7 @@
             </section>
 
             <section class="sixth-section-content-element">
-                <div class="sixth-section-content-element-desc js-modal button" data-modal-prefix-class="simple-animated"
+                <div class="sixth-section-content-element-desc  button" data-modal-prefix-class="simple-animated"
                 data-modal-content-id="modale-vp">
                     <h4>Réalisation de la page web</h4>
                     <img src="<?php echo THEME_DIR_IMG; ?>/equipe/virginie.jpeg" alt="Photo de Virginie, web designer intégratrice web">
