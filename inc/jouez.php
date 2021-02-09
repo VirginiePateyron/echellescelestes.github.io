@@ -18,7 +18,10 @@
                         <span class="gradient-text front-title"> La minute philo </span>
                         envie de vous confronter à une grande question universelle ?
                     </button>
-                    <p class="back face" id="phrase"> </p>
+                    <div class="back face">
+                    <p id="phrase"> </p>
+                    <img src="<?php echo THEME_DIR_IMG; ?>/btn-back.png" alt="retour en arrière">
+                    </div>
                 </div>
                 <div class="four-section-content-element-card" onclick="getReading()">
                     <button class="front face" >
