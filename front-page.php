@@ -14,7 +14,7 @@
             <a href="#home" role="button" aria-label="Scroll to top">
                 
 
-                <img src="<?php echo THEME_DIR_IMG; ?>/astro/scrollTop.png" alt="dessin au trait d'une étoile suspendue par un ballon gonflable">
+                <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/astro/scrollTop.png" alt="dessin au trait d'une étoile suspendue par un ballon gonflable">
                 <p>Retour en haut</p>
             </a>
             
@@ -24,6 +24,3 @@
 
 
 <?php get_footer(); ?>
-
-</body>
-</html>

@@ -31,7 +31,7 @@
 <body <?php body_class(); ?>>
     
     <?php wp_body_open(); ?>
-
+<!-- Site web réalisé par <a href="www.vriessa.com">Virginie Pateyron</a> -->
 <div id="home">
     <header class="main-header">
 
@@ -42,7 +42,7 @@
 
         <details>
             <p><?php the_field('header_moon_text');?></p>
-            <summary><img class="img-hero" src="<?php echo THEME_DIR_IMG; ?>/moon-light.svg"
+            <summary><img loading="lazy" class="img-hero" src="<?php echo THEME_DIR_IMG; ?>/moon-light.svg"
                     alt="icone de lune au format svg dessinée"></summary>
         </details>
 
@@ -75,6 +75,6 @@
           </div>
 
         <div class="img-deco">
-            <img src="<?php echo THEME_DIR_IMG; ?>/install-ech-celestes-sf-ws.png" alt="installation dessinée">
+            <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/install-ech-celestes-sf-ws.png" alt="installation dessinée">
         </div>
     </header>

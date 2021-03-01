@@ -17,7 +17,7 @@
             ?>
 
             
-            <img src="<?php echo THEME_DIR_IMG; ?>/obs_contact.png" alt="">
+            <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/obs_contact.png" alt="">
 
         </section>
     </div>

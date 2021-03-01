@@ -20,7 +20,7 @@
                     </button>
                     <div class="back face">
                     <p id="phrase"> </p>
-                    <img src="<?php echo THEME_DIR_IMG; ?>/btn-back.png" alt="retour en arrière">
+                    <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/btn-back.png" alt="retour en arrière">
                     </div>
                 </div>
                 <div class="four-section-content-element-card" onclick="getReading()">

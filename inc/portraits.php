@@ -9,34 +9,33 @@
     
     <p class="h2-subtitle">Déambulez dans cette galerie et découvrez les grandes figures qui ont écrit une partie de l’histoire de l’astronomie en cliquant, à votre guise, sur les portraits.</p>
 
-    <img class="third-section-gallery-img" src="<?php echo THEME_DIR_IMG; ?>/astro/corot-satellite-sf.png" alt="dessin d'un satellite à la structure de couleur jaune">
+    <img loading="lazy" class="third-section-gallery-img" src="<?php echo THEME_DIR_IMG; ?>/astro/corot-satellite-sf.png" alt="dessin d'un satellite à la structure de couleur jaune">
 
     <div class="container">
 
         <!-- <section class="third-section-content"> -->
         <!-- Ajout de la class js-modal pour activer le script van11y-accessible-modal-window-aria qui affiche une fenêtre modale accessible -->
-        <ul class="third-section-content-element js-modal">
-            <li class="third-section-content-element-card">
-                <div class="third-section-content-element-card-one " data-aos="fade-up"
+        <ul class="third-section-content-element">
+            <li class="third-section-content-element-card ">
+                <div class="third-section-content-element-card-one js-modal" data-modal-prefix-class="simple-animated"
+                        data-modal-content-id="modal" data-modal-title="Claude Ptolémée"
+                        data-modal-close-text="Close it" data-modal-close-title="Close it, really" data-aos="fade-up"
                     data-aos-easing="linear" data-aos-duration="1500" >
-                    <div class="third-section-content-element-card-one-img">
-                        <img src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/ptolemee_small.jpeg"
+                    
+                    <div class="third-section-content-element-card-one-img " >
+                        <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/ptolemee_small.jpeg"
                             alt="Portrait dessiné de Claude Ptolémée">
                     </div>
-                    <h4>Claude Ptolémée</h4>
+                    <h4>Claude Ptolémée</h4> 
                 </div>
-
-                <div class="third-section-content-element-card-hover js-modal" data-modal-prefix-class="simple-animated"
-                    data-modal-content-id="modal" data-modal-title="Claude Ptolémée"
-                    data-modal-close-text="Close it" data-modal-close-title="Close it, really">
-                    <p class="title text button"  >Je fus tantôt décris comme un génie et tantôt comme un simple
-                        copieur.</p>
+                <div class="third-section-content-element-card-hover ">
+                    <p class="title text button">Je fus tantôt décris comme un génie et tantôt comme un simple copieur.
+                    </p>
                 </div>
-
                 <div class="hidden" id="modal">
                     <div class="third-section-content-element-card-clic">
                         <div class="third-section-content-element-card-clic-quote"> <!-- anecdote -->
-                            <img src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/ptolemee_small.jpeg" alt="">
+                            <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/ptolemee_small.jpeg" alt="">
                             <h5>Anecdote</h5>
                             <p>Si certains le considéraient comme un génie, d’autres l’accusait de ne faire que
                                 transmettre des théories existantes. </p>
@@ -61,23 +60,26 @@
             </li>
             
             <li class="third-section-content-element-card">
-                <div class="third-section-content-element-card-one "
+                <div class="third-section-content-element-card-one js-modal" data-modal-prefix-class="simple-animated"
+                    data-modal-content-id="modal1" data-modal-title="Nicolas Copernic"
+                    data-modal-close-text="Close it" data-modal-close-title="Close it, really" 
                     data-aos="fade-up" data-aos-easing="linear" data-aos-duration="2000" >
-                    <div class="third-section-content-element-card-one-img"><img
+                    <div class="third-section-content-element-card-one-img">
+                        <img loading="lazy"
                             src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/copernic_small.jpeg"
-                            alt="Portrait dessiné de Nicolas Copernic"></div>
+                            alt="Portrait dessiné de Nicolas Copernic">
+                    </div>
                     <h4>Nicolas Copernic</h4>
                 </div>
 
-                <div class="third-section-content-element-card-hover js-modal" data-modal-prefix-class="simple-animated"
-                    data-modal-content-id="modal1" data-modal-title="Nicolas Copernic"
-                    data-modal-close-text="Close it" data-modal-close-title="Close it, really">
-                    <p class="title text button">Il a fallu près de 200 ans pour que mes théories soient reconnues.</p>
+                <div class="third-section-content-element-card-hover ">
+                    <p class="title text button">Il a fallu près de 200 ans pour que mes théories soient reconnues.
+                    </p>
                 </div>
                 <div class="hidden" id="modal1">
                     <div class="third-section-content-element-card-clic">
                         <div class="third-section-content-element-card-clic-quote">
-                            <img src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/copernic_small.jpeg" alt="Portrait dessiné de Nicolas Copernic">
+                            <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/copernic_small.jpeg" alt="Portrait dessiné de Nicolas Copernic">
                             <h5>Anecdote</h5>
                             <p>Copernic ne pourra voir un exemplaire imprimé de son livre que quelques heures avant sa mort.</p>
                         </div>
@@ -92,21 +94,21 @@
 
              <!-- perry -->
              <li class="third-section-content-element-card">
-                <div class="third-section-content-element-card-one " data-aos="fade-up" data-aos-duration="1000" >
+                <div class="third-section-content-element-card-one js-modal" data-modal-prefix-class="simple-animated" data-modal-content-id="modal17" data-modal-title="Katy Perry"
+                    data-modal-close-text="Close it" data-modal-close-title="Close it, really" data-aos="fade-up" data-aos-duration="1000" >
                     <div class="third-section-content-element-card-one-img">
-                        <img
+                        <img loading="lazy"
                             src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/perry.jpg" alt=""></div>
                         <h4>Katy Perry</h4>
                     </div>
 
-                    <div class="third-section-content-element-card-hover js-modal" data-modal-prefix-class="simple-animated" data-modal-content-id="modal17" data-modal-title="Katy Perry"
-                    data-modal-close-text="Close it" data-modal-close-title="Close it, really">
+                    <div class="third-section-content-element-card-hover ">
                         <p class="title text button">Qu’est-ce que tu fais pour les vacances ? Moi, je pars dans l’espace.</p>
                     </div>
                     <div class="hidden" id="modal17">
                         <div class="third-section-content-element-card-clic">
                             <div class="third-section-content-element-card-clic-quote">
-                                <img src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/perry.jpg" alt="">
+                                <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/perry.jpg" alt="">
                                 <h5>Anecdote</h5>
                                 <p>Le tourisme spatial se développe et sera peut-être bientôt à notre portée… à condition d’avoir un gros porte-monnaie.</p>
                             </div>
@@ -120,24 +122,24 @@
             </li>
             
             <li class="third-section-content-element-card">
-                <div class="third-section-content-element-card-one " data-aos="fade-up"
+                <div class="third-section-content-element-card-one js-modal" data-modal-prefix-class="simple-animated"
+                    data-modal-content-id="modal2" data-modal-title="Tycho Brahé"
+                    data-modal-close-text="Close it" data-modal-close-title="Close it, really" data-aos="fade-up"
                     data-aos-easing="linear" data-aos-duration="1500" >
                     <div class="third-section-content-element-card-one-img">
                     <div class="third-section-content-element-card-one-img">
-                        <img src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/brahe_small.jpeg"
+                        <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/brahe_small.jpeg"
                             alt="Portrait dessiné de Tycho Brahé"></div>
                     <h4>Tycho Brahé</h4>
                 </div>
 
-                <div class="third-section-content-element-card-hover js-modal" data-modal-prefix-class="simple-animated"
-                    data-modal-content-id="modal2" data-modal-title="Tycho Brahé"
-                    data-modal-close-text="Close it" data-modal-close-title="Close it, really">
+                <div class="third-section-content-element-card-hover ">
                     <p class="title text  button">On me surnommait l’Homme au nez d’or.</p>
                 </div>
                 <div class="hidden" id="modal2">
                     <div class="third-section-content-element-card-clic">
                         <div class="third-section-content-element-card-clic-quote">
-                            <img src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/brahe_small.jpeg"
+                            <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/brahe_small.jpeg"
                                 alt="Portrait dessiné de Tycho Brahé">
                             <h5>Anecdote</h5>
                             <p>En 1566, Tycho Brahé perd le bout de son nez lors d’un combat avec un cousin étudiant. Il sera donc obligé de porter un faux nez en or ou en argent : c’est pour cette raison qu’il fut surnommé l’Homme au nez d’or. </p>
@@ -151,23 +153,23 @@
                 </div>
             </li>
             <li class="third-section-content-element-card">
-                <div class="third-section-content-element-card-one " data-aos="fade-up"
+                <div class="third-section-content-element-card-one js-modal" data-modal-prefix-class="simple-animated"
+                    data-modal-content-id="modal3" data-modal-title="Galileo Galilei"
+                    data-modal-close-text="Close it" data-modal-close-title="Close it, really" data-aos="fade-up"
                     data-aos-duration="2000" >
                     <div class="third-section-content-element-card-one-img">
-                        <img src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/galilee_small.jpeg" alt="Portrait dessiné de Galilée">
+                        <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/galilee_small.jpeg" alt="Portrait dessiné de Galilée">
                     </div>
                         <h4>Galileo Galilei</h4>
                 </div>
 
-                <div class="third-section-content-element-card-hover js-modal" data-modal-prefix-class="simple-animated"
-                    data-modal-content-id="modal3" data-modal-title="Galileo Galilei"
-                    data-modal-close-text="Close it" data-modal-close-title="Close it, really">
+                <div class="third-section-content-element-card-hover ">
                     <p class="title text  button">L’Eglise ne me rendit officiellement justice que très récemment après des siècles de critiques.</p>
                 </div>
                 <div class="hidden" id="modal3">
                     <div class="third-section-content-element-card-clic">
                         <div class="third-section-content-element-card-clic-quote">
-                            <img src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/galilee_small.jpeg"
+                            <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/galilee_small.jpeg"
                                 alt="Portrait dessiné de Galilée">
                             <h5>Anecdote</h5>
                             <p>Après 13 ans d’enquête, le Vatican reconnut en 1992 que Galileo avait raison : l’Eglise s’excusa alors officiellement pour sa condamnation quelques siècles plus tôt. </p>
@@ -182,24 +184,24 @@
             </li>
 
             <li class="third-section-content-element-card">
-                <div class="third-section-content-element-card-one " data-aos="fade-up"
+                <div class="third-section-content-element-card-one js-modal" data-modal-prefix-class="simple-animated"
+                data-modal-content-id="modal4" data-modal-title="Johannes Kepler"
+                data-modal-close-text="Close it" data-modal-close-title="Close it, really" data-aos="fade-up"
                     data-aos-duration="1500" >
                 <div class="third-section-content-element-card-one-img">
                     <div class="third-section-content-element-card-one-img">
-                        <img src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/kepler_small.jpeg" alt="Portrait dessiné de Johannes Kepler">
+                        <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/kepler_small.jpeg" alt="Portrait dessiné de Johannes Kepler">
                     </div>
                     <h4>Johannes Kepler</h4>
                 </div>
 
-                <div class="third-section-content-element-card-hover js-modal" data-modal-prefix-class="simple-animated"
-                data-modal-content-id="modal4" data-modal-title="Johannes Kepler"
-                data-modal-close-text="Close it" data-modal-close-title="Close it, really">
+                <div class="third-section-content-element-card-hover" >
                     <p class="title text button">J’ai abandonné ma carrière de pasteur pour devenir un astronome de renom.</p>
                 </div>
                 <div class="hidden" id="modal4">
                     <div class="third-section-content-element-card-clic">
                         <div class="third-section-content-element-card-clic-quote">
-                            <img src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/kepler_small.jpeg"
+                            <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/kepler_small.jpeg"
                                 alt="Portrait dessiné de Johannes Kepler">
                             <h5>Anecdote</h5>
                             <p>Né prématurément à sept mois et hypocondriaque de nature chétive, Johannes Kepler souffre toute sa vie d’une santé fragile. </p>
@@ -213,25 +215,25 @@
                 </div>
             </li>
             <li class="third-section-content-element-card">
-                <div class="third-section-content-element-card-one " data-aos="fade-up"
+                <div class="third-section-content-element-card-one js-modal" data-modal-prefix-class="simple-animated"
+                    data-modal-content-id="modal5" data-modal-title="Blaise Pascal"
+                    data-modal-close-text="Close it" data-modal-close-title="Close it, really" data-aos="fade-up"
                     data-aos-duration="1500" >
                     <div class="third-section-content-element-card-one-img">
-                        <img
+                        <img loading="lazy"
                             src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/pascal_small.jpeg"
                             alt="Portrait dessiné de Blaise Pascal">
                     </div>
                     <h4>Blaise Pascal</h4>
                 </div>
 
-                <div class="third-section-content-element-card-hover js-modal" data-modal-prefix-class="simple-animated"
-                    data-modal-content-id="modal5" data-modal-title="Blaise Pascal"
-                    data-modal-close-text="Close it" data-modal-close-title="Close it, really">
+                <div class="third-section-content-element-card-hover ">
                     <p class="title text  button">J'ai partagé ma vie et mes recherches entre science, philosophie et foi chrétienne.</p>
                 </div>
                 <div class="hidden" id="modal5">
                     <div class="third-section-content-element-card-clic">
                         <div class="third-section-content-element-card-clic-quote">
-                            <img src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/pascal_small.jpeg" alt="">
+                            <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/pascal_small.jpeg" alt="">
                             <h5>Anecdote</h5>
                             <p>Blaise Pascal était un enfant surdoué.</p>
                         </div>
@@ -245,21 +247,21 @@
             </li>
                         <!-- clooney -->
             <li class="third-section-content-element-card">
-                <div class="third-section-content-element-card-one" data-aos="fade-up" data-aos-duration="1500" >
+                <div class="third-section-content-element-card-one js-modal" data-modal-prefix-class="simple-animated" data-modal-content-id="modal16" data-modal-title="Georges Clooney"
+                    data-modal-close-text="Close it" data-modal-close-title="Close it, really" data-aos="fade-up" data-aos-duration="1500" >
                     <div class="third-section-content-element-card-one-img">
-                        <img
+                        <img loading="lazy"
                             src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/clooney_small.jpeg" alt=""></div>
                         <h4>Georges Clooney</h4>
                     </div>
 
-                    <div class="third-section-content-element-card-hover  js-modal" data-modal-prefix-class="simple-animated" data-modal-content-id="modal16" data-modal-title="Georges Clooney"
-                    data-modal-close-text="Close it" data-modal-close-title="Close it, really">
+                    <div class="third-section-content-element-card-hover " >
                         <p class="title text  button">J’ai été astronaute dans un film à grand succès.</p>
                     </div>
                     <div class="hidden" id="modal16">
                         <div class="third-section-content-element-card-clic">
                             <div class="third-section-content-element-card-clic-quote">
-                                <img src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/clooney_small.jpeg" alt="">
+                                <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/clooney_small.jpeg" alt="">
                                 <h5>Anecdote</h5>
                                 <p>Le film été salué par l’ensemble de la critique et a été applaudi pour son réalisme par la NASA. Seul bémol : Edwin Eugene Aldrin Junior (NASA) a noté le manque de nuages.</p>
                             </div>
@@ -272,23 +274,23 @@
                     </div>
             </li>
             <li class="third-section-content-element-card">
-                <div class="third-section-content-element-card-one " data-aos="fade-up"
+                <div class="third-section-content-element-card-one js-modal" data-modal-prefix-class="simple-animated"
+                    data-modal-content-id="modal6" data-modal-title="Blaise Pascal"
+                    data-modal-close-text="Close it" data-modal-close-title="Close it, really" data-aos="fade-up"
                     data-aos-duration="3000" >
                     <div class="third-section-content-element-card-one-img">
-                        <img src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/newton.jpeg" alt="">
+                        <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/newton.jpeg" alt="">
                     </div>
                     <h4>Isaac Newton</h4>
                 </div>
 
-                <div class="third-section-content-element-card-hover js-modal" data-modal-prefix-class="simple-animated"
-                    data-modal-content-id="modal6" data-modal-title="Blaise Pascal"
-                    data-modal-close-text="Close it" data-modal-close-title="Close it, really">
+                <div class="third-section-content-element-card-hover" >
                     <p class="title text button">Une pomme me permis de résoudre bien des mystères et d’entrer dans l’histoire.</p>
                 </div>
                 <div class="hidden" id="modal6">
                     <div class="third-section-content-element-card-clic">
                         <div class="third-section-content-element-card-clic-quote">
-                            <img src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/newton.jpeg" alt="">
+                            <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/newton.jpeg" alt="">
                             <h5>Anecdote</h5>
                             <p>La théorie de l’attraction universelle aurait été inspirée à Newton suite à la chute d’une pomme. Alors qu’il se rendait à l’ombre d’un pommier pour discuter avec un ami, Newton lui aurait expliqué sa réflexion face à la chute des pommes. Pourquoi celles-ci tombent-elles toujours perpendiculairement ? Newton en aurait déduit que « la pomme attire la Terre de la même façon que la Terre attire la pomme ». La légende raconte que cette réflexion lui est venue lorsqu’une pomme a chuté sur sa tête. Mais cette belle histoire, sur l’origine de la découverte de la loi de la gravité, n'est sans doute qu'une légende...</p>
                         </div>
@@ -302,24 +304,24 @@
             </li>
             
             <li class="third-section-content-element-card">
-                <div class="third-section-content-element-card-one " data-aos="fade-up"
+                <div class="third-section-content-element-card-one js-modal" data-modal-prefix-class="simple-animated"
+                    data-modal-content-id="modal7" data-modal-title="Ole Römer"
+                    data-modal-close-text="Close it" data-modal-close-title="Close it, really" data-aos="fade-up"
                     data-aos-duration="2000" >
                     <div class="third-section-content-element-card-one-img">
-                        <img
+                        <img loading="lazy"
                             src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/romer_small.jpeg" alt="">
                     </div>
                     <h4>Ole Römer</h4>
                 </div>
 
-                <div class="third-section-content-element-card-hover js-modal" data-modal-prefix-class="simple-animated"
-                    data-modal-content-id="modal7" data-modal-title="Ole Römer"
-                    data-modal-close-text="Close it" data-modal-close-title="Close it, really">
+                <div class="third-section-content-element-card-hover ">
                     <p class="title text button">Je suis celui qui démontra que la vitesse de la lumière n'était pas infinie.</p>
                 </div>
                 <div class="hidden" id="modal7">
                     <div class="third-section-content-element-card-clic">
                         <div class="third-section-content-element-card-clic-quote">
-                            <img src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/romer_small.jpeg" alt="">
+                            <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/romer_small.jpeg" alt="">
                             <h5>Anecdote</h5>
                             <p>Né au Danemark, il s'établit à Paris, où il va passer neuf ans à l'Observatoire royal.  </p>
                         </div>
@@ -333,23 +335,23 @@
             </li>
 
             <li class="third-section-content-element-card">
-                    <div class="third-section-content-element-card-one " data-aos="fade-up" data-aos-duration="1500" >
+                    <div class="third-section-content-element-card-one js-modal" data-modal-prefix-class="simple-animated"
+                    data-modal-content-id="modal8" data-modal-title="William Herscher"
+                    data-modal-close-text="Close it" data-modal-close-title="Close it, really" data-aos="fade-up" data-aos-duration="1500" >
                         <div class="third-section-content-element-card-one-img">
-                            <img
+                            <img loading="lazy"
                                 src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/herscher_small.jpeg" alt="">
                         </div>
                         <h4>William Herscher</h4>
                     </div>
 
-                    <div class="third-section-content-element-card-hover js-modal" data-modal-prefix-class="simple-animated"
-                    data-modal-content-id="modal8" data-modal-title="William Herscher"
-                    data-modal-close-text="Close it" data-modal-close-title="Close it, really">
+                    <div class="third-section-content-element-card-hover ">
                         <p class="title text button">Je peux me vanter d’avoir construit un télescope de 12 mètres de long et de 1,22 mètre de diamètre.</p>
                     </div>
                     <div class="hidden" id="modal8">
                         <div class="third-section-content-element-card-clic">
                             <div class="third-section-content-element-card-clic-quote">
-                                <img src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/herscher_small.jpeg" alt="">
+                                <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/herscher_small.jpeg" alt="">
                                 <h5>Anecdote</h5>
                                 <p>William Herschel partage sa vie entre deux passions : la musique et l’astronomie. Il a donc plusieurs cordes à son arc : il est compositeur tout en étant constructeur de télescopes. </p>
                             </div>
@@ -363,20 +365,20 @@
             </li>
              <!-- valentina -->
              <li class="third-section-content-element-card">
-                <div class="third-section-content-element-card-one " data-aos="fade-up" data-aos-duration="1500" >
-                    <div class="third-section-content-element-card-one-img"><img
+                <div class="third-section-content-element-card-one js-modal" data-modal-prefix-class="simple-animated" data-modal-content-id="modal19" data-modal-title="Valentina Terechkova"
+                    data-modal-close-text="Close it" data-modal-close-title="Close it, really" data-aos="fade-up" data-aos-duration="1500" >
+                    <div class="third-section-content-element-card-one-img"><img loading="lazy"
                             src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/terechkova_small.jpeg" alt=""></div>
                     <h4>Valentina Terechkova</h4>
                 </div>
 
-                <div class="third-section-content-element-card-hover js-modal" data-modal-prefix-class="simple-animated" data-modal-content-id="modal19" data-modal-title="Valentina Terechkova"
-                    data-modal-close-text="Close it" data-modal-close-title="Close it, really">
+                <div class="third-section-content-element-card-hover ">
                     <p class="title text button">Je suis la première femme à avoir voyagé dans l’espace. </p>
                 </div>
                 <div class="hidden" id="modal19">
                     <div class="third-section-content-element-card-clic">
                         <div class="third-section-content-element-card-clic-quote">
-                            <img src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/terechkova_small.jpeg" alt="">
+                            <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/terechkova_small.jpeg" alt="">
                             <h5>Anecdote</h5>
                             <p>En 1963, Valentina Terechkova a été la première femme envoyée dans l’espace. Un voyage préparé dans le plus grand des secrets grâce à son nom de code « la mouette ». Même sa mère pensait qu’elle était partie faire un simple saut en parachute… et elle était en réalité partie s’envoler à plus de 7000 mètres d’altitude.</p>
                         </div>
@@ -389,21 +391,21 @@
                 </div>
             </li>
             <li class="third-section-content-element-card">
-                <div class="third-section-content-element-card-one" data-aos="fade-up" data-aos-duration="1000" >
+                <div class="third-section-content-element-card-one js-modal" data-modal-prefix-class="simple-animated"
+                    data-modal-content-id="modal9" data-modal-title="Jules Verne"
+                    data-modal-close-text="Close it" data-modal-close-title="Close it, really" data-aos="fade-up" data-aos-duration="1000" >
                     <div class="third-section-content-element-card-one-img">
-                        <img src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/verne.jpeg" alt=""></div>
+                        <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/verne.jpeg" alt=""></div>
                         <h4>Jules Verne</h4>
                     </div>
 
-                    <div class="third-section-content-element-card-hover  js-modal" data-modal-prefix-class="simple-animated"
-                    data-modal-content-id="modal9" data-modal-title="Jules Verne"
-                    data-modal-close-text="Close it" data-modal-close-title="Close it, really">
+                    <div class="third-section-content-element-card-hover  ">
                         <p class="title text button">On me considère comme le père de la science-fiction. </p>
                     </div>
                     <div class="hidden" id="modal9">
                         <div class="third-section-content-element-card-clic">
                             <div class="third-section-content-element-card-clic-quote">
-                                <img src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/verne.jpeg" alt="">
+                                <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/verne.jpeg" alt="">
                                 <h5>Anecdote</h5>
                                 <p>Jules Verne fréquentait un club de célibataires appelé les « Onze sans femme ». On retrouve par ailleurs plusieurs figures féminines, exploratrices et aventurières, dans ses livres.</p>
                             </div>
@@ -416,22 +418,22 @@
                     </div>
             </li>
             <li class="third-section-content-element-card">
-                <div class="third-section-content-element-card-one " data-aos="fade-up"
+                <div class="third-section-content-element-card-one js-modal" data-modal-prefix-class="simple-animated"
+                    data-modal-content-id="modal10" data-modal-title="Percival Lowell"
+                    data-modal-close-text="Close it" data-modal-close-title="Close it, really" data-aos="fade-up"
                     data-aos-duration="4000" >
                     <div class="third-section-content-element-card-one-img">
-                        <img src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/lowell_small.jpeg" alt=""></div>
+                        <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/lowell_small.jpeg" alt=""></div>
                         <h4>Percival Lowell</h4>
                     </div>
 
-                    <div class="third-section-content-element-card-hover js-modal" data-modal-prefix-class="simple-animated"
-                    data-modal-content-id="modal10" data-modal-title="Percival Lowell"
-                    data-modal-close-text="Close it" data-modal-close-title="Close it, really">
+                    <div class="third-section-content-element-card-hover" >
                         <p class="title text button">Ma passion pour la planète Mars me joua plus d’un tour.</p>
                     </div>
                     <div class="hidden" id="modal10">
                         <div class="third-section-content-element-card-clic">
                             <div class="third-section-content-element-card-clic-quote">
-                                <img src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/lowell_small.jpeg" alt="">
+                                <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/lowell_small.jpeg" alt="">
                                 <h5>Anecdote</h5>
                                 <p>Percival Lowell était tellement passionné par la planète Mars, qu’il s’épuisait à l’observer, ce qui lui provoqua des illusions d’optique et l’amena à affirmer qu’il y avait des habitants sur Mars. </p>
                             </div>
@@ -445,20 +447,20 @@
             </li>
             <!-- ham -->
             <li class="third-section-content-element-card">
-                <div class="third-section-content-element-card-one " data-aos="fade-up" data-aos-duration="2500" >
-                    <div class="third-section-content-element-card-one-img"><img
+                <div class="third-section-content-element-card-one js-modal" data-modal-prefix-class="simple-animated" data-modal-content-id="modal15" data-modal-title="Ham, le chimpanzé"
+                    data-modal-close-text="Close it" data-modal-close-title="Close it, really" data-aos="fade-up" data-aos-duration="2500" >
+                    <div class="third-section-content-element-card-one-img"><img loading="lazy"
                             src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/ham_small.jpeg" alt=""></div>
                         <h4>Ham, le chimpanzé</h4>
                     </div>
 
-                    <div class="third-section-content-element-card-hover js-modal" data-modal-prefix-class="simple-animated" data-modal-content-id="modal15" data-modal-title="Ham, le chimpanzé"
-                    data-modal-close-text="Close it" data-modal-close-title="Close it, really">
+                    <div class="third-section-content-element-card-hover ">
                         <p class="title text  button">C’est grâce à moi que la NASA compris que l’Homme pouvait voyager dans l’espace. </p>
                     </div>
                     <div class="hidden" id="modal15">
                         <div class="third-section-content-element-card-clic">
                             <div class="third-section-content-element-card-clic-quote">
-                                <img src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/ham_small.jpeg" alt="">
+                                <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/ham_small.jpeg" alt="">
                                 <h5>Anecdote</h5>
                                 <p>Ham est un chimpanzé à l’histoire vraiment pas banale : il a été sélectionné parmi tous ses concurrents pour « sa fougue et sa bonne humeur ».</p>
                             </div>
@@ -471,23 +473,23 @@
                     </div>
             </li>
             <li class="third-section-content-element-card">
-                <div class="third-section-content-element-card-one " data-aos="fade-up"
+                <div class="third-section-content-element-card-one js-modal" data-modal-prefix-class="simple-animated"
+                    data-modal-content-id="modal11" data-modal-title="Edwin Hubble"
+                    data-modal-close-text="Close it" data-modal-close-title="Close it, really" data-aos="fade-up"
                     data-aos-duration="2000" >
                     <div class="third-section-content-element-card-one-img">
-                        <img src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/hubble_small.jpeg" alt=""></div>
+                        <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/hubble_small.jpeg" alt=""></div>
                         <h4>Edwin Hubble</h4>
                     </div>
 
-                    <div class="third-section-content-element-card-hover js-modal" data-modal-prefix-class="simple-animated"
-                    data-modal-content-id="modal11" data-modal-title="Edwin Hubble"
-                    data-modal-close-text="Close it" data-modal-close-title="Close it, really">
+                    <div class="third-section-content-element-card-hover ">
                         <p class="title text button">Mes recherches m’ont permis de donner mon nom à un des télescopes spatiaux les plus célèbres au monde.</p>
                     </div>
 
                     <div class="hidden" id="modal11">
                     <div class="third-section-content-element-card-clic">
                         <div class="third-section-content-element-card-clic-quote">
-                            <img src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/hubble_small.jpeg" alt="">
+                            <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/hubble_small.jpeg" alt="">
                             <h5>Anecdote</h5>
                             <p>Passionné de boxe, il était boxeur en catégorie poids lourd.</p>
                         </div>
@@ -499,20 +501,20 @@
                 </div>
             </li>       
             <li class="third-section-content-element-card">
-                <div class="third-section-content-element-card-one " data-aos="fade-up" data-aos-duration="1500" >
+                <div class="third-section-content-element-card-one js-modal" data-modal-prefix-class="simple-animated" data-modal-content-id="modal12" data-modal-title="Pierre Auger"
+                    data-modal-close-text="Close it" data-modal-close-title="Close it, really" data-aos="fade-up" data-aos-duration="1500" >
                     <div class="third-section-content-element-card-one-img">
-                        <img src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/auger_small.jpeg" alt=""></div>
+                        <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/auger_small.jpeg" alt=""></div>
                         <h4>Pierre Auger</h4>
                     </div>
 
-                    <div class="third-section-content-element-card-hover js-modal" data-modal-prefix-class="simple-animated" data-modal-content-id="modal12" data-modal-title="Pierre Auger"
-                    data-modal-close-text="Close it" data-modal-close-title="Close it, really">
+                    <div class="third-section-content-element-card-hover ">
                         <p class="title text button">Vous entendrez peut-être parler de moi au détour d’une promenade en terre Argentine.</p>
                     </div>
                     <div class="hidden" id="modal12">
                         <div class="third-section-content-element-card-clic">
                         <div class="third-section-content-element-card-clic-quote">
-                            <img src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/auger_small.jpeg" alt="">
+                            <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/auger_small.jpeg" alt="">
                             <h5>Anecdote</h5>
                             <p>Un observatoire en Argentine porte son nom : l’observatoire Pierre-Auger. Il s’agit du plus grand détecteur de rayons cosmiques.</p>
                         </div>
@@ -526,21 +528,21 @@
 
                  <!-- thorgal -->
             <li class="third-section-content-element-card">
-                <div class="third-section-content-element-card-one " data-aos="fade-up" data-aos-duration="1500" >
+                <div class="third-section-content-element-card-one js-modal" data-modal-prefix-class="simple-animated" data-modal-content-id="modal18" data-modal-title="Thorgal"
+                    data-modal-close-text="Close it" data-modal-close-title="Close it, really" data-aos="fade-up" data-aos-duration="1500" >
                     <div class="third-section-content-element-card-one-img">
-                        <img
+                        <img loading="lazy"
                             src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/thorgall_small.png" alt=""></div>
                         <h4>Thorgal</h4>
                     </div>
 
-                    <div class="third-section-content-element-card-hover js-modal" data-modal-prefix-class="simple-animated" data-modal-content-id="modal18" data-modal-title="Thorgal"
-                    data-modal-close-text="Close it" data-modal-close-title="Close it, really">
+                    <div class="third-section-content-element-card-hover ">
                         <p class="title text  button">Je suis né dans l’espace, descendant du « peuple des étoiles ». </p>
                     </div>
                     <div class="hidden" id="modal18">
                         <div class="third-section-content-element-card-clic">
                             <div class="third-section-content-element-card-clic-quote">
-                                <img src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/thorgall_small.png" alt="">
+                                <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/thorgall_small.png" alt="">
                                 <h5>Anecdote</h5>
                                 <p>Thorgal est une bande-dessinée belge qui a traversé les générations avec 38 tomes publiés. </p>
                             </div>
@@ -553,20 +555,20 @@
                     </div>
             </li>
             <li class="third-section-content-element-card">
-                <div class="third-section-content-element-card-one" data-aos="fade-up" data-aos-duration="2500" >
+                <div class="third-section-content-element-card-one js-modal " data-modal-prefix-class="simple-animated" data-modal-content-id="modal13" data-modal-title="Bernard Lovell"
+                    data-modal-close-text="Close it" data-modal-close-title="Close it, really" data-aos="fade-up" data-aos-duration="2500" >
                     <div class="third-section-content-element-card-one-img">
-                        <img src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/lovell_small.jpeg" alt=""></div>
+                        <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/lovell_small.jpeg" alt=""></div>
                         <h4>Bernard Lovell</h4>
                     </div>
 
-                    <div class="third-section-content-element-card-hover js-modal " data-modal-prefix-class="simple-animated" data-modal-content-id="modal13" data-modal-title="Bernard Lovell"
-                    data-modal-close-text="Close it" data-modal-close-title="Close it, really">
+                    <div class="third-section-content-element-card-hover ">
                         <p class="title text button">J’ai fait construire le plus grand radiotélescope du monde.</p>
                     </div>
                     <div class="hidden" id="modal13">
                     <div class="third-section-content-element-card-clic">
                         <div class="third-section-content-element-card-clic-quote">
-                            <img src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/lovell_small.jpeg" alt="">
+                            <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/lovell_small.jpeg" alt="">
                             <h5>Anecdote</h5>
                             <p>Il est fait chevalier en 1961 pour ses avancées sur la radioastronomie. </p>
                         </div>
@@ -578,20 +580,20 @@
                     </div>
             </li>
             <li class="third-section-content-element-card">
-                <div class="third-section-content-element-card-one " data-aos="fade-up" data-aos-duration="4000" >
+                <div class="third-section-content-element-card-one js-modal" data-modal-prefix-class="simple-animated" data-modal-content-id="modal14" data-modal-title="Bernard Lovell"
+                    data-modal-close-text="Close it" data-modal-close-title="Close it, really" data-aos="fade-up" data-aos-duration="4000" >
                     <div class="third-section-content-element-card-one-img">
-                        <img src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/leonov_small.png" alt=""></div>
+                        <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/leonov_small.png" alt=""></div>
                         <h4>Alexei Leonov</h4>
                     </div>
 
-                    <div class="third-section-content-element-card-hover js-modal" data-modal-prefix-class="simple-animated" data-modal-content-id="modal14" data-modal-title="Bernard Lovell"
-                    data-modal-close-text="Close it" data-modal-close-title="Close it, really">
+                    <div class="third-section-content-element-card-hover ">
                         <p class="title text button">On me surnomme le piéton de l’espace. </p>
                     </div>
                     <div class="hidden" id="modal14">
                         <div class="third-section-content-element-card-clic">
                             <div class="third-section-content-element-card-clic-quote">
-                                <img src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/leonov_small.png" alt="">
+                                <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/leonov_small.png" alt="">
                                 <h5>Anecdote</h5>
                                 <p>Alexei Leonov fut le premier homme à effectuer une sortie spatiale extravéhiculaire. Presque à court d’oxygène, il ne parvenait plus à entrer dans son vaisseau spatial. La force de la pression avait fait augmenter le volume de sa combinaison. Celle-ci était devenue dure et Alexei ne pouvait donc plus plier son corps pour entrer dans le vaisseau. Il dû prendre le risque d’ouvrir rapidement sa combinaison. Le retour ne se passera pas sans encombre non plus. Des problèmes techniques perturbèrent la trajectoire de rentrée. La capsule arrive donc en pleine forêt et Alexei Leonov et son acolyte y passe une nuit au milieu des loups avant d’être retrouvés. Il faut abattre des arbres pour arriver jusqu’à eux et les astronautes sont même contraints de skier jusqu’à la zone de récupération. </p>
                             </div>
@@ -605,20 +607,20 @@
             </li>
 
             <li class="third-section-content-element-card">
-                <div class="third-section-content-element-card-one " data-aos="fade-up" data-aos-duration="4000" >
+                <div class="third-section-content-element-card-one js-modal" data-modal-prefix-class="simple-animated" data-modal-content-id="modal21" data-modal-title="Pierre Léna"
+                    data-modal-close-text="Close it" data-modal-close-title="Close it, really" data-aos="fade-up" data-aos-duration="4000" >
                     <div class="third-section-content-element-card-one-img">
-                        <img src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/pierreLena.jpg" alt=""></div>
+                        <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/pierreLena.jpg" alt=""></div>
                         <h4>Pierre Léna</h4>
                     </div>
 
-                    <div class="third-section-content-element-card-hover js-modal" data-modal-prefix-class="simple-animated" data-modal-content-id="modal21" data-modal-title="Pierre Léna"
-                    data-modal-close-text="Close it" data-modal-close-title="Close it, really">
+                    <div class="third-section-content-element-card-hover ">
                         <p class="title text button">J’ai accompagné la naissance puis le développement d'une nouvelle branche de l'astronomie tournée vers l'observation du Soleil, puis des étoiles et du milieu interstellaire, par leur rayonnement infrarouge, à l'aide de télescopes situés à la surface de la Terre, mais aussi à bord d'avions ou de satellites-observatoires. </p>
                     </div>
                     <div class="hidden" id="modal21">
                         <div class="third-section-content-element-card-clic">
                             <div class="third-section-content-element-card-clic-quote">
-                                <img src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/pierreLena.jpg" alt="">
+                                <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/pierreLena.jpg" alt="">
                                 <h5>Anecdote</h5>
                                 <p>Outre ses fonctions de professeur d’université et les nombreux étudiants qu’il a contribué à former à la recherche, Pierre Léna fut et demeure très engagé dans la rénovation de l’enseignement des sciences à l’école et au collège, via une méthode active d'initiation aux sciences dans les écoles primaires.</p>
                             </div>
@@ -634,20 +636,20 @@
             </li>
 
             <li class="third-section-content-element-card">
-                <div class="third-section-content-element-card-one " data-aos="fade-up" data-aos-duration="4000" >
+                <div class="third-section-content-element-card-one js-modal" data-modal-prefix-class="simple-animated" data-modal-content-id="modal22" data-modal-title="Michel Serres"
+                    data-modal-close-text="Close it" data-modal-close-title="Close it, really"" data-aos="fade-up" data-aos-duration="4000" >
                     <div class="third-section-content-element-card-one-img">
-                        <img src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/michelSerres.jpg" alt=""></div>
+                        <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/michelSerres.jpg" alt=""></div>
                         <h4>Michel Serres</h4>
                     </div>
 
-                    <div class="third-section-content-element-card-hover js-modal" data-modal-prefix-class="simple-animated" data-modal-content-id="modal22" data-modal-title="Michel Serres"
-                    data-modal-close-text="Close it" data-modal-close-title="Close it, really">
+                    <div class="third-section-content-element-card-hover ">
                         <p class="title text button">Membre de l'Académie française et de l'Académie européenne des sciences et des arts, je fus Grand officier de la Légion d’honneur et Grand-croix de l’ordre national du Mérite.  </p>
                     </div>
                     <div class="hidden" id="modal22">
                         <div class="third-section-content-element-card-clic">
                             <div class="third-section-content-element-card-clic-quote">
-                                <img src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/michelSerres.jpg" alt="">
+                                <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/michelSerres.jpg" alt="">
                                 <h5>Anecdote</h5>
                                 <p>Michel Serres disait qu’“un chercheur est celui qui risque sa vérité et qui se casse la figure.”</p>
                             </div>

@@ -137,7 +137,7 @@
   .third-section-content-element-card-one h4 {
   background-color: #00000047;
   color: #fff;
-  min-width: 20rem;
+  min-width: 25rem;
   max-width: 35rem;
   height: auto;
   padding: 2rem 5rem;
@@ -160,11 +160,11 @@
   }
   
   .third-section-content-element-card-one h4:before {
-  left: 2rem;
+  left: 4rem;
   }
   
   .third-section-content-element-card-one h4:after {
-  right: 2rem;
+  right: 4rem;
   }
   
   /* Fenêtre modale */
@@ -231,7 +231,7 @@
   text-align:center;
   }
 
-  .third-section-content-element-card .third-section-content-element-card-hover {
+  /* .third-section-content-element-card .third-section-content-element-card-hover {
   background-color: rgb(11, 4, 44);
   position: absolute;
   top: 0;
@@ -250,7 +250,7 @@
   padding: 2rem;
   font-size: 1.4rem;
   text-align: left;
-  }
+  } */
 
   .third-section-content-element-card-hover .title {
     

@@ -25,7 +25,7 @@
                 
                 <div class="first-section-content-element-img" data-aos="fade-down" data-aos-easing="linear"
                 data-aos-duration="2000">
-                    <img src="<?php echo THEME_DIR_IMG; ?>/installation/dessin-instal.jpg"
+                    <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/installation/dessin-instal.jpg"
                     alt="dessin de l'installation d'echelles celestes">
                     <span></span>
                     <span></span>
@@ -46,15 +46,15 @@
                 </div>
                 <div class="first-section-content-element-items" data-aos="fade-down"
                     data-aos-easing="linear" data-aos-duration="1500">
-                    <img data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000"
+                    <img loading="lazy" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000"
                         src="<?php echo THEME_DIR_IMG; ?>/installation/meudon.png" alt="">
-                    <img data-aos="fade-down" data-aos-easing="linear" data-aos-duration="3000"
+                    <img loading="lazy" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="3000"
                         src="<?php echo THEME_DIR_IMG; ?>/installation/Brooke3.jpg" alt="">
-                    <img data-aos="fade-down" data-aos-easing="linear" data-aos-duration="4000"
+                    <img loading="lazy" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="4000"
                         src="<?php echo THEME_DIR_IMG; ?>/installation/Lune.jpg" alt="">
-                    <img data-aos="fade-down" data-aos-easing="linear" data-aos-duration="3000"
+                    <img loading="lazy" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="3000"
                         src="<?php echo THEME_DIR_IMG; ?>/installation/lagoon-nebula.png" alt="">
-                    <img data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000"
+                    <img loading="lazy" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000"
                         src="<?php echo THEME_DIR_IMG; ?>/installation/thors-elmet.jpg" alt="">
                 </div>
                 <?php endwhile; 

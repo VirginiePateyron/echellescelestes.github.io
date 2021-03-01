@@ -1,7 +1,6 @@
 <footer>
     <div class="container">
         <article class="footer-content">
-            <h2></h2>
             <div class="footer-content-element">
                 <section class="footer-content-element-item">
                     <img src="<?php echo THEME_DIR_IMG; ?>/lenadazy.png" alt="">
@@ -14,7 +13,7 @@
                     </ul>
                 </section>
                 <section class="footer-content-element-item">
-                    <img src="<?php echo THEME_DIR_IMG; ?>/logolabogrand.jpg" alt="">
+                    <img src="<?php echo THEME_DIR_IMG; ?>/partenaires/logogrand_sansfond.png" alt="">
                     <ul>
                         <li>le labo des cultures</li>
                         <li><a href="contact@lelabodescultures.com" target="_blank">Contactez le labo des cultures par mail</a>

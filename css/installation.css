@@ -74,15 +74,16 @@
       animation: bodyLine 30s ease-in-out infinite;
     }
 
+    @keyframes bodyLine {
+      0% {top: 0rem;}
+      100% {top: 100%;}
+    }
+    
     .first-section-content-element h3 {
       margin-top: 2rem;
       margin-bottom: 2rem;
     }
     
-    @keyframes bodyLine {
-      0% {top: 0rem;}
-      100% {top: 100%;}
-    }
     
     .first-section-content-element-text img {
       align-content: center;
