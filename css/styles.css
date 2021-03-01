@@ -7,6 +7,7 @@
   cursor: pointer;
   padding: .25em .5em;
   display: inline-block;
+
 }
 
 
@@ -46,7 +47,7 @@ dialog {
   bottom: 0;
   right: 0;
   left: 0;
-  background: #fff;
+  background: #0B042C;
   opacity: .8;
   z-index: 666;
   cursor: pointer;
@@ -75,8 +76,9 @@ dialog {
 .simple-animated-modal,
 .simple-animatedtransform-modal {
   position: fixed;
-  left: 15%;
-  width: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50%;
   top: 5vh;
   max-height: 90vh;
   /*
@@ -85,7 +87,7 @@ dialog {
   max-height: 90%;
   */
   border: 2px solid #000; 
-  background: #fff;
+  background: #0B042C;
   z-index: 667;
   padding: 2em;
   right: auto;
@@ -105,7 +107,7 @@ dialog {
 .simple-modal-close:before,
 .simple-animated-modal-close:before,
 .simple-animatedtransform-modal-close:before {
-  content: url("/echellescelestes-web/img/btn-modale.png");
+  content: url("../img/btn-modale.png");
   background-repeat: no-repeat;
   object-fit: cover;
 }
@@ -140,8 +142,8 @@ dialog {
   100% {
     opacity: 1;
 	  max-height: 100%;
-	  width: 70%;
-	  left: 15%;
+	  width: 50%;
+	  left: 50%;
   }
 }
 @keyframes apparition {
@@ -154,8 +156,8 @@ dialog {
   100% {
     opacity: 1;
 	  max-height: 100%;
-	  width: 70%;
-	  left: 15%;
+	  width: 50%;
+	  left: 50%;
   }
 }
 
@@ -172,8 +174,8 @@ dialog {
 	-webkit-transform: scale(1);
 	        transform: scale(1);
 	  max-height: 100%;
-	  width: 70%;
-	  left: 15%;
+	  width: 50%;
+	  left: 50%;
   }
 }
 @keyframes pop {
@@ -189,67 +191,13 @@ dialog {
 	-webkit-transform: scale(1);
 	        transform: scale(1);
 	  max-height: 100%;
-	  width: 70%;
-	  left: 15%;
+	  width: 50%;
+	  left: 50%;
   }
 }
 
 
-/* another modal styling example */
-/* tooltip modal for it’s easy button */
-.simple-left-modal-overlay {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  background: rgba(0, 0, 0, .8);
-  opacity: .8;
-  z-index: 666;
-  cursor: pointer;
-}
 
-.simple-left-modal {
-  left: auto;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  height: 100%;
-  z-index: 667;
-  position: fixed;
-  width: 40em;
-  max-width: 100%;
-  padding: 0 1em 1em 1em;
-  font-size: 1em;
-  border: 0;
-  overflow: auto;
-  background-color: #aaa ; /* fallback IE9 */
-  background-image:
-      -webkit-linear-gradient(
-        top,
-        #128197 3em,
-        #f7f7f7 3em
-      );  background-image:
-      linear-gradient(
-        to bottom,
-        #128197 3em,
-        #f7f7f7 3em
-      );
-  background-attachment: local;
-}
-.simple-left-modal-close {
-  position: absolute;
-  top: .5em;
-  right: 0;
-  background: transparent;
-  color: #fff;
-  border: 0;
-  cursor: pointer;
-}
-.simple-left-modal-title {
-  color: #fff;
-  font-size: 1.5em;
-}
 
 /* it can be easily adapted in media-queries for tablets/mobile */
 

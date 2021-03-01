@@ -1,0 +1,113 @@
+/********************** SIXTH-SECTION **********************/
+.sixth-section-team-img {
+  position: absolute;
+  z-index: -1;
+  width: 50%;
+}
+
+.sixth-section-content  {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(50rem, 1fr) );
+    
+    gap: 4rem;
+    margin: 10rem auto;
+    justify-items: center;
+    }
+  
+    .sixth-section-content-element {
+      max-width: max-content;
+    }
+    
+    .sixth-section-content-element h4 {
+    width: 20rem;
+    height: auto;
+   
+    position: relative;
+    margin: 2rem auto;
+    color: #fff;
+    font-weight: 200;
+    }
+
+    .sixth-section-content-element-desc {
+      max-width: 50rem;
+      display: flex;
+      flex-direction: row;
+      background-color: #00000047;
+      padding: 2rem;
+    }
+    
+    .sixth-section-content-element-desc img {
+    margin: 2rem auto;
+    padding: 0;
+    background-position-y: top;
+    background-color: rgba(11, 4, 44, .2);
+    
+    clip-path: none;
+    
+    width: 15rem;
+    height: 20rem;
+    
+    object-fit: cover;
+    text-align: center;
+    display: block;
+    
+    clip-path: inherit;
+    
+    border-radius: 50%;
+    padding: .3rem;
+    
+    display: flex;
+    align-items: center;
+    }
+
+    .sixth-section-content-element-desc-text {
+      margin-left: 2rem;
+      color: #fff;
+    }
+
+    .sixth-section-content-element-desc:nth-child(odd) img {
+      animation: animation-pic 10s ease-in-out infinite alternate; 
+    }
+    
+    @keyframes animation-pic {
+      0% {
+        transform: translatey(0px);  
+        rotate: 5deg;
+      }
+      50% {
+        transform: translatey(10px);  
+      }
+      100% {
+        transform: translatey(15px);  
+        rotate: -5deg;
+      }
+    }
+    
+    .sixth-section-content-element .button {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    
+    /* Extra small devices (portrait phones, less than 576px) */
+    @media (max-width: 575.98px) { 
+      
+    }
+    
+    /* Small devices (landscape phones, less than 768px) */
+    @media (max-width: 767.98px) { 
+      
+    }
+    
+    /* Medium devices (tablets, less than 992px) */
+    @media (max-width: 991.98px) { 
+      
+      .sixth-section-content {
+        grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr) );
+      }
+      
+      }
+    
+      /* Large devices (desktops, less than 1200px) */
+      @media (max-width: 1199.98px) { 
+        
+      }

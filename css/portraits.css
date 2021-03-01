@@ -1,0 +1,313 @@
+/*************************** THIRD-SECTION ***********************/
+.third-section-gallery-img {
+  position: absolute;
+  width: 10%;
+
+  transition: all 1s;
+  margin: auto;
+  z-index: -1;
+  
+  animation: satelliteMove 30s infinite alternate;
+}
+
+@keyframes satelliteMove {
+  0% {
+    transform: translateY(-50px) translateX(0) rotate(30deg);
+  }
+  25% { 
+    transform: translateY(50px) translateX(250px) rotate(20deg);
+  }
+  50% {
+    transform: translateY(100px) translateX(500px);
+  }
+  75% {
+    transform: translateY(50px) translateX(850px) rotate(-20deg);
+  }
+  100% {
+    transform: translateY(-170px) translateX(1200px) rotate(-40deg);
+  }
+}
+
+
+.third-section-content-element {
+    /* display: grid; */
+    /* grid-template-columns: repeat(5, 1fr); */
+   /*  */
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(35rem, 1fr) );
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto !important;
+
+    justify-content: space-around;
+  }
+  
+  .third-section-content-element-card {
+    margin: 5rem auto;
+    transform: scale(1.1);
+  }
+  
+  .third-section-content-element-card:nth-child(odd) {
+    animation: gravityBox 11s linear alternate infinite;
+  }
+  .third-section-content-element-card:nth-child(odd),
+  .third-section-content-element-card-hover:nth-child(odd) .title {
+    margin-top: 20rem !important;
+  }
+  
+  .third-section-content-element-card:nth-child(even) {
+    animation: gravityBox 8s linear alternate-reverse infinite;
+  }
+  
+  .third-section-content-element-card-one img:nth-child(even) {
+    width: 25rem;
+    height: 30rem;
+  }
+  
+  .third-section-content-element-card:nth-child(3n+1) {
+    animation: gravityBox 14s linear alternate-reverse infinite;
+  }
+
+  .third-section-content-element-card:nth-child(3n+1),
+  .third-section-content-element-card-hover:nth-child(3n+1) .title {
+    padding-top: 40rem !important;
+  }
+  
+  
+  .third-section-content-element-card:nth-child(4n+1) {
+    animation: gravityBox 5s linear alternate-reverse infinite;
+  }
+  
+  .third-section-content-element-card:nth-of-type(4n) {
+    animation: gravityBox 19s linear alternate infinite;
+   /*  margin-top: 60rem; */
+  }
+  
+
+  @keyframes gravityBox {
+    /*  to{
+       transform:translateY(50px);
+     }  */
+     0% {
+       /* box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); */
+       transform: translatey(0px);
+       rotate: 5deg;
+     }
+     50% {
+       /* box-shadow: 0 5px 15px 0px rgba(0,0,0,0.2); */
+       transform: translatey(-20px);
+     }
+     100% {
+      /*  box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); */
+       transform: translatey(0px);
+       rotate: -5deg;
+     }
+   }
+  
+  .third-section-content-element-card-one {
+  margin: 2rem auto;
+  max-width: 30rem;
+  position: relative;
+  }
+  
+  .third-section-content-element-card-one-img {
+  margin: auto;
+  width: max-content;
+  height: max-content;
+  }
+  
+  .third-section-content-element-card-one img {
+    width: 15rem;
+    height: 20rem;
+  
+  object-fit: cover;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  
+  clip-path: inherit;
+  
+  background-image: url("../img/frame.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 1rem;
+  }
+  
+  .third-section-content-element-card-one h4 {
+  background-color: #00000047;
+  color: #fff;
+  min-width: 25rem;
+  max-width: 35rem;
+  height: auto;
+  padding: 2rem 5rem;
+  position: relative;
+  margin: auto;
+  
+  font-size: 1.4rem;
+  
+  clip-path: polygon(10% 15%, 13% 15%, 13% 5%, 87% 5%, 87% 15%, 90% 15%, 90% 85%, 87% 85%, 87% 95%, 13% 95%, 13% 85%, 10% 85%);
+  }
+  
+  .third-section-content-element-card-one h4:before,
+  .third-section-content-element-card-one h4:after {
+  content: "";
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  background-image: url("../img/moon-light.svg");
+  margin: .5rem;
+  }
+  
+  .third-section-content-element-card-one h4:before {
+  left: 4rem;
+  }
+  
+  .third-section-content-element-card-one h4:after {
+  right: 4rem;
+  }
+  
+  /* Fenêtre modale */
+  /* Pour les brontobrowsers */
+  dialog {
+  display: block;
+  border: 0;
+  background-color: #0B042C !important;
+  color: #fff;
+  }
+  
+  .simple-modal, .simple-animated-modal, .simple-animatedtransform-modal {
+    background-color: #0B042C;
+  }
+  
+  .simple-animated-modal__wrapper {
+    padding: 5rem;
+  
+  }
+  /* enlève le scroll de la page quand la modale est ouverte */
+  .no-scroll {
+  overflow: hidden;
+  }
+  /* l’overlay couvre tout */
+  .modal-overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 666;
+  }
+  /* modale */
+  .modal {
+  position: fixed;
+  left: 25%;
+  right: auto;
+  top: 15%;
+  width: 50%;
+  z-index: 667;
+  }
+  
+  .simple-modal-overlay, .simple-animated-modal-overlay, .simple-animatedtransform-modal-overlay {
+    background: #0B042C !important;
+  }
+
+  .simple-animated-modal button {
+    box-shadow: none;
+    background-color: #0B042C;
+    position: absolute;
+    right: 0;
+    top: 10%;
+  }
+  
+  
+  /* Réglages du texte des cartes au survol - Pure CSS */
+  
+  .third-section-content-element-card {
+  cursor: pointer;
+  /*  height: 300px; */
+  position: relative;
+  overflow: hidden;
+  /* width: 400px; */
+  text-align:center;
+  }
+
+  /* .third-section-content-element-card .third-section-content-element-card-hover {
+  background-color: rgb(11, 4, 44);
+  position: absolute;
+  top: 0;
+  color: #fff;
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  opacity: 0;
+
+  min-height: 25rem;
+  max-width: 20rem;
+  margin: auto;
+ 
+  padding: 2rem;
+  font-size: 1.4rem;
+  text-align: left;
+  } */
+
+  .third-section-content-element-card-hover .title {
+    
+  overflow-y: auto;
+  }
+
+  .third-section-content-element-card:hover .third-section-content-element-card-hover { 
+    opacity: 1;
+  }
+
+  .third-section-content-element-card-hover:hover {
+    transform: scale(1.1);
+  }
+
+  .third-section-content-element-card .text {
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  transform: translateY(30px);
+  -webkit-transform: translateY(30px);
+  }
+
+  .third-section-content-element-card-one:hover{
+    transform: scale(1.1);
+  }
+  .third-section-content-element-card .title {
+  /* text-transform: uppercase; */
+  opacity: 0;
+  transition-delay: 0.2s;
+  transition-duration: 0.3s;
+  }
+  .third-section-content-element-card:hover .title,
+  .third-section-content-element-card:focus .title {
+  opacity: 1;
+  transform: translateY(0px);
+  -webkit-transform: translateY(0px);
+  }
+  
+  .third-section-content-element-card-clic {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+    margin: 5rem auto;
+  }
+  
+  .third-section-content-element-card-clic-quote {
+    width: 75%;
+    font-size: 1.4rem;
+  }
+  
+  .third-section-content-element-card-clic-quote p {
+    background-color: rgba(255, 255, 255, .2);
+    padding: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1.6rem;
+  }

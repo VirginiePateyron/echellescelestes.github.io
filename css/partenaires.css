@@ -1,0 +1,60 @@
+/********************** EIGHT-SECTION **********************/
+.eight-section {
+    min-height: 50vh;
+    }
+    
+    
+    .eight-section-content-element {
+    display: flex;
+    justify-content: center;
+    /* grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr) ); */
+    
+    margin: auto;
+    }
+    
+    .eight-section-content-element img {
+    clip-path: inherit;
+    /* background-color: rgba(255, 255, 255, .3); */
+    padding: 4vmin;
+    width: 20%;
+    height: auto;
+    object-fit: contain;
+    position: relative;
+    /* clip-path: polygon(10% 15%, 15% 15%, 15% 5%, 85% 5%, 85% 15%, 90% 15%, 90% 85%, 85% 85%, 85% 95%, 15% 95%, 15% 85%, 10% 85%); */
+    animation: float 5s linear infinite;
+    }
+    
+    .eight-section-content-element img:nth-child(odd) {
+      animation: float 10s linear infinite;
+    }
+    
+    @keyframes float {
+      0% {top: 0rem;}
+      25% {top: 3rem;}
+      50% {top: 3rem;}
+      75% {top:0rem}
+      100% {top: 0rem;}
+    }
+    
+    /* Extra small devices (portrait phones, less than 576px) */
+    @media (max-width: 575.98px) { 
+      
+    }
+    
+    /* Small devices (landscape phones, less than 768px) */
+    @media (max-width: 767.98px) { 
+      
+    }
+    
+    /* Medium devices (tablets, less than 992px) */
+    @media (max-width: 991.98px) { 
+      .eight-section-content-element img {
+        padding: 2vmin;
+        width: 25%;
+      }
+      }
+    
+      /* Large devices (desktops, less than 1200px) */
+      @media (max-width: 1199.98px) { 
+        
+      }

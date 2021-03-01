@@ -1,10 +1,1 @@
-<?php get_header(); ?>
-
-
-	
-
-
-<?php get_footer(); ?>
-
-</body>
-</html>
+<?php wp_redirect( home_url(), 301 ); exit; ?>
