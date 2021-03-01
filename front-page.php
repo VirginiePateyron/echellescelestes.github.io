@@ -10,7 +10,7 @@
 ?> 
         
 
-        <div class="scrolltop-wrap">
+       <!--  <div class="scrolltop-wrap">
             <a href="#home" role="button" aria-label="Scroll to top">
                 
 
@@ -18,7 +18,7 @@
                 <p>Retour en haut</p>
             </a>
             
-        </div>
+        </div> -->
 
 </div>
 
