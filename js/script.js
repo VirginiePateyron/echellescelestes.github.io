@@ -103,24 +103,11 @@ function getReading() {
   document.getElementById("reading").innerHTML =
   listeReading[Math.floor(Math.random() * listeReading.length)];
 }
-/* 
-function getPodcast() {
-  let listePodcast = new Array(
-    "/media/centre-philo.wav",
-    "/media/dico-ciel.wav",
-    "/media/etoile.wav",
-    "/media/intro-gen.wav",
-    "/media/questions.wav",
-    "/media/temps.wav"
-  );
-  let templateAudio = 
 
-  document.getElementById("podcast").innerHTML =
-  listePodcast[Math.floor(Math.random() * listePodcast.length);
-} */
 
 
 /* Créer un menu responsive */
+
 
 
 

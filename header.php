@@ -74,7 +74,7 @@
             </nav>
           </div>
 
-        <div class="img-deco">
+        <!-- <div class="img-deco">
             <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/install-ech-celestes-sf-ws.png" alt="installation dessinée">
-        </div>
+        </div> -->
     </header>

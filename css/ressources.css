@@ -6,6 +6,10 @@ position: absolute;
 background: url("");
 } */
 
+#fifth .container {
+  width: 100%;
+}
+
 .fifth-section-content {
     margin: auto;
     overflow-x: scroll;
