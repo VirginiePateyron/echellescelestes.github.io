@@ -1,8 +1,13 @@
 # echellescelestes
 
 
-<<<<<<< HEAD
-Branche de dev enfant de la branche wordpress de l'intégration WordPress du site Echelles Celestes
+<<<<<<<
+Branche main principale - site à récupérer
 =======
 Site web final en WordPress
+
+fichiers dispo :
+- thème php "echelles-celestes" pour wordpress
+- dossier mu-plugins avec le fichiers constantes.php qui définit les chemins absolus des fichiers
+- la base de données mysql
 >>>>>>> 
