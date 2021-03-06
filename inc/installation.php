@@ -39,6 +39,7 @@
     </nav>
 
     <article class="first-section change-color" id="first">
+        <div id="secondaryFirst">
         <h2 class="buttons gradient">
             <?php the_field('first_section_title') ?>
         </h2>
@@ -114,6 +115,7 @@
                 
             </section>
         </div>
+    </div>
     </div>
 
 </article>

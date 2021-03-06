@@ -1,6 +1,7 @@
 
 
 <article class="second-section change-color" id="second">
+    <div id="secondarySecond">
      <img loading="lazy" class="img-deco-bg" src="<?php echo THEME_DIR_IMG; ?>/astro/lowell_obs.png" alt="l'astronome Lowell observe l'espace avec une lunette astronomique" />
     <!-- <h2 class="gradient">inspirations</h2> -->
     <h2 class="buttons gradient">
@@ -58,5 +59,6 @@
                 </div>
             </section>
         </div>
+    </div>
     </div>
 </article>

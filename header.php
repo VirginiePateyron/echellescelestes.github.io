@@ -47,25 +47,25 @@
             <nav class="menu__nav" id= "navbar">
               <ul class="menu__list r-list">
               <li class="menu__group menu-item">
-                    <a href="#first" href="javascript:void(0)" class="menu__link r-link">l'installation</a>
+                    <a href="#secondaryFirst" href="javascript:void(0)" class="menu__link r-link">l'installation</a>
                 </li>
                 <li class="menu__group menu-item">
-                    <a href="#second" href="javascript:void(0)" class="menu__link r-link">inspirations</a>
+                    <a href="#secondarySecond" href="javascript:void(0)" class="menu__link r-link">inspirations</a>
                 </li>
                 <li class="menu-item menu__group ">
-                    <a href="#third" href="javascript:void(0)" class="menu__link r-link">galerie de portraits</a>
+                    <a href="#secondaryThird" href="javascript:void(0)" class="menu__link r-link">galerie de portraits</a>
                 </li>
                 <li class="menu-item menu__group ">
-                    <a href="#fourth" href="javascript:void(0)" class="menu__link r-link">jouez du hasard</a>
+                    <a href="#secondaryFourth" href="javascript:void(0)" class="menu__link r-link">jouez du hasard</a>
                 </li>
                 <li class="menu-item menu__group ">
-                    <a href="#fifth" href="javascript:void(0)" class="menu__link r-link">ressources</a>
+                    <a href="#secondaryFifth" href="javascript:void(0)" class="menu__link r-link">ressources</a>
                 </li>
                 <li class="menu-item menu__group ">
-                    <a href="#sixth" href="javascript:void(0)" class="menu__link r-link">l'équipe</a>
+                    <a href="#secondarySixth" href="javascript:void(0)" class="menu__link r-link">l'équipe</a>
                 </li>
                 <li class="menu-item menu__group ">
-                    <a href="#seventh" href="javascript:void(0)" class="menu__link r-link">contact</a>
+                    <a href="#secondarySeventh" href="javascript:void(0)" class="menu__link r-link">contact</a>
                 </li>
               </ul>
             </nav>

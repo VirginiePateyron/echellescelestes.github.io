@@ -1,6 +1,7 @@
 
 
-<article class="four-section change-color" id="fourth"><!-- background tableau d'école -->
+<article class="four-section change-color" id="fourth">
+    <div id="secondaryFourth"><!-- background tableau d'école -->
          
     <!-- <h2 class="gradient">jouez du hasard</h2> -->
     <h2 class="buttons gradient">
@@ -66,6 +67,7 @@
             </iframe> -->
             
         </section>
+    </div>
     </div>
 </article>
 

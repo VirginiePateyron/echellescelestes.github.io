@@ -1,6 +1,5 @@
 <article class="seven-section change-color" id="seventh">
-         
-                  
+<div id="secondarySeventh">
     <h2 class="buttons gradient">
         contact
     </h2>
@@ -21,5 +20,7 @@
 
         </section>
     </div>
+    </div>
+                  
 </article>
 

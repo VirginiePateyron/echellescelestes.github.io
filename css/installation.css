@@ -2,9 +2,9 @@
 .first-section {
     position: relative;
     /* background-color: #fff; */
-    background-color: #000;
+    background-color: rgb(10, 10, 10);
 
-    filter: drop-shadow(-5mm -10mm 4mm #000);
+    filter: drop-shadow(-5mm -10mm 4mm rgb(10, 10, 10));
     }
 
     

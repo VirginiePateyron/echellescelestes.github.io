@@ -1,6 +1,7 @@
 
 
-<article class="third-section change-color" id="third"> <!-- background avec galaxie -->
+<article class="third-section change-color" id="third"> 
+    <div id="secondaryThird"><!-- background avec galaxie -->
            
     <!-- <h2 class="gradient">galerie des portraits</h2> -->
     <h2 class="buttons gradient">
@@ -668,5 +669,6 @@
             </li>
         </ul>
         <!--  </section> -->
+    </div>
     </div>
 </article>

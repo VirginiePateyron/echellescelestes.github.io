@@ -1,7 +1,7 @@
 
 
 <article class="sixth-section change-color" id="sixth">
-      
+<div id="secondarySixth">
     <!-- <h2 class="gradient">l'équipe</h2> -->
     <h2 class="buttons gradient">
         l'équipe
@@ -116,4 +116,5 @@
                 </div>
             </section>
         </section>
+        </div>
 </article>
