@@ -1,4 +1,7 @@
 /*************************** THIRD-SECTION ***********************/
+#secondaryThird {
+  position: relative;
+}
 .third-section-gallery-img {
   position: absolute;
   width: 10%;
@@ -7,25 +10,68 @@
   margin: auto;
   z-index: -1;
   
-  animation: satelliteMove 30s infinite alternate;
+  animation: satelliteMove 150s infinite alternate;
 }
 
 @keyframes satelliteMove {
   0% {
-    transform: translateY(-50px) translateX(0) rotate(30deg);
-  }
-  25% { 
-    transform: translateY(50px) translateX(250px) rotate(20deg);
-  }
+    top: 10%;
+    left: 80%;
+  
+ }
+ 10% {
+   top: 30%;
+   left: 10%;
+   transform: rotate(45deg);
+ }
+ 20% {
+   top: 50%;
+   left: 80%;
+   transform: rotate(80deg);
+ }
+  30% {
+   top: 70%;
+   left: 10%;
+   transform: rotate(180deg);
+ }
+ 
+  40% {
+   top: 80%;
+   left: 80%;
+   transform: rotate(240deg);
+ }
   50% {
-    transform: translateY(100px) translateX(500px);
-  }
-  75% {
-    transform: translateY(50px) translateX(850px) rotate(-20deg);
-  }
-  100% {
-    transform: translateY(-170px) translateX(1200px) rotate(-40deg);
-  }
+   top: 100%;
+   left: 10%;
+   transform: rotate(360deg);
+ }
+ 60% {
+   top: 80%;
+   left: 80%;
+   transform: rotate(240deg);
+ }
+ 70% {
+   top: 70%;
+   left: 10%;
+   transform: rotate(180deg);
+ }
+
+ 80% {
+  top: 50%;
+  left: 80%;
+  transform: rotate(80deg);
+}
+
+90% {
+  top: 30%;
+  left: 10%;
+  transform: rotate(45deg);
+}
+ 100% {
+    top: 10%;
+    left: 80%;
+    transform: rotate(-40deg);
+ }
 }
 
 
