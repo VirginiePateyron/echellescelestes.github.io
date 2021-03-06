@@ -36,12 +36,28 @@
                         tenté par l’écoute d’un extrait de « Tours du monde, tours du ciel » ?
                     </button>
                     <p class="back face" id="podcast">
-                        <audio controls src="<?php echo THEME_DIR_MEDIA; ?>/centre-philo.wav"> Your browser does not support the <code>audio</code> element.</audio> 
-                        <audio controls src="<?php echo THEME_DIR_MEDIA; ?>/dico-ciel.wav"> Your browser does not support the <code>audio</code> element.</audio>
-                        <audio controls src="<?php echo THEME_DIR_MEDIA; ?>/etoile.wav"> Your browser does not support the <code>audio</code> element.</audio> 
-                        <audio controls src="<?php echo THEME_DIR_MEDIA; ?>/intro-gen.wav"> Your browser does not support the <code>audio</code> element.</audio>
-                        <audio controls src="<?php echo THEME_DIR_MEDIA; ?>/questions.wav"> Your browser does not support the <code>audio</code> element.</audio>   
-                        <audio controls src="<?php echo THEME_DIR_MEDIA; ?>/temps.wav"> Your browser does not support the <code>audio</code> element.</audio>    
+                            <span>Premier extrait</span>
+                            <audio controls src="<?php echo THEME_DIR_MEDIA; ?>/centre-philo.wav"> Your browser does not support the <code>audio</code> element.</audio> 
+                        
+                            <span>Second extrait</span>
+                            <audio controls src="<?php echo THEME_DIR_MEDIA; ?>/dico-ciel.wav"> Your browser does not support the <code>audio</code> element.</audio>
+                        
+                        
+                            <span>Troisième extrait</span>
+                            <audio controls src="<?php echo THEME_DIR_MEDIA; ?>/etoile.wav"> Your browser does not support the <code>audio</code> element.</audio> 
+                        
+                        
+                            <span>Quatrième extrait</span>
+                            <audio controls src="<?php echo THEME_DIR_MEDIA; ?>/intro-gen.wav"> Your browser does not support the <code>audio</code> element.</audio>
+                        
+                        
+                            <span>Cinquième extrait</span>
+                            <audio controls src="<?php echo THEME_DIR_MEDIA; ?>/questions.wav"> Your browser does not support the <code>audio</code> element.</audio>  
+                        
+                        
+                            <span>Sixième extrait</span> 
+                            <audio controls src="<?php echo THEME_DIR_MEDIA; ?>/temps.wav"> Your browser does not support the <code>audio</code> element.</audio>   
+                         
                     </p>
                 </div>
             </div>

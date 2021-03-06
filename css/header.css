@@ -50,7 +50,7 @@
     display: inline-block;
     position: relative;
     top: 75%;
-    left: 10%;
+    right: 10%;
     cursor: zoom-in;
 
     animation: bodyLine 30s ease-in-out infinite;

@@ -197,8 +197,13 @@
     flex-direction: column;
   }
 
+  #podcast span {
+    margin-top: 2rem;
+  }
+
   .four-section-content-element-card audio {
     margin: 2rem auto;
+    border-bottom: 1px solid #fff;
   }
   
   

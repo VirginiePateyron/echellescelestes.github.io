@@ -510,13 +510,17 @@ background-color: #000;
 min-height: max-content;
 }
 
+footer .container {
+  width: 100%;
+}
+
 .footer-content {
 margin: inherit;
 }
 
 .footer-content-element {
 display: grid;
-grid-template-columns:  repeat(3, 1fr);
+grid-template-columns: repeat(auto-fill, minmax(40rem, 1fr) );
 justify-items: center;
 justify-content: center;
 
@@ -568,6 +572,7 @@ text-align: center;
     margin: 2rem auto;
 
     display: flex;
+    flex-direction: column;
   }
   
   }

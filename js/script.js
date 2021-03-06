@@ -14,7 +14,7 @@ function myFunction() {
       }
      else { 
      
-      document.getElementById("header").style.fontSize = "8rem"; // revenir aux propriétés définies sur le titre h1 dans le CSS en revenant en haut du site
+      document.getElementById("header").style.fontSize = "6rem"; // revenir aux propriétés définies sur le titre h1 dans le CSS en revenant en haut du site
       document.getElementById("header").style.fontWeight = "initial"; // revenir aux propriétés définies sur le titre h1 dans le CSS en revenant en haut du site
       }
     }
