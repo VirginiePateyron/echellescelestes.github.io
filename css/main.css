@@ -506,7 +506,7 @@ transition: all 0.1s;
 /********************** FOOTER **********************/
 
 footer {
-background-color: #000;
+background-color: rgb(5, 5, 5);
 min-height: max-content;
 }
 
@@ -529,7 +529,7 @@ justify-content: center;
 .footer-content-element-item {
 display: flex;
 align-items: center;
-width: 50rem;
+width: 40rem;
 color: #fff;
 justify-content: center;
 }
@@ -568,7 +568,7 @@ text-align: center;
     flex-direction: column;
   }
 
-  .footer-content-element-item{
+  .footer-content-element-item:not(:last-child){
     margin: 2rem auto;
 
     display: flex;

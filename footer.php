@@ -13,7 +13,7 @@
                     </ul>
                 </section>
                 <section class="footer-content-element-item">
-                    <img src="<?php echo THEME_DIR_IMG; ?>/partenaires/logogrand_sansfond.png" alt="">
+                    <img src="<?php echo THEME_DIR_IMG; ?>/partenaires/logopetit.jpg" alt="">
                     <ul>
                         <li>le labo des cultures</li>
                         <li><a href="contact@lelabodescultures.com" target="_blank">Contactez le labo des cultures par mail</a>

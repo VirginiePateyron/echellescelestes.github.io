@@ -2,11 +2,11 @@
 .second-section {
     /* width: 80%; */
     position: relative;
-    background: rgb(10, 10, 10);
+    background: rgb(5, 5, 5);
     color: #fff;
     position: relative;
 
-    filter: drop-shadow(-5mm 10mm 4mm rgb(10, 10, 10));
+    filter: drop-shadow(-5mm 10mm 4mm rgb(5, 5, 5));
     }
 
     .second-section .img-deco-bg {
@@ -227,6 +227,11 @@
       .second-section-content-element iframe {
         top: 70%;
         right: 20rem;
+      }
+
+      .second-section .img-deco-bg {
+        top: -10%;
+        width: 30rem !important;
       }
       
       }
