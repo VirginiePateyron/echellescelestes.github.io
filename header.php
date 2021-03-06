@@ -34,12 +34,9 @@
 <!-- Site web réalisé par <a href="www.vriessa.com">Virginie Pateyron</a> -->
 <div id="home">
     <header class="main-header">
-
-        
+        <div class="containerHeader">
         <h1 id="header"><?php $mainTitle = the_field('header_main_title');
         if(!empty($mainTitle)) : ?><a href="#" class="logo"><?php echo $mainTitle; ?></a> <?php endif; ?></h1>
-       
-
         <details>
             <p><?php the_field('header_moon_text');?></p>
             <summary><img loading="lazy" class="img-hero" src="<?php echo THEME_DIR_IMG; ?>/moon-light.svg"
@@ -77,4 +74,5 @@
         <!-- <div class="img-deco">
             <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/install-ech-celestes-sf-ws.png" alt="installation dessinée">
         </div> -->
+        </div>
     </header>

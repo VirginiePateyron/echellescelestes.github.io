@@ -5,6 +5,8 @@
     background: #000;
     color: #fff;
     position: relative;
+
+    filter: drop-shadow(-5mm 10mm 4mm #000);
     }
 
     .second-section .img-deco-bg {

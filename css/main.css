@@ -57,12 +57,15 @@ main img {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
+  width: 100vw;
+  overflow: hidden;
   }
 
-#home,
+/* #home,
 .change-color {
   min-height: 100vh;
-}
+} */
 
 h1 {
 /* font-size: 12rem; */

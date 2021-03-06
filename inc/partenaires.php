@@ -12,7 +12,8 @@
         <section class="eight-section-content">
             <div class="eight-section-content-element">
                 <a href="https://www.nouvelle-aquitaine.fr/#gref" target="_blank">
-                    <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/partenaires/PREFETE_region_Nouvelle_Aquitaine_Couleurs.jpg" alt=""></a>
+                    <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/partenaires/PREFETE_region_Nouvelle_Aquitaine_Couleurs.jpg" alt="">
+                </a>
                 <a href="https://www.nouvelle-aquitaine.fr/#gref" target="_blank">
                     <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/partenaires/region-na/logo NA horizontal/logo_na_horiz_QUADRI_2019.png" alt="">
                 </a>
