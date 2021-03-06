@@ -66,21 +66,6 @@
       margin: 4rem auto;
     }
     
-   
-    
-    .main-header details {
-      content: '';
-      height: 10rem;
-      position: absolute;
-    
-      animation: bodyLine 30s ease-in-out infinite;
-    }
-
-    @keyframes bodyLine {
-      0% {top: 0rem;}
-      100% {top: 100%;}
-    }
-    
     .first-section-content-element h3 {
       margin-top: 2rem;
       margin-bottom: 2rem;

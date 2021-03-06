@@ -9,12 +9,14 @@
     list-style-type: none;
   
     scroll-behavior: smooth;
+
+    z-index: 0;
   }
   
   /* Extra small devices (portrait phones, less than 576px) */
   @media (max-width: 575.98px) { 
   .main-header {
-    flex-direction: column;
+   /*  flex-direction: column; */
   }
   }
   
@@ -39,14 +41,26 @@
     color: inherit;
     position: relative;
   }
+
   
   .main-header details {
-  display: inline-block;
-  position: relative;
-  top: 75%;
-  left: 10%;
-  cursor: zoom-in;
+    content: '';
+    height: 10rem;
+    position: absolute;
+    display: inline-block;
+    position: relative;
+    top: 75%;
+    left: 10%;
+    cursor: zoom-in;
+
+    animation: bodyLine 30s ease-in-out infinite;
   }
+
+  @keyframes bodyLine {
+    0% {top: 0rem;}
+    100% {top: 100%;}
+  }
+  
   
   .main-header details summary {
   display: inline-block;
@@ -91,23 +105,22 @@
   transform: translateX(100%);
   }
   
-  /* Extra small devices (portrait phones, less than 576px) */
-  @media (max-width: 575.98px) { 
-    
-  }
   
-  /* Small devices (landscape phones, less than 768px) */
-  @media (max-width: 767.98px) { 
-    .img-deco {
-      display: none;
-    }
-    
-  }
-  
+
   /* Medium devices (tablets, less than 992px) */
   @media (max-width: 991.98px) { 
     .img-deco {
       transform: translateX(50%);
+    }
+
+    .main-header details {
+      animation: none;
+      top: 10%;
+    }
+
+    .main-header details p {
+      width: inherit;
+      right: 50%;
     }
     
   }
@@ -118,27 +131,39 @@
   text-align: center;
   }
   
+  /* Small devices (landscape phones, less than 768px) */
+  @media (max-width: 767.98px) { 
+    .img-deco {
+      display: none;
+    }
+
+   
+    
+  }
+  
+  
+  
   
   
   
   
   /************************** Navigation *************************/
   /* ********************************************************** */
-  
+  .menu {
+    z-index: -1000;
+  }
   
   #navbar {
   /* overflow: hidden; */
-  /* position: fixed; */
   width: 20rem;
   height: 80vh;
   
   text-align: center;
   z-index: 1000;
-  
-  position: fixed;
+
   top: 20%;
   
-  right: 20%;
+  right: 100%;
   transition: all 1.3s;
   
   font-size: 1.4rem;
@@ -434,16 +459,50 @@
   left: 0rem !important;
   top: 0rem !important;
   }
-  
-  /* Extra small devices (portrait phones, less than 576px) */
-  @media (max-width: 575.98px) { 
-    
+
+   /* Large devices (desktops, less than 1200px) */
+   @media (max-width: 1199.98px) { 
+    .menu-item:last-child {
+      margin: 2rem auto;
+    }
   }
+
+  /* Medium devices (tablets, less than 992px) */
+  @media (max-width: 991.98px) { 
+    #navbar {
+      right: 100%;
+      top: 20%;
+    }
   
+    .menu-item:last-child {
+      margin: 5rem auto;
+    }
+  
+    .main-header details {
+      left: 20%;
+    }
+  
+    .menu-item:nth-child(5) {
+      right: 5rem;
+    }
+  
+    .menu-item:nth-child(1) {
+      right: 10rem;
+    }
+  }
   /* Small devices (landscape phones, less than 768px) */
   @media (max-width: 767.98px) { 
     h1 {
       font-size: 2rem;
+    }
+
+    #navbar {
+         right: -20%;
+      top: 15%;
+    }
+
+    .menu-item {
+      margin: 5rem auto;
     }
     
     .menu-item:last-child {
@@ -472,50 +531,27 @@
   
     #navbar {
       width: 20rem;
-      right: 0;
-      top: 0;
-  
       height: 0;
     }
+
+    .main-header details .img-hero {
+     
+      animation: none;
+      }
+ 
+  }
+
+    
+  /* Extra small devices (portrait phones, less than 576px) */
+  @media (max-width: 575.98px) { 
+    
+  }
   
-    .sticky {
-      left: 0;
-    }
   
    
   
     
   }
   
-  /* Medium devices (tablets, less than 992px) */
-  @media (max-width: 991.98px) { 
-    #navbar {
-    /*   right: 30%; */
-    }
   
-    .menu-item:last-child {
-      margin: 5rem auto;
-    }
-  
-    .main-header details {
-      left: 20%;
-    }
-  
-    .menu-item:nth-child(5) {
-      right: 5rem;
-    }
-  
-    .menu-item:nth-child(1) {
-      right: 10rem;
-    }
-  
-    
-  }
-  
-  /* Large devices (desktops, less than 1200px) */
-  @media (max-width: 1199.98px) { 
-    .menu-item:last-child {
-      margin: 2rem auto;
-    }
-  
-  }
+ 

@@ -34,7 +34,7 @@
 <!-- Site web réalisé par <a href="www.vriessa.com">Virginie Pateyron</a> -->
 <div id="home">
     <header class="main-header">
-        <div class="containerHeader">
+   
         <h1 id="header"><?php $mainTitle = the_field('header_main_title');
         if(!empty($mainTitle)) : ?><a href="#" class="logo"><?php echo $mainTitle; ?></a> <?php endif; ?></h1>
         <details>
@@ -47,7 +47,7 @@
             <nav class="menu__nav" id= "navbar">
               <ul class="menu__list r-list">
               <li class="menu__group menu-item">
-                    <a href="#first" href="javascript:void(0)" class="menu__link r-link">installation</a>
+                    <a href="#first" href="javascript:void(0)" class="menu__link r-link">l'installation</a>
                 </li>
                 <li class="menu__group menu-item">
                     <a href="#second" href="javascript:void(0)" class="menu__link r-link">inspirations</a>
@@ -74,5 +74,5 @@
         <!-- <div class="img-deco">
             <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/install-ech-celestes-sf-ws.png" alt="installation dessinée">
         </div> -->
-        </div>
+
     </header>

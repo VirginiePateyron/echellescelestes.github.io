@@ -78,7 +78,7 @@ dialog {
   position: fixed;
   left: 50%;
   transform: translateX(-50%);
-  width: 50%;
+  width: 80%;
   top: 5vh;
   max-height: 90vh;
   /*
@@ -206,7 +206,7 @@ dialog {
 
   .simple-modal,
   .simple-animated-modal {
-    left: 5%;
+
     top: 5%;
     height: 90%;
     width: 90%;
@@ -219,7 +219,7 @@ dialog {
 
   .simple-modal,
   .simple-animated-modal {
-    left: 1%;
+    left: 50%;
     top: 1%;
     width: 98%;
     height: 98%;

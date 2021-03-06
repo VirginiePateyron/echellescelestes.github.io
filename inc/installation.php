@@ -1,6 +1,43 @@
 
 
 <main>
+    <!--    Made by Erik Terwan    -->
+    <!--   24th of November 2015   -->
+    <!--        MIT License        -->
+    <nav role="navigation">
+    <div id="menuToggle">
+        <!--
+        A fake / hidden checkbox is used as click reciever,
+        so you can use the :checked selector on it.
+        -->
+        <input type="checkbox" />
+        
+        <!--
+        Some spans to act as a hamburger.
+        
+        They are acting like a real hamburger,
+        not that McDonalds stuff.
+        -->
+        <span></span>
+        <span></span>
+        <span></span>
+        
+        <!--
+        Too bad the menu has to be inside of the button
+        but hey, it's pure CSS magic.
+        -->
+        <ul id="menu">
+        <a href="#first"><li>l'installation</li></a>
+        <a href="#second"><li>inspirations</li></a>
+        <a href="#third"><li>galerie de portraits</li></a>
+        <a href="#fourth"><li>jouez du hasard</li></a>
+        <a href="#fifth"><li>ressources</li></a>
+        <a href="#sixth"><li>l'équipe</li></a>
+        <a href="#seventh"><li>contact</li></a>
+        </ul>
+    </div>
+    </nav>
+
     <article class="first-section change-color" id="first">
         <h2 class="buttons gradient">
             <?php the_field('first_section_title') ?>
