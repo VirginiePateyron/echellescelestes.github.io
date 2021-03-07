@@ -55,6 +55,10 @@
   padding: 5rem;
   align-items: center;  
   }
+
+  .four-section-content-element-card #podcast {
+    padding: 2rem;
+  }
   .four-section-content-element-card .front {
   /* background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/22/King_of_spades2.svg"); */
   transform: rotateX(0deg);
@@ -203,7 +207,7 @@
 
   .four-section-content-element-card audio {
     margin: 2rem auto;
-    border-bottom: 1px solid #fff;
+    min-height: 5rem;
   }
   
   
