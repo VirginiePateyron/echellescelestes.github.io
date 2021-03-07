@@ -12,6 +12,7 @@
       display: flex;
       flex-direction: column;
       justify-content: space-around;
+      margin-top: 4rem;
     }
 
     .first-section-content-element {

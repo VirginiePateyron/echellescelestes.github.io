@@ -249,7 +249,7 @@ h2 {
   font-weight: lighter;
 
   padding: 2rem 5rem;
-  margin: 4rem auto;
+  margin: auto;
  
   max-width: max-content;
   height: auto;
@@ -313,8 +313,8 @@ h2 {
 
 .h2-subtitle {
 /* background-color: rgba(220, 204, 181, .8); */
-padding: 1rem;
-margin: 4rem auto;
+
+margin: 2rem auto;
 
 width: 50%;
 color: #fff;
