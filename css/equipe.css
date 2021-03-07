@@ -15,7 +15,8 @@
     }
   
     .sixth-section-content-element {
-      max-width: max-content;
+     /*  max-width: max-content; */
+      box-shadow: 6px 6px 2px rgba(5, 5, 5, 0.8), -1px -1px 2px rgba(255,255,255,.8);
     }
     
     .sixth-section-content-element h4 {
@@ -29,11 +30,15 @@
     }
 
     .sixth-section-content-element-desc {
+      min-width: 50rem;
+      min-height: 30rem;
       max-width: 50rem;
+      max-height: 30rem;
       display: flex;
       flex-direction: row;
       background-color: #00000047;
       padding: 2rem;
+      box-shadow: 1px 1px 3px rgba(5, 5, 5, 0.8), -1px -1px 3px rgba(255,255,255,.8);
     }
     
     .sixth-section-content-element-desc img {
@@ -105,11 +110,18 @@
       .sixth-section-content {
        
         grid-template-columns: 1fr;
+        justify-content: center;
        
       }
 
       .sixth-section-content-element-desc {
+        min-width: 30rem;
+        min-height: 50rem;
+        max-width: 30rem;
+        max-height: max-content;
+        
         flex-direction: column;
+        
       }
     }
     /* Extra small devices (portrait phones, less than 576px) */
