@@ -65,7 +65,7 @@
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: start;
-    margin: 20rem auto;
+    margin: 12rem auto;
     z-index: 1000;
 
     -ms-flex-pack: distribute;
@@ -94,7 +94,7 @@
     }
 
     .second-section-content-element-col-child h3 {
-      font-size: 3.2rem;
+    /*   font-size: 3.2rem; */
       text-align: center;
     }
     
