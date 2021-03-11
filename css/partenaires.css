@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /********************** EIGHT-SECTION **********************/
 .eight-section {
     min-height: 50vh;
@@ -5,31 +12,49 @@
     
     
     .eight-section-content-element {
+    display: -ms-grid;
     display: grid;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr) );
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     justify-items: center;
     margin: auto;
     gap: 5rem;
     }
     
     .eight-section-content-element a {
-    clip-path: inherit;
+    -webkit-clip-path: inherit;
+            clip-path: inherit;
     width: 15rem;
     height: auto;
-    object-fit: contain;
+    -o-object-fit: contain;
+       object-fit: contain;
     position: relative;
-    animation: float 5s linear infinite;
+    -webkit-animation: float 5s linear infinite;
+            animation: float 5s linear infinite;
     }
 
     .eight-section-content-element img {
-      clip-path: none;
+      -webkit-clip-path: none;
+              clip-path: none;
       width: 15rem;
     }
     
     .eight-section-content-element a:nth-child(odd) {
-      animation: float 10s linear infinite;
+      -webkit-animation: float 10s linear infinite;
+              animation: float 10s linear infinite;
+    }
+    
+    @-webkit-keyframes float {
+      0% {top: 0rem;}
+      25% {top: 3rem;}
+      50% {top: 3rem;}
+      75% {top:0rem}
+      100% {top: 0rem;}
     }
     
     @keyframes float {

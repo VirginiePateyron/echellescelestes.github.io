@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /********************** SEVEN-SECTION **********************/
 
 /* Classe CSS de masquage accessible pour que les outils d'assistance des personnes en situation de handicap puissent lire le texte caché. Un "display : none" n'est PAS accessible et empêche l'utilisateur en situation de handicap d'avoir accès aux informations */
@@ -14,7 +21,10 @@
 
     margin: 10rem auto;
 
+    display: -ms-grid;
+
     display: grid;
+    -ms-grid-columns: (1fr)[2];
     grid-template-columns: repeat(2,1fr);
     overflow: hidden;
     }
@@ -41,7 +51,8 @@
     }
 
     .seven-section-content img {
-        clip-path: none;
+        -webkit-clip-path: none;
+                clip-path: none;
 
         position: relative;
         bottom: -5rem;
@@ -56,6 +67,8 @@
     }
 
     .seven-section-content {
+        
+        -ms-grid-columns: 1fr;
         
         grid-template-columns: 1fr;
         }

@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 .button {
   /* background: #128197; */
   font: inherit;
@@ -60,7 +67,17 @@ dialog {
 }
 .simple-animated-modal-overlay,
 .simple-animatedtransform-modal-overlay {
-  animation: fadewhite ease .5s 1 normal ;
+  -webkit-animation: fadewhite ease .5s 1 normal ;
+          animation: fadewhite ease .5s 1 normal ;
+}
+
+@-webkit-keyframes fadewhite {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: .8;
+  }
 }
 
 @keyframes fadewhite {
@@ -77,7 +94,9 @@ dialog {
 .simple-animatedtransform-modal {
   position: fixed;
   left: 50%;
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   width: 80%;
   top: 5vh;
   max-height: 90vh;
@@ -109,7 +128,8 @@ dialog {
 .simple-animatedtransform-modal-close:before {
   content: url("../img/btn-modale.png");
   background-repeat: no-repeat;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .simple-modal-close:focus,

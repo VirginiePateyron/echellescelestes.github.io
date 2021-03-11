@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /********************** SIXTH-SECTION **********************/
 .sixth-section-team-img {
   position: absolute;
@@ -6,6 +13,7 @@
 }
 
 .sixth-section-content  {
+    display: -ms-grid;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(50rem, 1fr) );
     
@@ -16,7 +24,8 @@
   
     .sixth-section-content-element {
      /*  max-width: max-content; */
-      box-shadow: 6px 6px 2px rgba(5, 5, 5, 0.8), -1px -1px 2px rgba(255,255,255,.8);
+      -webkit-box-shadow: 6px 6px 2px rgba(5, 5, 5, 0.8), -1px -1px 2px rgba(255,255,255,.8);
+              box-shadow: 6px 6px 2px rgba(5, 5, 5, 0.8), -1px -1px 2px rgba(255,255,255,.8);
     }
     
     .sixth-section-content-element h4 {
@@ -34,11 +43,17 @@
       min-height: 30rem;
       max-width: 50rem;
       max-height: 30rem;
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
-      flex-direction: row;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
       background-color: #00000047;
       padding: 2rem;
-      box-shadow: 1px 1px 3px rgba(5, 5, 5, 0.8), -1px -1px 3px rgba(255,255,255,.8);
+      -webkit-box-shadow: 1px 1px 3px rgba(5, 5, 5, 0.8), -1px -1px 3px rgba(255,255,255,.8);
+              box-shadow: 1px 1px 3px rgba(5, 5, 5, 0.8), -1px -1px 3px rgba(255,255,255,.8);
     }
     
     .sixth-section-content-element-desc img {
@@ -47,22 +62,34 @@
     background-position-y: top;
     background-color: rgba(11, 4, 44, .2);
     
-    clip-path: none;
+    -webkit-clip-path: none;
+    
+            clip-path: none;
     
     width: 15rem;
     height: 20rem;
     
-    object-fit: cover;
+    -o-object-fit: cover;
+    
+       object-fit: cover;
     text-align: center;
     display: block;
     
-    clip-path: inherit;
+    -webkit-clip-path: inherit;
+    
+            clip-path: inherit;
     
     border-radius: 50%;
     padding: .3rem;
     
+    display: -webkit-box;
+    
+    display: -ms-flexbox;
+    
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     }
 
     .sixth-section-content-element-desc-text {
@@ -71,26 +98,52 @@
     }
 
     .sixth-section-content-element-desc:nth-child(odd) img {
-      animation: animation-pic 10s ease-in-out infinite alternate; 
+      -webkit-animation: animation-pic 10s ease-in-out infinite alternate;
+              animation: animation-pic 10s ease-in-out infinite alternate; 
+    }
+    
+    @-webkit-keyframes animation-pic {
+      0% {
+        -webkit-transform: translatey(0px);
+                transform: translatey(0px);  
+        rotate: 5deg;
+      }
+      50% {
+        -webkit-transform: translatey(10px);
+                transform: translatey(10px);  
+      }
+      100% {
+        -webkit-transform: translatey(15px);
+                transform: translatey(15px);  
+        rotate: -5deg;
+      }
     }
     
     @keyframes animation-pic {
       0% {
-        transform: translatey(0px);  
+        -webkit-transform: translatey(0px);
+                transform: translatey(0px);  
         rotate: 5deg;
       }
       50% {
-        transform: translatey(10px);  
+        -webkit-transform: translatey(10px);
+                transform: translatey(10px);  
       }
       100% {
-        transform: translatey(15px);  
+        -webkit-transform: translatey(15px);
+                transform: translatey(15px);  
         rotate: -5deg;
       }
     }
     
     .sixth-section-content-element .button {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
-      flex-direction: column-reverse;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: reverse;
+          -ms-flex-direction: column-reverse;
+              flex-direction: column-reverse;
     }
      /* Large devices (desktops, less than 1200px) */
      @media (max-width: 1199.98px) { 
@@ -109,8 +162,12 @@
     @media (max-width: 767.98px) { 
       .sixth-section-content {
        
+        -ms-grid-columns: 1fr;
+       
         grid-template-columns: 1fr;
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
        
       }
 
@@ -118,9 +175,17 @@
         min-width: 30rem;
         min-height: 50rem;
         max-width: 30rem;
+        max-height: -webkit-max-content;
+        max-height: -moz-max-content;
         max-height: max-content;
         
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        
+        -webkit-box-direction: normal;
+        
+            -ms-flex-direction: column;
+        
+                flex-direction: column;
         
       }
     }

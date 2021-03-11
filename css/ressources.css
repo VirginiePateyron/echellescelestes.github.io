@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /*************************** FIFTH-SECTION *************************/
 
 /* .fifth-section:before {
@@ -26,15 +33,19 @@ background: url("");
     .fifth-section-content .padlet-embed {
     border:1px solid rgba(0,0,0,0.1);
     border-radius:2px;
-    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+            box-sizing:border-box;
     overflow:hidden;
     position:relative;
     width:100%;
 
-  object-fit: cover;
+  -o-object-fit: cover;
+
+     object-fit: cover;
   text-align: center;
   vertical-align: middle;
-      clip-path: inherit;
+      -webkit-clip-path: inherit;
+              clip-path: inherit;
   
   background-image: url("../media/spaceAnim.mp4");
   background-repeat: no-repeat;
@@ -51,7 +62,7 @@ background: url("");
     height:608px;
     display:block;
     padding:0;
-    margin:0"
+    margin:0;
     }
     
     /* Extra small devices (portrait phones, less than 576px) */

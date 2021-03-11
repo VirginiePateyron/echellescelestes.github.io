@@ -1,8 +1,19 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /*****************************  HEADER **************************/
 .main-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding: 3rem;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     color: #fff;
     height: 100vh;
     position: relative;
@@ -51,9 +62,17 @@
     position: relative;
     top: 75%;
     right: 10%;
+    cursor: -webkit-zoom-in;
     cursor: zoom-in;
 
-    animation: bodyLine 30s ease-in-out infinite;
+    -webkit-animation: bodyLine 30s ease-in-out infinite;
+
+            animation: bodyLine 30s ease-in-out infinite;
+  }
+
+  @-webkit-keyframes bodyLine {
+    0% {top: 0rem;}
+    100% {top: 100%;}
   }
 
   @keyframes bodyLine {
@@ -68,20 +87,32 @@
   
   .main-header details .img-hero {
   width: 5rem;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
   transition: all 1s;
   margin: auto;
   
-  animation: mymove 5s infinite;
+  -webkit-animation: mymove 5s infinite;
+  
+          animation: mymove 5s infinite;
+  }
+  
+  @-webkit-keyframes mymove {
+  25% {-webkit-transform: scale(1.4);transform: scale(1.4);}
+  
+  50% {-webkit-transform: rotate(180deg);transform: rotate(180deg);}
   }
   
   @keyframes mymove {
-  25% {transform: scale(1.4);}
+  25% {-webkit-transform: scale(1.4);transform: scale(1.4);}
   
-  50% {transform: rotate(180deg);}
+  50% {-webkit-transform: rotate(180deg);transform: rotate(180deg);}
   }
   
   .main-header details .img-hero:hover {
-  transform: scale(1.4);
+  -webkit-transform: scale(1.4);
+      -ms-transform: scale(1.4);
+          transform: scale(1.4);
   }
   
   .main-header details p {
@@ -89,7 +120,8 @@
   color: #fff;
   padding: 5rem 10rem;
   width: 80rem;
-  clip-path: polygon(10% 15%, 15% 15%, 15% 5%, 85% 5%, 85% 15%, 90% 15%, 90% 85%, 85% 85%, 85% 95%, 15% 95%, 15% 85%, 10% 85%);
+  -webkit-clip-path: polygon(10% 15%, 15% 15%, 15% 5%, 85% 5%, 85% 15%, 90% 15%, 90% 85%, 85% 85%, 85% 95%, 15% 95%, 15% 85%, 10% 85%);
+          clip-path: polygon(10% 15%, 15% 15%, 15% 5%, 85% 5%, 85% 15%, 90% 15%, 90% 85%, 85% 85%, 85% 95%, 15% 95%, 15% 85%, 10% 85%);
   }
   
   .img-deco {
@@ -102,7 +134,9 @@
   
   position:fixed;
   bottom: -15rem;
-  transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+      -ms-transform: translateX(100%);
+          transform: translateX(100%);
   }
   
   
@@ -110,11 +144,14 @@
   /* Medium devices (tablets, less than 992px) */
   @media (max-width: 991.98px) { 
     .img-deco {
-      transform: translateX(50%);
+      -webkit-transform: translateX(50%);
+          -ms-transform: translateX(50%);
+              transform: translateX(50%);
     }
 
     .main-header details {
-      animation: none;
+      -webkit-animation: none;
+              animation: none;
       top: 10%;
     }
 
@@ -126,7 +163,8 @@
   }
   
   .img-deco img {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 50rem;
   text-align: center;
   }
@@ -164,6 +202,8 @@
   top: 20%;
   
   right: 100%;
+  -webkit-transition: all 1.3s;
+  -o-transition: all 1.3s;
   transition: all 1.3s;
   
   font-size: 1.4rem;
@@ -187,57 +227,88 @@
   position: absolute;
   top: 0rem;
   left: 2rem;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   }
   
   .menu-item:nth-child(odd):before {
-    animation: animation-moon 2s ease-in-out infinite alternate; 
+    -webkit-animation: animation-moon 2s ease-in-out infinite alternate;
+            animation: animation-moon 2s ease-in-out infinite alternate; 
   }
   
   .menu-item:nth-child(even):before {
-    animation: animation-moon 3s linear infinite alternate; 
+    -webkit-animation: animation-moon 3s linear infinite alternate;
+            animation: animation-moon 3s linear infinite alternate; 
   }
   
   .menu-item:nth-child(1):before {
-    animation: animation-moon 4.5s linear infinite alternate; 
+    -webkit-animation: animation-moon 4.5s linear infinite alternate;
+            animation: animation-moon 4.5s linear infinite alternate; 
   }
   
   .menu-item:nth-child(2):before {
-    animation: animation-moon 1.5s linear infinite alternate; 
+    -webkit-animation: animation-moon 1.5s linear infinite alternate;
+            animation: animation-moon 1.5s linear infinite alternate; 
   }
   
   .menu-item:nth-child(3):before {
-    animation: animation-moon 2s linear infinite alternate; 
+    -webkit-animation: animation-moon 2s linear infinite alternate;
+            animation: animation-moon 2s linear infinite alternate; 
   }
   
   .menu-item:nth-child(5):before {
-    animation: animation-moon 2.5s linear infinite alternate; 
+    -webkit-animation: animation-moon 2.5s linear infinite alternate;
+            animation: animation-moon 2.5s linear infinite alternate; 
   }
   
   .menu-item:nth-child(6):before {
-    animation: animation-moon 3.5s linear infinite alternate; 
+    -webkit-animation: animation-moon 3.5s linear infinite alternate;
+            animation: animation-moon 3.5s linear infinite alternate; 
+  }
+  
+  @-webkit-keyframes animation-moon {
+    0% {
+      -webkit-transform: translatey(0px);
+              transform: translatey(0px);  
+    }
+    50% {
+      -webkit-transform: translatey(10px);
+              transform: translatey(10px);  
+    }
+    100% {
+      -webkit-transform: translatey(15px);
+              transform: translatey(15px);  
+    }
   }
   
   @keyframes animation-moon {
     0% {
-      transform: translatey(0px);  
+      -webkit-transform: translatey(0px);
+              transform: translatey(0px);  
     }
     50% {
-      transform: translatey(10px);  
+      -webkit-transform: translatey(10px);
+              transform: translatey(10px);  
     }
     100% {
-      transform: translatey(15px);  
+      -webkit-transform: translatey(15px);
+              transform: translatey(15px);  
     }
   }
   
   .menu-item:nth-of-type(odd) {
   right: 10rem;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
   transition: all 1s;
   top: 2rem;
   }
   
   .menu-item:nth-of-type(even) {
   left: 8rem;
+  -webkit-transition: all 3s;
+  -o-transition: all 3s;
   transition: all 3s;
   top: 5rem;
   }
@@ -296,11 +367,40 @@
   position: absolute;
   top: 0rem;
   left: 2rem;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   
-  filter: drop-shadow(0 2rem 1rem #04dbeb);
-  transform-origin: 10vmin 1vmin;
-  animation: rotate-moon 5s linear infinite;
+  -webkit-filter: drop-shadow(0 2rem 1rem #04dbeb);
+  
+          filter: drop-shadow(0 2rem 1rem #04dbeb);
+  -webkit-transform-origin: 10vmin 1vmin;
+      -ms-transform-origin: 10vmin 1vmin;
+          transform-origin: 10vmin 1vmin;
+  -webkit-animation: rotate-moon 5s linear infinite;
+          animation: rotate-moon 5s linear infinite;
+  }
+  
+  @-webkit-keyframes rotate-moon {
+    /* from {
+      transform: rotateZ(-90deg)
+    } */
+    to {
+      -webkit-transform: rotate(1turn);
+              transform: rotate(1turn)
+    }
+      /* 0% {
+        box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+        transform: translatey(0px);
+      }
+      50% {
+        box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+        transform: translatey(-20px);
+      }
+      100% {
+        box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+        transform: translatey(0px);
+      } */
   }
   
   @keyframes rotate-moon {
@@ -308,7 +408,8 @@
       transform: rotateZ(-90deg)
     } */
     to {
-      transform: rotate(1turn)
+      -webkit-transform: rotate(1turn);
+              transform: rotate(1turn)
     }
       /* 0% {
         box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
@@ -335,10 +436,14 @@
   }
   
   .menu-item a {
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, rgba(255,255,255,0)),  color-stop(50%, #0B042C));
+    background-image: -o-linear-gradient(left, rgba(255,255,255,0) 50%,  #0B042C 50%);
     background-image: linear-gradient(to right, rgba(255,255,255,0) 50%,  #0B042C 50%);
     background-position: -0% 0;
     background-size: 200% auto;
     text-decoration: none;
+    -webkit-transition: background-position 0.5s ease-out;
+    -o-transition: background-position 0.5s ease-out;
     transition: background-position 0.5s ease-out;
   }
   
@@ -359,11 +464,15 @@
   
   /* display: flex;
   justify-content: flex-end; */
+  -webkit-transition: all 1.3s;
+  -o-transition: all 1.3s;
   transition: all 1.3s;
   
   font-size: 1.4rem;
   
-  clip-path: inherit;
+  -webkit-clip-path: inherit;
+  
+          clip-path: inherit;
   padding: 0rem !important;
   }
 
@@ -373,7 +482,8 @@
   width: 15rem;
   
   padding: .2rem 0 !important;
-  clip-path: none;
+  -webkit-clip-path: none;
+          clip-path: none;
   background-color: inherit;
   margin: 0;
   background-color: #000;
@@ -392,9 +502,13 @@
   position: absolute;
   top: 0.5rem;
   left: -1rem;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   
-  animation: none;
+  -webkit-animation: none;
+  
+          animation: none;
   }
   
   .positionOff:hover:before {
@@ -405,15 +519,19 @@
     position: absolute;
     top: 0.3rem;
     left: 1rem;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
       }
   
       .positionOff:nth-child(even):before {
-        animation: none; 
+        -webkit-animation: none;
+                animation: none; 
       }
   
       .positionOff:nth-child(odd):before {
-        animation: none; 
+        -webkit-animation: none;
+                animation: none; 
       }
   
   .positionOff:nth-child(1) {
@@ -536,22 +654,12 @@
 
     .main-header details .img-hero {
      
-      animation: none;
+      -webkit-animation: none;
+     
+              animation: none;
       }
  
   }
 
-    
-  /* Extra small devices (portrait phones, less than 576px) */
-  @media (max-width: 575.98px) { 
-    
-  }
-  
-  
-   
-  
-    
-  }
-  
-  
+
  
