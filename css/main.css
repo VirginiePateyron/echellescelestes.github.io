@@ -295,6 +295,8 @@ padding: 1rem;
 -o-transition: 0.5s;
 transition: 0.5s;
 
+margin-top: 10rem;
+
 -webkit-writing-mode: sideways-lr;
 
     -ms-writing-mode: sideways-lr;
