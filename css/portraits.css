@@ -174,13 +174,14 @@
 
 
 .third-section-content-element {
-    /* display: grid; */
-    /* grid-template-columns: repeat(5, 1fr); */
-   /*  */
+  
     position: relative;
     display: -ms-grid;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(35rem, 1fr) );
+    /* grid-template-columns: repeat(auto-fill, minmax(35rem, 1fr) ); */
+    
+   /*  grid-template-rows: repeat(16,1fr); */
+    grid-template-columns: repeat(3,1fr);
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     width: 100%;
@@ -190,25 +191,47 @@
 
         justify-content: space-around;
   }
+
+  .third-section-content-element-card-one-img {
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+  }
   
-  .third-section-content-element-card {
-    margin: 5rem auto;
-    -webkit-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-            transform: scale(1.1);
+  .third-section-content-element-card-one-img:hover {
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+            transform: scale(1.3);   
   }
   
   .third-section-content-element-card:nth-child(odd) {
     -webkit-animation: gravityBox 11s linear alternate infinite;
             animation: gravityBox 11s linear alternate infinite;
   }
-  .third-section-content-element-card:nth-child(odd),
-  .third-section-content-element-card-hover:nth-child(odd) .title {
-    margin-top: 20rem !important;
-  }
+  
   
   .third-section-content-element-card:nth-child(even) {
     animation: gravityBox 8s linear alternate-reverse infinite;
+  }
+
+  
+  .third-section-content-element-card:nth-child(3n+1) {
+    animation: gravityBox 14s linear alternate-reverse infinite;
+  }
+
+  .third-section-content-element-card:nth-of-type(4n) {
+    -webkit-animation: gravityBox 19s linear alternate infinite;
+            animation: gravityBox 19s linear alternate infinite;
+  }
+
+  .third-section-content-element-card:nth-child(4n+1) {
+    animation: gravityBox 5s linear alternate-reverse infinite;
+  }
+
+  /* .third-section-content-element-card:nth-child(odd),
+  .third-section-content-element-card-hover:nth-child(odd) .title {
+    margin-top: 20rem !important;
   }
   
   .third-section-content-element-card-one img:nth-child(even) {
@@ -216,25 +239,236 @@
     height: 30rem;
   }
   
-  .third-section-content-element-card:nth-child(3n+1) {
-    animation: gravityBox 14s linear alternate-reverse infinite;
-  }
 
   .third-section-content-element-card:nth-child(3n+1),
   .third-section-content-element-card-hover:nth-child(3n+1) .title {
     padding-top: 40rem !important;
+  } */
+
+  /* 1 colonne */
+  .third-section-content-element-card:nth-child(2) {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .third-section-content-element-card:nth-child(2) {
+    grid-column: 3;
+    grid-row: 1;
+  }
+  .third-section-content-element-card:nth-child(3) {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+    /* 2 colonne */
+  .third-section-content-element-card:nth-child(4) {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  .third-section-content-element-card:nth-child(5) {
+    grid-column: 3;
+    grid-row: 3;
+  }
+  .third-section-content-element-card:nth-child(6) {
+    grid-column: 2;
+    grid-row: 4;
+  }
+
+  /* 3 colonne */
+  .third-section-content-element-card:nth-child(7) {
+    grid-column: 1;
+    grid-row: 5;
+  }
+  .third-section-content-element-card:nth-child(8) {
+    grid-column: 3;
+    grid-row: 5;
+  }
+  .third-section-content-element-card:nth-child(9) {
+    grid-column: 2;
+    grid-row: 6;
+  }
+
+  /* 4 colonne */
+  .third-section-content-element-card:nth-child(10) {
+    grid-column: 1;
+    grid-row: 7;
+  }
+  .third-section-content-element-card:nth-child(11) {
+    grid-column: 3;
+    grid-row: 7;
+  }
+  .third-section-content-element-card:nth-child(12) {
+    grid-column: 2;
+    grid-row: 8;
+  }
+
+  /* 5 colonne */
+  .third-section-content-element-card:nth-child(13) {
+    grid-column: 1;
+    grid-row: 9;
+  }
+  .third-section-content-element-card:nth-child(14) {
+    grid-column: 3;
+    grid-row: 9;
+  }
+  .third-section-content-element-card:nth-child(15) {
+    grid-column: 2;
+    grid-row: 10;
+  }
+
+  /* 6 colonne */
+  .third-section-content-element-card:nth-child(16) {
+    grid-column: 1;
+    grid-row: 11;
+  }
+  .third-section-content-element-card:nth-child(17) {
+    grid-column: 3;
+    grid-row: 11;
+  }
+  .third-section-content-element-card:nth-child(18) {
+    grid-column: 2;
+    grid-row: 12;
+  }
+
+  /* 7 colonne */
+  .third-section-content-element-card:nth-child(19) {
+    grid-column: 1;
+    grid-row: 13;
+  }
+  .third-section-content-element-card:nth-child(20) {
+    grid-column: 3;
+    grid-row: 13;
+  }
+  .third-section-content-element-card:nth-child(21) {
+    grid-column: 2;
+    grid-row: 14;
+  }
+
+  /* 8 colonne */
+  .third-section-content-element-card:nth-child(22) {
+    grid-column: 3;
+    grid-row: 14;
+  }
+
+  /* Small devices (landscape phones, less than 768px) */
+  @media (max-width: 767.98px) { 
+    .third-section-content-element {
+      grid-template-columns: 1fr;
+    }
+
+    .third-section-content-element-card:nth-child(1) {
+      grid-column: 1;
+      grid-row: 1;
+    }
+    .third-section-content-element-card:nth-child(2) {
+      grid-column: 1;
+      grid-row: 2;
+    }
+    .third-section-content-element-card:nth-child(3) {
+      grid-column: 1;
+      grid-row: 3;
+    }
+  
+      /* 2 colonne */
+    .third-section-content-element-card:nth-child(4) {
+      grid-column: 1;
+      grid-row: 4;
+    }
+    .third-section-content-element-card:nth-child(5) {
+      grid-column: 1;
+      grid-row: 5;
+    }
+    .third-section-content-element-card:nth-child(6) {
+      grid-column: 1;
+      grid-row: 6;
+    }
+  
+    /* 3 colonne */
+    .third-section-content-element-card:nth-child(7) {
+      grid-column: 1;
+      grid-row: 7;
+    }
+    .third-section-content-element-card:nth-child(8) {
+      grid-column: 1;
+      grid-row: 8;
+    }
+    .third-section-content-element-card:nth-child(9) {
+      grid-column:1;
+      grid-row: 9;
+    }
+  
+    /* 4 colonne */
+    .third-section-content-element-card:nth-child(10) {
+      grid-column: 1;
+      grid-row: 10;
+    }
+    .third-section-content-element-card:nth-child(11) {
+      grid-column: 1;
+      grid-row: 11;
+    }
+    .third-section-content-element-card:nth-child(12) {
+      grid-column: 1;
+      grid-row: 12;
+    }
+  
+    /* 5 colonne */
+    .third-section-content-element-card:nth-child(13) {
+      grid-column: 1;
+      grid-row: 13;
+    }
+    .third-section-content-element-card:nth-child(14) {
+      grid-column: 1;
+      grid-row: 14;
+    }
+    .third-section-content-element-card:nth-child(15) {
+      grid-column: 1;
+      grid-row: 15;
+    }
+  
+    /* 6 colonne */
+    .third-section-content-element-card:nth-child(16) {
+      grid-column: 1;
+      grid-row: 16;
+    }
+    .third-section-content-element-card:nth-child(17) {
+      grid-column: 1;
+      grid-row: 17;
+    }
+    .third-section-content-element-card:nth-child(18) {
+      grid-column: 1;
+      grid-row: 18;
+    }
+  
+    /* 7 colonne */
+    .third-section-content-element-card:nth-child(19) {
+      grid-column: 1;
+      grid-row: 19;
+    }
+    .third-section-content-element-card:nth-child(20) {
+      grid-column: 1;
+      grid-row: 20;
+    }
+    .third-section-content-element-card:nth-child(21) {
+      grid-column: 1;
+      grid-row: 21;
+    }
+  
+    /* 8 colonne */
+    .third-section-content-element-card:nth-child(22) {
+      grid-column: 1;
+      grid-row: 22;
+    }
+}
+
+   /* Extra small devices (portrait phones, less than 576px) */
+   @media (max-width: 575.98px) { 
+
+    
   }
   
   
-  .third-section-content-element-card:nth-child(4n+1) {
-    animation: gravityBox 5s linear alternate-reverse infinite;
-  }
   
-  .third-section-content-element-card:nth-of-type(4n) {
-    -webkit-animation: gravityBox 19s linear alternate infinite;
-            animation: gravityBox 19s linear alternate infinite;
-   /*  margin-top: 60rem; */
-  }
+  
+ 
   
 
   @-webkit-keyframes gravityBox {
@@ -420,7 +654,7 @@
   cursor: pointer;
   /*  height: 300px; */
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
   /* width: 400px; */
   text-align:center;
   }

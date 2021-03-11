@@ -17,12 +17,11 @@
         <!-- <section class="third-section-content"> -->
         <!-- Ajout de la class js-modal pour activer le script van11y-accessible-modal-window-aria qui affiche une fenêtre modale accessible -->
         <ul class="third-section-content-element">
-            <!-- 1 -->
-            <li class="third-section-content-element-card " data-aos="fade-up"
-                    data-aos-easing="linear" data-aos-duration="1500">
+            <li class="third-section-content-element-card ">
                 <div class="third-section-content-element-card-one js-modal" data-modal-prefix-class="simple-animated"
                         data-modal-content-id="modal" data-modal-title="Claude Ptolémée"
-                        data-modal-close-text="Close it" data-modal-close-title="Close it, really"  >
+                        data-modal-close-text="Close it" data-modal-close-title="Close it, really" data-aos="fade-up"
+                    data-aos-easing="linear" data-aos-duration="1500" >
                     
                     <div class="third-section-content-element-card-one-img " >
                         <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/ptolemee_small.jpeg"
@@ -61,12 +60,11 @@
                 </div>
             </li>
             
-            <!-- 2 -->
-            <li class="third-section-content-element-card"  data-aos="fade-up" data-aos-easing="linear" data-aos-duration="2000">
+            <li class="third-section-content-element-card">
                 <div class="third-section-content-element-card-one js-modal" data-modal-prefix-class="simple-animated"
                     data-modal-content-id="modal1" data-modal-title="Nicolas Copernic"
                     data-modal-close-text="Close it" data-modal-close-title="Close it, really" 
-                    >
+                    data-aos="fade-up" data-aos-easing="linear" data-aos-duration="2000" >
                     <div class="third-section-content-element-card-one-img">
                         <img loading="lazy"
                             src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/copernic_small.jpeg"
@@ -74,7 +72,8 @@
                     </div>
                     <h4>Nicolas Copernic</h4>
                 </div>
-                 <div class="third-section-content-element-card-hover ">
+
+                <div class="third-section-content-element-card-hover ">
                     <p class="title text button">Il a fallu près de 200 ans pour que mes théories soient reconnues.
                     </p>
                 </div>
@@ -94,10 +93,10 @@
                 </div>
             </li>
 
-             <!-- 3 perry -->
-             <li class="third-section-content-element-card" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
+             <!-- perry -->
+             <li class="third-section-content-element-card">
                 <div class="third-section-content-element-card-one js-modal" data-modal-prefix-class="simple-animated" data-modal-content-id="modal17" data-modal-title="Katy Perry"
-                    data-modal-close-text="Close it" data-modal-close-title="Close it, really"  >
+                    data-modal-close-text="Close it" data-modal-close-title="Close it, really" data-aos="fade-up" data-aos-duration="1000" >
                     <div class="third-section-content-element-card-one-img">
                         <img loading="lazy"
                             src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/perry.jpg" alt=""></div>
@@ -123,12 +122,11 @@
                     </div>
             </li>
             
-            <!-- 4 -->
-            <li class="third-section-content-element-card" data-aos="fade-up"
-                    data-aos-easing="linear" data-aos-duration="1500" >
+            <li class="third-section-content-element-card">
                 <div class="third-section-content-element-card-one js-modal" data-modal-prefix-class="simple-animated"
                     data-modal-content-id="modal2" data-modal-title="Tycho Brahé"
-                    data-modal-close-text="Close it" data-modal-close-title="Close it, really" >
+                    data-modal-close-text="Close it" data-modal-close-title="Close it, really" data-aos="fade-up"
+                    data-aos-easing="linear" data-aos-duration="1500" >
                     <div class="third-section-content-element-card-one-img">
                     <div class="third-section-content-element-card-one-img">
                         <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/brahe_small.jpeg"
@@ -155,13 +153,11 @@
                     </div>
                 </div>
             </li>
-
-            <!-- 5 -->
-            <li class="third-section-content-element-card" data-aos="fade-up" data-aos-easing="linear"
-                    data-aos-duration="2000">
+            <li class="third-section-content-element-card">
                 <div class="third-section-content-element-card-one js-modal" data-modal-prefix-class="simple-animated"
                     data-modal-content-id="modal3" data-modal-title="Galileo Galilei"
-                    data-modal-close-text="Close it" data-modal-close-title="Close it, really"  >
+                    data-modal-close-text="Close it" data-modal-close-title="Close it, really" data-aos="fade-up"
+                    data-aos-duration="2000" >
                     <div class="third-section-content-element-card-one-img">
                         <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/galilee_small.jpeg" alt="Portrait dessiné de Galilée">
                     </div>
@@ -188,12 +184,11 @@
                 </div>
             </li>
 
-            <!-- 6 -->
-            <li class="third-section-content-element-card" data-aos="fade-up" data-aos-easing="linear"
-                    data-aos-duration="1500">
+            <li class="third-section-content-element-card">
                 <div class="third-section-content-element-card-one js-modal" data-modal-prefix-class="simple-animated"
                 data-modal-content-id="modal4" data-modal-title="Johannes Kepler"
-                data-modal-close-text="Close it" data-modal-close-title="Close it, really"  >
+                data-modal-close-text="Close it" data-modal-close-title="Close it, really" data-aos="fade-up"
+                    data-aos-duration="1500" >
                 <div class="third-section-content-element-card-one-img">
                     <div class="third-section-content-element-card-one-img">
                         <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/kepler_small.jpeg" alt="Portrait dessiné de Johannes Kepler">
@@ -220,13 +215,11 @@
                     </div>
                 </div>
             </li>
-
-            <!-- 7 -->
-            <li class="third-section-content-element-card" data-aos="fade-up" data-aos-easing="linear"
-                    data-aos-duration="1500" >
+            <li class="third-section-content-element-card">
                 <div class="third-section-content-element-card-one js-modal" data-modal-prefix-class="simple-animated"
                     data-modal-content-id="modal5" data-modal-title="Blaise Pascal"
-                    data-modal-close-text="Close it" data-modal-close-title="Close it, really" >
+                    data-modal-close-text="Close it" data-modal-close-title="Close it, really" data-aos="fade-up"
+                    data-aos-duration="1500" >
                     <div class="third-section-content-element-card-one-img">
                         <img loading="lazy"
                             src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/pascal_small.jpeg"
@@ -253,10 +246,10 @@
                     </div>
                 </div>
             </li>
-            <!-- 8 - clooney -->
-            <li class="third-section-content-element-card" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500" >
+                        <!-- clooney -->
+            <li class="third-section-content-element-card">
                 <div class="third-section-content-element-card-one js-modal" data-modal-prefix-class="simple-animated" data-modal-content-id="modal16" data-modal-title="Georges Clooney"
-                    data-modal-close-text="Close it" data-modal-close-title="Close it, really" >
+                    data-modal-close-text="Close it" data-modal-close-title="Close it, really" data-aos="fade-up" data-aos-duration="1500" >
                     <div class="third-section-content-element-card-one-img">
                         <img loading="lazy"
                             src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/clooney_small.jpeg" alt=""></div>
@@ -281,13 +274,11 @@
                         </div>
                     </div>
             </li>
-
-            <!-- 9 -->
-            <li class="third-section-content-element-card" data-aos="fade-up" data-aos-easing="linear"
-                    data-aos-duration="3000" >
+            <li class="third-section-content-element-card">
                 <div class="third-section-content-element-card-one js-modal" data-modal-prefix-class="simple-animated"
                     data-modal-content-id="modal6" data-modal-title="Blaise Pascal"
-                    data-modal-close-text="Close it" data-modal-close-title="Close it, really" >
+                    data-modal-close-text="Close it" data-modal-close-title="Close it, really" data-aos="fade-up"
+                    data-aos-duration="3000" >
                     <div class="third-section-content-element-card-one-img">
                         <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/newton.jpeg" alt="">
                     </div>
@@ -313,12 +304,11 @@
                 </div>
             </li>
             
-            <!-- 10 -->
-            <li class="third-section-content-element-card" data-aos="fade-up" data-aos-easing="linear"
-                    data-aos-duration="2000">
+            <li class="third-section-content-element-card">
                 <div class="third-section-content-element-card-one js-modal" data-modal-prefix-class="simple-animated"
                     data-modal-content-id="modal7" data-modal-title="Ole Römer"
-                    data-modal-close-text="Close it" data-modal-close-title="Close it, really"  >
+                    data-modal-close-text="Close it" data-modal-close-title="Close it, really" data-aos="fade-up"
+                    data-aos-duration="2000" >
                     <div class="third-section-content-element-card-one-img">
                         <img loading="lazy"
                             src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/romer_small.jpeg" alt="">
@@ -345,11 +335,10 @@
                 </div>
             </li>
 
-            <!-- 11 -->
-            <li class="third-section-content-element-card" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
+            <li class="third-section-content-element-card">
                     <div class="third-section-content-element-card-one js-modal" data-modal-prefix-class="simple-animated"
                     data-modal-content-id="modal8" data-modal-title="William Herscher"
-                    data-modal-close-text="Close it" data-modal-close-title="Close it, really"  >
+                    data-modal-close-text="Close it" data-modal-close-title="Close it, really" data-aos="fade-up" data-aos-duration="1500" >
                         <div class="third-section-content-element-card-one-img">
                             <img loading="lazy"
                                 src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/herscher_small.jpeg" alt="">
@@ -375,11 +364,10 @@
                         </div>
                     </div>
             </li>
-
-             <!-- 12 - valentina -->
-             <li class="third-section-content-element-card" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
+             <!-- valentina -->
+             <li class="third-section-content-element-card">
                 <div class="third-section-content-element-card-one js-modal" data-modal-prefix-class="simple-animated" data-modal-content-id="modal19" data-modal-title="Valentina Terechkova"
-                    data-modal-close-text="Close it" data-modal-close-title="Close it, really"  >
+                    data-modal-close-text="Close it" data-modal-close-title="Close it, really" data-aos="fade-up" data-aos-duration="1500" >
                     <div class="third-section-content-element-card-one-img"><img loading="lazy"
                             src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/terechkova_small.jpeg" alt=""></div>
                     <h4>Valentina Terechkova</h4>
@@ -403,12 +391,10 @@
                     </div>
                 </div>
             </li>
-
-            <!-- 13 -->
-            <li class="third-section-content-element-card" data-aos="fade-up"data-aos-easing="linear"  data-aos-duration="1000" >
+            <li class="third-section-content-element-card">
                 <div class="third-section-content-element-card-one js-modal" data-modal-prefix-class="simple-animated"
                     data-modal-content-id="modal9" data-modal-title="Jules Verne"
-                    data-modal-close-text="Close it" data-modal-close-title="Close it, really" >
+                    data-modal-close-text="Close it" data-modal-close-title="Close it, really" data-aos="fade-up" data-aos-duration="1000" >
                     <div class="third-section-content-element-card-one-img">
                         <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/verne.jpeg" alt=""></div>
                         <h4>Jules Verne</h4>
@@ -432,13 +418,11 @@
                         </div>
                     </div>
             </li>
-
-            <!-- 14 -->
-            <li class="third-section-content-element-card" data-aos="fade-up" data-aos-easing="linear"
-                    data-aos-duration="4000">
+            <li class="third-section-content-element-card">
                 <div class="third-section-content-element-card-one js-modal" data-modal-prefix-class="simple-animated"
                     data-modal-content-id="modal10" data-modal-title="Percival Lowell"
-                    data-modal-close-text="Close it" data-modal-close-title="Close it, really"  >
+                    data-modal-close-text="Close it" data-modal-close-title="Close it, really" data-aos="fade-up"
+                    data-aos-duration="4000" >
                     <div class="third-section-content-element-card-one-img">
                         <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/lowell_small.jpeg" alt=""></div>
                         <h4>Percival Lowell</h4>
@@ -462,11 +446,10 @@
                         </div>
                     </div>
             </li>
-
-            <!-- 15 - ham -->
-            <li class="third-section-content-element-card" data-aos="fade-up"  data-aos-easing="linear" data-aos-duration="2500">
+            <!-- ham -->
+            <li class="third-section-content-element-card">
                 <div class="third-section-content-element-card-one js-modal" data-modal-prefix-class="simple-animated" data-modal-content-id="modal15" data-modal-title="Ham, le chimpanzé"
-                    data-modal-close-text="Close it" data-modal-close-title="Close it, really"  >
+                    data-modal-close-text="Close it" data-modal-close-title="Close it, really" data-aos="fade-up" data-aos-duration="2500" >
                     <div class="third-section-content-element-card-one-img"><img loading="lazy"
                             src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/ham_small.jpeg" alt=""></div>
                         <h4>Ham, le chimpanzé</h4>
@@ -490,13 +473,11 @@
                         </div>
                     </div>
             </li>
-
-            <!-- 16 -->
-            <li class="third-section-content-element-card" data-aos="fade-up" data-aos-easing="linear"
-                    data-aos-duration="2000" >
+            <li class="third-section-content-element-card">
                 <div class="third-section-content-element-card-one js-modal" data-modal-prefix-class="simple-animated"
                     data-modal-content-id="modal11" data-modal-title="Edwin Hubble"
-                    data-modal-close-text="Close it" data-modal-close-title="Close it, really" >
+                    data-modal-close-text="Close it" data-modal-close-title="Close it, really" data-aos="fade-up"
+                    data-aos-duration="2000" >
                     <div class="third-section-content-element-card-one-img">
                         <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/hubble_small.jpeg" alt=""></div>
                         <h4>Edwin Hubble</h4>
@@ -519,12 +500,10 @@
                         </div>
                     </div>
                 </div>
-            </li>   
-
-            <!-- 17 -->
-            <li class="third-section-content-element-card" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
+            </li>       
+            <li class="third-section-content-element-card">
                 <div class="third-section-content-element-card-one js-modal" data-modal-prefix-class="simple-animated" data-modal-content-id="modal12" data-modal-title="Pierre Auger"
-                    data-modal-close-text="Close it" data-modal-close-title="Close it, really"  >
+                    data-modal-close-text="Close it" data-modal-close-title="Close it, really" data-aos="fade-up" data-aos-duration="1500" >
                     <div class="third-section-content-element-card-one-img">
                         <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/auger_small.jpeg" alt=""></div>
                         <h4>Pierre Auger</h4>
@@ -548,10 +527,10 @@
                 </div>
             </li>
 
-            <!-- 18 - thorgal -->
-            <li class="third-section-content-element-card" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
+                 <!-- thorgal -->
+            <li class="third-section-content-element-card">
                 <div class="third-section-content-element-card-one js-modal" data-modal-prefix-class="simple-animated" data-modal-content-id="modal18" data-modal-title="Thorgal"
-                    data-modal-close-text="Close it" data-modal-close-title="Close it, really"  >
+                    data-modal-close-text="Close it" data-modal-close-title="Close it, really" data-aos="fade-up" data-aos-duration="1500" >
                     <div class="third-section-content-element-card-one-img">
                         <img loading="lazy"
                             src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/thorgall_small.png" alt=""></div>
@@ -576,11 +555,9 @@
                         </div>
                     </div>
             </li>
-
-            <!-- 19 -->
-            <li class="third-section-content-element-card" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="2500">
+            <li class="third-section-content-element-card">
                 <div class="third-section-content-element-card-one js-modal " data-modal-prefix-class="simple-animated" data-modal-content-id="modal13" data-modal-title="Bernard Lovell"
-                    data-modal-close-text="Close it" data-modal-close-title="Close it, really"  >
+                    data-modal-close-text="Close it" data-modal-close-title="Close it, really" data-aos="fade-up" data-aos-duration="2500" >
                     <div class="third-section-content-element-card-one-img">
                         <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/lovell_small.jpeg" alt=""></div>
                         <h4>Bernard Lovell</h4>
@@ -603,11 +580,9 @@
                     </div>
                     </div>
             </li>
-
-            <!-- 20 -->
-            <li class="third-section-content-element-card" data-aos="fade-up" data-aos-easing="linear"  data-aos-duration="4000">
+            <li class="third-section-content-element-card">
                 <div class="third-section-content-element-card-one js-modal" data-modal-prefix-class="simple-animated" data-modal-content-id="modal14" data-modal-title="Bernard Lovell"
-                    data-modal-close-text="Close it" data-modal-close-title="Close it, really"  >
+                    data-modal-close-text="Close it" data-modal-close-title="Close it, really" data-aos="fade-up" data-aos-duration="4000" >
                     <div class="third-section-content-element-card-one-img">
                         <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/leonov_small.png" alt=""></div>
                         <h4>Alexei Leonov</h4>
@@ -632,10 +607,9 @@
                     </div>
             </li>
 
-            <!-- 21 -->
-            <li class="third-section-content-element-card" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="4000">
+            <li class="third-section-content-element-card">
                 <div class="third-section-content-element-card-one js-modal" data-modal-prefix-class="simple-animated" data-modal-content-id="modal21" data-modal-title="Pierre Léna"
-                    data-modal-close-text="Close it" data-modal-close-title="Close it, really"  >
+                    data-modal-close-text="Close it" data-modal-close-title="Close it, really" data-aos="fade-up" data-aos-duration="4000" >
                     <div class="third-section-content-element-card-one-img">
                         <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/pierreLena.jpg" alt=""></div>
                         <h4>Pierre Léna</h4>
@@ -662,10 +636,9 @@
                     </div>
             </li>
 
-            <!-- 22 -->
-            <li class="third-section-content-element-card" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="4000" >
+            <li class="third-section-content-element-card">
                 <div class="third-section-content-element-card-one js-modal" data-modal-prefix-class="simple-animated" data-modal-content-id="modal22" data-modal-title="Michel Serres"
-                    data-modal-close-text="Close it" data-modal-close-title="Close it, really" >
+                    data-modal-close-text="Close it" data-modal-close-title="Close it, really"" data-aos="fade-up" data-aos-duration="4000" >
                     <div class="third-section-content-element-card-one-img">
                         <img loading="lazy" src="<?php echo THEME_DIR_IMG; ?>/gallery-portrait/michelSerres.jpg" alt=""></div>
                         <h4>Michel Serres</h4>
