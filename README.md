@@ -1,4 +1,5 @@
 # echellescelestes
 
 
-Branche parente de la branche wpWork pour l'intégration WordPress du site Echelles Celestes
+
+![Cliquez ici pour accéder au site vitrine ](front-page.html)
