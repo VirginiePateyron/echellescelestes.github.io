@@ -1,12 +1,9 @@
 # echellescelestes
 
-
-[Cliquez ici pour accéder au site vitrine ](front-page.html)
-
 <<<<<<<
 Branche main principale - site à récupérer
 =======
-Site web final en WordPress
+Site web final sous WordPress
 
 fichiers dispo :
 - thème php "echelles-celestes" pour wordpress
