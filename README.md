@@ -32,9 +32,10 @@ fichiers dispo :
 6. Télécharger en 1 clic
 7. Se rendre sur son serveur local (Local by Flywheel par exemple)
 8. Installer une nouvelle version de WordPress vierge
-9. Importer le fichier zip téléchargé depuis l'extension Duplicator
-10. Se connecter avec les identifiants du site Echelles Célestes + les modifier pour sécuriser
-11. Mettre à jour les extensions et vers la dernière version de WordPress
+9. Installer le plugin Duplicator
+10. Importer le fichier zip téléchargé depuis l'extension Duplicator
+11. Se connecter avec les identifiants du site Echelles Célestes + les modifier pour sécuriser
+12. Mettre à jour les extensions et vers la dernière version de WordPress
 
 
 ## Modification du thème
