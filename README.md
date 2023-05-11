@@ -39,4 +39,7 @@ fichiers dispo :
 ## Modification du thème
 1. Aller dans le backoffice WP et choisir Thèmes dans la barre latérale gauche
 2. Choisir le thème Echelles Célestes
+3. BACKOFFICE WP : Pour modifier le texte de "l'installation", tu peux modifier le texte depuis le backoffice WP
+4. VS CODE : Par contre, je viens de l'installer en local, donc tu peux retrouver toutes les sections dans le dossier themes/echellescelestes/inc/. Là, tu pourras modifier le texte des parties "portraits.php", "jouez"
+5. VS CODE : Pour le footer, tu peux le trouver à la racine du thème : footer.php 
 
