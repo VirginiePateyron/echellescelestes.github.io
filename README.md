@@ -37,6 +37,8 @@ fichiers dispo :
 11. Se connecter avec les identifiants du site Echelles Célestes + les modifier pour sécuriser
 12. Mettre à jour les extensions et vers la dernière version de WordPress
 
+[!Suivre le tuto ici](https://tutoriels.lws.fr/wordpress/comment-importer-un-site-wordpress-avec-duplicator)
+
 
 ## Modification du thème
 1. Aller dans le backoffice WP et choisir Thèmes dans la barre latérale gauche
